@@ -77,6 +77,7 @@ import {
 } from "@/lib/analise";
 import { ThemeToggle } from "@/components/theme-toggle";
 import SecaoChecagem from "@/components/checagem";
+import SecaoPropostas from "@/components/propostas";
 
 const ICONES_CRITERIO: Record<ChaveCriterio, React.ElementType> = {
   transparencia: Eye,
@@ -1189,6 +1190,9 @@ export default function Dashboard({
 
         {/* Checagem de afirmações */}
         <SecaoChecagem />
+
+        {/* Viabilidade das propostas */}
+        <SecaoPropostas />
 
         {/* Metodologia */}
         <section id="metodologia" aria-label="Metodologia" className="mt-10 scroll-mt-40">
