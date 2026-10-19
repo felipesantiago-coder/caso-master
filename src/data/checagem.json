@@ -1,0 +1,2216 @@
+{
+  "atualizado_em": "2026-10-19",
+  "periodo": "Agosto a outubro de 2026 (1º e 2º turnos)",
+  "metodologia": [
+    "Esta seção mapeia afirmações feitas pelos próprios finalistas durante a campanha de 2026 e confronta cada uma com checagens publicadas por agências profissionais de verificação: Agência Lupa, Fato ou Fake (g1), Aos Fatos, Estadão Verifica e UOL Confere. Estão incluídas as declarações do debate da TV Band de 18/10/2026, checado ao vivo pela Lupa, pelo Estadão Verifica e pelo Aos Fatos, além de sabatinas, debates e entrevistas do 1º e do 2º turno.",
+    "Cada afirmação traz o veredito da checagem, a explicação dos fatos e o link da verificação original. Quando agências divergem, o texto explica a divergência; o rótulo exibido é o que melhor resume a conclusão das checagens.",
+    "A contagem considera apenas as afirmações checadas e publicadas até 19/10/2026; ela não é o número total de declarações da campanha. A disputa presidencial recebeu muito mais checagens que a disputa do Governo do DF, por isso as contagens dos dois cargos não são comparáveis entre si.",
+    "Afirmações registradas pela imprensa mas sem verificação publicada por agência aparecem com o selo Sem checagem formal e não entram na contagem de afirmações falsas. Desinformação de terceiros sobre os candidatos (boatos, montagens e deepfakes) também fica fora da contagem, que trata apenas de declarações feitas pelos próprios candidatos."
+  ],
+  "agencias": [
+    {
+      "nome": "Agência Lupa",
+      "url": "https://www.agencialupa.org"
+    },
+    {
+      "nome": "Fato ou Fake (g1)",
+      "url": "https://g1.globo.com/fato-ou-fake/"
+    },
+    {
+      "nome": "Aos Fatos",
+      "url": "https://www.aosfatos.org"
+    },
+    {
+      "nome": "Estadão Verifica",
+      "url": "https://www.estadao.com.br/estadao-verifica/"
+    },
+    {
+      "nome": "UOL Confere",
+      "url": "https://noticias.uol.com.br/confere/"
+    }
+  ],
+  "debate_band": {
+    "data": "2026-10-18",
+    "desc": "Primeiro confronto direto entre os finalistas da Presidência, em 18/10/2026, com checagem ao vivo da Agência Lupa, do Estadão Verifica e do Aos Fatos."
+  },
+  "evento_rotulos": {
+    "debate_band": "Debate da TV Band (2º turno)",
+    "globo_2t": "Entrevista à TV Globo (2º turno)",
+    "globo_1t": "Entrevista à TV Globo (1º turno)",
+    "jn": "Jornal Nacional, TV Globo (1º turno)",
+    "flow": "Podcast Flow",
+    "live": "Live em redes sociais",
+    "df1": "Sabatina do DF1, TV Globo e g1 (1º turno)",
+    "df2": "Sabatina do DF2, TV Globo e g1 (2º turno)",
+    "tv_brasilia": "Debate Correio Braziliense e TV Brasília (1º turno)",
+    "debate_globo_df": "Debate da TV Globo DF (1º turno)",
+    "tmc": "Debate TMC e Rádio Transamérica DF (1º turno)",
+    "publicas": "Coletivas e declarações públicas"
+  },
+  "candidatos": [
+    {
+      "slug": "lula",
+      "nome_urna": "Lula",
+      "cargo": "presidente",
+      "partido": "PT",
+      "foto": "/fotos/lula.jpg",
+      "nota_extra": "",
+      "afirmacoes": [
+        {
+          "texto": "É importante lembrar que este país cresceu 7,5% em 2010",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "O IBGE registrou crescimento de 7,5% do PIB em 2010, último ano do segundo mandato de Lula. O dado foi confirmado pela Lupa e pelo Estadão Verifica na checagem ao vivo do debate.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Eu já fiz a Lei Antifacção, ela foi aprovada; já aumentamos o tempo de cadeia para quem participa de facções",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "A Lei 15.358/2026, sancionada em março de 2026, originou-se de projeto do Executivo enviado em novembro de 2025 e endureceu penas para integrantes de organizações criminosas.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            }
+          ]
+        },
+        {
+          "texto": "Anistiei R$ 12,6 bilhões de dívida dos MEIs",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "O Congresso aprovou em 16/10/2026 o perdão de dívidas fiscais de cerca de 3,6 milhões de MEIs, somando aproximadamente R$ 12,6 bilhões.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            }
+          ]
+        },
+        {
+          "texto": "Em 2009, dos 49 deputados estaduais do RJ, Flávio Bolsonaro foi o único a votar contra a ampliação da licença-maternidade",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "Em 2009 Flávio foi o único parlamentar a votar contra a proposta que ampliava de 4 para 6 meses a licença-maternidade das servidoras da Alerj, confirmado na checagem do debate.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "O salário mínimo comprava 1,8 cesta básica no governo Bolsonaro; no meu governo já compra 2,2 cestas básicas",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "exagerada",
+          "fatos": "Em agosto de 2026, um salário mínimo comprava 1,8 cesta básica, não 2,2, segundo análise com dados do Dieese citada pela Lupa. O patamar atual é 11,3% superior ao de agosto de 2022.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            }
+          ]
+        },
+        {
+          "texto": "Quando assumi o governo (em 2023), havia ficado um déficit de 2,8% (do PIB)",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026; repetida na sabatina da Globo (15/10) e no Jornal Nacional (27/08)",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "O governo central encerrou 2022 com superávit primário de R$ 54,1 bilhões (cerca de 0,5% do PIB), segundo o Tesouro Nacional. O déficit primário de 2,1% do PIB ocorreu em 2023, primeiro ano do próprio governo Lula, influenciado pelo pagamento de R$ 92,4 bilhões em precatórios represados. A fala recebeu veredito falso ou enganoso nas checagens de todas as agências.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            },
+            {
+              "titulo": "UOL Confere: checagem da sabatina de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/15/lula-sabatina-globo-segundo-turno-checagem.ghtm"
+            }
+          ]
+        },
+        {
+          "texto": "Nós fizemos (reserva internacional de) 270 bilhões (de dólares)",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "As reservas internacionais chegaram a US$ 288,6 bilhões em dezembro de 2010; a Lupa classificou a citação de US$ 270 bilhões como subestimada e o Estadão Verifica considerou verdadeira. As reservas eram de US$ 37,7 bilhões em 2003.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "No governo de Jair Bolsonaro foram liberadas mais de 1 milhão de armas",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "Levantamentos dos institutos Sou da Paz e Igarapé, com dados da PF e do Exército obtidos via Lei de Acesso à Informação, registram mais de 1 milhão de novas armas particulares entre 2019 e 2022.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            }
+          ]
+        },
+        {
+          "texto": "No governo (Bolsonaro) liberaram 1 bilhão e 100 milhões de balas",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "imprecisa",
+          "fatos": "A Lupa classificou a fala como insustentável: não há dados públicos que comprovem a liberação de mais de 1 bilhão de munições; um decreto de 2019 autorizava compra de até 2,1 bilhões de munições por registrados, mas foi revogado.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            }
+          ]
+        },
+        {
+          "texto": "Fui o primeiro presidente da República a conseguir dois graus de investimento para o Brasil",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "O Brasil recebeu grau de investimento da Fitch e da S&P em 2008 e da Moody's em 2009, durante o segundo mandato de Lula.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "O Brasil crescia 7,5% e só voltou a crescer mais de 3,5% quando retornei à Presidência",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "O PIB cresceu 7,5% em 2010, mas também cresceu 4,6% em 2021, antes do retorno de Lula, segundo o IBGE. O Estadão Verifica classificou a fala como enganosa; a assessoria do candidato citou o efeito base da recessão de 2020.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "O meu governo criou o MEI e há 17,5 milhões de MEIs no Brasil",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "O MEI foi criado em 2008, no segundo mandato de Lula, e há cerca de 17,56 milhões de MEIs ativos, segundo dados oficiais citados nas checagens.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Quando assumi em 2003, o Brasil devia US$ 30 bilhões ao FMI; paguei a dívida e fiz reservas de US$ 270 bilhões",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026; variante também no Jornal Nacional, 27/08/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "O Brasil contraiu US$ 30,4 bilhões do FMI em 2002, dívida quitada antecipadamente em 2005, e as reservas alcançaram US$ 270 bilhões em 2010. O Aos Fatos ressalva que Lula omite ter aprovado o empréstimo de 2002 como presidente eleito; na versão da fala dada ao Jornal Nacional ele errou ao dizer que emprestou US$ 15 bilhões ao FMI em 2008 (foram US$ 10 bilhões).",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula à TV Globo (27/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/"
+            },
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            }
+          ]
+        },
+        {
+          "texto": "O governo já devolveu R$ 3,5 bilhões às 5 milhões de pessoas que sofreram descontos indevidos no INSS",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026; também no Jornal Nacional, 27/08/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "Dados oficiais da Dataprev de agosto de 2026 registram R$ 3,52 bilhões pagos a 5,03 milhões de aposentados e pensionistas lesados pelas fraudes.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Flávio Bolsonaro contou 43 mentiras sobre seu envolvimento com o banqueiro Daniel Vorcaro",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "A frase remete a levantamento do Aos Fatos que documentou ao menos 43 declarações enganosas de Flávio sobre o caso Vorcaro entre fevereiro e setembro de 2026, incluindo a negação de trocar mensagens com o banqueiro, elo depois confirmado por mensagens reveladas.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            },
+            {
+              "titulo": "Aos Fatos: Flávio mentiu ao menos 43 vezes sobre envolvimento com Vorcaro (24/09/2026)",
+              "url": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/"
+            }
+          ]
+        },
+        {
+          "texto": "Flávio Bolsonaro comprou uma casa de R$ 10 milhões",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "exagerada",
+          "fatos": "Flávio declarou ao TSE patrimônio de R$ 8,1 milhões, incluindo imóvel de R$ 6,2 milhões no Lago Sul; os R$ 10 milhões podem se referir a investimento do jogador Richarlison em ilha em Angra dos Reis, segundo o Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Jair Bolsonaro mentia 11 vezes por dia",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "exagerada",
+          "fatos": "O relatório do Artigo 19 registrou 1.682 declarações falsas ou enganosas de Bolsonaro em 2020 (cerca de 4,6 por dia), e o levantamento do Aos Fatos para o mandato chegou a aproximadamente 4 por dia, não 11.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Na manifestação de hoje havia um torpedo americano, com participantes pedindo para ser atingidos pelos Estados Unidos",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026, sobre ato na Avenida Paulista",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "Manifestantes levaram à Avenida Paulista um míssil inflável com a inscrição 'Trump nuke Brazil' (Trump, ataque o Brasil com armas nucleares), confirmado pelo Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Tínhamos criado 22 milhões de empregos em oito anos (2003-2010)",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "exagerada",
+          "fatos": "Segundo a Rais, entre 2003 e 2010 foram criados cerca de 15,4 milhões de empregos formais; o número de 22 milhões só se aproxima se somadas também as gestões de Dilma. Vereditos: exagerado (Lupa e UOL) e não é bem assim (Fato ou Fake).",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "UOL Confere: checagem da sabatina de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/15/lula-sabatina-globo-segundo-turno-checagem.ghtm"
+            }
+          ]
+        },
+        {
+          "texto": "Quando eu tomei posse (em 2023), nós tínhamos 78% da população endividada",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "parcialmente_verdadeira",
+          "fatos": "A Peic/CNC apontou 77,9% das famílias endividadas em dezembro de 2022, o que sustenta a parte numérica, mas o candidato mistura endividamento com inadimplência (Serasa: 42,76% de inadimplentes no período), apontou a Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Eu tinha acabado com a fome em 2014",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "exagerada",
+          "fatos": "Em 2014 o Brasil saiu do Mapa da Fome da ONU (governo Dilma, fruto de políticas iniciadas em 2003), o que não significa erradicação total: havia milhões de pessoas em insegurança alimentar grave. Vereditos: exagerado (Lupa e UOL) e não é bem assim (Fato ou Fake).",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "UOL Confere: checagem da sabatina de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/15/lula-sabatina-globo-segundo-turno-checagem.ghtm"
+            }
+          ]
+        },
+        {
+          "texto": "Quando eu voltei (em 2023), tinha 33 milhões de pessoas passando fome outra vez",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "verdadeira",
+          "fatos": "O II Inquérito Nacional da Rede Penssan (2022) apontou 33,1 milhões de brasileiros em insegurança alimentar grave, confirmado pela Lupa e pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Encontramos 6 mil obras paralisadas, entre creches, hospitais, postos de atendimento e escolas",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "imprecisa",
+          "fatos": "Segundo o TCU, havia 8.674 obras federais paralisadas em agosto de 2022; o candidato subestimou o número (veredito subestimado na Lupa, no UOL e no Estadão). Dados próximos existem apenas em recortes separados de Educação e Saúde.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            },
+            {
+              "titulo": "UOL Confere: checagem da sabatina de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/15/lula-sabatina-globo-segundo-turno-checagem.ghtm"
+            }
+          ]
+        },
+        {
+          "texto": "Embora tenhamos perdido 9% na relação comercial com os EUA, crescemos 20% com a China",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "exagerada",
+          "fatos": "De janeiro a setembro de 2026, a corrente de comércio com os EUA caiu 6,8% e com a China cresceu 11,1%, segundo o MDIC; os percentuais citados não correspondem a nenhum recorte verificado pelas checagens.",
+          "fontes": [
+            {
+              "titulo": "UOL Confere: checagem da sabatina de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/15/lula-sabatina-globo-segundo-turno-checagem.ghtm"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula à TV Globo (2º turno, 15/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-globo-segundo-turno/"
+            },
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            }
+          ]
+        },
+        {
+          "texto": "(Crescemos) 15% com a Indonésia",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "falsa",
+          "fatos": "As exportações brasileiras para a Indonésia cresceram apenas 2,2% no período, segundo o MDIC. Veredito falso da Lupa, confirmado pelo Estadão Verifica e pelo Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            }
+          ]
+        },
+        {
+          "texto": "(E crescemos) 16% com a Alemanha, 13% com o Vietnã",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "verdadeira",
+          "fatos": "As exportações para a Alemanha cresceram 15,8% e para o Vietnã 14,1% de janeiro a setembro de 2026, segundo dados do MDIC citados nas checagens.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Fui eleito com 70 deputados e 9 senadores; aprovamos 99% de tudo no Congresso; todos os partidos, com exceção do PL, participaram do meu governo",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "distorcida",
+          "fatos": "O PT elegeu 69 deputados (e não 70); o Novo e o PSDB não ocuparam ministérios nem apoiaram o governo; e houve derrotas relevantes no Congresso, como vetos derrubados e rejeição de indicação ao STF. Vereditos: não é bem assim (Fato ou Fake) e exagerado (UOL).",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "UOL Confere: checagem da sabatina de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/15/lula-sabatina-globo-segundo-turno-checagem.ghtm"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula à TV Globo (2º turno, 15/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-globo-segundo-turno/"
+            }
+          ]
+        },
+        {
+          "texto": "Apresentamos um orçamento com superávit primário de 0,1% (para 2027)",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "verdadeira",
+          "fatos": "O projeto orçamentário de 2027 prevê superávit primário de R$ 18,6 bilhões (0,1% do PIB), confirmado pelo Fato ou Fake; as checagens ressaltam que o mercado projeta resultado primário negativo para 2026.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula à TV Globo (2º turno, 15/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-globo-segundo-turno/"
+            }
+          ]
+        },
+        {
+          "texto": "Em 2025 nós fizemos 15 milhões de cirurgias eletivas",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "verdadeira",
+          "fatos": "O painel oficial do Ministério da Saúde registra 14,8 milhões de cirurgias eletivas em 2025, valor confirmado pelas checagens.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Foram 10 ministérios desmontados (no governo Bolsonaro)",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "verdadeira",
+          "fatos": "A MP 870/2019 extinguiu dez ministérios como pastas autônomas em 2019, confirmado pela Lupa e pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "O que o Silvio Santos fez quando o Banco PanAmericano deu problema? Foi me procurar",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "verdadeira",
+          "fatos": "Há registro de encontro entre Lula e Silvio Santos em setembro de 2010, no Planalto, após o Banco Central identificar inconsistências contábeis no banco.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Nós estamos distribuindo gás para 17 milhões de pessoas",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "imprecisa",
+          "fatos": "O painel oficial do programa registra 44,3 milhões de pessoas atendidas; o número citado não corresponde a nenhum recorte oficial. Vereditos: não é bem assim (Fato ou Fake) e subestimado (Estadão).",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "A primeira reforma do Judiciário foi eu que fiz",
+          "evento": "globo_2t",
+          "contexto": "Sabatina da TV Globo, 15/10/2026; repetida no podcast Flow, 01/10/2026",
+          "data": "2026-10-15",
+          "veredito": "parcialmente_verdadeira",
+          "fatos": "A EC 45/2004, que criou o CNJ, foi promulgada no primeiro mandato de Lula, mas o projeto original é de 1992, do deputado Hélio Bicudo, com 13 anos de tramitação. As agências divergem: a Lupa considerou verdadeiro; g1 e UOL, não é bem assim ou enganoso.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula na TV Globo (15/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/15/ao-vivo-checagem-da-entrevista-de-lula-na-tv-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/15/veja-o-que-e-fato-ou-fake-na-entrevista-de-lula-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "UOL Confere: checagem da sabatina de Lula à Globo no 2º turno (15/10/2026)",
+              "url": "https://noticias.uol.com.br/confere/ultimas-noticias/2026/10/15/lula-sabatina-globo-segundo-turno-checagem.ghtm"
+            },
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula no Flow (01/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow"
+            }
+          ]
+        },
+        {
+          "texto": "Eu não conheço essa moça (Roberta Luchsinger), nunca vi essa moça na minha vida",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "falsa",
+          "fatos": "A lobista investigada pela PF tem ao menos três fotos e um vídeo ao lado de Lula entre 2022 e 2023, além de registros com a primeira-dama e ministros; vereditos #FAKE (Fato ou Fake) e falso (Aos Fatos e Estadão). A assessoria afirmou que registros fotográficos não significam relação próxima.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula à TV Globo (27/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "Sou o único presidente do Brasil (e do G20) que teve superávit primário durante os oito anos de mandato",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "parcialmente_verdadeira",
+          "fatos": "Os dois primeiros mandatos de Lula tiveram superávit primário em todos os anos, confirmado pelo Fato ou Fake, mas a extensão 'único no G20' é enganosa: a Argentina também registrou superávit em todos os anos do período, apontou o Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "O PIB só voltou a crescer acima de 2% quando eu voltei à Presidência; o Brasil estava há mais de 10 anos sem crescer",
+          "evento": "debate_band",
+          "contexto": "Repetida no debate da Band, 18/10/2026; dita antes no Jornal Nacional (27/08) e no podcast Flow (01/10)",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "O PIB cresceu 3,97% em 2011, 4,8% em 2021 e 3% em 2022, segundo o IBGE, e em 2025 cresceu 2,29%. Vereditos: #FAKE (Fato ou Fake), falso (Lupa e Estadão); o Aos Fatos classifica a fala como desinformação recorrente.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            },
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula no Flow (01/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "A quadrilha (de fraudes no INSS) foi montada em 2019, inclusive com a participação do ministro da Previdência daquela época",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "distorcida",
+          "fatos": "Não é possível afirmar quando o esquema começou (há indícios de descontos indevidos anteriores a 2019) e a pasta da Previdência estava extinta naquele ano, sem ministro dedicado; apontamentos do Aos Fatos e do Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula à TV Globo (27/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "Não tem um aposentado (vítima do esquema do INSS) que não tenha tido o dinheiro devolvido",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "distorcida",
+          "fatos": "Cerca de 660 mil beneficiários aptos ainda não haviam aderido ao acordo de ressarcimento, segundo dados do governo citados pelo Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "A fila do INSS chegou a 3 milhões de pessoas e será zerada",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "parcialmente_verdadeira",
+          "fatos": "A fila chegou a 3,07 milhões em janeiro de 2026 e caiu 59%, para 1,28 milhão; a promessa de zerar é previsão do candidato, não fato confirmado.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "O Banco Master causou um prejuízo a esse país de R$ 60 bilhões",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "verdadeira",
+          "fatos": "O custo estimado para o FGC com a liquidação do conglomerado é de aproximadamente R$ 57,4 bilhões, valor próximo ao citado e confirmado pelas checagens.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "A dívida dos Estados Unidos é de 120% do PIB, US$ 40 trilhões",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "verdadeira",
+          "fatos": "A dívida pública americana alcançou 123,9% do PIB em 2025 (FMI) e ultrapassou US$ 40 trilhões em agosto de 2026, segundo o Tesouro americano.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "Nós temos, possivelmente, depois da China, a maior reserva de terras raras e minerais críticos",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "verdadeira",
+          "fatos": "O Brasil tem a segunda maior reserva mundial de terras raras, atrás apenas da China, segundo dados do USGS citados nas checagens.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "O Fernando Henrique Cardoso trocou três presidentes do Banco Central",
+          "evento": "jn",
+          "contexto": "Entrevista ao Jornal Nacional, 27/08/2026",
+          "data": "2026-08-27",
+          "veredito": "imprecisa",
+          "fatos": "Entre 1995 e 2002 quatro pessoas ocuparam o cargo (Pérsio Arida, Gustavo Loyola, Gustavo Franco e Armínio Fraga). A segunda parte da fala, sobre manter por dois anos presidente do BC indicado por Bolsonaro, foi confirmada.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Lula à Globo (27/08/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Lula no Jornal Nacional (27/08/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/entrevista-jn-lula-checagem-verdadeiro-falso/"
+            }
+          ]
+        },
+        {
+          "texto": "Quando eu cheguei na Presidência, 5 milhões de trabalhadores tinham diploma universitário; hoje temos 25 milhões",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026; repetido no Jornal Nacional, 27/08/2026",
+          "data": "2026-10-01",
+          "veredito": "verdadeira",
+          "fatos": "Em 2003 havia 5,5 milhões de ocupados com ensino superior e, em 2025, cerca de 25,5 milhões, segundo o IBGE, confirmado pelo Aos Fatos e pela Lupa.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula à TV Globo (27/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/"
+            },
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula no Flow (01/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow"
+            }
+          ]
+        },
+        {
+          "texto": "(Sobre Bolsonaro aumentar o Auxílio Brasil para R$ 600) O que eu disse na época? Que estava certo, que tinha que fazer mesmo",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "falsa",
+          "fatos": "Em 2022 Lula orientou 'pegue o dinheiro, mas não vote em quem está destruindo o Brasil', e a campanha petista usou o aumento como argumento na ação de inelegibilidade no TSE; não há registro de apoio público à medida, apontou o Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula ao Flow (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-ao-flow"
+            }
+          ]
+        },
+        {
+          "texto": "Mas o Jaques Wagner não tem nada a ver com isso (caso Banco Master)",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "imprecisa",
+          "fatos": "A declaração não é confirmada pelas informações disponíveis: a PF apontou indícios de recebimento de vantagens do grupo Vorcaro pelo senador e o STF bloqueou R$ 5,9 milhões de seus bens; o inquérito está em andamento, sem condenação.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula ao Flow (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-ao-flow"
+            }
+          ]
+        },
+        {
+          "texto": "Em 100 anos a elite brasileira fez 140 institutos federais; eu agora, em três, quatro anos, estou fazendo 112",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "imprecisa",
+          "fatos": "A fala mistura escolas técnicas federais extintas (141 em 2003) com os 38 institutos criados em 2008; os 111 novos campi anunciados em 2024 não são institutos-sede, e hoje são 755 campi vinculados a 39 IFs, apontou o Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula ao Flow (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-ao-flow"
+            }
+          ]
+        },
+        {
+          "texto": "A (inflação) é a menor inflação acumulada em quatro anos (do mandato)",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "verdadeira",
+          "fatos": "A inflação acumulada de janeiro de 2023 a agosto de 2026 foi de 17,9% (IPCA), a menor para um período equivalente de mandato desde o início do Plano Real, confirmou o Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula ao Flow (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-ao-flow"
+            }
+          ]
+        },
+        {
+          "texto": "O alimento estava a 56% da inflação acumulada do governo Bolsonaro; nós caímos para 13%",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "parcialmente_verdadeira",
+          "fatos": "A inflação de alimentos acumulada no governo Bolsonaro foi de 56,6% e no governo atual de 16,19% até agosto de 2026, valor próximo mas não igual ao citado, apontou o Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula ao Flow (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-ao-flow"
+            }
+          ]
+        },
+        {
+          "texto": "A taxação nossa com os Estados Unidos resultou em uma diminuição de 9,7% na nossa relação comercial",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "verdadeira",
+          "fatos": "As exportações brasileiras para os EUA caíram 9,7% entre janeiro e agosto de 2026, segundo dados oficiais citados pela Lupa, que classificou a fala como verdadeira.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula no Flow (01/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow"
+            }
+          ]
+        },
+        {
+          "texto": "(Flávio Bolsonaro) empregou a mulher dele (de Adriano da Nóbrega), ou a irmã dele, ou a mãe durante vários anos no Senado",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "falsa",
+          "fatos": "A mãe e a esposa do ex-capitão PM Adriano da Nóbrega foram empregadas no gabinete de Flávio na Alerj, não no Senado; Flávio assumiu o Senado apenas em 2019. Veredito falso da Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula no Flow (01/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow"
+            }
+          ]
+        },
+        {
+          "texto": "Esse rapaz (Flávio Bolsonaro) foi vereador com 21 anos",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "falsa",
+          "fatos": "Flávio nunca foi vereador; foi eleito deputado estadual na Alerj em 2002, aos 21 anos. Vereditos: falso (Lupa) e impreciso (Aos Fatos), pela mesma correção.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula no Flow (01/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Lula ao Flow (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-ao-flow"
+            }
+          ]
+        },
+        {
+          "texto": "Se você fizer uma pesquisa sobre quem é favorável à pena de morte, vai dar 90%",
+          "evento": "flow",
+          "contexto": "Podcast Flow, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "falsa",
+          "fatos": "O Índice de Conservadorismo Brasileiro 2025 (Ipsos-Ipec) apontou 43% de apoio à pena de morte, menos da metade do percentual citado; veredito falso da Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Lula no Flow (01/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "flavio",
+      "nome_urna": "Flávio Bolsonaro",
+      "cargo": "presidente",
+      "partido": "PL",
+      "foto": "/fotos/flavio.jpg",
+      "nota_extra": "Além das checagens individuais, o Aos Fatos documentou ao menos 43 declarações enganosas do candidato sobre o caso Vorcaro entre fevereiro e setembro de 2026; o levantamento é citado nesta seção, mas as 43 declarações não entram somadas na contagem, que considera apenas verificações individuais publicadas.",
+      "afirmacoes": [
+        {
+          "texto": "O atual governo tá deixando (uma dívida) de 11 trilhões de reais, mais um recorde negativo",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026; repetida da entrevista à Globo de 16/10",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "A dívida bruta do governo geral alcançou R$ 11,1 trilhões em agosto de 2026 (82,9% do PIB), segundo o Banco Central. O número inclui dívidas de União, estados e municípios; a dívida pública federal é menor (R$ 9,29 trilhões), ressalva feita nas checagens.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Flávio Bolsonaro à TV Globo no 2º turno (16/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-entrevista-tv-globo-eleicoes-2026-2-turno/"
+            }
+          ]
+        },
+        {
+          "texto": "A Lei Antifacção que nós aprovamos, os líderes dessas organizações vão ficar até 80 anos presos",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "A Lei 15.358/2026 prevê reclusão de 20 a 40 anos, com aumento de até o dobro para líderes de facções, mas o Código Penal limita o cumprimento de penas privativas de liberdade a 40 anos, o que torna o cumprimento de 80 anos impossível na prática.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "O áudio do Vorcaro fala em R$ 30 milhões por fora para o Instituto Lula, dinheiro ilegal, e isso está confirmado pela Polícia Federal",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026; repetida da entrevista à Globo de 16/10",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "A PF informou que Vorcaro não prestou depoimento com o teor relatado nem entregou anexos; a PGR e a defesa do banqueiro negaram, e o material apreendido não menciona pagamento ao Instituto Lula. Vereditos: insustentável (Lupa) e #FAKE (Fato ou Fake).",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Foi o presidente Bolsonaro que triplicou o Bolsa Família: era R$ 190 em média e passou para R$ 600",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026; repetida da entrevista à Globo de 16/10",
+          "data": "2026-10-18",
+          "veredito": "exagerada",
+          "fatos": "A MP enviada por Bolsonaro criou o Auxílio Brasil com mínimo de R$ 400; o valor de R$ 600 só veio em junho de 2022, às vésperas da eleição, com participação decisiva do Congresso, e o orçamento de 2023 enviado pelo governo Bolsonaro previa retorno a R$ 400.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "O atual governo coloca nas ruas marginais perigosos, alegando que não tem vagas no sistema penitenciário",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "Não existe norma que preveja soltura automática de condenados por falta de vagas; a Súmula Vinculante 56 do STF (2016) trata do cumprimento em regime adequado e o Plano Pena Justa (2025) prevê mutirões apenas para quem cumpre requisitos legais. Veredito falso da Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            }
+          ]
+        },
+        {
+          "texto": "R$ 7 bilhões que você (Lula) gastou em viagens com a Janja",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "Os cerca de R$ 7 bilhões somam despesas de viagem de toda a estrutura do governo federal (passagens e diárias de centenas de milhares de servidores em mais de 30 órgãos) entre 2023 e 2026; as viagens da Presidência da República somaram R$ 150,5 milhões no período. Veredito falso na Lupa, no Estadão Verifica e no Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            },
+            {
+              "titulo": "Aos Fatos: checamos Lula e Flávio Bolsonaro no debate da Band (18/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+            }
+          ]
+        },
+        {
+          "texto": "O filho do Lula bateu na própria mulher",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "O inquérito sobre a denúncia de Natália Schincariol contra Luís Cláudio Lula da Silva foi concluído sem indiciamento por falta de provas, e o vídeo de agressão viralizado em 2024 era de outra pessoa, apurou a Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            }
+          ]
+        },
+        {
+          "texto": "Mais de 40 milhões de brasileiros moram em áreas dominadas por narcoterroristas",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "Estudo da Cambridge University Press estima 50 a 61 milhões de brasileiros sob governança criminal (até 26% da população) e pesquisa DataFolha/FBSP aponta 68,7 milhões convivendo com facções ou milícias no bairro; as agências classificaram a fala como verdadeira ou até subestimada.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Você pode explicar por que 73% dos presidiários votaram em você (Lula)?",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "Lula obteve 72,57% dos votos válidos nas seções eleitorais de presídios no 1º turno (TSE), mas apenas presos provisórios podem votar e as seções também registram votos de agentes e servidores; foram cerca de 11,2 mil votos, 1,1% da população carcerária, e Flávio ficou em segundo com 23,3%.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            },
+            {
+              "titulo": "Aos Fatos: checamos Lula e Flávio Bolsonaro no debate da Band (18/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+            }
+          ]
+        },
+        {
+          "texto": "O governo de esquerda (da Argentina) deixou tanta gente na miséria que o governo de direita (Milei) tem que ir lá consertar",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "A pobreza argentina era de 41,7% ao fim do governo Fernández, subiu a 52,9% no primeiro semestre de 2024, já com Milei, antes de recuar a 28,2% em 2025 e voltar a subir; a trajetória não foi linear nem atribuível apenas à herança, apontou a Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do debate Lula x Flávio Bolsonaro na Band (18/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band"
+            }
+          ]
+        },
+        {
+          "texto": "Eu não mantenho escritório com o Careca (Antonio Carlos Camilo Antunes, o Careca do INSS)",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "Segundo o Aos Fatos, a empresa Bravo Grafeno, cujo dono é Flávio, divide o mesmo endereço em Águas Claras com pelo menos 16 firmas de Antunes, e o escritório de advocacia de Flávio usou o mesmo contador do investigado do esquema do INSS.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos Lula e Flávio Bolsonaro no debate da Band (18/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Com você (Lula), a criminalidade explodiu no Brasil; (o governo Lula é) recorde de criminalidade",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "As mortes violentas intencionais caem desde 2021 e chegaram a 19,1 por 100 mil habitantes em 2025 (40,7 mil casos); o recorde da série é de 2017, com cerca de 64 mil. Veredito de incorreção do Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos Lula e Flávio Bolsonaro no debate da Band (18/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+            }
+          ]
+        },
+        {
+          "texto": "(O governo Lula é) recorde de empresa fechada",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "O recorde de falências é de 2015 (1.828 CNPJs); no governo Lula as falências caíram (862 em 2024 e 734 em 2025). Houve recorde de recuperações judiciais em 2025, mas também recorde histórico de abertura de empresas (5,1 milhões), apontaram Aos Fatos e Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos Lula e Flávio Bolsonaro no debate da Band (18/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Nunca quis tirar nada disso (a identificação e o rastreio das munições)",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "Flávio apoiou o PL 3.723/2019, que previa revogar a exigência de código de rastreio em munições, e publicou em 2021: 'como votar contra algo que sou declaradamente a favor?'. Veredito falso do Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Você (Lula) está dando emprego para um monte de gente que foi condenada no Mensalão e no Petrolão",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "falsa",
+          "fatos": "Não há registros de cargos no governo atual ocupados por condenados do Mensalão; o PT apoiou candidaturas de ex-condenados (José Dirceu, Delúbio Soares), mas eles não foram eleitos e não ocupam cargos no governo, apontou o Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "O PT governou o País em 20 dos últimos 24 anos",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "exagerada",
+          "fatos": "Somando os mandatos de Lula e Dilma, o PT governa há 17 anos e 4 meses no período de 24 anos, não 20, calculou o Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "O irmão de Lula (Frei Chico) é vice-presidente de um sindicato que roubou os aposentados",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "Frei Chico é de fato vice-presidente do Sindnapi, sindicato investigado na Operação Sem Desconto, mas ele próprio não é investigado pela PF, e não é possível determinar quando o esquema começou, apontaram Estadão Verifica e Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            },
+            {
+              "titulo": "Aos Fatos: checamos Lula e Flávio Bolsonaro no debate da Band (18/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+            }
+          ]
+        },
+        {
+          "texto": "A primeira coisa que o presidente Bolsonaro fez foi mandar uma MP para combater a corrupção no INSS, e foi a bancada do PT que insistiu na emendinha para favorecer os sindicatos",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "A MP 871/2019 existiu, mas o Congresso flexibilizou a revalidação de descontos (de anual para trienal) e depois revogou a medida; embora parlamentares do PT tenham apresentado o maior número de proposições, 11 partidos votaram a favor, incluindo o PL e integrantes do centrão.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Pela proposta de Lula, traficantes de drogas e ladrões de celulares ficariam fora da redução da maioridade penal para crimes hediondos",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "A Constituição (art. 5º, XLIII) equipara o tráfico de drogas aos crimes hediondos, o que contradiz a afirmação; a articulação do PT no Senado prevê redução da maioridade para 16 anos apenas em crimes hediondos.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Lula até mesmo entrou na Justiça para garantir a volta da saidinha dos presos",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "Não há registro de que Lula tenha acionado a Justiça para retomar as saídas temporárias; em 2024 ele vetou parcialmente o projeto sobre o tema e o Congresso derrubou o veto, e o TSE chegou a proibir peça publicitária do PL associando Lula a crimes na saidinha.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Lula fez uma reunião fechada com Haddad e Galípolo prometendo ao Vorcaro: 'não vende o banco agora, não, que a gente troca o presidente do Banco Central e te ajuda'",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "Lula realmente se reuniu com Vorcaro em dezembro de 2024, com o presidente do BC presente, mas as reportagens da época não registram promessa de ajuda; Lula disse que o caso seria tratado de forma isenta e técnica pelo BC, e o banco acabou liquidado, com Vorcaro preso.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Ninguém trabalhou para tarifar a empresa brasileira; o governo (Lula) não mandou nenhumzinho para ir lá defender (o Brasil nos EUA)",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026; repetida da entrevista à Globo de 28/08/2026",
+          "data": "2026-10-18",
+          "veredito": "distorcida",
+          "fatos": "O governo realizou mais de 30 reuniões sobre o tarifaço desde julho de 2025, algumas presenciais nos EUA, e Lula encontrou Donald Trump em maio de 2026; Flávio participou de uma audiência pública do USTR, à qual o governo brasileiro enviou apenas observadores por não ser canal oficial de negociação.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos Lula e Flávio Bolsonaro no debate da Band (18/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "O simples fato de Flávio Bolsonaro virar do primeiro para o segundo turno, na frente, a taxa de juros futuro já caiu 2%",
+          "evento": "debate_band",
+          "contexto": "Debate da TV Band, 18/10/2026",
+          "data": "2026-10-18",
+          "veredito": "verdadeira",
+          "fatos": "No dia seguinte ao 1º turno houve queda rápida nas taxas futuras, movimento que ultrapassou 2%, atribuído pela imprensa especializada à inesperada liderança de Flávio e à expectativa de ajuste fiscal mais forte.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Lula e Flávio na Band (18/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/checamos-o-debate-entre-lula-e-flavio-na-band/"
+            }
+          ]
+        },
+        {
+          "texto": "Tem a questão da margem equatorial, os royalties do petróleo, que já estavam na proposta de governo do presidente Bolsonaro lá em 2022",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "Não há menção à exploração na margem equatorial no programa de governo de Bolsonaro de 2018 nem de 2022; a busca por licenças na região começou em 2013, com multinacionais, e a concessão foi repassada à Petrobras pela BP em 2021, apontou a Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Flávio Bolsonaro na Globo (16/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo"
+            }
+          ]
+        },
+        {
+          "texto": "É o que tá na Constituição, o direito à legítima defesa",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "A legítima defesa está no artigo 25 do Código Penal, não na Constituição, que trata da ampla defesa em processos judiciais e administrativos (art. 5º, LV).",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Flávio Bolsonaro na Globo (16/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo"
+            }
+          ]
+        },
+        {
+          "texto": "A produtora do filme (Dark Horse) aqui no Brasil, ela prestou contas de tudo",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "A perícia contratada pela defesa não anexou notas fiscais, recibos nem extratos, e o perito admitiu não ter acessado o fundo americano destinatário dos repasses de Vorcaro (R$ 61 milhões); a PF considera essencial analisar o caminho do dinheiro, apontaram Lupa e Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Flávio Bolsonaro na Globo (16/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "O ex-ministro da Justiça de Lula (Flávio Dino) entrou sem nenhum policial, sem nenhum segurança, numa favela, o Complexo da Maré",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026; fake antiga já desmentida em 2023",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "A visita de Dino à Maré (março de 2023) teve apoio de segurança articulado pela Senasp com PM, PC, Corpo de Bombeiros, PF e PRF do Rio, conforme o Ministério da Justiça; a versão já havia sido desmentida desde 2023.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Flávio Bolsonaro na Globo (16/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Bolsonaro troca um (comando da Polícia Federal), tem esse questionamento. Ele (Lula) troca 27, e não tem questionamento nenhum",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "distorcida",
+          "fatos": "É verdade que Lula substituiu 26 das 27 superintendências regionais da PF, mas a comparação omite que Bolsonaro trocou ao menos 20 delegados nos três primeiros anos e realizou cinco substituições de diretor-geral, várias ligadas a divergências políticas e investigações.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Flávio Bolsonaro na Globo (16/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "O que botou por água abaixo essas teses malucas de que mais armas nas mãos de cidadãos causam mais violência",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "Estudos convergem no contrário: nos estados americanos mais permissivos os crimes violentos subiram 13% a 15% (NBER) e, no Brasil, cada 1% de aumento na circulação de armas eleva homicídios em 1,2% a 2% (FBSP); a queda de homicídios começou antes de 2019 e tem múltiplas causas.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Flávio Bolsonaro na Globo (16/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "O atual presidente da República já gastou quase 350 bilhões de reais para tentar se reeleger",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "exagerada",
+          "fatos": "O Gastômetro do Estadão soma R$ 354 bilhões em medidas de impacto orçamentário no ano eleitoral, mas o valor inclui renúncia fiscal e não representa desembolso direto nem comprova finalidade eleitoral; o governo nega a finalidade eleitoral.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Flávio Bolsonaro na Globo (16/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Se você pegar o Boletim Focus de outubro de 2022, a estimativa de taxa de juro era para estar em torno de 7%. Hoje está em 14%, são 7 pontos a mais",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "distorcida",
+          "fatos": "O Focus de outubro de 2022 refletia expectativa de mercado, não meta de governo; a Selic era 13,75% em outubro de 2022 e seguia próxima disso na data da entrevista, com projeção de queda para o fim de 2026; a comparação mistura expectativa de mercado com taxa vigente e omite o ciclo de política monetária.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo da entrevista de Flávio Bolsonaro na Globo (16/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/16/ao-vivo-checagem-da-entrevista-de-flavio-bolsonaro-na-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Hoje, o atual governo tem 39 ministérios",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "imprecisa",
+          "fatos": "Lula começou 2023 com 37 ministérios e há 38 em exercício; a secretaria criada para o RS em 2024 foi extinta no mesmo ano.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Flávio Bolsonaro à TV Globo no 2º turno (16/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-entrevista-tv-globo-eleicoes-2026-2-turno/"
+            }
+          ]
+        },
+        {
+          "texto": "O presidente Bolsonaro extinguiu mais de 20 mil cargos em comissão",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "O decreto 9.725/2019 extinguiu 21 mil cargos, funções e gratificações, mas apenas 159 eram cargos comissionados (17.349 funções e 3.492 gratificações); 6.587 do total já estavam vagos.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Quando bati na porta do Vorcaro, ele não tinha suspeitas (contra ele)",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "As conversas entre Flávio e Vorcaro ocorreram até novembro de 2025; em agosto de 2025 a CVM já apontava suspeitas de crimes financeiros no Banco Master, meses antes de Flávio escrever ao banqueiro 'Irmão, estou e estarei contigo sempre'.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Flávio Bolsonaro à TV Globo no 2º turno (16/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-entrevista-tv-globo-eleicoes-2026-2-turno/"
+            }
+          ]
+        },
+        {
+          "texto": "A União tem R$ 3 trilhões de dívidas a receber",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "verdadeira",
+          "fatos": "O estoque da dívida ativa da União era de R$ 2,99 trilhões no fim de 2024 e atingiu R$ 3,55 trilhões em setembro de 2026, segundo a PGFN; o Estadão Verifica classificou a fala como verdadeira e até subestimada.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Flávio Bolsonaro à TV Globo no 2º turno (16/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-entrevista-tv-globo-eleicoes-2026-2-turno/"
+            }
+          ]
+        },
+        {
+          "texto": "(O governo Lula é) recordista em queimadas na Amazônia; esse foi o outubro com maior queimada na história da nação brasileira",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "Segundo o Programa Queimadas do Inpe, 2025 teve o menor número de focos da série na Amazônia (43.131) e outubro de 2026 não é recorde nem na Amazônia nem no país; o recorde de outubro na Amazônia é de 2007.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "(O governo Lula é) recordista em assassinatos de mulheres, um governo recordista em mulheres que são espancadas",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026; repetida no debate da Band, 18/10",
+          "data": "2026-10-16",
+          "veredito": "verdadeira",
+          "fatos": "O Anuário Brasileiro de Segurança Pública 2026 registra 1.571 feminicídios em 2025 (maior número desde a tipificação em 2015) e 286.270 lesões corporais em violência doméstica (maior desde 2016). Ressalva das checagens: a tendência de alta vem de anos anteriores e o maior salto anual (7,6%) ocorreu de 2021 para 2022.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Flávio Bolsonaro à TV Globo no 2º turno (16/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-entrevista-tv-globo-eleicoes-2026-2-turno/"
+            }
+          ]
+        },
+        {
+          "texto": "(O terceiro mandato de Lula é) recordista em pessoas endividadas",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "verdadeira",
+          "fatos": "A Peic/CNC apontou 82% das famílias endividadas em julho de 2026, máxima da série iniciada em 2010, repetida em agosto; a máxima anterior (77,9%) era de 2022.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos a entrevista de Flávio Bolsonaro à TV Globo no 2º turno (16/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/flavio-bolsonaro-entrevista-tv-globo-eleicoes-2026-2-turno/"
+            }
+          ]
+        },
+        {
+          "texto": "Não foi encontrada uma arma no 8 de Janeiro; (meu pai) foi condenado por depredação de patrimônio público estando a 10 mil quilômetros de distância",
+          "evento": "globo_2t",
+          "contexto": "Entrevista à TV Globo, 16/10/2026; repetida da entrevista à Globo de 28/08/2026",
+          "data": "2026-10-16",
+          "veredito": "falsa",
+          "fatos": "Perícia da PCDF, denúncia da PGR, relatório da CPMI e voto do relator no STF comprovam o uso de armas brancas e improvisadas nos atos de 8/1, e manifestantes roubaram armas do GSI. A condenação por dano qualificado é fato, mas Bolsonaro estava em Orlando, a cerca de 6 mil km de Brasília, não 10 mil.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Não tem absolutamente nada de irregular nesse filme; a única relação que eu tinha com ele (Vorcaro) era sobre esse filme e mais nada",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026; repetido na entrevista de 16/10",
+          "data": "2026-08-28",
+          "veredito": "distorcida",
+          "fatos": "A PF investiga Flávio por suspeita de corrupção e lavagem no financiamento do filme Dark Horse (inquérito no STF); as mensagens reveladas mostram proximidade além do filme, com tratamento de 'irmão' e a frase 'estou e estarei contigo sempre', apontaram Aos Fatos e Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake na entrevista de Flávio Bolsonaro à Globo no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/16/veja-o-que-e-fato-ou-fake-na-entrevista-de-flavio-bolsonaro-a-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "(O Vorcaro) deu um patrocínio de 160 milhões de reais para um programa do Luciano Huck aqui da Globo",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026",
+          "data": "2026-08-28",
+          "veredito": "distorcida",
+          "fatos": "O Will Bank (controlado pelo grupo Master) patrocinou o quadro Willimpíadas em 2025, mas não há evidência de pagamento de R$ 160 milhões; o valor vem de estimativa de mercado, não de contrato confirmado.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Eu já assinei a CPMI (do Banco Master) e eu pedi que ela acontecesse",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026",
+          "data": "2026-08-28",
+          "veredito": "distorcida",
+          "fatos": "Houve cinco pedidos de CPMI do Banco Master e Flávio não assinou três deles, incluindo o primeiro; assinou apenas o requerimento de Carlos Jordy (fev/2026) e um segundo não protocolado.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Eu sou bem claro, jamais questionei a questão do processo eleitoral (das urnas)",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026",
+          "data": "2026-08-28",
+          "veredito": "falsa",
+          "fatos": "Há registros em contrário: em 2018 disse ser 'impossível garantir a lisura das urnas sem o voto impresso', compartilhou vídeo falso de urna completando voto em Haddad e repetiu a tese da Smartmatic a embaixadores em julho de 2026, versão já desmentida pelo Aos Fatos.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Ele (Eduardo Bolsonaro) nunca pediu tarifas para empresas brasileiras",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026",
+          "data": "2026-08-28",
+          "veredito": "distorcida",
+          "fatos": "Não há evidência de pedido formal de tarifas, mas Eduardo discutiu a possibilidade de taxação em reuniões com autoridades de Trump, comemorou o anúncio do tarifaço e depois defendeu a taxação como pressão pela anistia do pai.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "O único representante público, o único agente público brasileiro que foi para os Estados Unidos defender o Brasil foi Flávio Bolsonaro",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026",
+          "data": "2026-08-28",
+          "veredito": "falsa",
+          "fatos": "O governo realizou mais de 30 reuniões sobre o tarifaço desde julho de 2025, algumas nos EUA com o chanceler, e Lula encontrou Trump em maio de 2026; Flávio participou de uma audiência pública do USTR.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "O Pix é sagrado, foi feito na gestão do presidente Bolsonaro; não tem taxa no Pix porque o Bolsonaro exigiu que não tivesse",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026",
+          "data": "2026-08-28",
+          "veredito": "distorcida",
+          "fatos": "O Pix foi lançado em novembro de 2020, no governo Bolsonaro, mas a ideia nasceu em 2014, os estudos começaram em 2016 e o desenvolvimento durou 31 meses, sem interferência de governo, segundo o BC; o próprio governo Bolsonaro defendeu em 2020 imposto sobre transações digitais.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "A homenagem (a Adriano da Nóbrega) foi feita há mais de 20 anos, (quando) não tinha feito absolutamente nada de errado, estava sendo falsamente acusado",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026",
+          "data": "2026-08-28",
+          "veredito": "distorcida",
+          "fatos": "A moção de louvor (2003) e a Medalha Tiradentes (2005) ocorreram depois que Adriano já era investigado por homicídio e, na data da medalha, ele estava preso; foi condenado em 2005 e absolvido apenas em grau de recurso em 2007.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "São eventos cíclicos, eu não acho que isso (o clima) tem a ver diretamente só com a influência do ser humano",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026, sobre artigo seu de 2019 que negava o aquecimento global",
+          "data": "2026-08-28",
+          "veredito": "falsa",
+          "fatos": "Uma revisão de 88.125 estudos (2021) concluiu que mais de 99% dos artigos atribuem as mudanças climáticas à ação humana, e o IPCC afirma que o aquecimento global é inequivocamente causado por atividades humanas.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Você (Lula) que é o pai do tigrinho (Lula seria o responsável por liberar as bets no Brasil)",
+          "evento": "live",
+          "contexto": "Live no YouTube do candidato, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "falsa",
+          "fatos": "As bets foram legalizadas em dezembro de 2018 (Lei 13.756/2018, governo Temer) e a regulamentação veio com a Lei 14.790/2023, do governo Lula; em setembro de 2026 o governo decidiu proibir as apostas online por medida provisória.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a live de Flávio Bolsonaro (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro"
+            }
+          ]
+        },
+        {
+          "texto": "Eu tenho um irmão exilado nos Estados Unidos",
+          "evento": "live",
+          "contexto": "Live no YouTube do candidato, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "distorcida",
+          "fatos": "Eduardo Bolsonaro mudou-se voluntariamente para os EUA em março de 2025 para fazer lobby contra o governo e o STF, antes de qualquer condenação; foi condenado em junho de 2026, mas não há mandado de prisão, portanto juridicamente não é exilado nem foragido.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a live de Flávio Bolsonaro (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro"
+            }
+          ]
+        },
+        {
+          "texto": "Nós estamos no Rio de Janeiro, e fomos impedidos (de ir ao debate da Globo) por causa de uma censura e uma interferência do Poder Judiciário",
+          "evento": "live",
+          "contexto": "Live no YouTube do candidato, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "falsa",
+          "fatos": "Nenhuma decisão judicial impediu Flávio de participar do debate da Globo de 1º de outubro; as decisões apenas alteraram regras do debate, e Flávio desistiu por decisão própria, horas depois.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a live de Flávio Bolsonaro (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro"
+            }
+          ]
+        },
+        {
+          "texto": "(Lula deixou o povo brasileiro) com fome",
+          "evento": "live",
+          "contexto": "Live no YouTube do candidato, 01/10/2026",
+          "data": "2026-10-01",
+          "veredito": "falsa",
+          "fatos": "A insegurança alimentar grave caiu para 6,4 milhões de pessoas (3,2% da população) em 2024, o menor patamar já registrado pelo IBGE, e o Brasil saiu do Mapa da Fome da ONU pela segunda vez durante o atual governo.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a live de Flávio Bolsonaro (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro"
+            }
+          ]
+        },
+        {
+          "texto": "Foram mais de 32 milhões de pessoas que não foram votar nas eleições de 2022",
+          "evento": "globo_1t",
+          "contexto": "Entrevista à TV Globo, 28/08/2026; repetida na live de 01/10",
+          "data": "2026-08-28",
+          "veredito": "verdadeira",
+          "fatos": "A abstenção em 2022 foi de 20,9% do eleitorado, cerca de 32 milhões de pessoas, o maior número desde 1998, segundo o TSE.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: checamos a live de Flávio Bolsonaro (01/10/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro"
+            },
+            {
+              "titulo": "Aos Fatos: checamos a entrevista de Flávio Bolsonaro à TV Globo (28/08/2026)",
+              "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo"
+            }
+          ]
+        },
+        {
+          "texto": "Negação do envolvimento com Daniel Vorcaro: 'É mentira, pelo amor de Deus, de onde você tirou isso?'; e a tese de que o caso Banco Master 'está longe da direita'",
+          "evento": "publicas",
+          "contexto": "Coletivas e declarações públicas, fevereiro a setembro de 2026",
+          "data": "2026-09-24",
+          "veredito": "falsa",
+          "fatos": "Levantamento do Aos Fatos mapeou ao menos 43 declarações enganosas de Flávio sobre o caso Vorcaro entre fevereiro e setembro de 2026; as mensagens reveladas em maio confirmaram o elo que ele negou publicamente em coletivas e entrevistas.",
+          "fontes": [
+            {
+              "titulo": "Aos Fatos: Flávio mentiu ao menos 43 vezes sobre envolvimento com Vorcaro (24/09/2026)",
+              "url": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "celina",
+      "nome_urna": "Celina Leão",
+      "cargo": "governador",
+      "partido": "PP",
+      "foto": "/fotos/celina.jpg",
+      "nota_extra": "A candidata faltou ao debate da TV Globo DF de 29/09/2026, o que reduz o volume de checagens ao vivo de suas falas. Um coordenador de campanha dela foi alvo de decisão do TRE-DF (14/10/2026) que proibiu a divulgação de deepfake com a voz manipulada do adversário; trata-se de desinformação de terceiros e não entra nesta contagem.",
+      "afirmacoes": [
+        {
+          "texto": "Nós fizemos a substituição de 2.681 (professores) temporários por professores efetivos",
+          "evento": "df1",
+          "contexto": "Sabatina do DF1 (TV Globo/g1), 15/09/2026",
+          "data": "2026-09-15",
+          "veredito": "verdadeira",
+          "fatos": "O governo anunciou em agosto de 2026 a nomeação de cerca de 2.681 professores efetivos, publicada no DODF de 02/09/2026, contemplando aprovados no concurso do magistério de 2022; selada #FATO pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Nós somos a terceira cidade mais segura para as mulheres viverem; nós temos a cidade mais segura do país, segundo o Anuário de Segurança Pública, e o estado mais seguro do país",
+          "evento": "df1",
+          "contexto": "Sabatina do DF1 (TV Globo/g1), 15/09/2026",
+          "data": "2026-09-15",
+          "veredito": "distorcida",
+          "fatos": "O 20º Anuário Brasileiro de Segurança Pública mostra o DF como 3ª unidade da federação com menor taxa de mortes violentas intencionais (9,6 por 100 mil), dado que não é sobre cidades nem específico para mulheres; no recorte de violência contra mulheres, o mesmo anuário registra alta de 27% nos feminicídios do DF (22 vítimas em 2024; 28 em 2025). Selada não é bem assim pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "O BRB, ele dá de lucro, ele paga de imposto ao GDF R$ 1,8 bilhão",
+          "evento": "df1",
+          "contexto": "Sabatina do DF1 (TV Globo/g1), 15/09/2026, sobre a crise do BRB e o Banco Master",
+          "data": "2026-09-15",
+          "veredito": "falsa",
+          "fatos": "Em razão da crise com o Banco Master, o BRB não publica demonstrações contábeis desde o 3º trimestre de 2025 e não houve distribuição recente de dividendos; o recorde histórico de dividendos foi de R$ 322,4 milhões em 2022 e, em 2024, o BRB repassou R$ 35,2 milhões de ISS ao DF. Selada #FAKE pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Tivemos grandes avanços, como atendermos 26 mil crianças da fila de creche",
+          "evento": "df1",
+          "contexto": "Sabatina do DF1 (TV Globo/g1), 15/09/2026",
+          "data": "2026-09-15",
+          "veredito": "verdadeira",
+          "fatos": "Dados da Secretaria de Educação do DF mostram que a fila de creches caiu de 28.372 crianças em 2023 para 6.947 em 2026 (redução de 21.425) e a oferta de vagas mais que dobrou; selada #FATO pelo Fato ou Fake, com ressalva de que ainda há fila, embora existam vagas para encaminhamento.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "(O governo) já tomou medidas para melhorar o serviço (do Metrô), citou a compra de 15 novos vagões, cujo processo licitatório está em andamento",
+          "evento": "df2",
+          "contexto": "Sabatina do DF2 (TV Globo/g1), 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "imprecisa",
+          "fatos": "O TCDF suspendeu a licitação (R$ 900 milhões a R$ 1 bilhão) em setembro de 2026 e, em 09/10, o próprio Metrô-DF informou ao MPDFT que o edital aguardava liberação do Tribunal de Contas, seis dias antes da declaração; a companhia estimou que os trens só circulariam em até 24 meses após a conclusão da licitação. Sem checagem formal com selo; confronto com registros oficiais do TCDF e do MPDFT.",
+          "fontes": [
+            {
+              "titulo": "Jornal Opção (Entorno): Celina promete compra de novos trens, mas licitação do Metrô-DF ainda dependia de aval do TCDF",
+              "url": "https://entorno.jornalopcao.com.br/politica/celina-promete-compra-de-novos-trens-mas-licitacao-do-metro-df-ainda-dependia-de-aval-do-tcdf-35652"
+            }
+          ]
+        },
+        {
+          "texto": "Já foram concluídos os estudos de viabilidade técnica da linha 2 do Metrô e das linhas 1 e 3 do VLT",
+          "evento": "df2",
+          "contexto": "Sabatina do DF2 (TV Globo/g1), 15/10/2026; também em coletiva de 16/09/2026",
+          "data": "2026-10-15",
+          "veredito": "sem_checagem_formal",
+          "fatos": "A conclusão dos estudos foi anunciada pela própria candidata em coletiva de 16/09/2026 (R$ 29 bilhões previstos para os trilhos), mas em junho de 2026 ela havia divulgado o traçado da Linha 2 antes da conclusão do estudo de viabilidade, e o Metrô-DF informou à imprensa que desconhecia oficialmente o traçado divulgado; os prazos anunciados não têm checagem publicada.",
+          "fontes": [
+            {
+              "titulo": "Globoplay: DF2, propostas de Celina Leão para o transporte sobre trilhos (15/10/2026)",
+              "url": "https://globoplay.globo.com/v/14967913"
+            },
+            {
+              "titulo": "Technibus: expansão do metrô e do VLT do DF prevê investimentos de R$ 29 bilhões (17/09/2026)",
+              "url": "https://technibus.com.br/2026/09/17/projeto-de-expansao-do-metro-e-do-vlt-do-distrito-federal-preve-investimentos-de-r-29-bilhoes"
+            },
+            {
+              "titulo": "Correio da Manhã: Celina antecipa traçado da Linha 2 do Metrô antes da conclusão dos estudos (10/06/2026)",
+              "url": "https://www.correiodamanha.com.br/colunistas/brasilianas/2026/06/292493-brasilianas-celina-antecipa-tracado-da-linha-2-do-metro-antes-da-conclusao-dos-estudos-de-viabilidade.html"
+            }
+          ]
+        },
+        {
+          "texto": "Essa decisão de compra do Master, eu fui contrária desde o começo, eu achava que o BRB não tinha que comprar um banco privado",
+          "evento": "df2",
+          "contexto": "Sabatina do DF2 (TV Globo/g1), 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "sem_checagem_formal",
+          "fatos": "Não há checagem formal publicada; a coligação da campanha de Lula contestou as falas no TSE, afirmando que não existem notícias, investigações ou documentos sobre os supostos apoios citados e que as conversas divulgadas eram do então presidente do BRB, lidas como posicionamento contrário ao Banco Master; o BRB segue sem publicar balanço desde o 3º trimestre de 2025.",
+          "fontes": [
+            {
+              "titulo": "g1 DF: Celina Leão dá entrevista à Globo no 2º turno; veja íntegra e trechos (15/10/2026)",
+              "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/15/candidata-no-df-celina-leao-da-entrevista-a-globo-no-2o-turno-veja-integra-e-trechos.ghtml"
+            },
+            {
+              "titulo": "g1 DF: veja como foi a sabatina da Globo com Celina Leão no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/15/veja-como-foi-sabatina-da-globo-com-celina-leao-candidata-ao-governo-do-df-no-2o-turno.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Em cinco meses, nós mostramos a nossa capacidade de gestão: 20 mil cirurgias, 200 mil consultas, cinco novas UPAs, dois hospitais em construção, 20 GDF Na Sua Porta com quase 2 mil ordens de serviço e convênio com a APAE para atender 13 mil crianças",
+          "evento": "df2",
+          "contexto": "Considerações finais da sabatina do DF2 (TV Globo/g1), 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "sem_checagem_formal",
+          "fatos": "Números declarados pela candidata em coletivas e reproduzidos pela imprensa local, sem checagem independente publicada até 19/10/2026; há inclusive divergência entre veículos sobre o recorte das 20 mil cirurgias (rede pública em quatro meses ou rede privada). Portal de Transparência da Saúde do DF, secretarias e DODF permitem verificação futura.",
+          "fontes": [
+            {
+              "titulo": "g1 DF: Celina Leão dá entrevista à Globo no 2º turno; veja íntegra e trechos (15/10/2026)",
+              "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/15/candidata-no-df-celina-leao-da-entrevista-a-globo-no-2o-turno-veja-integra-e-trechos.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Ao assumir o governo, (encontrei) um déficit de R$ 5 bilhões; a equipe econômica identificou cerca de R$ 4 bilhões em empenhos que não teriam sido executados; nós recuperamos a capacidade financeira",
+          "evento": "df2",
+          "contexto": "Sabatina do DF2 (TV Globo/g1), 15/10/2026",
+          "data": "2026-10-15",
+          "veredito": "sem_checagem_formal",
+          "fatos": "Declaração atribuída a dados da Secretaria de Fazenda, sem checagem independente publicada; em notas anteriores à imprensa, o GDF afirmou ter revertido um déficit estimado em R$ 5 bilhões e projetado superávit de até R$ 3 bilhões em 2026; a execução orçamentária do DF permite verificação futura.",
+          "fontes": [
+            {
+              "titulo": "g1 DF: veja como foi a sabatina da Globo com Celina Leão no 2º turno (15/10/2026)",
+              "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/15/veja-como-foi-sabatina-da-globo-com-celina-leao-candidata-ao-governo-do-df-no-2o-turno.ghtml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "grass",
+      "nome_urna": "Grass",
+      "cargo": "governador",
+      "partido": "PT",
+      "foto": "/fotos/grass.jpg",
+      "nota_extra": "Não foram localizadas checagens de afirmações do candidato publicadas pela Lupa, pelo Aos Fatos, pelo Estadão Verifica ou pelo UOL Confere em 2026; as verificações formais disponíveis são do Fato ou Fake (g1). O candidato foi vítima de deepfake com voz simulada, cuja divulgação foi proibida pelo TRE-DF (14/10/2026); trata-se de desinformação de terceiros, não incluída nesta contagem.",
+      "afirmacoes": [
+        {
+          "texto": "Só o Iges-DF está consumindo mais de R$ 1 bilhão por ano da saúde pública",
+          "evento": "df1",
+          "contexto": "Sabatina do DF1 (TV Globo/g1), 14/09/2026",
+          "data": "2026-09-14",
+          "veredito": "verdadeira",
+          "fatos": "O Portal de Transparência da Saúde do DF registra contratos do Iges-DF acima de R$ 1 bilhão ao ano (R$ 1,56 bilhão em 2024; R$ 1,16 bilhão em 2025); o instituto administra 13 UPAs e três hospitais. Selada #FATO pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Quando eu era da Secretaria de Educação, a gente tinha um dos melhores salários do Brasil. Hoje, a gente tem um dos piores salários do Brasil",
+          "evento": "df1",
+          "contexto": "Sabatina do DF1 (TV Globo/g1), 14/09/2026",
+          "data": "2026-09-14",
+          "veredito": "imprecisa",
+          "fatos": "Em 2011 o DF tinha a maior remuneração inicial do país para professor de nível médio; hoje o DF ocupa a 13ª posição no salário inicial (R$ 6.427,21, acima da média nacional de R$ 6.212,36), segundo o Movimento Profissão Docente, ou seja, não está entre os piores. Selada não é bem assim pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "O DF está no último lugar do Ideb. Tem a pior oferta de escola integral do Brasil",
+          "evento": "df1",
+          "contexto": "Sabatina do DF1 (TV Globo/g1), 14/09/2026",
+          "data": "2026-09-14",
+          "veredito": "distorcida",
+          "fatos": "Vale apenas para o ensino médio da rede pública (o DF registrou a menor nota do país em 2025 e foi a única unidade a cair, segundo o Inep) e para o tempo integral no ensino médio (2% das matrículas contra 21,7% de média nacional); nos anos iniciais o DF está acima da média nacional e, nas creches, oferece tempo integral em 57,1% dos estabelecimentos públicos. A assessoria do candidato reconheceu que os dados citados eram só do ensino médio.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            },
+            {
+              "titulo": "Inep: Ideb permanece estável no ensino fundamental do Distrito Federal (06/08/2026)",
+              "url": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/ideb/ideb-permanece-estavel-no-ensino-fundamental-do-distrito-federal"
+            }
+          ]
+        },
+        {
+          "texto": "No governo Bolsonaro, o fundo era R$ 16 bilhões. O presidente Lula, no ano passado, encaminhou R$ 28 bilhões para o fundo",
+          "evento": "df1",
+          "contexto": "Sabatina do DF1 (TV Globo/g1), 14/09/2026, sobre o Fundo Constitucional do DF",
+          "data": "2026-09-14",
+          "veredito": "verdadeira",
+          "fatos": "O repasse da União ao Fundo Constitucional do DF foi de R$ 16,27 bilhões em 2022 e alcança cerca de R$ 28,7 bilhões em 2026, segundo o Portal da Transparência; o FCDF corresponde a cerca de 40% do orçamento do DF. Selada #FATO pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake no debate da Globo com candidatos ao governo do DF (30/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/30/veja-o-que-e-fato-ou-fake-no-debate-da-globo-com-candidatos-ao-governo-do-distrito-federal.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Você não fala a verdade. O governo federal não está acabando com o fundo, ele não está reduzindo o fundo. Aumentou o Fundo Constitucional (no governo Lula)",
+          "evento": "tv_brasilia",
+          "contexto": "Debate Correio Braziliense e TV Brasília, 01/09/2026",
+          "data": "2026-09-01",
+          "veredito": "sem_checagem_formal",
+          "fatos": "Não há checagem formal publicada; a alteração aprovada no Congresso exclui determinadas receitas de petróleo do cálculo da base de atualização do FCDF, o que, segundo a adversária, afetaria o ritmo de crescimento dos repasses (ela anunciou ação de inconstitucionalidade); os números de repasse citados pelo candidato foram confirmados pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Brasil de Fato: 'Você não fala a verdade', diz Grass a Celina Leão em debate (02/09/2026)",
+              "url": "https://www.brasildefato.com.br/2026/09/02/voce-nao-fala-a-verdade-o-governo-federal-nao-esta-acabando-com-o-fundo-constitucional-diz-leandro-grass-a-celina-leao-em-debate"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Você está entregando o último lugar no Ideb. Você está entregando o maior tempo de espera para exames e cirurgias em todo o país",
+          "evento": "tv_brasilia",
+          "contexto": "Debate Correio Braziliense e TV Brasília, 01/09/2026",
+          "data": "2026-09-01",
+          "veredito": "parcialmente_verdadeira",
+          "fatos": "O último lugar no Ideb está confirmado apenas para o ensino médio da rede pública (Inep 2025); nos demais anos o DF está acima da média nacional. Não há ranking oficial publicado confirmando o maior tempo de espera do país para exames e cirurgias; o monitor de listas de espera do MPDFT permite verificação futura.",
+          "fontes": [
+            {
+              "titulo": "Brasil de Fato: 'Você não fala a verdade', diz Grass a Celina Leão em debate (02/09/2026)",
+              "url": "https://www.brasildefato.com.br/2026/09/02/voce-nao-fala-a-verdade-o-governo-federal-nao-esta-acabando-com-o-fundo-constitucional-diz-leandro-grass-a-celina-leao-em-debate"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "O Distrito Federal registrou aumento de feminicídios, roubos e furtos durante a atual administração",
+          "evento": "tv_brasilia",
+          "contexto": "Debate Correio Braziliense e TV Brasília, 01/09/2026",
+          "data": "2026-09-01",
+          "veredito": "imprecisa",
+          "fatos": "O feminicídio subiu 28% no período (22 vítimas em 2024; 28 em 2025), mas roubo e furto de celulares caíram (roubos de 8.170 para 6.709; furtos de 14.259 para 13.582), segundo o Anuário Brasileiro de Segurança Pública 2026 citado pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake no debate da Globo com candidatos ao governo do DF (30/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/30/veja-o-que-e-fato-ou-fake-no-debate-da-globo-com-candidatos-ao-governo-do-distrito-federal.ghtml"
+            },
+            {
+              "titulo": "Brasil de Fato: 'Você não fala a verdade', diz Grass a Celina Leão em debate (02/09/2026)",
+              "url": "https://www.brasildefato.com.br/2026/09/02/voce-nao-fala-a-verdade-o-governo-federal-nao-esta-acabando-com-o-fundo-constitucional-diz-leandro-grass-a-celina-leao-em-debate"
+            }
+          ]
+        },
+        {
+          "texto": "Você (Celina) e o Ibaneis, seu governo, deixaram um rombo de R$ 5 bilhões. Agora fica falando que vai ter superávit de R$ 3 bilhões",
+          "evento": "tv_brasilia",
+          "contexto": "Debate Correio Braziliense e TV Brasília, 01/09/2026",
+          "data": "2026-09-01",
+          "veredito": "parcialmente_verdadeira",
+          "fatos": "O secretário de Economia do DF confirmou publicamente projeção de déficit entre R$ 5 bilhões e R$ 6 bilhões e a meta de superávit de R$ 3 bilhões em 2026; trata-se de projeção, não de déficit realizado, e o trecho equivalente dito por outra candidata foi selado #FATO pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake no debate da Globo com candidatos ao governo do DF (30/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/30/veja-o-que-e-fato-ou-fake-no-debate-da-globo-com-candidatos-ao-governo-do-distrito-federal.ghtml"
+            },
+            {
+              "titulo": "Brasil de Fato: 'Você não fala a verdade', diz Grass a Celina Leão em debate (02/09/2026)",
+              "url": "https://www.brasildefato.com.br/2026/09/02/voce-nao-fala-a-verdade-o-governo-federal-nao-esta-acabando-com-o-fundo-constitucional-diz-leandro-grass-a-celina-leao-em-debate"
+            }
+          ]
+        },
+        {
+          "texto": "Você acabou de falar de saúde em casa. Sabe quem criou? Cristovam Buarque, do PT",
+          "evento": "debate_globo_df",
+          "contexto": "Debate da TV Globo DF, 29/09/2026",
+          "data": "2026-09-29",
+          "veredito": "verdadeira",
+          "fatos": "O programa Saúde em Casa foi implantado em 1997 no governo Cristovam Buarque e instituído no SUS-DF por lei sancionada em dezembro de 1998; na época, Cristovam era filiado ao PT. Selada #FATO pelo Fato ou Fake.",
+          "fontes": [
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake no debate da Globo com candidatos ao governo do DF (30/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/30/veja-o-que-e-fato-ou-fake-no-debate-da-globo-com-candidatos-ao-governo-do-distrito-federal.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Não são números ilusórios, a gente calculou (sobre o plano de acabar com as filas de consultas, exames e cirurgias no DF)",
+          "evento": "tmc",
+          "contexto": "Debate TMC e Rádio Transamérica DF, 08/09/2026",
+          "data": "2026-09-08",
+          "veredito": "sem_checagem_formal",
+          "fatos": "Não há checagem formal dos números do plano de saúde do candidato; o monitor de listas de espera do MPDFT e os dados da Secretaria de Saúde do DF permitem verificação futura.",
+          "fontes": [
+            {
+              "titulo": "TMC News: vídeo do debate TMC e Rádio Transamérica DF com a fala de Grass (08/09/2026)",
+              "url": "https://www.facebook.com/tmcnewsbr/videos/1579659743640226"
+            }
+          ]
+        },
+        {
+          "texto": "O ônibus vai ser de graça ao final de quatro anos, e digo mais, não haverá também aumento de impostos no meu governo",
+          "evento": "df2",
+          "contexto": "Sabatina do DF2 (TV Globo/g1), 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "sem_checagem_formal",
+          "fatos": "Promessa sem checagem formal publicada; o plano propõe rever contratos de ônibus (remuneração por km rodado) e renúncias fiscais para custear a tarifa zero, e não há estimativa oficial independente do custo da tarifa zero no DF em checagem publicada.",
+          "fontes": [
+            {
+              "titulo": "g1 DF: veja como foi a sabatina da Globo com Leandro Grass no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/16/veja-como-foi-sabatina-da-globo-com-leandro-grass-candidato-ao-governo-do-df-no-2o-turno.ghtml"
+            },
+            {
+              "titulo": "Metrópoles: Leandro Grass propõe ampliação do Metrô e tarifa zero no transporte (25/08/2026)",
+              "url": "https://www.metropoles.com/distrito-federal/leandro-grass-propoe-ampliacao-do-metro-e-tarifa-zero-no-transporte"
+            }
+          ]
+        },
+        {
+          "texto": "Eu não sou réu em processo nenhum, a minha adversária é ré em um processo de improbidade por desvio de emenda parlamentar na área da saúde",
+          "evento": "df2",
+          "contexto": "Considerações finais da sabatina do DF2 (TV Globo/g1), 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "verdadeira",
+          "fatos": "O TJDFT recebeu em março de 2019 a ação civil de improbidade do MPDFT contra ex-deputados da Operação Drácon, incluindo Celina Leão, e o MPDFT manifestou-se contra o recurso dela em julho de 2025; sobre o próprio candidato, a decisão de inelegibilidade de 2024 foi anulada por unanimidade pelo TSE em maio do mesmo ano, e não há registro de processo criminal em curso.",
+          "fontes": [
+            {
+              "titulo": "g1 DF: veja como foi a sabatina da Globo com Leandro Grass no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/16/veja-como-foi-sabatina-da-globo-com-leandro-grass-candidato-ao-governo-do-df-no-2o-turno.ghtml"
+            },
+            {
+              "titulo": "TJDFT: Justiça recebe ação de improbidade contra ex-deputados da Operação Drácon (08/03/2019)",
+              "url": "https://www.tjdft.jus.br/institucional/imprensa/noticias/2019/marco/justica-recebe-acao-de-improbidade-contra-ex-deputados-decorrente-da-operacao-201cdracon201d"
+            },
+            {
+              "titulo": "MPDFT: improbidade, MPDFT se manifesta contrário a recurso de Celina Leão (28/07/2025)",
+              "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17041-improbidade-mpdft-se-manifesta-contrario-a-recurso-de-celina-leao"
+            }
+          ]
+        },
+        {
+          "texto": "(Estamos lutando) contra gigantes do poder econômico e do poder político aqui no DF, contra Vorcaro, contra Ibaneis e contra Gustavo Rocha; o governo que roubou o BRB, que quebrou a saúde",
+          "evento": "df2",
+          "contexto": "Sabatina do DF2 (TV Globo/g1), 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "exagerada",
+          "fatos": "A perda de R$ 8,8 bilhões do BRB nas operações com o Banco Master é fato e os acionistas autorizaram ações de responsabilização civil contra ex-gestores, mas não há condenação judicial que caracterize roubo; a formulação 'governo que roubou o BRB' é retórica sem sustentação em decisão judicial.",
+          "fontes": [
+            {
+              "titulo": "g1 DF: veja como foi a sabatina da Globo com Leandro Grass no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/16/veja-como-foi-sabatina-da-globo-com-leandro-grass-candidato-ao-governo-do-df-no-2o-turno.ghtml"
+            },
+            {
+              "titulo": "Congresso em Foco: caso Master, BRB vê perda de R$ 8,8 bi e vai processar ex-gestores (09/06/2026)",
+              "url": "https://www.congressoemfoco.com.br/noticia/119520/caso-master-brb-ve-perda-de-r-8-8-bi-e-vai-processar-ex-gestores"
+            }
+          ]
+        },
+        {
+          "texto": "Extinguir o Iges-DF imediatamente resultaria na saída de cerca de 13 mil trabalhadores da saúde",
+          "evento": "df2",
+          "contexto": "Sabatina do DF2 (TV Globo/g1), 16/10/2026",
+          "data": "2026-10-16",
+          "veredito": "sem_checagem_formal",
+          "fatos": "Número não verificado por agência de checagem; o Relatório Anual do Iges-DF e o Portal de Transparência da Saúde do DF permitem conferência futura (o gasto do instituto acima de R$ 1 bilhão por ano foi checado como verdadeiro).",
+          "fontes": [
+            {
+              "titulo": "g1 DF: veja como foi a sabatina da Globo com Leandro Grass no 2º turno (16/10/2026)",
+              "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/16/veja-como-foi-sabatina-da-globo-com-leandro-grass-candidato-ao-governo-do-df-no-2o-turno.ghtml"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): o que é fato e o que é fake nas entrevistas com candidatos ao governo do DF no DF1 (18/09/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/09/18/veja-o-que-e-fato-ou-fake-nas-entrevistas-com-candidatos-ao-governo-do-distrito-federal-no-df1.ghtml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

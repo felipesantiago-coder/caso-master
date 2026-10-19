@@ -45,6 +45,7 @@
     "scripts",
     "research",
     "db",
-    "prisma"
+    "prisma",
+    "research_backup"
   ]
 }
