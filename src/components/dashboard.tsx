@@ -22,7 +22,6 @@ import {
   Eye,
   TrendingUp,
   AlertTriangle,
-  XCircle,
   BookOpen,
   ChevronRight,
   ArrowUp,
@@ -58,7 +57,6 @@ import {
   dados,
   fichaDeApto,
   formatPct,
-  fontesValidas,
   grauDe,
   iniciais,
   NOMES_GRAU,
@@ -1146,45 +1144,6 @@ export default function Dashboard({
               {cargo.inaptos.length} candidaturas deste cargo foram consideradas inaptas pela Justiça Eleitoral
               (situação de 03/10/2026) e não recebem nota; a lista nominal está no documento completo.
             </p>
-          )}
-
-          {cargo.excluidos.length > 0 && (
-            <div className="mt-7">
-              <h2 className="flex items-center gap-1.5 text-sm font-bold text-zinc-900 dark:text-zinc-50">
-                <XCircle className="h-4 w-4 text-amber-600 dark:text-amber-400" aria-hidden />
-                Fora da urna (barrada, renunciada ou eliminada no 1º turno)
-              </h2>
-              <div className="mt-3 grid gap-2.5">
-                {cargo.excluidos.map((ex) => (
-                  <div
-                    key={ex.nome}
-                    className="rounded-3xl bg-white dark:bg-card p-4 text-[0.9375rem] shadow-soft ring-1 ring-zinc-100 dark:ring-zinc-800"
-                  >
-                    <p className="font-semibold text-zinc-900 dark:text-zinc-50">{ex.nome}</p>
-                    <p className="mt-1 leading-relaxed text-zinc-600 dark:text-zinc-400">{ex.motivo}</p>
-                    {(() => {
-                      const fs = fontesValidas(ex.fontes).slice(0, 3);
-                      return fs.length > 0 ? (
-                        <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1">
-                          {fs.map((f, i) => (
-                            <a
-                              key={i}
-                              href={f.url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 hover:underline"
-                            >
-                              <ExternalLink className="h-3 w-3" aria-hidden />
-                              {f.titulo}
-                            </a>
-                          ))}
-                        </div>
-                      ) : null;
-                    })()}
-                  </div>
-                ))}
-              </div>
-            </div>
           )}
         </section>
 
