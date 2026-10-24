@@ -45,6 +45,7 @@ export interface DadosChecagem {
   metodologia: string[];
   agencias: { nome: string; url: string }[];
   debate_band: { data: string; desc: string };
+  debate_globo: { data: string; desc: string };
   evento_rotulos: Record<string, string>;
   candidatos: CandidatoChecagem[];
 }
@@ -116,14 +117,17 @@ export const contaVereditos = (af: Afirmacao[]): Record<Veredito, number> => {
 export const totalFalsas = (af: Afirmacao[]): number =>
   af.filter((a) => a.veredito === "falsa").length;
 
-/** Lista filtrada por recorte: todas ou apenas o debate da Band. */
+/** Recortes de exibição: toda a campanha ou um dos debates do 2º turno. */
+export type RecorteChecagem = "todas" | "debate_band" | "debate_globo";
+
+/** Lista filtrada pelo recorte escolhido. */
 export const afirmacoesRecorte = (
   c: CandidatoChecagem,
-  apenasDebateBand: boolean,
+  recorte: RecorteChecagem,
 ): Afirmacao[] =>
-  apenasDebateBand
-    ? c.afirmacoes.filter((a) => a.evento === "debate_band")
-    : c.afirmacoes;
+  recorte === "todas"
+    ? c.afirmacoes
+    : c.afirmacoes.filter((a) => a.evento === recorte);
 
 /** Ordena por gravidade do veredito e depois pela data (mais recente primeiro). */
 export const ordenaAfirmacoes = (af: Afirmacao[]): Afirmacao[] =>

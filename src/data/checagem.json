@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "2026-10-19",
+  "atualizado_em": "2026-10-24",
   "periodo": "Agosto a outubro de 2026 (1º e 2º turnos)",
   "metodologia": [
-    "Esta seção mapeia afirmações feitas pelos próprios finalistas durante a campanha de 2026 e confronta cada uma com checagens publicadas por agências profissionais de verificação: Agência Lupa, Fato ou Fake (g1), Aos Fatos, Estadão Verifica e UOL Confere. Estão incluídas as declarações do debate da TV Band de 18/10/2026, checado ao vivo pela Lupa, pelo Estadão Verifica e pelo Aos Fatos, além de sabatinas, debates e entrevistas do 1º e do 2º turno.",
+    "Esta seção mapeia afirmações feitas pelos próprios finalistas durante a campanha de 2026 e confronta cada uma com checagens publicadas por agências profissionais de verificação: Agência Lupa, Fato ou Fake (g1), Aos Fatos, Estadão Verifica e UOL Confere. Estão incluídas as declarações dos debates da TV Band (18/10/2026) e da TV Globo (23/10/2026), checados ao vivo pela Lupa, pelo Estadão Verifica e pelo Fato ou Fake, além de sabatinas, debates e entrevistas do 1º e do 2º turno.",
     "Cada afirmação traz o veredito da checagem, a explicação dos fatos e o link da verificação original. Quando agências divergem, o texto explica a divergência; o rótulo exibido é o que melhor resume a conclusão das checagens.",
-    "A contagem considera apenas as afirmações checadas e publicadas até 19/10/2026; ela não é o número total de declarações da campanha. A disputa presidencial recebeu muito mais checagens que a disputa do Governo do DF, por isso as contagens dos dois cargos não são comparáveis entre si.",
+    "A contagem considera apenas as afirmações checadas e publicadas até 24/10/2026; ela não é o número total de declarações da campanha. A disputa presidencial recebeu muito mais checagens que a disputa do Governo do DF, por isso as contagens dos dois cargos não são comparáveis entre si.",
     "Afirmações registradas pela imprensa mas sem verificação publicada por agência aparecem com o selo Sem checagem formal e não entram na contagem de afirmações falsas. Desinformação de terceiros sobre os candidatos (boatos, montagens e deepfakes) também fica fora da contagem, que trata apenas de declarações feitas pelos próprios candidatos."
   ],
   "agencias": [
@@ -45,7 +45,8 @@
     "tv_brasilia": "Debate Correio Braziliense e TV Brasília (1º turno)",
     "debate_globo_df": "Debate da TV Globo DF (1º turno)",
     "tmc": "Debate TMC e Rádio Transamérica DF (1º turno)",
-    "publicas": "Coletivas e declarações públicas"
+    "publicas": "Coletivas e declarações públicas",
+    "debate_globo": "Debate da TV Globo (2º turno)"
   },
   "candidatos": [
     {
@@ -953,6 +954,290 @@
               "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow"
             }
           ]
+        },
+        {
+          "texto": "Nós herdamos 6.000 obras paradas",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "imprecisa",
+          "fatos": "O painel de Obras Paralisadas do TCU registrou 8.674 obras paralisadas em agosto de 2022 e 8.603 em abril de 2023, número maior que o citado; a Lupa e o Estadão Verifica classificaram como subestimado, enquanto o Fato ou Fake considerou a declaração factual. O levantamento mais recente do TCU, de abril de 2026, mostra queda para 4.215 obras paralisadas.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): checagem das falas de Flávio Bolsonaro e Lula no debate da Globo (23/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Eu tinha acabado com a fome nesse país em 2012",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "exagerada",
+          "fatos": "O Brasil saiu do Mapa da Fome da ONU em 2014, no governo Dilma Rousseff, quando a subnutrição ficou abaixo de 5%; em 2012, o relatório da FAO ainda registrava 6,9% de subnutrição. A Lupa classificou como exagerado, o Estadão Verifica como falta contexto e o Fato ou Fake como não é bem assim, lembrando que Lula deixou a Presidência em 2010 e que a erradicação total não ocorreu.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): checagem das falas de Flávio Bolsonaro e Lula no debate da Globo (23/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Quando eu voltei à Presidência, tinha 33 milhões de pessoas passando fome",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "O 2º Inquérito Nacional sobre Insegurança Alimentar (Rede Penssan), divulgado em junho de 2022 com coleta entre novembro de 2021 e abril de 2022, apontou 33,1 milhões de brasileiros em insegurança alimentar grave, condição caracterizada pela fome. Confirmado pelas três agências.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): checagem das falas de Flávio Bolsonaro e Lula no debate da Globo (23/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Abrimos 700 novos mercados nesse país",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "O Ministério da Agricultura e Pecuária anunciou em outubro de 2026 a marca de 700 novos mercados abertos para produtos agropecuários brasileiros desde o início de 2023, em 99 destinos entre países e blocos econômicos, após autorizações sanitárias. Confirmado pela Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Nós estamos fazendo uma rodovia muito importante, que ninguém teve coragem de fazer, que liga Porto Velho a Manaus, que é a BR-319",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "A BR-319 foi inaugurada pavimentada em 1976, no governo Geisel, e tornou-se intrafegável em 1988; a obra atual é de reconstrução. O Ibama emitiu a licença prévia do Trecho do Meio em julho de 2022, no governo Bolsonaro, e o asfaltamento foi retomado em setembro de 2024, já no governo Lula. A Lupa classificou como falta contexto.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Você chamou o Bolsa Família de bolsa farelo",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "Flávio Bolsonaro usou a expressão em publicações no X em 2011 e 2013, entre elas o texto em que afirmava que o PT perpetua a pobreza com o bolsa-farelo, registrados pelo g1 e recuperados pela imprensa depois de apagados. Confirmado por Lupa e Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "A economia não crescia acima de 3% desde que eu deixei a presidência em 2010",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "falsa",
+          "fatos": "Segundo o IBGE, o PIB cresceu 3,9% em 2011 e 3% em 2013, no governo Dilma, e 4,8% em 2021 e 3% em 2022, no governo Bolsonaro. A Lupa desmentiu a mesma frase em outras quatro ocasiões: debate da Band, Flow, Jornal Nacional e discurso de março de 2025. A Secom argumentou que a média 2011-2022 ficou pouco abaixo de 1% ao ano.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Nunca se exportou tanto neste país",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "As exportações alcançaram recorde histórico em 2025, com US$ 348,3 bilhões na série iniciada em 1997, alta de 3,3% sobre 2024; de janeiro a setembro de 2026 somavam US$ 284,6 bilhões, alta de 10,4% sobre o mesmo período anterior, segundo o MDIC. Confirmado por Lupa e Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "O tigrinho foi criado por vocês, em 2022",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "falsa",
+          "fatos": "As casas de apostas online foram legalizadas pela Lei 13.756/2018, sancionada por Michel Temer, e seguiram sem regulamentação durante o governo Bolsonaro; a regulamentação, a taxação e a fiscalização vieram com a Lei 14.790/2023, sancionada por Lula. A Lupa classificou como falso.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Na Argentina, a pobreza chegou a 40% durante o governo de Javier Milei",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "Segundo o Indec, a pobreza atingiu 52,4% no primeiro semestre de 2024, caiu para 38% no segundo, chegou a 31% e 28% em 2025, com dados oficiais questionados por especialistas, e voltou a subir para 32,3% no primeiro semestre de 2026. A Lupa classificou como falta contexto.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Nosso superávit comercial foi para quase R$ 85 bilhões",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "imprecisa",
+          "fatos": "Os quase 85 bilhões citados correspondem à projeção de US$ 84,4 bilhões para o superávit de todo o ano de 2026, divulgada pelo MDIC em 6 de outubro; o valor é em dólares, não em reais. O superávit efetivamente registrado de janeiro a setembro de 2026 foi de US$ 62,4 bilhões. A Lupa classificou como subestimado, pois o valor em reais seria bem maior.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Nós fizemos a lei da pequena e média empresa porque nós queremos que o empreendedorismo vença nesse país",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "Lula sancionou a Lei Complementar 123/2006, a Lei Geral da Micro e Pequena Empresa, que instituiu o Simples Nacional e simplificou o recolhimento de impostos. A Lupa confirmou a autoria, mas pontua que a lei citada tem 20 anos e não é nova.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "No governo do pai dele, dizia que quem tomava vacina ia virar gay e ia virar jacaré",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "Em evento na Bahia em 17 de dezembro de 2020, o então presidente Jair Bolsonaro ironizou possíveis efeitos colaterais da vacina contra a Covid-19, citando que o homem poderia começar a falar fino ou virar jacaré, e chamou de imbecil ou idiota quem o criticava por não se vacinar. Confirmado pela Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "O Brasil só teve a primeira universidade em 1920",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "A primeira universidade federal foi criada em 1920 pelo Decreto 14.343, que fundou a Universidade do Rio de Janeiro, mas já havia atividades de ensino superior que depois deram origem às universidades federais do Paraná (1912) e da Bahia (1808). O Estadão Verifica classificou como falta contexto.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "O Nordeste, em 2003, era a região com mais pobres, desnutridos, evasão escolar, e menos faculdade, menos doutores e mestres",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "O Mapa da Pobreza e Desigualdade do IBGE, lançado em 2003, mostrava 77% dos municípios nordestinos com mais da metade da população vivendo na pobreza; o Mapa da Exclusão do MEC apontava 41% das crianças fora da escola no país vivendo no Nordeste. Confirmado pelo Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "Quem está colocando dinheiro no túnel de Santos é o governo federal, inclusive com financiamento do BNDES",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "Dos R$ 6,8 bilhões estimados para a conclusão do túnel, R$ 5,1 bilhões serão aportes públicos divididos igualmente entre União e Estado de São Paulo, e o restante virá da iniciativa privada; o governo paulista reclama de atrasos na liberação de empréstimos do BNDES e do BB. O Estadão Verifica classificou como enganoso.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "O Ceará é o estado que mais aprova alunos para o ITA",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "Fortaleza ocupa a primeira posição entre as cidades com mais estudantes aprovados na primeira fase do vestibular do Instituto Tecnológico de Aeronáutica neste ano, com 281 aprovados, à frente de São José dos Campos e São Paulo. Confirmado pelo Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "Flávio Bolsonaro foi o único deputado estadual a votar contra o aumento da licença-maternidade no Rio",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "Em 2009, Flávio Bolsonaro foi o único voto contrário, entre 55, à PEC que estendia de quatro para seis meses a licença-maternidade das servidoras públicas do Rio, de autoria de Marcelo Freixo; ele disse então que bastava se colocar no lugar do empresário. Confirmado pelo Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
         }
       ]
     },
@@ -1811,6 +2096,352 @@
               "url": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/"
             }
           ]
+        },
+        {
+          "texto": "O TCU acaba de soltar um relatório que existem mais de 11.500 obras paralisadas do atual governo",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "parcialmente_verdadeira",
+          "fatos": "O TCU registrou 11.944 obras paralisadas em 2024 e 11.469 em 2025, mas a Lista de Alto Risco abrange obras financiadas com recursos federais em todo o país, não apenas obras do atual governo, e o levantamento mais recente, de abril de 2026, mostra 4.215 obras paralisadas. O Estadão Verifica considerou a afirmação verdadeira com base no dado de 2025; a Lupa classificou como falta contexto.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "As indústrias têm que diminuir a quantidade por causa da inflação; a barra de chocolate, que antes tinha 120g, agora tem só 80g",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "falsa",
+          "fatos": "Barras de 80 gramas já eram comercializadas em 2022, durante o governo Bolsonaro, e a redução do tamanho dos doces é gradual desde os anos 1990, atribuída ao custo de cacau, leite e logística, não à inflação atual. A Lupa classificou como falso.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Você já gastou mais de R$ 400 bilhões para tentar se reeleger",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "exagerada",
+          "fatos": "O Gastômetro do Estadão soma R$ 405 bilhões em medidas do governo federal com impacto orçamentário no ano eleitoral, mas o valor não é desembolso direto: inclui mais de R$ 73,2 bilhões em renúncia fiscal e apenas R$ 51,1 bilhões fora do Orçamento, e não comprova objetivo eleitoral. A Lupa classificou como exagerado; o governo nega e fala em execução regular de políticas públicas.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "O presidente Bolsonaro passou o Bolsa Família para, no mínimo, R$ 600",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "A MP 1.076/2021, de Bolsonaro, criou o complemento de R$ 400; o salto para R$ 600 veio da Emenda Constitucional 123/2022, promulgada pelo Congresso sem sanção presidencial, e o projeto de orçamento de 2023 enviado por Bolsonaro previa voltar a R$ 400. O Estadão Verifica classificou como enganoso, a Lupa como exagerado e o Fato ou Fake como não é bem assim; em 2026, o governo Lula reajustou o piso para R$ 691.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): checagem das falas de Flávio Bolsonaro e Lula no debate da Globo (23/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Nós fizemos o Marco Legal do Saneamento Básico",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "O novo marco legal, sancionado em 2020, originou-se do PL 4.162/2019, de autoria do Executivo de Jair Bolsonaro, e definiu metas de universalização de 99% de água e 90% de esgoto até 2033. Confirmado pela Lupa, que pontua que já havia lei setorial anterior, de 2007.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "A região Centro-Oeste é a região que mais produz alimentos no nosso Brasil",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "O Centro-Oeste lidera o Valor Bruto da Produção Agropecuária entre as regiões, com R$ 431,2 bilhões, segundo boletim do Ministério da Agricultura divulgado no dia do debate; Mato Grosso concentra R$ 225,2 bilhões, 15,6% do VBP nacional. Confirmado pela Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "O atual governo tá deixando uma dívida aí de 11 trilhões de reais para você, trabalhador, pagar",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "A dívida bruta do governo geral, que inclui governo federal, INSS, estados e municípios, atingiu R$ 11,1 trilhões em agosto de 2026, o equivalente a 82,9% do PIB; a dívida pública federal é de R$ 9,29 trilhões. Na checagem do debate da Band, a Lupa considerou a cifra verdadeira; agora classificou como falta contexto por atribuir ao governo federal um total do governo geral.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "A taxa de juros oficial no Brasil hoje está aí em torno de 14%",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "A taxa básica de juros, a Selic, está em 13,75% ao ano, percentual próximo dos 14% mencionados; o mesmo patamar foi registrado de agosto de 2022 a agosto de 2023. Confirmado pela Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Em outubro de 2022, a previsão era que a taxa estivesse em torno de 7% hoje; nós estamos com 14, são 7 pontos percentuais de diferença",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "O boletim Focus de outubro de 2022 projetava Selic de 7,75% ao ano em 2025, projeção de mercado e não meta de governo; a Selic já estava em 13,75% em outubro de 2022, no governo Bolsonaro, e o ciclo de cortes começou apenas em agosto de 2023, com a taxa chegando a 14% em agosto de 2026. A Lupa classificou como falta contexto.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Sabe quem concluiu as obras da transposição do Rio São Francisco e fez finalmente chegar água até o Nordeste: Jair Messias Bolsonaro",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "exagerada",
+          "fatos": "O governo Bolsonaro inaugurou trechos, como o Eixo Norte em junho de 2020 e outras etapas em 2022, mas recebeu as obras com mais de 90% de execução em 2019, não concluiu o projeto, iniciado em 2006 no governo Lula, e há trechos ainda em construção. A Lupa classificou como exagerado e o Estadão Verifica como enganoso.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "São mais de 80 milhões de brasileiros que estão com as contas atrasadas",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "Dados do Serasa de agosto de 2026 apontavam 83,9 milhões de inadimplentes, cerca de 51% da população adulta do país. Confirmado pela Lupa.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "O vídeo real sobre Bolsonaro suspirando mostra que ele criticava a orientação de esperar sentir falta de ar para ir ao hospital; é mentira que ele estava debochando",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "falsa",
+          "fatos": "O vídeo publicado durante o debate é versão editada da live de 18 de março de 2021, com 30 segundos suprimidos. Jair Bolsonaro imitou pessoas com falta de ar em duas lives de 2021 ao defender o tratamento precoce, sem eficácia comprovada e contraindicado pela OMS; a campanha de vacinação já tinha começado em janeiro daquele ano e o Brasil registrou 2.659 mortes por Covid no dia da live. Lupa e Estadão Verifica classificaram como falso, e o Fato ou Fake como fake.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            },
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            },
+            {
+              "titulo": "Fato ou Fake (g1): checagem das falas de Flávio Bolsonaro e Lula no debate da Globo (23/10/2026)",
+              "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/23/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-globo-no-2o-turno-das-eleicoes-2026.ghtml"
+            }
+          ]
+        },
+        {
+          "texto": "Você não tem vergonha de deixar o país quebrado desse jeito?",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "A dívida bruta do governo geral atingiu R$ 11,1 trilhões, maior nível desde 2021, com déficits primários de R$ 47,6 bilhões em 2024 e R$ 61,6 bilhões em 2025; por outro lado, o PIB cresceu 3,2% em 2023, 3,4% em 2024 e 2,3% em 2025, e o desemprego está entre os menores da série histórica do IBGE, com 39,5 milhões de carteiras assinadas. A Lupa classificou como falta contexto: os indicadores não sustentam a ideia de país quebrado.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Ele é o pai do Tigrinho",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "falsa",
+          "fatos": "As apostas de quota fixa foram legalizadas pela Lei 13.756/2018, sancionada por Michel Temer, e o setor operou sem regras e sem recolhimento de impostos no governo Bolsonaro; a regulamentação, a taxação e a fiscalização vieram com a Lei 14.790/2023, sancionada por Lula. A Lupa classificou como falso.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "O atual governo fala que o ladrão de celular não tem que ser preso porque é só roubar para comprar uma cervejinha",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "falsa",
+          "fatos": "A alegação vem de trecho editado de entrevista de 2017 a rádios universitárias de Pernambuco, desmentido pela Lupa desde 2020: no trecho original, Lula falava da desesperança econômica como causa da violência e usava uma metáfora sobre rivalidade entre torcidas para defender distensão, não a impunidade. A Lupa classificou como falso.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "Lula explica esses R$ 30 milhões, onde foram parar? Porque, segundo o áudio, foi para o Instituto Lula para fazer o filme",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "A reportagem da Veja de 9 de outubro relata supostos relatos de Daniel Vorcaro, do Banco Master, sobre repasse para um documentário sobre Lula, mas não há comprovantes de repasses nem evidências do pagamento, e não há provas de encontro entre Lula e Vorcaro sobre o tema; a PF já havia informado que o material apreendido não menciona pagamento ao Instituto Lula. A Lupa classificou como insustentável; no debate da Band, a mesma alegação foi classificada como falsa com base na PF e na PGR.",
+          "fontes": [
+            {
+              "titulo": "Agência Lupa: checagem ao vivo do último debate do 2º turno na Globo (23/10/2026)",
+              "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno"
+            }
+          ]
+        },
+        {
+          "texto": "O ex-presidente Jair Bolsonaro definiu que todas as concessões de rodovias teriam pedágio zero para motociclistas",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "A portaria do Ministério da Infraestrutura de agosto de 2021 isentou motocicletas do pedágio apenas nas rodovias federais que já estavam em fase de licitação, ou seja, somente nas novas concessões federais; a regra não valia para todas as rodovias federais nem para as estaduais. O Estadão Verifica classificou como enganoso.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "O governo Bolsonaro instalou 20,3 mil pontos de internet no Brasil, em mais de 3,1 mil cidades",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "Até dezembro de 2022, o Programa Wi-Fi Brasil havia instalado mais de 21,3 mil pontos de internet gratuita banda larga, via satélite e terrestre, atingindo 3,2 mil cidades, segundo o Comitê Gestor da Internet no Brasil. Confirmado pelo Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "O presidente Lula implementou a carga tributária mais alta da história",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "A carga tributária bruta do governo geral cresceu de 32,22% para 32,40% do PIB entre 2024 e 2025, maior nível da série histórica do Tesouro Nacional, iniciada em 2010, com alta puxada pelo governo central. Confirmado pelo Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "90 milhões de brasileiros não têm esgoto tratado e 40 milhões não têm água tratada",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "imprecisa",
+          "fatos": "O número de pessoas sem coleta de esgoto está correto, cerca de 90 milhões segundo o estudo do Instituto Trata Brasil de 2025, mas os sem acesso à água potável são cerca de 34 milhões, e não 40 milhões. O Estadão Verifica classificou como impreciso.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "O governo Lula jogou a meta de 90% de atendimento de esgoto, que era para 2033, para 2050",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "falsa",
+          "fatos": "A Lei 14.026/2020 mantém a meta de universalização até 31 de dezembro de 2033, com atendimento de 99% da população com água potável e de 90% com coleta e tratamento de esgotos; a data não foi alterada. O Estadão Verifica classificou como falso.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "Lula virou as costas para as tragédias de 2024 no Sul do Brasil e não entregou nem 30% do que prometeu",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "distorcida",
+          "fatos": "O governo editou medida provisória autorizando repasses de até R$ 6,5 bilhões ao Rio Grande do Sul, liberou R$ 1,5 bilhão em setembro de 2026 e cobrou publicamente o governador Eduardo Leite pelo atraso no envio de projetos das obras. O Estadão Verifica classificou como falta contexto.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
+        },
+        {
+          "texto": "O Brasil tem uma das maiores taxas de juros do mundo",
+          "evento": "debate_globo",
+          "contexto": "Debate da TV Globo, 23/10/2026",
+          "data": "2026-10-23",
+          "veredito": "verdadeira",
+          "fatos": "O Brasil tem a maior taxa de juros real do mundo, 9,3%, segundo levantamento da MoneYou com a Lev Intelligence divulgado em setembro de 2026; considerando os juros nominais, sem desconto da inflação, ocupa a terceira posição. Confirmado pelo Estadão Verifica.",
+          "fontes": [
+            {
+              "titulo": "Estadão Verifica: checamos o debate entre Flávio e Lula na Globo (23/10/2026)",
+              "url": "https://www.estadao.com.br/estadao-verifica/debate-tv-globo-checagem-tempo-real-ao-vivo/"
+            }
+          ]
         }
       ]
     },
@@ -2212,5 +2843,9 @@
         }
       ]
     }
-  ]
+  ],
+  "debate_globo": {
+    "data": "2026-10-23",
+    "desc": "Último confronto direto entre os finalistas da Presidência, em 23/10/2026, após o Jornal Nacional, com checagem em tempo real publicada pela Agência Lupa, pelo Estadão Verifica e pelo Fato ou Fake (g1) durante e após o programa."
+  }
 }

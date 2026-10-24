@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ExternalLink, Film, Info, ListChecks, Quote, SearchCheck } from "lucide-react";
+import { ExternalLink, Film, Info, ListChecks, Quote, SearchCheck, Tv } from "lucide-react";
 import {
   afirmacoesRecorte,
   checagem,
@@ -13,6 +13,7 @@ import {
   VEREDITO_INFO,
   type Afirmacao,
   type CandidatoChecagem,
+  type RecorteChecagem,
   type Veredito,
 } from "@/lib/checagem";
 
@@ -88,8 +89,8 @@ function Afirmação({ a, rotuloEvento }: { a: Afirmacao; rotuloEvento: string }
   );
 }
 
-function CardCandidato({ c, apenasDebateBand }: { c: CandidatoChecagem; apenasDebateBand: boolean }) {
-  const lista = ordenaAfirmacoes(afirmacoesRecorte(c, apenasDebateBand));
+function CardCandidato({ c, recorte }: { c: CandidatoChecagem; recorte: RecorteChecagem }) {
+  const lista = ordenaAfirmacoes(afirmacoesRecorte(c, recorte));
   const contagem = contaVereditos(lista);
   const falsas = totalFalsas(lista);
   const checadas = lista.length;
@@ -173,15 +174,37 @@ function CardCandidato({ c, apenasDebateBand }: { c: CandidatoChecagem; apenasDe
   );
 }
 
+const OPCOES_RECORTE: {
+  chave: RecorteChecagem;
+  rotulo: string;
+  desc?: string;
+  icone?: boolean;
+}[] = [
+  { chave: "todas", rotulo: "Toda a campanha" },
+  {
+    chave: "debate_band",
+    rotulo: "Debate da Band (18/10)",
+    desc: checagem.debate_band.desc,
+    icone: true,
+  },
+  {
+    chave: "debate_globo",
+    rotulo: "Debate da Globo (23/10)",
+    desc: checagem.debate_globo.desc,
+    icone: true,
+  },
+];
+
 export default function SecaoChecagem() {
-  const [apenasDebateBand, setApenasDebateBand] = useState(false);
+  const [recorte, setRecorte] = useState<RecorteChecagem>("todas");
 
   const candidatos = checagem.candidatos;
-  const totalAfirmações = candidatos.reduce((s, c) => s + afirmacoesRecorte(c, apenasDebateBand).length, 0);
+  const totalAfirmações = candidatos.reduce((s, c) => s + afirmacoesRecorte(c, recorte).length, 0);
   const totalFalsasRecorte = candidatos.reduce(
-    (s, c) => s + totalFalsas(afirmacoesRecorte(c, apenasDebateBand)),
+    (s, c) => s + totalFalsas(afirmacoesRecorte(c, recorte)),
     0,
   );
+  const descAtual = OPCOES_RECORTE.find((o) => o.chave === recorte)?.desc;
 
   return (
     <section id="checagem" aria-label="Checagem de afirmações" className="mt-10 scroll-mt-40">
@@ -203,37 +226,33 @@ export default function SecaoChecagem() {
           role="group"
           aria-label="Recorte das afirmações"
         >
-          <button
-            type="button"
-            onClick={() => setApenasDebateBand(false)}
-            aria-pressed={!apenasDebateBand}
-            className={`rounded-full px-3.5 py-1.5 text-[0.75rem] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 motion-reduce:transition-none ${
-              apenasDebateBand
-                ? "text-zinc-600 dark:text-zinc-300"
-                : "bg-white text-zinc-900 shadow-sm dark:bg-zinc-950 dark:text-zinc-50"
-            }`}
-          >
-            Toda a campanha
-          </button>
-          <button
-            type="button"
-            onClick={() => setApenasDebateBand(true)}
-            aria-pressed={apenasDebateBand}
-            className={`inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-[0.75rem] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 motion-reduce:transition-none ${
-              apenasDebateBand
-                ? "bg-white text-zinc-900 shadow-sm dark:bg-zinc-950 dark:text-zinc-50"
-                : "text-zinc-600 dark:text-zinc-300"
-            }`}
-          >
-            <Film className="h-3.5 w-3.5" aria-hidden />
-            Debate da Band (18/10)
-          </button>
+          {OPCOES_RECORTE.map((o) => (
+            <button
+              key={o.chave}
+              type="button"
+              onClick={() => setRecorte(o.chave)}
+              aria-pressed={recorte === o.chave}
+              className={`inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-[0.75rem] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 motion-reduce:transition-none ${
+                recorte === o.chave
+                  ? "bg-white text-zinc-900 shadow-sm dark:bg-zinc-950 dark:text-zinc-50"
+                  : "text-zinc-600 dark:text-zinc-300"
+              }`}
+            >
+              {o.icone &&
+                (o.chave === "debate_globo" ? (
+                  <Tv className="h-3.5 w-3.5" aria-hidden />
+                ) : (
+                  <Film className="h-3.5 w-3.5" aria-hidden />
+                ))}
+              {o.rotulo}
+            </button>
+          ))}
         </div>
       </div>
 
-      {apenasDebateBand && (
+      {descAtual && (
         <p className="mt-3 rounded-2xl bg-emerald-50 p-3 text-xs leading-relaxed text-emerald-900 ring-1 ring-emerald-100 dark:bg-emerald-950/50 dark:text-emerald-200 dark:ring-emerald-900 text-pretty">
-          {checagem.debate_band.desc}
+          {descAtual}
         </p>
       )}
 
@@ -248,7 +267,7 @@ export default function SecaoChecagem() {
       {/* Resumo por candidato */}
       <div className="mt-4 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
         {candidatos.map((c) => {
-          const lista = afirmacoesRecorte(c, apenasDebateBand);
+          const lista = afirmacoesRecorte(c, recorte);
           const falsas = totalFalsas(lista);
           const checadas = lista.length;
           return (
@@ -287,7 +306,7 @@ export default function SecaoChecagem() {
       {/* Fichas completas por candidato */}
       <div className="mt-3 grid grid-cols-1 gap-3 lg:grid-cols-2">
         {candidatos.map((c) => (
-          <CardCandidato key={c.slug} c={c} apenasDebateBand={apenasDebateBand} />
+          <CardCandidato key={c.slug} c={c} recorte={recorte} />
         ))}
       </div>
 
