@@ -33,7 +33,7 @@
     "status": "Afastado do BC; investigado pela PF; processo na CGU",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
+    "foto": "/pessoas/paulo-sergio-neves.jpg",
     "fontes": [
       {
         "titulo": "Assessoria informal, grupo de mensagens, cobrança de pagamento: PF detalha relação de Vorcaro com servidores do BC",
@@ -60,11 +60,11 @@
     "nome": "Belline Santana",
     "papel": "Ex-chefe de departamento da supervisão bancária do BC",
     "grupo": "bc-governo",
-    "resumo": "Criou em outubro de 2025 um grupo de mensagens com Vorcaro e Paulo Sérgio para, segundo a PF, facilitar a interlocução entre o regulador e o regulado. Recebia pagamentos recorrentes, incluindo R$ 760 mil via intermediários; a sindicância aponta cerca de R$ 4 milhões. Justificou os valores como consultoria a uma empresa ligada ao operador de Vorcaro, justificativa tratada pelo BC como simulação. Afastada desde janeiro de 2026.",
-    "status": "Afastada do BC; investigada pela PF",
+    "resumo": "Criou em outubro de 2025 um grupo de mensagens com Vorcaro e Paulo Sérgio para, segundo a PF, facilitar a interlocução entre o regulador e o regulado. Recebia pagamentos recorrentes, incluindo R$ 760 mil via intermediários; a sindicância aponta cerca de R$ 4 milhões. Justificou os valores como consultoria a uma empresa ligada ao operador de Vorcaro, justificativa tratada pelo BC como simulação. Afastado desde janeiro de 2026.",
+    "status": "Afastado do BC; investigado pela PF",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
+    "foto": "/pessoas/belline-santana.jpg",
     "fontes": [
       {
         "titulo": "Assessoria informal, grupo de mensagens, cobrança de pagamento: PF detalha relação de Vorcaro com servidores do BC",
@@ -108,7 +108,7 @@
     "status": "Ex-diretor; testemunha",
     "statusTipo": "institucional",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/ailton-aquino.jpg",
     "fontes": [
       {
         "titulo": "Ex-diretor do BC diz que alertou para riscos na compra do Master pelo BRB",
