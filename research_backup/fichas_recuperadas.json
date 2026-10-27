@@ -1,0 +1,2885 @@
+{
+ "presidente|LULA|13": {
+  "cargo": "presidente",
+  "numero": "13",
+  "nome_urna": "LULA",
+  "partido": "PT",
+  "vice": "Geraldo Alckmin (PSB)",
+  "coligacao": "BRASIL PRONTO PRA MAIS",
+  "resumo": "Presidente em exercício disputando o 4º mandato, com vice de ampliação para o centro (Alckmin). Força nas pautas ambiental e científico-tecnológica e no desempenho econômico recente; pontos vulneráveis exatamente nos seus critérios de transparência (emendas sigilosas) e no histórico judicial anulado, que permanece como controvérsia pública.",
+  "fontes": [
+   {
+    "titulo": "Datafolha 03/09/2026: Lula 38% — Diário do Nordeste",
+    "url": "https://diariodonordeste.verdesmares.com.br"
+   },
+   {
+    "titulo": "Quaest 14/09/2026: Lula 36% x Flávio 31%, Cury 7% — BandNews/UOL",
+    "url": "https://bandnewstv.uol.com.br"
+   },
+   {
+    "titulo": "BTG/Nexus 14/09/2026: Lula 42% x Flávio 37% — TVT",
+    "url": "https://tvtnews.com.br"
+   },
+   {
+    "titulo": "Datafolha 17/09/2026: Lula 42% — UOL",
+    "url": "https://www.bol.uol.com.br"
+   },
+   {
+    "titulo": "STF anulou condenações da Lava Jato (mar/2021) — Piauí Hoje",
+    "url": "https://piauihoje.com.br"
+   },
+   {
+    "titulo": "Anulação das condenações e controvérsia da anistia — Jornal de Brasília (25/08/2026)",
+    "url": "https://jornaldebrasilia.com.br"
+   },
+   {
+    "titulo": "Inpe: alertas de desmatamento caem 66% (2023) — Poder360",
+    "url": "https://www.poder360.com.br"
+   },
+   {
+    "titulo": "Queda de 37,5% no desmatamento acumulado — Planalto/Gov.br (02/06/2026)",
+    "url": "https://www.gov.br"
+   },
+   {
+    "titulo": "Fundo Amazônia reativado — Agência Brasil (07/08/2023)",
+    "url": "https://agenciabrasil.ebc.com.br"
+   },
+   {
+    "titulo": "Propostas de tecnologia do plano de Lula — N4 News (03/10/2026)",
+    "url": "https://n4news.com.br"
+   },
+   {
+    "titulo": "Joint venture Brasil-Malásia de semicondutores — Valor (04/11/2025)",
+    "url": "https://valor.globo.com"
+   },
+   {
+    "titulo": "Plano de educação: institutos, 120 mil vagas, Ciência sem Fronteiras — TVT (16/09/2026)",
+    "url": "https://tvtnews.com.br"
+   },
+   {
+    "titulo": "Escala 6x1 como marca da campanha — Folha (26/05/2026)",
+    "url": "https://www1.folha.uol.com.br"
+   },
+   {
+    "titulo": "Governo paga R$ 7 bi do orçamento secreto — Estadão/replica (22/06/2024)",
+    "url": "https://www.blogdobg.com.br"
+   },
+   {
+    "titulo": "Dino determina auditoria de emendas sigilosas — Gazeta do Povo (01/08/2024)",
+    "url": "https://www.gazetadopovo.com.br"
+   },
+   {
+    "titulo": "Veto integral ao projeto de anistia | Portal da Câmara dos Deputados (01/2026)",
+    "url": "https://www.camara.leg.br"
+   },
+   {
+    "titulo": "Piso da enfermagem: crédito especial de R$ 7,3 bi sancionado | Exame (05/2023)",
+    "url": "https://exame.com"
+   }
+  ],
+  "foto": "lula",
+  "slug": "lula",
+  "foto_url": "/fotos/lula.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 5.0,
+    "nivel": "B",
+    "texto": "O governo manteve e pagou emendas parlamentares sigilosas herdadas da gestão anterior, o Estadão revelou repasse de R$ 9 bilhões do chamado orçamento secreto, dos quais R$ 7 bilhões pagos ainda em 2024, apesar de promessa de campanha contrária. O ministro Dino determinou auditoria e o STF força a transparência, mas a adesão do Planalto foi parcial e gradual, o que pesa no critério."
+   },
+   "desenvolvimento": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "Gestão 2023-2026 com desemprego em mínimo histórico, economia em crescimento e agenda de reindustrialização. O plano de 2026 prevê justiça tributária (já aprovada no 1º mandato), consolidação de novos institutos federais e retomada do programa Ciência sem Fronteiras, com 120 mil vagas universitárias anunciadas."
+   },
+   "honestidade": {
+    "nota": 5.5,
+    "nivel": "A",
+    "texto": "As condenações da Lava Jato foram formalmente anuladas pelo STF em 2021 por incompetência da vara de Curitiba e suspeição do juiz, não há, portanto, condenação vigente. A anulação por vícios processuais, porém, não apaga a controvérsia de fundo para quem exige evidências concretas: o critério registra um histórico judicial denso, sem sentença transitada em julgado que o confirme."
+   },
+   "ambiental": {
+    "nota": 9.0,
+    "nivel": "A",
+    "texto": "O ponto mais forte do governo: queda de 66% nos alertas de desmatamento da Amazônia (Inpe, 2023) e de 37,5% no acumulado até 2026, reativação do Fundo Amazônia, novo PPCDAm, estratégia de bioeconomia e a COP30 em Belém como vitrine internacional. Fontes oficiais e independentes convergem nos números."
+   },
+   "soberania": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Política externa de alinhamento múltiplo (Brics, Celac, União Europeia, China) com discurso explícito de soberania digital e industrial. Críticos apontam dependência crescente da China em commodities; defensores apontam diversificação de parcerias. Não há evidência de subordinação institucional a potência estrangeira."
+   },
+   "tecnologia": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Agenda robusta: Estratégia Brasileira de IA (EBIA) com plano de ação bilionário, relançamento do programa de semicondutores (com joint venture Brasil-Malásia anunciada em 2025), plano de governo que liga tecnologia à industrialização, pesquisa e soberania digital, e MCTI com parcerias científicas internacionais ampliadas."
+   },
+   "democracia": {
+    "nota": 8.5,
+    "nivel": "A",
+    "texto": "Vetou integralmente, em 8 de janeiro de 2026, o projeto de anistia aos condenados pelos ataques aos Três Poderes (registro oficial do Congresso). Resposta institucional ao 8/1 respeitou a divisão dos Poderes; declarou em 2024 que 'não há perdão para quem atenta contra democracia' e rejeitou interferência estrangeira na Justiça brasileira em 2025. Sem episódio de ataque a Poderes ou ao resultado eleitoral em quatro mandatos."
+   },
+   "gestao": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Gestão federal 2023-2026 com resultados oficiais auditáveis: desemprego em mínimo da série histórica (IBGE/PNAD), crescimento econômico consistente, reindustrialização em curso. Terceira passagem pela Presidência com capacidade documentada de montar base no Congresso e aprovar reformas (tributária, administrativa parcial)."
+   },
+   "fiscal": {
+    "nota": 4.5,
+    "nivel": "B",
+    "texto": "Meta de resultado primário zero de 2025 não cumprida: déficit revisado para R$ 31 a 34 bilhões, com contenções de R$ 7,7 bilhões no Orçamento (Poder360 e Estadão, 11/2025). Oposição aponta 'cálculo em duas camadas' com exceções como o Pé-de-Meia (Gazeta do Povo, 02/2026). As emendas sigilosas do orçamento secreto (R$ 9 bilhões revelados) pesam no uso dos recursos públicos."
+   },
+   "social": {
+    "nota": 8.5,
+    "nivel": "A",
+    "texto": "Retomada e revalorização do Bolsa Família, piso da enfermagem com crédito especial de R$ 7,3 bilhões sancionado (2023), expansão de 85% nas vagas do Mais Médicos e criação do Pé-de-Meia. Programas com execução verificada em portais oficiais e cobrança social recorrente."
+   }
+  }
+ },
+ "presidente|RONALDO CAIADO|55": {
+  "cargo": "presidente",
+  "numero": "55",
+  "nome_urna": "RONALDO CAIADO",
+  "partido": "PSD",
+  "vice": "Gilberto Kassab (PSD)",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Governador de Goiás reeleito e 3º/4º colocado nacional (4-5% nas pesquisas), constrói a candidatura sobre gestão por resultados, segurança e agro. Boa pontuação em desenvolvimento e registros administrativos, com nota ambiental mista: queda real do desmatamento goiano, mas críticas à sua lei estadual de IA sem limites.",
+  "fontes": [
+   {
+    "titulo": "Propostas para serviço público e IA — Sisejufe (15/09/2026)",
+    "url": "https://sisejufe.org.br"
+   },
+   {
+    "titulo": "Propõe emenda constitucional de gastos — G1 (25/08/2026)",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Gestão com 88% de aprovação em segurança — Tribuna do Planalto (23/08/2025)",
+    "url": "https://tribunadoplanalto.com.br"
+   },
+   {
+    "titulo": "Goiás como laboratório de leis para Big Techs — CartaCapital (11/08/2026)",
+    "url": "https://www.cartacapital.com.br"
+   },
+   {
+    "titulo": "Queda de 18% no desmatamento goiano (2023) — Mais Goiás (29/03/2024)",
+    "url": "https://www.maisgoias.com.br"
+   },
+   {
+    "titulo": "Liderança nacional na redução do desmatamento 2024 — Jornal de Brasília (30/05/2025)",
+    "url": "https://jornaldebrasilia.com.br"
+   },
+   {
+    "titulo": "Pacto para zerar desmatamento ilegal — Agência Goiás (06/09/2023)",
+    "url": "https://agencia.go.gov.br"
+   },
+   {
+    "titulo": "Defesa da autonomia brasileira em políticas ambientais — SD News (07/10/2023)",
+    "url": "https://sdnews.com.br"
+   },
+   {
+    "titulo": "Propostas agro: crédito, seguro rural, mercados — Canal Rural (04/09/2026)",
+    "url": "https://www.canalrural.com.br"
+   },
+   {
+    "titulo": "Aumento de 125% no desmatamento em 2023 (visão crítica) — Portal Caldas",
+    "url": "https://portalcaldas.com.br"
+   },
+   {
+    "titulo": "Caiado promete anistia ampla a presos do 8/1 | Terra (03/2026)",
+    "url": "https://www.terra.com.br/noticias/eleicoes/videos/caiado-diz-que-vai-conceder-anistia-ampla-e-geral-a-jair-bolsonaro-e-presos-do-8-de-janeiro-pacificar-o-brasil,9e5d4ba68cd65c04c13d09dd4a72c8f6wuoo4xne.html"
+   },
+   {
+    "titulo": "Caiado pede fim de 'discussão' sobre 8 de janeiro | Correio Braziliense (04/2026)",
+    "url": "https://www.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "TCE-GO aprova contas de 2025 e destaca equilíbrio fiscal | Diário de Goiás (06/2026)",
+    "url": "https://diariodegoias.com.br"
+   },
+   {
+    "titulo": "Resultados do Goiás Social | Oeste Goiano (01/2024)",
+    "url": "https://oestegoiano.com.br"
+   }
+  ],
+  "foto": "caiado",
+  "slug": "caiado",
+  "foto_url": "/fotos/caiado.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Histórico parlamentar de décadas com atuação pública documentada; em Goiás, mantém portal de transparência e PPA publicado com detalhamento extenso. Não foram localizadas, nesta pesquisa, condenações ou investigações de corrupção, o que, na ausência de escândalos, dá nota intermediária-alta sem o nível de evidência de uma gestão sob fiscalização nacional permanente."
+   },
+   "desenvolvimento": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "Gestão goiana com foco declarado em gestão por resultados (PPA 2024-2027), atração de investimentos e infraestrutura; índice recorde de aprovação (88%) em sondagem de segurança pública. Propõe emenda constitucional com novas regras de controle de gastos públicos e agenda rural com crédito, seguro rural e abertura de mercados."
+   },
+   "honestidade": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Sem condenações judiciais ou de tribunais de contas localizadas nas fontes consultadas, histórico incomum de baixa exposição a escândalos em 40 anos de vida pública. A nota reflete a ausência de evidências negativas robustas, não uma auditoria exaustiva de quatro décadas."
+   },
+   "ambiental": {
+    "nota": 6.5,
+    "nivel": "A",
+    "texto": "Goiás apresentou queda de 18% no desmatamento em 2023 e liderança nacional na redução em 2024, com pacto para zerar o desmatamento ilegal e uso do CEMPA/Inpe para monitorar o Cerrado. O quadro é misto: entidades apontaram alta de 125% em 2023, e a agenda prioriza conciliação com o agronegócio."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Discurso explícito de autonomia brasileira em políticas ambientais e de recuperação do crescimento sem tutela externa. O ponto negativo: reportagem da CartaCapital aponta que sua lei estadual de IA transformou Goiás em laboratório de leis para Big Techs sem estabelecer limites, flexibilidade que critérios de soberania digital podem interpretar como concessão."
+   },
+   "tecnologia": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Defende consolidar o Gov.br como programa nacional de serviços digitais e reconhece a necessidade de avançar na legislação de IA. Em Goiás, modernizou a Junta Comercial (Redesim em 246 municípios). Agenda pró-inovação real, mas menos detalhada que a de Cury ou Lula."
+   },
+   "democracia": {
+    "nota": 4.0,
+    "nivel": "B",
+    "texto": "Compromisso público, assumido em março de 2026, de que seu primeiro ato como presidente será 'anistia ampla, geral e irrestrita' aos condenados pelos atos de 8 de janeiro, incluindo o ex-presidente condenado (Terra, Revista Oeste, Portal Leodias). Em abril, pediu ao país 'superar' a discussão do 8/1, qualificando-a de revanchismo (Correio Braziliense). Posição lícita no debate, mas registra direção contrária à responsabilização judicial dos ataques."
+   },
+   "gestao": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Governador de Goiás reeleito com aprovação de 72% (Brasil61, 2024), gestão por resultados documentada, atração de investimentos e infraestrutura. Décadas de vida pública com passagem executiva estadual auditável."
+   },
+   "fiscal": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "TCE-GO aprovou as contas de 2025 do governo com relatório destacando equilíbrio fiscal, arrecadação crescente e investimentos recordes (Diário de Goiás, 06/2026). Propõe emenda constitucional de novas regras de controle de gastos. Ponto de atenção: passivos do programa Goiás na Frente regularizados por resolução do próprio tribunal (12/2025)."
+   },
+   "social": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "Programa Goiás Social com frentes como Mães de Goiás e Dignidade, investimentos em Cras e Creas e famílias de pessoas com deficiência (2024-2025). Goiás alcançou o primeiro lugar nacional no Ideb (MEC, 2024). Resultados sociais mensuráveis no estado."
+   }
+  }
+ },
+ "presidente|ESCRITOR AUGUSTO CURY|70": {
+  "cargo": "presidente",
+  "numero": "70",
+  "nome_urna": "ESCRITOR AUGUSTO CURY",
+  "partido": "Avante",
+  "vice": "Júlio Delgado (Avante)",
+  "coligacao": "BRASIL DOS NOSSOS SONHOS",
+  "resumo": "Psiquiatra e autor de best-sellers, consolidou-se como 3ª força (4-7% nas pesquisas) com plataforma de saúde mental, governo digital e reindustrialização. Nota alta em tecnologia, mas o critério de transparência sofre com revelações de jornais sobre empresas do candidato que se conectam às próprias propostas de governo.",
+  "fontes": [
+   {
+    "titulo": "Propostas: governo digital, empreendedorismo, reindustrialização — Valor (29/08/2026)",
+    "url": "https://valor.globo.com"
+   },
+   {
+    "titulo": "Propostas ligadas a 13 empresas do candidato — Estadão (03/10/2026)",
+    "url": "https://www.estadao.com.br/politica/eleicoes/propostas-de-cury-tem-relacao-com-atividades-de-13-empresas-que-tem-o-candidato-como-socio/?srsltid=AU7gw4VbSaKapLOYDR2iqpxktqVVSy0sPYqHgdW6jfLqkS_IYT66Czzv"
+   },
+   {
+    "titulo": "Cinco empresas fora da declaração de bens — A Crítica (06/09/2026)",
+    "url": "https://acritica.net"
+   },
+   {
+    "titulo": "Terceiro colocado nas pesquisas — BBC (24/08/2026)",
+    "url": "https://www.bbc.com"
+   },
+   {
+    "titulo": "Plano de governo no TSE — Portal do TSE",
+    "url": "https://www.tse.jus.br"
+   },
+   {
+    "titulo": "Crítica a Renan Santos e consolidação na disputa — BBC",
+    "url": "https://www.bbc.com"
+   }
+  ],
+  "foto": "cury",
+  "slug": "cury",
+  "foto_url": "/fotos/cury.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 4.0,
+    "nivel": "B",
+    "texto": "O Estadão (03/10/2026) mostrou que propostas do plano de governo têm relação com atividades de 13 empresas em que o candidato é sócio, potencial conflito de interesse entre programa público e negócios privados. Além disso, reportagem de setembro apontou que cinco empresas (três delas sediadas na Flórida) ficaram fora da declaração de bens que soma R$ 242,2 milhões."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Plano com eixos concretos, governo digital, escolas de empreendedorismo, reindustrialização, mas sem histórico executivo que comprove capacidade de execução. A conexão do programa com as empresas do próprio candidato levanta dúvida sobre o direcionamento de políticas públicas."
+   },
+   "honestidade": {
+    "nota": 5.0,
+    "nivel": "B",
+    "texto": "Sem condenações judiciais conhecidas. As omissões na declaração de bens e a sobreposição entre empresas e plano de governo, documentadas por grandes jornais, são denúncias jornalísticas (níveis B/C de evidência) ainda sem resposta judicial definitiva, pesam no critério sem caracterizar crime comprovado."
+   },
+   "ambiental": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "O plano de governo dá tratamento superficial ao tema ambiental; não foram localizadas propostas estruturadas de clima, floresta ou energia limpa nas fontes consultadas até 03/10. É o critério com maior déficit da candidatura."
+   },
+   "soberania": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Retórica de reindustrialização nacional e cultura da paz, sem histórico de votações ou gestão que permita avaliar conduta frente a pressões internacionais. Nota conservadora por falta de evidência em qualquer direção."
+   },
+   "tecnologia": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Tecnologia é o eixo central do plano: governo digital como prioridade, empreendedorismo tecnológico, saúde mental aplicada à era digital e reindustrialização com inovação. É a candidatura com proposta tech mais explícita entre as com representação relevante nas pesquisas."
+   },
+   "democracia": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Sem registros de ataques a Poderes ou à urna localizados nas fontes consultadas; sem histórico institucional que permita avaliar conduta frente a crises. Ausência de registro não comprova conduta."
+   },
+   "gestao": {
+    "nota": 3.5,
+    "nivel": "C",
+    "texto": "Sem histórico executivo público. A capacidade de execução do plano de governo não é verificável por entregas anteriores; a sobreposição entre propostas e empresas do próprio candidato (Estadão, 03/10/2026) acentua a dúvida sobre a gestão futura."
+   },
+   "fiscal": {
+    "nota": 4.0,
+    "nivel": "B",
+    "texto": "Reportagem do Estadão documentou cinco empresas (três sediadas na Flórida) fora da declaração de bens de R$ 242,2 milhões, além da conexão entre propostas de governo e negócios privados próprios. Custeio das propostas sem fontes declaradas nas fontes consultadas."
+   },
+   "social": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Plano traz saúde mental como eixo social relevante, com propostas aplicadas à era digital; sem histórico público ou resultados sociais anteriores para conferência."
+   }
+  }
+ },
+ "presidente|RENAN SANTOS|14": {
+  "cargo": "presidente",
+  "numero": "14",
+  "nome_urna": "RENAN SANTOS",
+  "partido": "Missão",
+  "vice": "Coronel Medina (Missão)",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Fundador do MBL, apoiado pelo mercado financeiro (Milei brasileiro, segundo a BBC), oscila entre 3% e 4% nas pesquisas. Plataforma liberal radical de corte de gastos e juros. Sem histórico parlamentar, sua avaliação descansa quase inteiramente sobre posicionamentos públicos e uma condenação civil recente.",
+  "fontes": [
+   {
+    "titulo": "Números nas pesquisas (2,8% a 4%) — UOL (08/09/2026)",
+    "url": "https://noticias.uol.com.br/eleicoes/2026/09/08/renan-santos-na-pesquisa-para-presidente-veja-numeros-mais-recentes.ghtml"
+   },
+   {
+    "titulo": "Faria Lima embarca na candidatura — BBC (11/08/2026)",
+    "url": "https://www.bbc.com/portuguese/articles/cvg9j2qjp4no"
+   },
+   {
+    "titulo": "Proposta: corte de gastos e juros de 8-9% — G1/Jornal Nacional (01/10/2026)",
+    "url": "https://g1.globo.com/jornal-nacional/noticia/2026/10/01/renan-santos-candidato-do-missao-a-presidencia-cumpre-agenda-no-rj.ghtml"
+   },
+   {
+    "titulo": "Trajetória: MBL e mobilizações desde 2013 — São Paulo Diário",
+    "url": "https://saopaulodiario.com.br"
+   },
+   {
+    "titulo": "Partido Missão: projeto de poder — Diário do Centro do Mundo (31/07/2026)",
+    "url": "https://www.diariodocentrodomundo.com.br"
+   },
+   {
+    "titulo": "Condenado a indenizar Djamila Ribeiro em R$ 30 mil — Portal Juristec (10/02/2026)",
+    "url": "https://portaljuristec.com.br"
+   },
+   {
+    "titulo": "Ficha do candidato no TSE — Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/br/presidente/renan-santos-missao-14"
+   }
+  ],
+  "foto": "renan",
+  "slug": "renan",
+  "foto_url": "/fotos/renan.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Movimento e partido funcionam com financiamento coletivo e comunicação própria, mas sem prestação de contas pública comparável à de um mandato, não há mandato anterior a auditar. Nota neutra-conservadora pela ausência de referencial verificável."
+   },
+   "desenvolvimento": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Proposta concreta e explícita: corte estrutural de gastos públicos para levar os juros a 8-9% ao ano, liberalização econômica e desburocratização. Coerente e detalhada, porém radical, agentes do mercado apoiam, economistas do mainstream apontam riscos de ajuste brusco."
+   },
+   "honestidade": {
+    "nota": 5.0,
+    "nivel": "A",
+    "texto": "Foi condenado em fevereiro de 2026 a indenizar em R$ 30 mil a filósofa Djamila Ribeiro por ofensas publicadas, condenação civil (nível A de evidência) por conduta verbal, não por corrupção. Sem investigações criminais relevantes localizadas; sem histórico político-executivo que amplie a amostra."
+   },
+   "ambiental": {
+    "nota": 3.5,
+    "nivel": "C",
+    "texto": "A agenda econômica liberal radical normalmente implica flexibilização de licenciamento e fiscalização; o plano não apresenta política ambiental estruturada e o candidato já sinalizou reduzir controles burocráticos. Nota baixa por ausência de proposta e direção declarada."
+   },
+   "soberania": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Discurso nacionalista de direita, crítico de organismos multilaterais e do globalismo, mas também alinhado ao consenso de mercado internacional e a consultores estrangeiros. Sinalizações contraditórias, sem histórico executivo para verificar."
+   },
+   "tecnologia": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Defende liberalização total do setor de inovação e criptoativos, atração de tecnologia estrangeira e regulação mínima. Proposta coerente com sua matriz, mas sem detalhamento institucional (pesquisa pública, universidades, semicondutores)."
+   },
+   "democracia": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Sem episódios formais contra instituições localizados; retórica pública crítica de tribunais e do mainstream político, com defesa declarada do Estado de direito formal. Ausência de histórico institucional impede avaliação em qualquer direção."
+   },
+   "gestao": {
+    "nota": 3.5,
+    "nivel": "C",
+    "texto": "Sem gestão pública ou parlamentar. A trajetória no MBL é de militância e comunicação, sem entregas administrativas auditáveis."
+   },
+   "fiscal": {
+    "nota": 7.5,
+    "nivel": "C",
+    "texto": "Corte estrutural de gastos é o eixo central e explícito da candidatura, com meta de juros e proposta de desburocratização detalhada e coerente (plano público). Nota de proposta, não de histórico: sem gestão anterior para verificar execução."
+   },
+   "social": {
+    "nota": 3.5,
+    "nivel": "C",
+    "texto": "Ajuste brusco de despesa sem proteção social detalhada no material consultado; programas sociais aparecem subordinados à prioridade fiscal, sem custeio ou desenho próprio documentado."
+   }
+  }
+ },
+ "presidente|FLAVIO BOLSONARO|22": {
+  "cargo": "presidente",
+  "numero": "22",
+  "nome_urna": "FLAVIO BOLSONARO",
+  "partido": "PL",
+  "vice": "Alfredo Gaspar (PL)",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Senador do RJ e nome do PL no lugar de Jair Bolsonaro, persegue Lula com 31-37% nas pesquisas. Plano liberal-conservador (Mais Brasil, menos Estado) com foco em biocombustíveis. Penalizado nos seus critérios pelo longo expediente do caso Queiroz/rachadinha, sem condenação, mas com anos de investigação documentada.",
+  "fontes": [
+   {
+    "titulo": "Quaest 14/09: Flávio 31% — BandNews/UOL",
+    "url": "https://bandnewstv.uol.com.br"
+   },
+   {
+    "titulo": "Datafolha 17/09: Flávio — UOL",
+    "url": "https://www.bol.uol.com.br"
+   },
+   {
+    "titulo": "Plano prevê potência de biocombustíveis e RenovaBio — NovaCana (25/08/2026)",
+    "url": "https://www.novacana.com"
+   },
+   {
+    "titulo": "Plano 'Mais Brasil, menos Estado' — Itatiaia (13/08/2026)",
+    "url": "https://www.itatiaia.com.br"
+   },
+   {
+    "titulo": "TJRJ arquiva denúncia do MP sobre rachadinha (17/05/2022) — InfoMoney",
+    "url": "https://www.infomoney.com.br"
+   },
+   {
+    "titulo": "Histórico do caso Queiroz/rachadinha — UOL (15/12/2020)",
+    "url": "https://noticias.uol.com.br"
+   },
+   {
+    "titulo": "Investigação e defesa do senador — Estadão (12/05/2019)",
+    "url": "https://www.estadao.com.br"
+   },
+   {
+    "titulo": "Estratégia de campanha contra rejeição entre mulheres — Folha (16/07/2026)",
+    "url": "https://www1.folha.uol.com.br"
+   },
+   {
+    "titulo": "Promessa de fim da reeleição — Repórter Ceará (23/02/2026)",
+    "url": "https://reporterceara.com.br"
+   },
+   {
+    "titulo": "Flávio defende anistia para o 8/1 | Band (04/2026)",
+    "url": "https://www.band.com.br"
+   }
+  ],
+  "foto": "flavio",
+  "slug": "flavio",
+  "foto_url": "/fotos/flavio.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 4.5,
+    "nivel": "B",
+    "texto": "Anos de quebras de sigilo bancário e fiscal, posteriores anuladas pelo STF, e denúncia arquivada pelo TJRJ em 2022 sem condenação. O volume de investigação documentada, ainda que encerrado sem mérito, e a resistência do senador às apurações reduzem a nota no critério que você prioriza."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Plano Mais Brasil, menos Estado reúne propostas para reforma do Estado, economia, segurança, saúde e educação; transforma o Brasil em potência de biocombustíveis ampliando o RenovaBio para exportação. Compromisso público de não buscar reeleição. Agenda econômica concreta e alinhada ao setor produtivo."
+   },
+   "honestidade": {
+    "nota": 4.0,
+    "nivel": "A",
+    "texto": "O caso da rachadinha no gabinete (Fabrício Queiroz) gerou investigação do MP-RJ e do STF entre 2019-2022; a denúncia criminal foi arquivada pelo TJRJ em maio de 2022 e não há condenação. Para o critério de honestidade comprovada por evidências, os anos de apuração formal e as transações financeiras atípicas documentadas pela imprensa pesam, mesmo sem condenação."
+   },
+   "ambiental": {
+    "nota": 4.0,
+    "nivel": "B",
+    "texto": "Positivo setorial: agenda forte de biocombustíveis (RenovaBio). Negativo: em 2019 articulou emenda constitucional contra a função social da propriedade rural, apontada por entidades ambientais como abertura para grilagem e especulação. Histórico parlamentar alinhado à flexibilização."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Discurso de soberania nacional forte, com posição durável contra tratados e instituições internacionais percebidas como tutela; defende proximidade com os EUA de direita. Sem evidências de subordinação, mas também sem gestão executiva verificável."
+   },
+   "tecnologia": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem pauta tecnológica estruturada no plano divulgado até 03/10; a agenda digital da família Bolsonaro historicamente se limita a liberdade de plataformas e combate à censura. Nota conservadora."
+   },
+   "democracia": {
+    "nota": 3.5,
+    "nivel": "B",
+    "texto": "Define a anistia aos condenados do 8/1 como prioridade e 'único objetivo' do partido no Congresso, com pressão pública recorrente pela PEC da anistia e críticas documentadas a decisões do STF (Estadão 12/2025, O Globo 11/2025, Band 04/2026). Direção política sistemática contra desfechos judiciais, ainda que sem acusação formal pessoal."
+   },
+   "gestao": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Carreira parlamentar longa (vereador, deputado, senador) sem função executiva. Capacidade de articulação política documentada como líder do PL no Senado, sem entregas administrativas auditáveis."
+   },
+   "fiscal": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Plano Mais Brasil, menos Estado propõe ajuste estrutural e agenda de biocombustíveis com fonte (setor produtivo); votações fiscais do mandato não foram compiladas em detalhe nas fontes consultadas desta triagem."
+   },
+   "social": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Plano menciona saúde e educação em diretrizes gerais; sem programa social estruturado ou resultados sociais próprios documentados nas fontes consultadas."
+   }
+  }
+ },
+ "governador|LEANDRO GRASS|13": {
+  "cargo": "governador",
+  "numero": "13",
+  "nome_urna": "LEANDRO GRASS",
+  "partido": "PT (Federação Brasil da Esperança)",
+  "vice": "Dora Gomes (PV)",
+  "coligacao": "DF DO POVO",
+  "resumo": "Segundo colocado na eleição de 2022, apresenta o perfil mais aderente aos seus dez critérios: trajetória sem condenações, bandeira histórica de transparência, plano de governo construído de forma participativa e raízes no ambientalismo (ex-PV/Rede). Empata tecnicamente com Celina Leão em pesquisas recentes (AtlasIntel 03/09).",
+  "fontes": [
+   {
+    "titulo": "Empate técnico com Celina (AtlasIntel 03/09) — Money Times",
+    "url": "https://www.moneytimes.com.br"
+   },
+   {
+    "titulo": "Empate com Celina em pesquisa (08/09) — Vermelho",
+    "url": "https://vermelho.org.br"
+   },
+   {
+    "titulo": "Propostas de economia, saúde e mobilidade — Taguaçei (21/09/2026)",
+    "url": "https://jornaltaguacei.com.br"
+   },
+   {
+    "titulo": "Proposta de revitalização e economia criativa — Fecomércio DF (01/09/2026)",
+    "url": "https://www.fecomerciodf.com.br"
+   },
+   {
+    "titulo": "Planos para educação dos candidatos — iG (10/09/2026)",
+    "url": "https://ultimosegundo.ig.com.br"
+   },
+   {
+    "titulo": "Aprimoramento da lei de diretores escolares (autoria) — CLDF (27/04/2021)",
+    "url": "https://www.cl.df.gov.br"
+   },
+   {
+    "titulo": "Sabatina: BRB e plano contra filas — Podcast do Correio (X)",
+    "url": "https://x.com/leandrograss"
+   },
+   {
+    "titulo": "Vice no Buriti em 2022 cumprimenta Ibaneis — Correio Braziliense (03/10/2022)",
+    "url": "https://blogs.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Análise independente: plano entre os mais ambiciosos — Chico Sant'Anna (17/08/2026)",
+    "url": "https://chicosantanna.wordpress.com"
+   }
+  ],
+  "foto": "grass",
+  "slug": "grass",
+  "foto_url": "/fotos/grass.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 8.5,
+    "nivel": "B",
+    "texto": "Na CLDF, autorou leis e projetos de transparência, como o aprimoramento da lei de eleição de diretores das escolas públicas, com regras públicas de mandato, e se consolidou como defensor do controle social. O plano de 2026 destaca reestruturação do BRB e enfrentamento às filas com metas públicas."
+   },
+   "desenvolvimento": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Propostas apresentadas em sabatinas organizadas por setor produtivo: economia criativa (revitalização do Setor Comercial Sul e do centro de Taguatinga), saúde com plano de enfrentamento às filas, mobilidade com tarifa zero seletiva e reestruturação do BRB. Em 2022 foi o vice mais votado da disputa, dando credibilidade eleitoral à agenda."
+   },
+   "honestidade": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Duas décadas de vida pública (vereador substituto, deputado distrital, candidato ao GDF) sem condenações judiciais, sem processos de improbidade e sem denúncias de tribunais de contas localizadas nas fontes consultadas, padrão raro na política do DF e central para este critério."
+   },
+   "ambiental": {
+    "nota": 9.0,
+    "nivel": "B",
+    "texto": "Militância ambiental de origem: filiação ao Partido Verde e à Rede Sustentabilidade antes do PT, atuação em pautas socioambientais na CLDF e plano com sustentabilidade urbana explícita. É, entre os votáveis ao Buriti, o com histórico ambiental mais consistente."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Sem histórico executivo para avaliar conduta frente a pressões internacionais; em âmbito local, defende autonomia financeira do DF e menos dependência de transferências. Nota moderada por falta de evidência específica."
+   },
+   "tecnologia": {
+    "nota": 7.0,
+    "nivel": "C",
+    "texto": "Plano menciona inovação, economia criativa e modernização da gestão; como distrital, apoiou políticas de ciência e tecnologia do GDF. Pauta real, porém menos detalhada que as de saúde e mobilidade."
+   },
+   "democracia": {
+    "nota": 7.0,
+    "nivel": "C",
+    "texto": "Duas décadas de vida pública sem episódios de confronto institucional localizados; atuação em defesa do controle social e da fiscalização pública, compatível com respeito a órgãos de controle. Sem histórico executivo que permita verificar conduta em crises."
+   },
+   "gestao": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Auditor fiscal e professor do GDF com dois mandatos na CLDF documentados; gestão de processo legislativo e fiscalização, sem passagem por cargo executivo. Carreira técnica pública auditável."
+   },
+   "fiscal": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Auditor fiscal da Receita do DF por formação e carreira, com atuação pública documentada em fiscalização de orçamento e transparência (autuações e representações citadas no MP de Contas e na mídia local). Propostas de reestruturação do BRB com preocupação explícita de solvência."
+   },
+   "social": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Propostas sociais concretas e verificáveis: tarifa zero seletiva, enfrentamento às filas de saúde com metas públicas, aprimoramento da eleição de diretores de escolas públicas. Agenda social alinhada à sua trajetória de controle social."
+   },
+   "mobilidade": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Mobilidade é pauta estruturante do plano: tarifa zero seletiva com estudo de financiamento, reestruturação do transporte coletivo e revitalização de eixos urbanos (Setor Comercial Sul, Taguatinga) apresentados em sabatinas setoriais. Como distrital, acompanhou orçamentos de transporte e fiscalizou o Metrô-DF via MP de Contas. É a proposta de transporte público mais desenhada entre os votáveis."
+   }
+  }
+ },
+ "governador|PAULA BELMONTE|45": {
+  "cargo": "governador",
+  "numero": "45",
+  "nome_urna": "PAULA BELMONTE",
+  "partido": "PSDB",
+  "vice": "Juiz Everardo Ribeiro (PSDB)",
+  "coligacao": "FEDERAÇÃO",
+  "resumo": "Deputada federal (2019-2022) e distrital eleita em 2022, 2ª vice-presidente da CLDF. Plano de governo detalhado (74 páginas) com foco em reorganização da estrutura do GDF, proteção do BRB e saúde. Entrou na política após a morte do filho por falhas no atendimento, marca pessoal ligada à defesa do SUS.",
+  "fontes": [
+   {
+    "titulo": "Quem é Paula Belmonte — CNN Brasil (22/09/2026)",
+    "url": "https://www.cnnbrasil.com.br"
+   },
+   {
+    "titulo": "Perfil e trajetória — Wikipédia",
+    "url": "https://pt.wikipedia.org/wiki/Paula_Belmonte"
+   },
+   {
+    "titulo": "Número na urna: 45 — G1 (01/10/2026)",
+    "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/01/datafolha-45percent-nao-sabem-o-numero-da-urna-do-seu-candidato-a-governador-em-sp.ghtml"
+   },
+   {
+    "titulo": "Plano de Governo (74 páginas) — TSE/DivulgaCand",
+    "url": "https://divulgacandcontas.tse.jus.br"
+   },
+   {
+    "titulo": "Propostas de saúde contra filas — Brasil de Fato (25/08/2026)",
+    "url": "https://www.brasildefato.com.br"
+   },
+   {
+    "titulo": "Propostas de meio ambiente no DF2 — GloboPlay",
+    "url": "https://globoplay.globo.com"
+   },
+   {
+    "titulo": "Sabatina: servidores e GDF Saúde — Sindilegis (27/08/2026)",
+    "url": "https://sindilegis.org.br"
+   },
+   {
+    "titulo": "Oficialização da candidatura — G1 (04/08/2026)",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Site oficial da campanha",
+    "url": "https://paulabelmonte.com.br"
+   },
+   {
+    "titulo": "Comissão de Fiscalização, Governança, Transparência e Controle | CLDF",
+    "url": "https://www.cl.df.gov.br"
+   }
+  ],
+  "foto": "belmonte",
+  "slug": "belmonte",
+  "foto_url": "/fotos/belmonte.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Histórico legislativo público e planos divulgados com detalhamento acima da média (plano de 74 páginas depositado no TSE). Como distrital, integra a comissão de orçamento, área naturalmente sob escrutínio público. Sem denúncias de irregularidade localizadas."
+   },
+   "desenvolvimento": {
+    "nota": 7.0,
+    "nivel": "A",
+    "texto": "Plano com metas concretas: proteger e recuperar o BRB sem comprometer o desenvolvimento do DF, reduzir e reorganizar a estrutura do governo, programa 'Saúde Sem Filas' com reorganização de fluxos e integração tecnológica da rede, além de pautas de primeira infância, tema que define sua trajetória."
+   },
+   "honestidade": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Sem condenações judiciais ou de tribunais de contas encontradas nas fontes consultadas, em dois mandatos legislativos e disputas anteriores (2018, como federal). O juiz vice em sua chapa reforça o apelo à idoneidade."
+   },
+   "ambiental": {
+    "nota": 7.0,
+    "nivel": "C",
+    "texto": "Apresentou propostas específicas de meio ambiente em debate televisionado (DF2/Globo), com ênfase em parques, áreas protegidas e arborização urbana. Pauta presente e positiva, embora sem histórico ambiental de longo prazo para conferência."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Perfil autonomista do DF (defendeu na Câmara a autonomia financeira do DF). Sem sinais de subordinação internacional, tema pouco presente no debate local, nota neutra-alta."
+   },
+   "tecnologia": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Integração tecnológica da rede de saúde e modernização administrativa estão no plano, mas não há agenda de fronteira tecnológica (inovação, IA, startups) explicitamente desenvolvida."
+   },
+   "democracia": {
+    "nota": 7.0,
+    "nivel": "C",
+    "texto": "Trajetória institucional regular em dois mandatos legislativos, sem episódios de confronto com Poderes ou órgãos de controle localizados; vice em sua chapa é juiz. Ausência de registro não comprova conduta em crises."
+   },
+   "gestao": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Deputada federal (2019-2022) e distrital eleita em 2022 com atuação documentada; sem passagem executiva. Plano de 74 páginas evidencia capacidade de planejamento, não de execução comprovada."
+   },
+   "fiscal": {
+    "nota": 7.0,
+    "nivel": "A",
+    "texto": "Integra a Comissão de Fiscalização, Governança, Transparência e Controle da CLDF (registro oficial da Casa), com atuação em matérias orçamentárias documentadas em diários oficiais; sem rejeição de contas localizada."
+   },
+   "social": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Programa 'Saúde Sem Filas' e pauta de primeira infância como eixo pessoal (motivo de sua entrada na política), com proposições e cobranças públicas documentadas nos dois mandatos."
+   },
+   "mobilidade": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Plano de 74 páginas cobre reorganização do GDF com sensibilidade urbana, mas política de mobilidade detalhada (Metrô, corredores, tarifa) não foi localizada nas fontes consultadas; pauta presente de forma genérica."
+   }
+  }
+ },
+ "governador|CAPPELLI|40": {
+  "cargo": "governador",
+  "numero": "40",
+  "nome_urna": "CAPPELLI",
+  "partido": "PSB",
+  "vice": "Sofia Carvalho (PSB)",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Jornalista e gestor público que ganhou projeção nacional como interventor federal da Segurança Pública do DF após 8/1/2023 e depois presidiu a Agência Brasileira de Inteligência interinamente. Terceira força técnica do pleito: subiu do 7º para o 4º lugar nas pesquisas e tem avaliação externa de 'melhor programa de governo' entre os candidatos.",
+  "fontes": [
+   {
+    "titulo": "Plano de Governo 2027-2030 (arquivo TSE) — DivulgaCand",
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017107334"
+   },
+   {
+    "titulo": "Quem é Ricardo Cappelli, interventor em 8/1 — Estadão (08/01/2023)",
+    "url": "https://www.estadao.com.br"
+   },
+   {
+    "titulo": "Balanço da intervenção — O Melhor da Cidade (31/01/2023)",
+    "url": "https://omelhordacidade.com.br"
+   },
+   {
+    "titulo": "Assume GSI interinamente — Estado de Minas (20/04/2023)",
+    "url": "https://www.em.com.br"
+   },
+   {
+    "titulo": "Propostas de segurança, emprego e inovação — PSB (20/08/2026)",
+    "url": "https://psb40.org.br/cappelli-apresenta-propostas-para-seguranca-emprego-e-servicos-publicos-em-sabatina"
+   },
+   {
+    "titulo": "'Fila Zero' e contratação de 5 mil médicos — Jovem Pan (sabatina)",
+    "url": "https://www.facebook.com/jovempannews/videos/1574755714446114"
+   },
+   {
+    "titulo": "Entrevista à CNN: propostas e crise com PT — CNN Brasil (08/09/2026)",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/cnn-entrevista-ricardo-cappelli-candidato-ao-governo-do-df"
+   },
+   {
+    "titulo": "Cresce na pesquisa (7º ao 4º) — Correio Braziliense (05/08/2026)",
+    "url": "https://www.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Melhor programa de governo em análise independente — Chico Sant'Anna (17/08/2026)",
+    "url": "https://chicosantanna.wordpress.com"
+   },
+   {
+    "titulo": "Interventor entrega relatório da intervenção no DF | GZH (01/2023)",
+    "url": "https://gauchazh.clicrbs.com.br"
+   },
+   {
+    "titulo": "Intervenção é encerrada com balanço positivo | Band (01/2023)",
+    "url": "https://www.band.com.br"
+   }
+  ],
+  "foto": "cappelli",
+  "slug": "cappelli",
+  "foto_url": "/fotos/cappelli.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Gestor com passagem por funções federais de alto escrutínio (interventoria, GSI) sem denúncias de irregularidade. O plano de governo 2027-2030 depositado no TSE é um dos mais detalhados do pleito, com diretrizes e compromissos mensuráveis."
+   },
+   "desenvolvimento": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "Programa 'Fila Zero' na saúde com contratação de 5 mil médicos, propostas de segurança pública, emprego, inovação e serviços públicos apresentadas em sabatinas. Análise independente publicada em agosto classificou seu programa como o melhor do pleito em completude."
+   },
+   "honestidade": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Sem condenações ou inquéritos conhecidos. A interventoria pós-8/1, função de restauração de disciplina institucional sob supervisão do STF/governo federal, funcionou como exposição máxima à fiscalização pública, sem episódios negativos documentados."
+   },
+   "ambiental": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "O plano trata mobilidade e habitação com sensibilidade urbana, mas a agenda ambiental estruturada (áreas protegidas, clima) tem presença modesta nas fontes consultadas. Ponto a desenvolver."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Passagem pela presidência interina da Abin e pela intervenção da segurança pública conferem histórico direto com o aparato de Estado e suas atribuições soberanas, avaliado positivamente por aliados e sem críticas públicas conhecidas de parcialidade externa."
+   },
+   "tecnologia": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Inovação e melhoria de serviços públicos digitais são eixo do plano apresentado em sabatina; experiência como gestor federal inclui modernização de processos. Agenda crível, embora menos profunda em ciência/pesquisa."
+   },
+   "democracia": {
+    "nota": 9.0,
+    "nivel": "A",
+    "texto": "Interventor federal da Segurança Pública do DF indicado após os ataques de 8 de janeiro de 2023, função de restauração institucional sob supervisão do STF e do governo federal: entregou relatório oficial da intervenção e encerrou o período sem novos atos (GZH, Poder360, Band, 01/2023). Conduta institucional máxima verificável em crise democrática."
+   },
+   "gestao": {
+    "nota": 8.5,
+    "nivel": "A",
+    "texto": "Gestor público de carreira com passagens nos três níveis de governo; presidiu interinamente a Abin e conduziu a intervenção de segurança do DF com relatório oficial entregue em 27/01/2023. Histórico executivo de crise documentado em fontes oficiais e da imprensa."
+   },
+   "fiscal": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Gestões sob alto escrutínio público (interventoria, GSI, Abin) sem denúncia de irregularidade localizada. Plano de governo com compromissos mensuráveis, embora pauta fiscal detalhada não seja o núcleo documentado da candidatura."
+   },
+   "social": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Plano cobre segurança, saúde (Fila Zero com 5 mil contratações) e serviços; políticas sociais específicas (assistência, primeira infância, habitação social) têm presença secundária nas fontes consultadas."
+   },
+   "mobilidade": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "O plano trata mobilidade e habitação com sensibilidade urbana documentada em sabatinas, dentro do programa avaliado como o mais completo do pleito; sem capítulo de transporte público com metas tarifárias específicas localizado."
+   }
+  }
+ },
+ "governador|KIKO CAPUTO|30": {
+  "cargo": "governador",
+  "numero": "30",
+  "nome_urna": "KIKO CAPUTO",
+  "partido": "NOVO",
+  "vice": "Delegado Rafael Sampaio (NOVO)",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Advogado e ex-dirigente da OAB-DF (ganhou uma eleição e perdeu outra na Ordem), lança-se à primeira disputa eleitoral com patrimônio declarado de R$ 47,3 milhões. Plano por diretrizes do NOVO: educação integral, segurança nas escolas e redução do Estado. Combate às filas e à gestão sem resultados.",
+  "fontes": [
+   {
+    "titulo": "Quem é Kiko Caputo — R7 (19/08/2026)",
+    "url": "https://noticias.r7.com"
+   },
+   {
+    "titulo": "Perfil — Wikipédia",
+    "url": "https://pt.wikipedia.org/wiki/Kiko_Caputo"
+   },
+   {
+    "titulo": "Declara R$ 47,3 milhões em bens — G1 (12/08/2026)",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Primeira eleição e disputas na OAB-DF — Correio Braziliense (23/04/2026)",
+    "url": "https://blogs.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Plano de governo 2027-2030 — Meus Políticos",
+    "url": "https://meuspoliticos.com.br"
+   },
+   {
+    "titulo": "NOVO lança pré-candidatura ao lado de Zema — Correio (23/04/2026)",
+    "url": "https://blogs.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Ficha no TSE — Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br"
+   }
+  ],
+  "foto": "caputo",
+  "slug": "caputo",
+  "foto_url": "/fotos/caputo.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "O NOVO tem a regra interna mais rígida do país: proibição de verba indenizatória, emendas secretas e cargo comissionado para apoiadores. Bens declarados (R$ 47,3 mi) e publicidade de doações privadas. Primeira disputa, histórico pessoal a construir."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Diretrizes de desburocratização, educação integral e proteção social focada, com plano sintético por natureza partidária. Sem histórico executivo, a capacidade de execução não é verificável, o plano é coerente, mas em alto nível de abstração."
+   },
+   "honestidade": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Nenhuma condenação, inquérito ou denúncia localizada. A ausência de vida pública anterior elimina o risco de expediente escuro, mas também impede avaliação por histórico comprovado, nota conservadora em face do requisito de evidências."
+   },
+   "ambiental": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "O NOVO defende fiscalização ambiental estatal eficiente e propriedade privada produtiva, com ceticismo diante de burocracias. Plano do candidato não detalha política ambiental para o DF (Parque Nacional, nascentes, Cerrado). Nota moderada-baixa."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Partido sem agenda de subordinação internacional e com crítica explícita ao Estado intervencionista; em âmbito local, o tema é pouco testável. Nota neutra."
+   },
+   "tecnologia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Modernização de serviços e eliminação de burocracia via tecnologia estão no núcleo ideológico do partido. Sem propostas específicas de inovação/ciência para o DF."
+   },
+   "democracia": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Sem episódios de confronto institucional localizados; dirigente da OAB-DF com histórico de respeito a instituições da advocacia. Primeira disputa eleitoral: conduta política institucional ainda por verificar."
+   },
+   "gestao": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Gestão associativa na OAB-DF (venceu uma eleição e perdeu outra) e carreira advocatícia; sem gestão pública executiva para avaliar entregas."
+   },
+   "fiscal": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Regras partidárias do NOVO (proibição de verba indenizatória e emendas secretas) dão disciplina fiscal externa; plano do candidato é sintético, sem custeio detalhado das propostas."
+   },
+   "social": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Diretrizes de educação integral e proteção social focada no plano; sem histórico social próprio para conferência."
+   },
+   "mobilidade": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Diretrizes do NOVO para educação e segurança detalhadas, mas sem política de mobilidade urbana específica para o DF (Metrô, ônibus, tarifa) no material consultado."
+   }
+  }
+ },
+ "governador|CELINA LEÃO|11": {
+  "cargo": "governador",
+  "numero": "11",
+  "nome_urna": "CELINA LEÃO",
+  "partido": "PP",
+  "vice": "Gustavo Rocha (Republicanos)",
+  "coligacao": "PROPÓSITO E AÇÃO",
+  "resumo": "Governadora em exercício desde 30/03/2026 (assumiu após saída de Ibaneis Rocha), ex-vice-governadora, ex-presidente da CLDF e ex-deputada federal. Líder disparada nas pesquisas (37-45%, podendo vencer no 1º turno). Levou acusação grave em 2024 (Operação Drácon) da qual foi absolvida em 1º grau em março de 2025, dado central para o critério de honestidade.",
+  "fontes": [
+   {
+    "titulo": "MPDFT pede condenação por corrupção passiva (Drácon) — Terra (11/10/2024)",
+    "url": "https://www.terra.com.br"
+   },
+   {
+    "titulo": "Absolvida pelo TJDFT (11/03/2025) — R7",
+    "url": "https://noticias.r7.com"
+   },
+   {
+    "titulo": "Decisão de inocência — SOS Brasília (11/03/2025)",
+    "url": "https://sosbrasilia.com.br"
+   },
+   {
+    "titulo": "Toma posse como governadora (30/03/2026) — O Guia Web",
+    "url": "https://oguiaweb.com.br"
+   },
+   {
+    "titulo": "Trajetória: presidência da CLDF e mandato federal — Faço por Fato (19/03/2026)",
+    "url": "https://fatoporfato.com.br"
+   },
+   {
+    "titulo": "Datafolha: lidera com 37% — Estadão (tudo sobre)",
+    "url": "https://www.estadao.com.br"
+   },
+   {
+    "titulo": "Pode vencer no 1º turno (45% sem Arruda) — Portal do Holanda (set/2026)",
+    "url": "https://novo2026.portaldoholanda.com.br"
+   },
+   {
+    "titulo": "Igape: 41,1% e Arruda a 15,7% — Agenda Capital (13/09/2026)",
+    "url": "https://agendacapital.com.br"
+   },
+   {
+    "titulo": "Propostas de emprego — iG (14/09/2026)",
+    "url": "https://ultimosegundo.ig.com.br"
+   },
+   {
+    "titulo": "Polo de economia criativa — Foco Nacional (04/09/2026)",
+    "url": "https://www.foconacional.com.br"
+   },
+   {
+    "titulo": "Propostas de mobilidade/transporte — Mobilize (14/09/2026)",
+    "url": "https://www.mobilize.org.br"
+   },
+   {
+    "titulo": "TCDF se divide sobre julgamento das contas de 2025 | NC News (2026)",
+    "url": "https://ncnews.com.br"
+   },
+   {
+    "titulo": "Governadora acompanha obras do viaduto de Planaltina | Agência Brasília (05/2026)",
+    "url": "https://agenciabrasilia.df.gov.br"
+   }
+  ],
+  "foto": "celina",
+  "slug": "celina",
+  "foto_url": "/fotos/celina.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 5.0,
+    "nivel": "A",
+    "texto": "A Operação Drácon investigou um esquema de propina no Legislativo com negociação de emendas, o MPDFT pediu em 2024 a condenação da então vice-governadora por corrupção passiva. A absolvição em 2025 removeu o risco judicial, mas o episódio, que ocorreu no período em que presidiu a Casa (2015-2016), reduz a avaliação de transparência de sua trajetória."
+   },
+   "desenvolvimento": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Como governadora, anunciou polo de economia criativa no Setor Comercial Sul (parceria com a UCB), propostas de primeiro emprego e pautas de mobilidade, infraestrutura e saúde nas regiões administrativas. Incumbência com orçamento de R$ 74,4 bi dá base concreta às promessas."
+   },
+   "honestidade": {
+    "nota": 5.5,
+    "nivel": "A",
+    "texto": "Absolvida pelo TJDFT (11/03/2025) da acusação de corrupção passiva da Operação Drácon, decisão de 1º grau, possivelmente sujeita a recurso. A defesa destaca 25 anos de vida pública 'sem condenações'. Para seu critério de evidências: houve acusação formal institucional (nível A) e absolvição formal (também nível A), o empate registra alerta sem condenação vigente."
+   },
+   "ambiental": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "A gestão atual mantém a estrutura ambiental do GDF e propostas de transporte (isenção de tarifa para grupos específicos) com impacto indireto positivo. Sem agenda ambiental própria de destaque nas fontes consultadas; desempenho mediano."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Continuísta do projeto Ibaneis, pragmática na relação com o governo federal, sem sinais relevantes em qualquer direção sobre subordinação internacional. Nota neutra-alta pela gestão sem episódios."
+   },
+   "tecnologia": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Polo de economia criativa e modernização educacional constam do plano ('modernização educacional' com integração de serviços). Sem pauta estruturada de ciência, tecnologia e inovação para além disso."
+   },
+   "democracia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Sem episódios próprios de confronto institucional localizados; carreira legislativa e executiva dentro dos canais formais. Nota conservadora por ausência de sinal forte em qualquer direção."
+   },
+   "gestao": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Governadora em exercício desde março de 2026 com obras e programas em execução documentados no DODF e na Agência Brasília (viaduto de Planaltina de R$ 46,5 milhões, polo de economia criativa), vice-governadora desde 2019 e ex-presidente da CLDF. Entregas reais recentes, com incumbência orçamentária plena."
+   },
+   "fiscal": {
+    "nota": 4.0,
+    "nivel": "B",
+    "texto": "As contas de 2025 do GDF (gestão Ibaneis/Celina) estão sob julgamento no TCDF com impacto fiscal estimado de R$ 5,5 bilhões identificado no BRB (operação Master); conselheiros divididos e pedidos de rejeição em curso (novidades de 2026). Sem decisão transitada, mas o rombo é documentado e a gestão atual responde por ele."
+   },
+   "social": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Programas de primeiro emprego, pautas de mobilidade com isenções tarifárias e atuação nas regiões administrativas documentadas na gestão; agenda social real porém genérica quando comparada às propostas concorrentes."
+   },
+   "mobilidade": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Governadora em exercício com pautas de mobilidade e infraestrutura nas regiões administrativas e isenção de tarifa para grupos específicos; obras de mobilidade em execução documentadas (Agência Brasília). Continuída da matriz de transporte atual, sem reformulação estrutural proposta."
+   }
+  }
+ },
+ "senador|ERIKA KOKAY|131": {
+  "cargo": "senador",
+  "numero": "131",
+  "nome_urna": "ERIKA KOKAY",
+  "partido": "PT (Federação Brasil da Esperança)",
+  "vice": "—",
+  "coligacao": "DF DO POVO",
+  "resumo": "Deputada federal em 3º mandato (2015-2027) e ex-presidente da Comissão de Trabalho da Câmara. Perfil mais aderente aos seus critérios no Senado: 12 anos de votos registrados, histórico ambiental votado contra retrocessos e nenhuma condenação. Busca a vaga com o número 131.",
+  "fontes": [
+   {
+    "titulo": "Número 131 ao Senado — UOL (03/10/2026)",
+    "url": "https://noticias.uol.com.br/eleicoes/2026/10/03/numero-de-benedita-da-silva-para-o-senado-pelo-rj-e-dos-demais-candidatos-veja-lista.ghtm"
+   },
+   {
+    "titulo": "Número e lista de candidatos — G1 (01/10/2026)",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Quem é Erika Kokay — CNN Brasil (22/09/2026)",
+    "url": "https://www.cnnbrasil.com.br"
+   },
+   {
+    "titulo": "Ficha 2026 e votação do Senado — Folha (03/10/2026)",
+    "url": "https://www1.folha.uol.com.br"
+   },
+   {
+    "titulo": "Votou a favor do meio ambiente nos vetos do marco temporal — Virada Parlamentar",
+    "url": "https://viradaparlamentar.org.br"
+   },
+   {
+    "titulo": "Contra o PL 490/marco temporal — PT na Câmara (31/05/2023)",
+    "url": "https://ptnacamara.org.br"
+   },
+   {
+    "titulo": "Atuação em metas dos ODS — Galera Vermelha (23/10/2024)",
+    "url": "https://galeravermelha.com.br"
+   },
+   {
+    "titulo": "Discurso em plenário (01/07/2026) — Câmara dos Deputados",
+    "url": "https://www.camara.leg.br"
+   },
+   {
+    "titulo": "3ª maior votação federal do DF em 2014 — Política DF em Números",
+    "url": "https://politicadfemnumeros.wordpress.com"
+   },
+   {
+    "titulo": "Discursos e comunicações em plenário | Notas Taquigráficas da Câmara",
+    "url": "https://escriba.camara.leg.br"
+   }
+  ],
+  "foto": "kokay",
+  "slug": "kokay",
+  "foto_url": "/fotos/kokay.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Votações e proposições integralmente rastreáveis em portais oficiais da Câmara em três mandatos. Atuação em comissões (Trabalho, ODS) com relatórios públicos; discurso de julho/2026 e atividade documentada não registram episódios de opacidade."
+   },
+   "desenvolvimento": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Agenda de desenvolvimento social com bases econômicas: defesa das metas dos ODS, trabalho decente, educação e valorização de direitos. Como senadora, deve ampliar pautas de investimento social; a ausência de agenda 'big tech'/industrial explícita limita a nota."
+   },
+   "honestidade": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Três mandatos na Câmara sem condenações judiciais, sem processos de improbidade e sem delações relevantes localizadas nas fontes consultadas, histórico legislativo longo e limpo, exatamente o que o critério exige."
+   },
+   "ambiental": {
+    "nota": 8.5,
+    "nivel": "A",
+    "texto": "Votou a favor do meio ambiente na derrubada dos vetos ao marco temporal e contra o PL 490 (discurso: 'é muito cinismo defender esse projeto, que possibilita a entrada, sem autorização, em territórios indígenas'). Registro confirmado pelo monitor Virada Parlamentar, evidência votada, não apenas discurso."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Internacionalismo solidário compatível com a matriz petista; sem sinais de subordinação a interesses estrangeiros, mas também sem agenda soberanista específica (ciência, defesa, indústria). Nota neutra."
+   },
+   "tecnologia": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Pautas de economia digital e inclusão presentes de forma secundária; sem protagonismo em ciência, IA ou inovação registrado nas fontes."
+   },
+   "democracia": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Discursos de defesa da democracia e da responsabilização pelos atos de 8 de janeiro registrados em notas taquigráficas oficiais da Câmara; atuação consistente em comissões de direitos e no acompanhamento das apurações institucionais. Três mandatos sem episódio de confronto com a divisão dos Poderes."
+   },
+   "gestao": {
+    "nota": 5.5,
+    "nivel": "A",
+    "texto": "Três mandatos federais com atuação registrada em portais oficiais, presidência da Comissão de Trabalho e relatorias com relatórios públicos. Função legislativa consistente, sem passagem executiva para avaliar entregas administrativas."
+   },
+   "fiscal": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Sem pauta fiscal específica ou posicionamentos de custeio compilados nas fontes consultadas desta triagem; votações orçamentárias regulares sem rejeição de contas pessoal localizada."
+   },
+   "social": {
+    "nota": 8.5,
+    "nivel": "A",
+    "texto": "Núcleo da trajetória: trabalho decente, metas dos ODS, educação e direitos sociais com proposições registradas oficialmente; presidência da Comissão de Trabalho com produção documentada. Agenda social com base legislativa verificável."
+   },
+   "mobilidade": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem pauta de mobilidade do DF compilada nas fontes consultadas; atuação de transporte aparece de forma secundária em mandatos anteriores."
+   }
+  }
+ },
+ "senador|LEILA DO VÔLEI|123": {
+  "cargo": "senador",
+  "numero": "123",
+  "nome_urna": "LEILA DO VÔLEI",
+  "partido": "PDT",
+  "vice": "—",
+  "coligacao": "DF DO POVO",
+  "resumo": "Senadora em busca de reeleição (eleita em 2018), ex-jogadora da seleção e ex-atleta olímpica. Preside a Comissão de Meio Ambiente do Senado, relatou o mercado de carbono (MBRE) e destinou mais de R$ 620 milhões em emendas para o DF, dado oficial rastreável na página de transparência do Senado.",
+  "fontes": [
+   {
+    "titulo": "Perfil oficial de senadora — Senado Federal",
+    "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5979"
+   },
+   {
+    "titulo": "Transparência e recursos do mandato — Senado (sen/5979)",
+    "url": "https://www6g.senado.leg.br/transparencia/sen/5979"
+   },
+   {
+    "titulo": "Relatoria do Mercado Brasileiro de Carbono (MBRE) — Agência Brasil (30/08/2023)",
+    "url": "https://agenciabrasil.ebc.com.br"
+   },
+   {
+    "titulo": "Eleita presidente da Comissão de Meio Ambiente — site do mandato",
+    "url": "https://leiladovolei.com"
+   },
+   {
+    "titulo": "PRS 4/2023: monitoramento ambiental independente — Senado Notícias (05/07/2023)",
+    "url": "https://www12.senado.leg.br"
+   },
+   {
+    "titulo": "Biografia — Wikipédia",
+    "url": "https://pt.wikipedia.org/wiki/Leila_Barros"
+   },
+   {
+    "titulo": "Datafolha: empate entre 4 candidatas (11/09) — CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-disputa-pelo-senado-no-df-tem-empate-entre-4-candidatas"
+   },
+   {
+    "titulo": "Pesquisa Quaest para o Senado — Brasil de Fato (08/09/2026)",
+    "url": "https://www.brasildefato.com.br/2026/09/08/pesquisa-quaest-aponta-empate-tecnico-na-segunda-vaga-para-o-senado-no-distrito-federal"
+   },
+   {
+    "titulo": "Balanço de oito anos: mais de R$ 813 milhões em emendas | Oxadrez da Política (09/2026)",
+    "url": "https://oxadrezdapolitica.com.br"
+   }
+  ],
+  "foto": "leila",
+  "slug": "leila",
+  "foto_url": "/fotos/leila.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Página de transparência individual no Senado (sen/5979) lista recursos, viagens e emendas, prestação de contas contínua e verificável. Atuação como relatora em plenário documentada em notas taquigráficas oficiais."
+   },
+   "desenvolvimento": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "R$ 620 milhões destinados ao DF em saúde, educação, esporte e infraestrutura (dado oficial da senadora, conferível na transparência do Senado). 27 ações legislativas no 1º ano, incluindo a Lei 550/2019 sobre segurança da exploração mineral."
+   },
+   "honestidade": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "Sete anos de mandato senatorial sem condenações, inquéritos ou denúncias de irregularidade localizadas nas fontes consultadas. A transição do esporte para a política sem escândalos reforça o perfil exigido."
+   },
+   "ambiental": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Presidente eleita da Comissão de Meio Ambiente do Senado; relatora do projeto que criou o Mercado Brasileiro de Redução de Emissões (MBRE); autora do PRS 4/2023 para monitoramento ambiental independente. Votação específica no marco temporal não localizada, leve desconto."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Soft power do esporte e pautas sociais; sem evidências relevantes em qualquer direção sobre autonomia frente a potências estrangeiras."
+   },
+   "tecnologia": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Pautas de inovação no esporte e saúde digital de forma secundária; sem agenda tech estruturada registrada."
+   },
+   "democracia": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Sem episódios de confronto institucional localizados em sete anos de mandato; atuação parlamentar regular e institucional. Ausência de sinal forte em qualquer direção."
+   },
+   "gestao": {
+    "nota": 6.5,
+    "nivel": "A",
+    "texto": "Emendas de R$ 813 milhões destinadas e executadas para o DF em saúde, educação, esporte e proteção às mulheres (balanço oficial da senadora de 09/2026, conferível na transparência do Senado). Entregas orçamentárias contínuas e rastreáveis."
+   },
+   "fiscal": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Destinação de emendas legal e documentada, sem irregularidades localizadas; sem pauta de disciplina fiscal própria registrada nas fontes consultadas."
+   },
+   "social": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "R$ 813 milhões em emendas para saúde, educação, esporte, cultura e proteção às mulheres documentados no balanço oficial do mandato; relatoria de recursos setoriais (esporte) com lei sancionada. Resultado social distributivo verificável."
+   },
+   "mobilidade": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Emendas concentradas em saúde, educação, esporte e mulheres; sem destinação documentada para mobilidade do DF nas fontes consultadas."
+   }
+  }
+ },
+ "senador|SEBASTIÃO COELHO|300": {
+  "cargo": "senador",
+  "numero": "300",
+  "nome_urna": "SEBASTIÃO COELHO",
+  "partido": "NOVO",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Auditor do Tribunal de Contas do DF com carreira construída no Judiciário do DF, 71 anos, candidato do NOVO. Líder do segundo pelotão do Senado (2% Datafolha; 5,9% Real Time Big Data). Perfil técnico-fiscal alinhado aos critérios de transparência e honestidade, com plano genérico.",
+  "fontes": [
+   {
+    "titulo": "Ficha do candidato (idade, gastos) — Agência Sertão",
+    "url": "https://agenciasertao.com"
+   },
+   {
+    "titulo": "Ficha e situação no TSE — Blog Anderson Souza (15/09/2026)",
+    "url": "https://blogandersonsouza.com.br"
+   },
+   {
+    "titulo": "Trajetória no Judiciário do DF — Notícias do Planalto (01/10/2025)",
+    "url": "https://noticiasdoplanalto.com.br"
+   },
+   {
+    "titulo": "Pesquisas consolidadas: Coelho 2%, demais 1% — Valor (24/09/2026)",
+    "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/09/24/quem-esta-na-frente-para-senador-no-df-veja-resultados-das-ultimas-pesquisas.ghtml"
+   },
+   {
+    "titulo": "Real Time Big Data: Coelho 5,9% — Instagram/RTBD",
+    "url": "https://www.instagram.com/reel/DcPFRBupXUA"
+   },
+   {
+    "titulo": "Lista de candidatos ao Senado — JOTA",
+    "url": "https://www.jota.info/eleicoes/eleicoes-2026/lista-quem-sao-os-candidatos-ao-senado-pelo-distrito-federal-df-nas-eleicoes-2026"
+   },
+   {
+    "titulo": "Candidatos 2026 DF — Senado Notícias",
+    "url": "https://www12.senado.leg.br/noticias/candidatos-2026/distrito-federal"
+   }
+  ],
+  "foto": "coelho",
+  "slug": "coelho",
+  "foto_url": "",
+  "criterios": {
+   "transparencia": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Carreira inteira dedicada a auditoria pública (TCDF), com função institucional de fiscalizar a própria administração. O NOVO adiciona regras partidárias contra emendas secretas e verba indenizatória, combinação rara e forte para o critério."
+   },
+   "desenvolvimento": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Plano do partido por diretrizes: Estado menor, desburocratização, eficiente utilização do dinheiro público. Coerente, mas sem propostas específicas de desenvolvimento para o DF ou o Cerrado."
+   },
+   "honestidade": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Nenhuma condenação ou denúncia localizada em décadas de Judiciário/TCDF. A profissão de auditor público é, em si, exposição contínua a fiscalização, evidência indireta forte, ainda que não seja um histórico eleitoral."
+   },
+   "ambiental": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem propostas ambientais específicas nas fontes consultadas; a matriz do partido prioriza licenciamento ágil e ceticismo regulatório. Nota baixa-moderada."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Partido sem alinhamentos internacionais; candidato sem posições públicas registradas sobre o tema. Neutro."
+   },
+   "tecnologia": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Experiência com sistemas de auditoria eletrônica do TCDF; sem agenda de inovação detalhada."
+   },
+   "democracia": {
+    "nota": 7.0,
+    "nivel": "C",
+    "texto": "Carreira inteira no TCDF dedicada à fiscalização institucional, sem episódio de confronto com Poderes localizado; regras partidárias do NOVO contra ataques à urna e instituições. Sem histórico eleitoral para verificar conduta política."
+   },
+   "gestao": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Carreira técnica de auditor público com função institucional de controle; experiência administrativa em estrutura de tribunal de contas. Sem gestão executiva de políticas públicas."
+   },
+   "fiscal": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Auditor de contas públicas por profissão e carreira no TCDF, com disciplina partidária fiscal do NOVO (fim de verba indenizatória e emendas secretas). Perfil fiscalizatório direto do uso do dinheiro público."
+   },
+   "social": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Proteção social focada como diretriz partidária, sem programas sociais próprios ou produção social documentada nas fontes consultadas."
+   },
+   "mobilidade": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Sem pauta de mobilidade específica; diretrizes partidárias genéricas de eficiência do gasto."
+   }
+  }
+ },
+ "senador|MICHELLE BOLSONARO|222": {
+  "cargo": "senador",
+  "numero": "222",
+  "nome_urna": "MICHELLE BOLSONARO",
+  "partido": "PL",
+  "vice": "—",
+  "coligacao": "PROPÓSITO E AÇÃO",
+  "resumo": "Ex-primeira-dama (2019-2022) e líder do PL Mulher, lidera a disputa com 26-30%. Primeira candidatura eletiva: não há histórico legislativo a avaliar, o que derruba critérios de desenvolvimento e tecnologia e força a análise por evidências indiretas (bens declarados, atuação partidária, discurso).",
+  "fontes": [
+   {
+    "titulo": "Número 222 e lista — UOL (03/10/2026)",
+    "url": "https://noticias.uol.com.br"
+   },
+   {
+    "titulo": "Quem é Michelle Bolsonaro — CNN Brasil (18/09/2026)",
+    "url": "https://www.cnnbrasil.com.br"
+   },
+   {
+    "titulo": "Ficha de candidata ao Senado — G1",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Declara R$ 4,48 milhões em bens — BP Money (16/08/2026)",
+    "url": "https://bpmoney.com.br"
+   },
+   {
+    "titulo": "Campanha própria com apoio de Damares e Celina — Gazeta do Povo (10/08/2026)",
+    "url": "https://www.gazetadopovo.com.br"
+   },
+   {
+    "titulo": "Atuação como primeira-dama e Libras — IstoÉ Dinheiro (13/05/2022)",
+    "url": "https://istoedinheiro.com.br"
+   },
+   {
+    "titulo": "Trabalho voluntário sem remuneração — UOL (15/08/2019)",
+    "url": "https://entrequatropoderes.blogosfera.uol.com.br"
+   },
+   {
+    "titulo": "PL oficializa Michelle e Bia Kicis — Poder360 (02/08/2026)",
+    "url": "https://www.poder360.com.br"
+   },
+   {
+    "titulo": "Lista completa de candidatos ao Senado — JOTA (03/10/2026)",
+    "url": "https://www.jota.info"
+   },
+   {
+    "titulo": "Michelle cita Deus e fala em libertar Bolsonaro | Pleno.news (08/2026)",
+    "url": "https://pleno.news"
+   },
+   {
+    "titulo": "Discurso apontado como risco de leitura teocrática | Agenda do Poder (02/2024)",
+    "url": "https://agendadopoder.com.br"
+   },
+   {
+    "titulo": "Programa da primeira-dama distribuiu 27 mil cestas básicas | Terra (05/2021)",
+    "url": "https://www.terra.com.br"
+   }
+  ],
+  "foto": "michelle",
+  "slug": "michelle",
+  "foto_url": "/fotos/michelle.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Declarou R$ 4,48 milhões em bens ao TSE, concentrados em aplicações financeiras, declaração pública acessível. Como primeira-dama, atuou como voluntária sem remuneração (confirmado à época). Não há, porém, trajetória com prestação de contas eleitoral anterior para auditar."
+   },
+   "desenvolvimento": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Discurso de lançamento fala em 'levar ao Senado a mesma missão exercida como primeira-dama' e em maior presença feminina na política; até 03/10 não foi localizado plano de governo específico com medidas econômicas estruturadas para o DF ou o país."
+   },
+   "honestidade": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Nenhuma condenação judicial conhecida; nome não figura como ré em processos públicos. A convivência política próxima a núcleos investigados da família Bolsonaro é contexto jornalístico (nível C), não evidência formal contra ela, nota intermediária-alta pela ausência de registros negativos formais."
+   },
+   "ambiental": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Sem histórico legislativo e sem pauta ambiental pública estruturada; o palanque ao qual se alia tem recordes de votação contra a agenda ambiental (avaliados nas fichas de Kicis e Flávio). Nota conservadora por ausência de evidência própria."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Discurso nacional-conservador com defesa explícita da soberania nacional e crítica a organismos internacionais; sem histórico executivo ou legislativo para verificação de conduta."
+   },
+   "tecnologia": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Atuação forte em comunicação digital e redes; em 2024 manifestou críticas pontuais ao projeto de lei sobre plataformas (queria ajustes), sinalizando interesse no tema, sem agenda propositiva detalhada."
+   },
+   "democracia": {
+    "nota": 4.5,
+    "nivel": "B",
+    "texto": "Discurso de campanha de 2022 ('o inimigo não vai vencer') e falas de 2024 apontadas pelo então presidente do Senado como risco de leitura teocrática (Agenda do Poder); em 2026, campanha pública ao lado de Flávio Bolsonaro pela 'libertação' do ex-presidente condenado, pressão direta contra desfecho judicial documentada (Pleno.news, 08/2026). Sem acusação formal pessoal; o registro é de direção política."
+   },
+   "gestao": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Primeira candidatura eletiva; atuação como primeira-dama foi de função social voluntária sem gestão administrativa executiva. Liderança partidária (PL Mulher) com organização política documentada."
+   },
+   "fiscal": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem histórico fiscal ou orçamentário próprio; declaração de bens de R$ 4,48 milhões pública e acessível. Ausência de registro não comprova conduta."
+   },
+   "social": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Ações sociais documentadas como primeira-dama (distribuição de cestas básicas, programas de apoio a famílias e pessoas com deficiência, liderança do PL Mulher). Atuação social real, porém fora de política pública auditável."
+   },
+   "mobilidade": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Sem registro de pauta de mobilidade ou transporte público nas fontes consultadas."
+   }
+  }
+ },
+ "senador|BIA KICIS|223": {
+  "cargo": "senador",
+  "numero": "223",
+  "nome_urna": "BIA KICIS",
+  "partido": "PL",
+  "vice": "—",
+  "coligacao": "PROPÓSITO E AÇÃO",
+  "resumo": "Deputada federal (2019-2027), ex-procuradora do DF e autora da PEC do voto auditável. Segunda força na disputa (24% na Datafolha de 03/10). Histórico legislativo extenso e rastreável, mas com recorde ambiental votado contrário e investigações jornalísticas/judiciais sem condenação, combinação que a coloca no fim do ranking sob seus critérios.",
+  "fontes": [
+   {
+    "titulo": "Número 223 e ficha — G1",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Quem é Bia Kicis — CNN Brasil (22/09/2026)",
+    "url": "https://www.cnnbrasil.com.br"
+   },
+   {
+    "titulo": "Ficha e bens declarados — Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br"
+   },
+   {
+    "titulo": "PF investigava atuação de operador ligado ao gabinete (clipping TRF1) — TRF1",
+    "url": "https://www.trf1.jus.br"
+   },
+   {
+    "titulo": "PEC do voto auditável e episódios institucionais — Instituto DX",
+    "url": "https://institutodx.org"
+   },
+   {
+    "titulo": "Balanço de atuação na pauta eleitoral — Blog da Denise/Correio (2020)",
+    "url": "https://blogs.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "PL oficializa Michelle e Bia Kicis — Poder360 (02/08/2026)",
+    "url": "https://www.poder360.com.br"
+   },
+   {
+    "titulo": "Quaest: empate técnico na 2ª vaga — Brasil de Fato (08/09/2026)",
+    "url": "https://www.brasildefato.com.br/2026/09/08/pesquisa-quaest-aponta-empate-tecnico-na-segunda-vaga-para-o-senado-no-distrito-federal"
+   },
+   {
+    "titulo": "Datafolha: Bia cresce na reta final — O Hoje (25/09/2026)",
+    "url": "https://ohoje.com"
+   },
+   {
+    "titulo": "Kicis defende 'liberdade de golpistas' | iG (02/2023)",
+    "url": "https://ultimosegundo.ig.com.br"
+   },
+   {
+    "titulo": "Relatório da PF sobre trama golpista | Brasil247 (11/2024)",
+    "url": "https://www.brasil247.com"
+   }
+  ],
+  "foto": "kicis",
+  "slug": "kicis",
+  "foto_url": "/fotos/kicis.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Votações públicas intensas e rastreáveis; defesa declarada da auditoria das urnas. Em contrapartida, o TRF1 cita em clipping que a PF investigava atuação de operador de notícias em rede ligada ao seu gabinete (contexto da apuração sobre milícias digitais), investigação sem condenação, mas que marca o critério."
+   },
+   "desenvolvimento": {
+    "nota": 5.0,
+    "nivel": "B",
+    "texto": "Autora de PEC do voto auditável e pautas de segurança e moralização; produtividade propositiva concentrada em temas institucionais e conservadores, com menos projetos de desenvolvimento econômico ou infraestrutura para o DF registrado nas fontes."
+   },
+   "honestidade": {
+    "nota": 4.5,
+    "nivel": "B",
+    "texto": "Sem condenação criminal transitada em julgado, ponto essencial. Contudo, acumula investigações formais documentadas (Vaza Toga/STF em 2020, apuração sobre rede de desinformação) e protagonismo em confrontos institucionais. Para o critério de 'honestidade comprovada por evidências', as apurações sem desfecho pesam mais que na média dos concorrentes."
+   },
+   "ambiental": {
+    "nota": 2.5,
+    "nivel": "B",
+    "texto": "Recorde votado desfavorável à pauta ambiental: apoio ao marco temporal e à flexibilização de demarcações, alinhamento com a pauta ruralista. O monitor legislativo confirma posição sistemática, é o critério de maior distância com a candidata."
+   },
+   "soberania": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Posição forte e consistente contra influências externas (ONU, ONU-Habitat, agendas internacionais), autor da PEC de auditoria das urnas por motivação soberanista. Coerência interna alta, mesmo para quem discorda do conteúdo."
+   },
+   "tecnologia": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Autora da PEC do voto auditável com trilha de auditoria individual, interesse genuíno em integridade tecnológica do processo eleitoral, ainda que em disputa aberta com as autoridades eleitorais. Sem pauta de inovação econômica registrada."
+   },
+   "democracia": {
+    "nota": 3.0,
+    "nivel": "B",
+    "texto": "Citada em relatório da Polícia Federal da apuração da trama golpista (inquérito do STF, sem condenação); declarou em 02/2023 que invasores estavam 'manifestando como garante a Constituição' (iG); processada pelo PT por desinformação institucional (2025). Acumulação de registros formais e públicos contrários à responsabilização do 8/1, sempre em nível de investigação e manifesto."
+   },
+   "gestao": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Dois mandatos federais com produção legislativa registrada; sem função executiva ou entregas administrativas auditáveis."
+   },
+   "fiscal": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem pauta fiscal estruturada ou votações orçamentárias compiladas nas fontes consultadas; sem rejeição de contas localizada."
+   },
+   "social": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Produção legislativa concentrada em temas institucionais e conservadores; sem programa social ou resultados sociais documentados nas fontes consultadas."
+   },
+   "mobilidade": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Sem pauta de mobilidade registrada; produção legislativa concentrada em temas institucionais."
+   }
+  }
+ },
+ "dep_federal|FÁBIO FELIX|5050": {
+  "cargo": "dep_federal",
+  "numero": "5050",
+  "nome_urna": "FÁBIO FELIX",
+  "partido": "PSOL",
+  "vice": "—",
+  "coligacao": "FEDERAÇÃO",
+  "resumo": "Campeão de votos da história da CLDF (51.792 votos em 2022), assistente social e professor, salta para a Câmara Federal. Mandato distrital marcado por fiscalização ativa (acionou MP e TCDF) e defesa de pautas sociais e ambientais, melhor aderência ao seu conjunto de critérios entre os votáveis.",
+  "fontes": [
+   {
+    "titulo": "Campeão de votos da CLDF em 2022 (51.792) — G1 (02/10/2022)",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Atividade legislativa e votações — HubPolítico",
+    "url": "https://hubpolitico.com.br"
+   },
+   {
+    "titulo": "Perfil e mandato — Legislapp",
+    "url": "https://www.legislapp.com.br"
+   },
+   {
+    "titulo": "Bloco PSOL/PSB aciona TCDF sobre o Metrô — site do mandato",
+    "url": "https://fabiofelix.com.br"
+   },
+   {
+    "titulo": "Aciona MP contra publicidade do GDF — Folha PE (14/07/2023)",
+    "url": "https://www.folhape.com.br"
+   },
+   {
+    "titulo": "CPI do 8 de janeiro — Movimento Revista (04/12/2023)",
+    "url": "https://movimentorevista.com.br"
+   },
+   {
+    "titulo": "Alerta sobre bullying escolar — Correio Braziliense (24/06/2025)",
+    "url": "https://www.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Igape: nove nomes em empate técnico — Acorda DF (28/09/2026)",
+    "url": "https://acordadf.com.br"
+   },
+   {
+    "titulo": "Fred Linhares lidera; Felix e Prudente na sequência — F5 Política (01/10/2026)",
+    "url": "https://www.f5politica.com.br"
+   }
+  ],
+  "foto": "fabiofelix",
+  "slug": "fabiofelix",
+  "foto_url": "/fotos/fabiofelix.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 8.5,
+    "nivel": "B",
+    "texto": "Mandato aberto com votações e proposições rastreadas em portais independentes (HubPolítico, Legislapp). Acionou o Ministério Público contra publicidade institucional do GDF e o TCDF contra irregularidades no Metrô, postura fiscalizadora verificada em documentos públicos."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Agenda social robusta (combate ao bullying, pautas LGBTQIA+, educação) e defesa do passe livre estudado com seriedade na CLDF. Desenvolvimento econômico aparece mediado por justiça social; para critérios de crescimento produtivo puro, a nota é intermediária."
+   },
+   "honestidade": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Sem condenações, inquéritos ou denúncias contra o parlamentar localizadas nas fontes consultadas. Vítima em episódios públicos (ataques homofóbicos em audiência, ação policial contestada), sem expediente negativo próprio."
+   },
+   "ambiental": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Histórico alinhado à pauta ambiental do PSOL, com fiscalização ambiental-institucional ativa (TCDF/Metrô, MP/GDF) e participação em frentes socioambientais. Votações distritais favoráveis a pautas de sustentabilidade documentadas."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Crítico explícito de tentativas de golpe e defensor do controle civil das instituições; em relações internacionais, linha crítica de esquerda. Sem sinais de subordinação externa."
+   },
+   "tecnologia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Pautas de educação digital e proteção de estudantes em ambientes online presentes de forma secundária; sem agenda tech estruturada."
+   },
+   "democracia": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Crítico explícito e documentado da tentativa de golpe de 8 de janeiro e defensor do controle civil das instituições; atuação parlamentar consistente nas apurações institucionais. Sem episódio próprio de confronto indevido com Poderes."
+   },
+   "gestao": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Mandato distrital campeão de votos com fiscalização ativa e entregas legislativas documentadas (passe livre estudado na CLDF, proposições registradas); sem função executiva. Capacidade de mobilização e diálogo institucional comprovada."
+   },
+   "fiscal": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Fiscalização documentada do gasto público: acionou o Ministério Público contra publicidade institucional do GDF e o TCDF contra irregularidades no Metrô-DF. Postura de controle do dinheiro público verificada em documentos oficiais."
+   },
+   "social": {
+    "nota": 9.0,
+    "nivel": "B",
+    "texto": "Assistente social de formação com agenda social robusta e legislativa: combate ao bullying, pautas LGBTQIA+, educação e defesa de populações vulneráveis com proposições registradas. É o núcleo mais forte da candidatura, com produção verificável."
+   },
+   "mobilidade": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Defesa do passe livre estudada com seriedade na CLDF (estudo técnico documentado) e atuação de fiscalização do Metrô-DF junto ao TCDF; transporte público é pauta recorrente do mandato com proposições registradas."
+   }
+  }
+ },
+ "dep_federal|IZALCI LUCAS|2200": {
+  "cargo": "dep_federal",
+  "numero": "2200",
+  "nome_urna": "IZALCI LUCAS",
+  "partido": "PL",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Deputado federal desde 2019 (ex-PSDB, hoje PL) e ex-secretário de Ciência e Tecnologia do DF, com carreira técnica anterior no TCDF. 1º vice-líder do PL e relator de medidas provisórias. Perfil gestor com histórico judicial limpo, mas recorde ambiental misto.",
+  "fontes": [
+   {
+    "titulo": "TCDF encerra denúncia sem evidências (2009) — TCDF",
+    "url": "https://etcdf.tc.df.gov.br"
+   },
+   {
+    "titulo": "TJRJ: sem indícios de recursos ilícitos em campanha — Ementário TJRJ",
+    "url": "https://www.tjrj.jus.br"
+   },
+   {
+    "titulo": "Comissões e frentes parlamentares — Monitor do Senado",
+    "url": "https://senado.sapienslabs.com.br"
+   },
+   {
+    "titulo": "26 votações analisadas — Brasil Política (13/09/2026)",
+    "url": "https://brasilpolitica.org"
+   },
+   {
+    "titulo": "Como votou a Lei Geral de Licenciamento Ambiental — Correio Braziliense (17/07/2025)",
+    "url": "https://www.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Lidera entre candidatos do PL em espontânea — site do mandato (23/09/2026)",
+    "url": "https://izalci.com.br"
+   },
+   {
+    "titulo": "Pesquisa: Fred Linhares lidera, corrida embolada — Metrópoles (06/09/2026)",
+    "url": "https://www.metropoles.com"
+   },
+   {
+    "titulo": "Aposta do PL para a Câmara — O Xadrez da Política (15/08/2026)",
+    "url": "https://oxadrezdapolitica.com.br"
+   }
+  ],
+  "foto": "izalci",
+  "slug": "izalci",
+  "foto_url": "/fotos/izalci.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "Histórico auditável: denúncia ao TCDF sobre projeto seu (2009) foi encerrada com a conclusão de que 'não há evidências empíricas' dos fatos; ação no TJRJ sobre doações de campanha encerrou com constatação de inexistência de indícios de recursos ilícitos. Duas fiscalizações formais superadas, evidência positiva rara."
+   },
+   "desenvolvimento": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "Relator de medidas provisórias relevantes (vacinas/health tech), presença ativa em comissões e frentes (Recursos Naturais e Energia), autor de PECs em tramitação especial. Experiência executiva no GDF (Ciência e Tecnologia) com 19 mil servidores atendidos em programa na época."
+   },
+   "honestidade": {
+    "nota": 7.5,
+    "nivel": "A",
+    "texto": "Sem condenações judiciais; as duas apurações formais conhecidas (TCDF 2009, TJRJ) terminaram sem qualquer indício contra ele. Histórico de cargos públicos desde a década de 1990 sem escândalo documentado."
+   },
+   "ambiental": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Presença na Comissão de Meio Ambiente e frente de recursos naturais, com posições pró-expansão de energia. Votou conforme reportagens na aprovação da Lei Geral de Licenciamento Ambiental (2025), criticada por ambientalistas por facilitar licenças, recorde misto."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Linha governista de negociação; sem sinais de subordinação internacional nem agenda soberanista explícita."
+   },
+   "tecnologia": {
+    "nota": 7.0,
+    "nivel": "A",
+    "texto": "Ex-secretário de Ciência e Tecnologia do DF com programa concreto à época; atuação parlamentar em ciência, tecnologia e saúde digital (relatoria da MP das vacinas). É o candidato federal do DF com trajetória executiva tech mais documentada."
+   },
+   "democracia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Carreira parlamentar institucional com relatorias e liderança partidária nos canais formais, sem episódios de confronto com Poderes localizados. Linha negociadora documentada."
+   },
+   "gestao": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Ex-secretário de Ciência e Tecnologia do DF com programa executado documentado (19 mil servidores atendidos no período), carreira técnica anterior no TCDF e relatoria de medidas provisórias relevantes. Histórico executivo e técnico completo."
+   },
+   "fiscal": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Carreira fiscalizatória formal (TCDF) e atuação atual documentada de apontamento de irregularidades no BRB (2026); duas apurações anteriores sobre si encerradas sem indícios. Disciplina e familiaridade com controle de recursos verificáveis."
+   },
+   "social": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Pautas de ensino técnico, saúde digital e valorização do funcionalismo votadas publicamente (contrariou o Planalto por reajuste em 2020); produção social real porém setorial."
+   },
+   "mobilidade": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Atuação em comissões de infraestrutura e recursos naturais e relatoria de MPs; sem pauta específica de mobilidade do DF compilada nas fontes consultadas."
+   }
+  }
+ },
+ "dep_federal|JULIO CESAR|1010": {
+  "cargo": "dep_federal",
+  "numero": "1010",
+  "nome_urna": "JULIO CESAR",
+  "partido": "Republicanos",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Deputado federal reeleito (2023-2027), dedicado às pautas de esporte e proteção de crianças na internet. Terceiro/fourth lugar nas pesquisas (5,6% Igape). Sem condenações conhecidas; perfil de bancada evangelizada com pouca presença nas pautas ambiental e tech-produtiva.",
+  "fontes": [
+   {
+    "titulo": "Atuação no esporte e mandato — A Política em Foco",
+    "url": "https://apoliticaemfoco.com.br"
+   },
+   {
+    "titulo": "Projetos apresentados desde 2023 — VotoCheck",
+    "url": "https://votocheck.com.br"
+   },
+   {
+    "titulo": "Ficha do candidato (bens, plano) — Correio Braziliense Eleições (29/09/2026)",
+    "url": "https://eleicoes.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Proteção de crianças na internet — Lupa Política (25/09/2025)",
+    "url": "https://lupapolitica.com.br"
+   },
+   {
+    "titulo": "Igape: empate técnico com 5,6% — Acorda DF (28/09/2026)",
+    "url": "https://acordadf.com.br"
+   },
+   {
+    "titulo": "Posse da bancada republicana (2019) — Republicanos",
+    "url": "https://republicanos10.org.br"
+   }
+  ],
+  "foto": "juliocesar",
+  "slug": "juliocesar",
+  "foto_url": "/fotos/juliocesar.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Votações e proposições rastreáveis (VotoCheck, portals oficiais). Sem denúncias de desvio de recursos localizadas; frequência e atividade registradas nos portais da Câmara."
+   },
+   "desenvolvimento": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Agenda de esporte como política pública e ações sociais; reeleito em 2022 com bancada forte. Poucos projetos de desenvolvimento econômico estrutural registrados nas fontes."
+   },
+   "honestidade": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Nenhuma condenação ou inquérito localizado contra o deputado (cuidado: existem homônimos na política brasileira, Júlio Cesar Delgado (PE) e Júlio César Lima (RJ), com processos próprios, não são este candidato)."
+   },
+   "ambiental": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem registro de protagonismo em votações ambientais; posição esperada alinhada ao bloco conservador, sem evidência específica."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Sem posições públicas relevantes sobre subordinação ou autonomia internacional registradas."
+   },
+   "tecnologia": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Protagonismo em proteção de crianças no ambiente digital (retirada rápida de conteúdo nocivo, 'desafios perigosos'), pauta tech de proteção concreta, ainda que não de inovação econômica."
+   },
+   "democracia": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Mandatos parlamentares regulares sem episódios de confronto institucional localizados; pauta de proteção de crianças com projeto de lei registrado. Ausência de sinal forte em qualquer direção."
+   },
+   "gestao": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Deputado federal reeleito com bancada organizada; sem função executiva ou entregas administrativas auditáveis."
+   },
+   "fiscal": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Sem rejeição de contas ou irregularidades orçamentárias localizadas; pauta fiscal e custeio de propostas não compilados nesta triagem."
+   },
+   "social": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Agenda social setorial concreta: esporte como política pública e proteção de crianças na internet com projeto de lei autoral registrado e trâmite documentado."
+   },
+   "mobilidade": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Sem pauta de mobilidade do DF registrada nas fontes consultadas."
+   }
+  }
+ },
+ "dep_federal|FRED LINHARES|1020": {
+  "cargo": "dep_federal",
+  "numero": "1020",
+  "nome_urna": "FRED LINHARES",
+  "partido": "Republicanos",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Jornalista e deputado federal desde 2023 (165 mil votos em 2022), líder absoluto das pesquisas (11,4-12,8%) graças à forte presença na comunicação popular. Autor do Dia Nacional de Combate ao Crime Cibernético. Ponto de atenção: emendas suas sob escrutínio do STF na apuração das emendas parlamentares.",
+  "fontes": [
+   {
+    "titulo": "Perfil e atuação — Jornal de Brasília (15/10/2025)",
+    "url": "https://jornaldebrasilia.com.br"
+   },
+   {
+    "titulo": "Emenda de R$ 4,9 mi à Associação Moriá sob apuração — G1 (18/07/2025)",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Aciona TCU sobre envio de armas à fronteira — Câmara dos Deputados",
+    "url": "https://www.camara.leg.br"
+   },
+   {
+    "titulo": "Autor do Dia Nacional de Combate ao Crime Cibernético — Assespro-PR",
+    "url": "https://assespropr.org.br"
+   },
+   {
+    "titulo": "Eleito em 2022 com 165.358 votos — Diplomacia Business (03/10/2022)",
+    "url": "https://www.diplomaciabusiness.com"
+   },
+   {
+    "titulo": "Proposições e radar parlamentar — Radar Congresso em Foco",
+    "url": "https://radar.congressoemfoco.com.br"
+   },
+   {
+    "titulo": "Igape: lidera com 11,7% — Bossa News (17/08/2026)",
+    "url": "https://br.bossanews.com"
+   },
+   {
+    "titulo": "Liderança confirmada em pesquisa (set) — Órbita DF (07/09/2026)",
+    "url": "https://orbitadf.com.br"
+   }
+  ],
+  "foto": "fred",
+  "slug": "fred",
+  "foto_url": "/fotos/fred.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Mandato com alta visibilidade pública e uso intensivo de redes como canal direto; em 2024 destinou R$ 4,9 milhões à Associação Moriá, caso citado na apuração da 'farra das emendas' conduzida pelo ministro Dino (10 dias para explicações de AGU e Congresso). Sem condenação , mas sob escrutínio formal em curso."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Emendas bilionárias ao orçamento com foco em saúde, assistência e infraestrutura do DF; projetos de comunicação e segurança. Eficácia distributiva alta; desenvolvimento estrutural (indústria, inovação) menos presente."
+   },
+   "honestidade": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Sem condenação criminal; porém a destinação de emendas à Associação Moriá (R$ 4,9 mi) integra a investigação formal sobre irregularidades em emendas parlamentares no STF , apuração em curso que precisa ser acompanhada. Nível B de evidência aplicado com desconto."
+   },
+   "ambiental": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Sem protagonismo ambiental registrado; agenda orientada a segurança e comunicação."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Acionou o TCU para suspender o envio de armas à fronteira com a Venezuela , posição formal de cautela em escalada militar internacional. Ato concreto de soberania prudencial, documentado no portal da Câmara."
+   },
+   "tecnologia": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Autor do projeto que institui o Dia Nacional de Combate ao Crime Cibernético e pautas de segurança digital , presença tech de proteção, não de inovação produtiva."
+   }
+  }
+ },
+ "dep_federal|RAFAEL PRUDENTE|1515": {
+  "cargo": "dep_federal",
+  "numero": "1515",
+  "nome_urna": "RAFAEL PRUDENTE",
+  "partido": "MDB",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Deputado federal (2023-2027), ex-presidente da CLDF, 2º/3º lugar nas pesquisas (5,0-6,3%). Governismo de 75,4% e defesa da autonomia do DF. Ponto fraco sob seus critérios: votações ambientais desfavoráveis/ausências-chave.",
+  "fontes": [
+   {
+    "titulo": "Governismo de 75,4% — Conectado ao Poder (03/06/2024)",
+    "url": "https://conectadoaopoder.com.br"
+   },
+   {
+    "titulo": "Ausente na votação do marco temporal; apoiou urgência do PL 490 — Brasil de Fato (31/05/2023)",
+    "url": "https://www.brasildefato.com.br"
+   },
+   {
+    "titulo": "Divergência de 84% com a opinião pública consultada — Virada Parlamentar",
+    "url": "https://viradaparlamentar.org.br"
+   },
+   {
+    "titulo": "Apoio à PEC da Transição e autonomia do DF — Correio Braziliense (04/12/2022)",
+    "url": "https://www.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Discursos e perfil — Radar Congresso em Foco",
+    "url": "https://radar.congressoemfoco.com.br"
+   },
+   {
+    "titulo": "Igape: 2º colocado com 5-6,3% — Bossa News (17/08/2026)",
+    "url": "https://br.bossanews.com"
+   },
+   {
+    "titulo": "Pesquisa: Prudente 5,5% — Blog da Cris (25/08/2026)",
+    "url": "https://blogdacris.com.br"
+   }
+  ],
+  "foto": "prudente",
+  "slug": "prudente",
+  "foto_url": "/fotos/prudente.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Mandato rastreável em portais oficiais e independentes; sem denúncias de irregularidade. O monitor Virada Parlamentar aponta 84% de divergência 'forte' com a opinião pública consultada, transparência formal ok, alinhamento representativo discutível."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Apoiador declarado da PEC da Transição e da autonomia financeira do DF (entrevista ao Correio em 2022); governismo alto dá capacidade de pauta no gabinete. Sem agenda econômica própria de destaque."
+   },
+   "honestidade": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Sem condenações ou inquéritos localizados, histórico parlamentar desde 2011 (CLDF) sem escândalo documentado nas fontes consultadas."
+   },
+   "ambiental": {
+    "nota": 4.0,
+    "nivel": "B",
+    "texto": "Não participou da votação final do marco temporal, mas na semana anterior votou a favor da urgência do PL 490, registro documentado pelo Brasil de Fato. Para o critério ambiental, sinalizações desfavoráveis com ausência estratégica pesam."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Defensor da autonomia do DF frente à União; sem agenda internacional relevante registrada."
+   },
+   "tecnologia": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem pauta tech estruturada registrada nas fontes."
+   },
+   "democracia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Perfil institucionalista: ex-presidente da CLDF e governismo negociador nos canais formais, sem episódios de confronto institucional localizados."
+   },
+   "gestao": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Presidiu a CLDF com gestão de processo legislativo documentada; mandato federal em curso com capacidade de pauta comprovada pelo alinhamento institucional. Sem função executiva de políticas públicas."
+   },
+   "fiscal": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Sem rejeição de contas ou irregularidades localizadas; defesa declarada da autonomia financeira do DF, sem pauta fiscal própria detalhada nas fontes consultadas."
+   },
+   "social": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem agenda social específica ou produção social compilada nas fontes consultadas; atuação concentrada em temas institucionais do DF."
+   },
+   "mobilidade": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Defesa da autonomia financeira do DF cria capacidade de investimento em mobilidade, sem pauta específica de transporte registrada."
+   }
+  }
+ },
+ "dep_distrital|CHICO VIGILANTE|13100": {
+  "cargo": "dep_distrital",
+  "numero": "13100",
+  "nome_urna": "CHICO VIGILANTE",
+  "partido": "PT",
+  "vice": "—",
+  "coligacao": "FEDERAÇÃO",
+  "resumo": "Em 7º mandato (5º como distrital), ex-diretor da CNTV, líder do PT na CLDF e presidente da CPI dos atos antidemocráticos (2023). A pesquisa mais recente o divide na liderança da CLDF (2,1% com Jaqueline Silva). Levantamento do Correio não localizou processos contra ele, o histórico mais limpo da casa.",
+  "fontes": [
+   {
+    "titulo": "Levantamento não localizou processos contra distritais (incl. Vigilante) — Correio/Senado (21/05/2018)",
+    "url": "https://www2.senado.leg.br"
+   },
+   {
+    "titulo": "Presidirá CPI dos atos antidemocráticos — Agência Brasil (07/02/2023)",
+    "url": "https://agenciabrasil.ebc.com.br"
+   },
+   {
+    "titulo": "Reeleito e histórico de mandatos — Jornal de Brasília (04/01/2023)",
+    "url": "https://jornaldebrasilia.com.br"
+   },
+   {
+    "titulo": "Solidariedade da CUT e trajetória sindical — CUT Brasília (03/03/2017)",
+    "url": "https://df.cut.org.br"
+   },
+   {
+    "titulo": "Eleito com 43.854 votos em 2022 — UOL (02/10/2022)",
+    "url": "https://noticias.uol.com.br/eleicoes/2022/10/02/deputados-distritais-distrito-federal.htm"
+   },
+   {
+    "titulo": "Defesa do uso eficiente de fundos — site do mandato",
+    "url": "https://chicovigilante.com.br"
+   },
+   {
+    "titulo": "Divide liderança da pesquisa da CLDF (2,1%) — Instagram/pesquisa (27/09/2026)",
+    "url": "https://www.instagram.com/p/Ddo7A83FKLk"
+   }
+  ],
+  "foto": "vigilante",
+  "slug": "vigilante",
+  "foto_url": "/fotos/vigilante.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Liderança sindical e parlamentar de décadas com atuação documentada; presidenciou a CPI que apurou a invasão às sedes dos Três Poderes (2023), peça institucional de transparência. Site do mandato defende 'transparência e uso eficiente dos recursos' de saúde, educação e segurança."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Atuação de defesa dos fundos de saúde, educação e segurança com audiências públicas recorrentes; perfil de garantia de direitos sociais. Menos focado em desenvolvimento econômico produtivo."
+   },
+   "honestidade": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Levantamento de imprensa (Correio, republicado pelo Senado) que vasculhou pendências judiciais de 24 distritais não localizou qualquer processo contra Vigilante, evidência direta de limpeza de histórico em casa com reputação complicada."
+   },
+   "ambiental": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Histórico de esquerda sindical com pautas socioambientais genéricas; sem protagonismo específico em votações ambientais da CLDF registrado nas fontes."
+   },
+   "soberania": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Defensor da democracia e do controle civil; sem agenda internacional relevante no nível distrital."
+   },
+   "tecnologia": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Ex-diretor de TV (CNTV) com sensibilidade para comunicação; sem agenda tech estruturada."
+   },
+   "democracia": {
+    "nota": 8.5,
+    "nivel": "B",
+    "texto": "Presidiu a CPI dos atos antidemocráticos na CLDF (2023), peça institucional de responsabilização pelos ataques aos Três Poderes; sete mandatos com defesa documentada da democracia e do controle civil. Referência institucional positiva da Casa no episódio mais grave da década."
+   },
+   "gestao": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Sete mandatos (cinco distritais) com liderança sindical e parlamentar documentada, direção da CNTV e presidência de CPI; gestão de processo legislativo consistente, sem função executiva de políticas públicas."
+   },
+   "fiscal": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Defesa recorrente e documentada dos fundos de saúde, educação e segurança com audiências públicas; levantamento de imprensa não localizou processos ou rejeições de contas contra o parlamentar. Pauta fiscal própria não detalhada."
+   },
+   "social": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Atuação permanente em saúde, educação e segurança pública com audiências e proposições registradas; perfil de garantia de direitos sociais com produção legislativa verificável."
+   },
+   "mobilidade": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Atuação concentrada em saúde, educação e segurança; sem pauta de mobilidade registrada nas fontes consultadas."
+   }
+  }
+ },
+ "dep_distrital|JAQUELINE SILVA|15900": {
+  "cargo": "dep_distrital",
+  "numero": "15900",
+  "nome_urna": "JAQUELINE SILVA",
+  "partido": "MDB",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Lidera a pesquisa mais recente para a CLDF (4,1%, Igape/Record, ago/2026). Eleita em 2018 e 2022 (26.452 votos, então pelo Agir), atualmente Procuradora Adjunta Especial da Mulher da CLDF e relatora ativa em projetos orçamentários. Cartões de material escolar e creche são seus projetos-símbolo.",
+  "fontes": [
+   {
+    "titulo": "Lidera pesquisa para a CLDF com 4,1% — R7 (31/08/2026)",
+    "url": "https://noticias.r7.com"
+   },
+   {
+    "titulo": "Eleita em 2022 com 26.452 votos (Agir) — Valor (03/10/2022)",
+    "url": "https://valor.globo.com/politica/eleicoes-2022/noticia/2022/10/03/veja-a-lista-de-deputados-distritais-eleitos-pelo-df-nas-eleicoes-de-2022.ghtml"
+   },
+   {
+    "titulo": "Lista de eleitos em 2022 — Estadão",
+    "url": "https://www.estadao.com.br/politica/df-veja-a-lista-de-deputados-distritais-eleitos-em-2022/"
+   },
+   {
+    "titulo": "Procuradora Adjunta Especial da Mulher (2026) — DCL nº 31/CLDF (13/02/2026)",
+    "url": "https://www.cl.df.gov.br"
+   },
+   {
+    "titulo": "Relatoria de projetos orçamentários — DCL nº 165/CLDF (10/08/2026)",
+    "url": "https://www.cl.df.gov.br/documents/5744638/35297378/DCL+n%C2%BA+165%2C+de+10+de+agosto+de+2026.pdf"
+   },
+   {
+    "titulo": "Programas Cartão Material Escolar e Cartão Creche — Gama Cidadão (18/03/2022)",
+    "url": "https://www.gamacidadao.com.br"
+   },
+   {
+    "titulo": "Comitê de transparência da CLDF (2019-2020) — Senado",
+    "url": "https://www2.senado.leg.br"
+   },
+   {
+    "titulo": "Análise acadêmica da reeleição — BDM/UnB (2024)",
+    "url": "https://bdm.unb.br"
+   }
+  ],
+  "foto": "jaqueline",
+  "slug": "jaqueline",
+  "foto_url": "/fotos/jaqueline.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Passou pela Comissão que avalia matérias de transparência da CLDF (2019-2020) e integra a Procuradoria da Mulher (2026); relatorias em projetos de orçamento documentadas no Diário da Câmara Legislativa. Sem denúncias de irregularidade localizadas."
+   },
+   "desenvolvimento": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Projetos concretos executados via programa (Cartão Material Escolar, Cartão Creche), investimento em escolas comemorado publicamente em 2022. Perfil de entrega de serviços básicos com medição simples e visível."
+   },
+   "honestidade": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Dois mandatos e uma década de vida pública em Brasília sem condenações, inquéritos ou pedidos de cassação localizados nas fontes consultadas."
+   },
+   "ambiental": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Sem agenda ambiental específica registrada; foco em educação, assistência e direitos da mulher."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Sem evidências relevantes em qualquer direção no âmbito distrital."
+   },
+   "tecnologia": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Programas assistenciais com componente digital (cartões), sem agenda de inovação estruturada."
+   },
+   "democracia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Dois mandatos regulares e funções institucionais (Procuradoria da Mulher) sem episódios de confronto institucional localizados."
+   },
+   "gestao": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Programas executados com entrega verificável: Cartão Material Escolar e Cartão Creche implementados via programa, investimento em escolas comemorado publicamente em 2022; relatorias orçamentárias ativas em curso."
+   },
+   "fiscal": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Relatoria de projetos orçamentários documentada no Diário da Câmara Legislativa; passagem pela comissão de matérias de transparência da CLDF. Familiaridade com ciclo orçamentário verificável."
+   },
+   "social": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Núcleo social forte e mensurável: cartões de material escolar e creche como políticas de apoio direto a famílias, defesa de direitos das mulheres na Procuradoria Especial. Entrega social documentada e repetida em dois mandatos."
+   },
+   "mobilidade": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Programas de apoio a famílias (cartões) sem componente de transporte documentado; sem agenda de mobilidade registrada."
+   }
+  }
+ },
+ "dep_distrital|JOAQUIM RORIZ NETO|22000": {
+  "cargo": "dep_distrital",
+  "numero": "22000",
+  "nome_urna": "JOAQUIM RORIZ NETO",
+  "partido": "PL",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Neto do ex-governador Joaquim Roriz, deputado distrital em primeiro mandato (21.057 votos em 2022), corregedor da CLDF no biênio 2025-2026 e 3º colocado na pesquisa para a CLDF (8,5% em set/2025). Autor do projeto de gratuidade no transporte coletivo. Sem denúncias registradas nas fontes consultadas.",
+  "fontes": [
+   {
+    "titulo": "Ficha: 1º mandato, corregedor da CLDF 2025-2026 — HubPolítico",
+    "url": "https://hubpolitico.com.br"
+   },
+   {
+    "titulo": "Projeto de gratuidade no transporte (PL 1361/2024) — Banco de Leis/UNALE",
+    "url": "https://bancodeleis.unale.org.br"
+   },
+   {
+    "titulo": "Eleito em 2022 com 21.057 votos — Valor (03/10/2022)",
+    "url": "https://valor.globo.com/politica/eleicoes-2022/noticia/2022/10/03/veja-a-lista-de-deputados-distritais-eleitos-pelo-df-nas-eleicoes-de-2022.ghtml"
+   },
+   {
+    "titulo": "Terceiro na pesquisa para a CLDF (8,5%, set/2025) — Correio Braziliense (14/09/2025)",
+    "url": "https://blogs.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Designação para a Liderança do PL — DCL nº 267/CLDF (04/12/2025)",
+    "url": "https://www.cl.df.gov.br"
+   },
+   {
+    "titulo": "Consulta TCDF: sem impedimentos — TCDF",
+    "url": "https://turismo.df.gov.br"
+   }
+  ],
+  "foto": "rorizneto",
+  "slug": "rorizneto",
+  "foto_url": "/fotos/rorizneto.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 7.5,
+    "nivel": "B",
+    "texto": "Corregedor da Câmara Legislativa, função institucional de integridade parlamentar no biênio atual; atuação documentada nos diários oficiais da CLDF. Sem expediente negativo localizado."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Autoria de PL de gratuidade no transporte coletivo (1361/2024) e pautas de mobilidade urbana e região administrativa. Agenda concreta porém setorial."
+   },
+   "honestidade": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Primeiro mandato sem condenações, inquéritos ou denúncias localizadas; consulta ao TCDF não retornou processos com impedimento. A herança política da família é fator de contexto, não evidência negativa formal."
+   },
+   "ambiental": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Transporte coletivo tem efeito ambiental indireto (menos carros); sem agenda ambiental explícita registrada."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Sem posições públicas registradas sobre relações internacionais ou subordinação externa, tema raro no debate distrital. A nota neutra-alta reflete apenas a ausência de sinais negativos, não uma agenda soberanista ativa."
+   },
+   "tecnologia": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Nenhuma agenda de inovação, ciência ou tecnologia registrada nas fontes consultadas; pautas concentradas em mobilidade, gratuidade de transporte e pautas regionais do DF."
+   },
+   "democracia": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Corregedor da CLDF no biênio 2025-2026, função institucional de integridade parlamentar e apuração interna; atuação nos canais formais sem episódios de confronto indevido localizados."
+   },
+   "gestao": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Primeiro mandato com corregedoria da Casa e autorias documentadas; sem função executiva, mas gestão institucional interna comprovada."
+   },
+   "fiscal": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Sem rejeição de contas ou irregularidades localizadas; consulta ao TCDF não retornou processos com impedimento. Pauta fiscal própria não detalhada."
+   },
+   "social": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Autoria do PL de gratuidade no transporte coletivo (1361/2024) e pautas de mobilidade com impacto social direto para estudantes e trabalhadores; agenda social setorial concreta."
+   },
+   "mobilidade": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Autor do PL de gratuidade no transporte coletivo (1361/2024) e pautas de mobilidade urbana e região administrativa registradas; é a produção legislativa de transporte público mais específica entre os distritais."
+   }
+  }
+ },
+ "dep_distrital|JULIA LUCY|22190": {
+  "cargo": "dep_distrital",
+  "numero": "22190",
+  "nome_urna": "JULIA LUCY",
+  "partido": "PL",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Cientista política da UnB, servidora de carreira, ex-deputada distrital pelo NOVO (2019-2022, 7.665 votos) e ex-Procuradora Especial da Mulher da CLDF por dois biênios, agora no PL. Mandato liberal de fiscalização (levou ao TCDF a compra de 1,3 mil cadeiras do Hospital de Base). Justiça Eleitoral impôs multas à sua campanha em 2026 por peça publicitária, registro no critério.",
+  "fontes": [
+   {
+    "titulo": "Biografia e mandato — Wikipédia",
+    "url": "https://pt.wikipedia.org/wiki/Júlia_Lucy"
+   },
+   {
+    "titulo": "Entrevista sobre o mandato (2019) — Wilson Center (15/05/2019)",
+    "url": "https://www.wilsoncenter.org"
+   },
+   {
+    "titulo": "Representação ao TCDF sobre 1,3 mil cadeiras do Hospital de Base — NOVO",
+    "url": "https://novo.org.br"
+   },
+   {
+    "titulo": "Polícia Civil pede esclarecimentos após declaração — G1 (05/05/2021)",
+    "url": "https://g1.globo.com"
+   },
+   {
+    "titulo": "Justiça Eleitoral impõe multas à campanha 2026 — Revista Oeste (11/09/2026)",
+    "url": "https://revistaoeste.com"
+   },
+   {
+    "titulo": "Denúncia de stalking (vítima) — Eixo Capital/Correio (14/03/2023)",
+    "url": "https://blogs.correiobraziliense.com.br"
+   },
+   {
+    "titulo": "Ficha no PL — CNN Brasil (18/09/2026)",
+    "url": "https://www.cnnbrasil.com.br"
+   },
+   {
+    "titulo": "Perfil e Procuradoria da Mulher — CLDF",
+    "url": "https://www.cl.df.gov.br"
+   }
+  ],
+  "foto": "julialucy",
+  "slug": "julialucy",
+  "foto_url": "/fotos/julialucy.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Perfil de fiscalizadora: representações no TCDF (cadeiras do HB), denúncias públicas de comportamento irregular de colegas, produção acadêmica sobre transparência parlamentar. As multas eleitorais de 2026 (peça de campanha) são episódios formais contra a candidata, nível B com desconto."
+   },
+   "desenvolvimento": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Agenda liberal de contenção de gastos e eficiência; mandato único 2019-2022 com propostas de modernização administrativa. Menor produção de políticas de desenvolvimento local visível."
+   },
+   "honestidade": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Nenhuma condenação criminal; polícia pediu esclarecimentos (2021) após declaração dela criticando propina, contexto de fiscalização, não de ilícito. Multas eleitorais 2026 por veiculação publicitária são sanções administrativas documentadas."
+   },
+   "ambiental": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Matriz liberal do NOVO com ceticismo regulatório; sem agenda ambiental registrada."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Sem posições públicas registradas sobre relações internacionais; a trajetória acadêmica (ciência política) sugere familiaridade com o tema, mas não há evidência de conduta ou proposta. Nota neutra por ausência de sinais."
+   },
+   "tecnologia": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Cientista política da UnB com atuação em modernização do Estado e comentários técnicos sobre dados públicos na mídia; pautas de gestão digital e eficiência administrativa coerentes com a formação, o perfil tech mais consistente entre os distritais finalistas, ainda que sem agenda de inovação produtiva."
+   },
+   "democracia": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Perfil fiscalizador dentro dos canais formais: representações no TCDF e denúncias públicas de condutas irregulares de colegas; multas eleitorais de 2026 são sanções administrativas por peça publicitária, sem relação com conduta institucional. Respeito documentado a órgãos de controle."
+   },
+   "gestao": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Servidora pública de carreira (UnB) e um mandato distrital (2019-2022) com atuação registrada; sem função executiva de políticas públicas."
+   },
+   "fiscal": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Representação formal no TCDF sobre a compra de 1,3 mil cadeiras do Hospital de Base e produção acadêmica sobre transparência parlamentar; fiscalização de gasto público documentada e coerente com a formação."
+   },
+   "social": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Agenda liberal de contenção de gastos sem produção social significativa registrada; programas sociais próprios não identificados nas fontes consultadas."
+   },
+   "mobilidade": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Sem agenda de mobilidade registrada; mandato orientado a fiscalização de gastos e modernização administrativa."
+   }
+  }
+ },
+ "dep_distrital|ROBÉRIO NEGREIROS|20000": {
+  "cargo": "dep_distrital",
+  "numero": "20000",
+  "nome_urna": "ROBÉRIO NEGREIROS",
+  "partido": "Pode",
+  "vice": "—",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Em busca do 5º mandato (eleito em 2022 com 31.341 votos pelo PSD, hoje Pode), com 102 leis aprovadas segundo o site do mandato. Perfil de produção legislativa social (leis de prevenção ao assédio, doação de leite materno, procedimento cirúrgico precoce). Registros judiciais e de controladoria dispersos sem condenação conhecida.",
+  "fontes": [
+   {
+    "titulo": "102 leis aprovadas e mandato — site oficial",
+    "url": "https://deputadoroberio.com.br"
+   },
+   {
+    "titulo": "Eleito em 2022 com 31.341 votos — Estadão",
+    "url": "https://www.estadao.com.br/politica/df-veja-a-lista-de-deputados-distritais-eleitos-em-2022/"
+   },
+   {
+    "titulo": "Pedido de cassação arquivado — DF1/GloboPlay",
+    "url": "https://globoplay.globo.com"
+   },
+   {
+    "titulo": "Biografia — Wikipédia",
+    "url": "https://pt.wikipedia.org/wiki/Robério_Negreiros"
+   },
+   {
+    "titulo": "Lei de prevenção ao assédio sexual (PL 3034/2022) — UNALE",
+    "url": "https://bancodeleis.unale.org.br"
+   },
+   {
+    "titulo": "Processos do gabinete no TCDF — TCDF",
+    "url": "https://etcdf.tc.df.gov.br"
+   },
+   {
+    "titulo": "Termo de Fomento R$ 300 mil (Secretaria de Turismo) — SEI/GDF (30/10/2024)",
+    "url": "https://www.turismo.df.gov.br"
+   },
+   {
+    "titulo": "Registros no STJ (AgRg em HC) — STJ (30/06/2025)",
+    "url": "https://scon.stj.jus.br"
+   }
+  ],
+  "foto": "roberio",
+  "slug": "roberio",
+  "foto_url": "/fotos/roberio.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "Site do mandato com seção de transparência e produção legislativa numerosa e rastreável; leis sancionadas documentadas no banco de leis da UNALE."
+   },
+   "desenvolvimento": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "102 leis aprovadas em quatro mandatos, com foco em saúde, educação e assistência, taxa de efetividade legislativa alta e verificável (leis publicadas)."
+   },
+   "honestidade": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Pedido de cassação foi arquivado pela CLDF seguindo parecer da Procuradoria; nome aparece em registros do TCDF (processos administrativos de gabinete) e no STJ (agravo em habeas corpus com menção a falsidade) sem condenação conhecida, acumulação de registros formais sem desfecho condenatório exige desconto prudente no critério."
+   },
+   "ambiental": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem agenda ambiental registrada nas fontes consultadas."
+   },
+   "soberania": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Discurso de 'defesa do Distrito Federal e da nossa gente'; sem dimensão internacional relevante."
+   },
+   "tecnologia": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Nenhuma agenda de tecnologia ou inovação registrada nas fontes consultadas; a produção legislativa concentra-se em saúde, assistência social e direitos de pacientes, eficiência em volume, sem pauta de fronteira tecnológica."
+   },
+   "democracia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Quatro mandatos regulares sem episódios de confronto institucional localizados; registros judiciais e de controladoria dispersos sem condenação, registrados no critério de honestidade."
+   },
+   "gestao": {
+    "nota": 7.0,
+    "nivel": "B",
+    "texto": "102 leis aprovadas em quatro mandatos (verificáveis no site do mandato e na UNALE), taxa de efetividade legislativa alta; produção convertida em lei é a entrega parlamentar mais mensurável do cargo."
+   },
+   "fiscal": {
+    "nota": 6.0,
+    "nivel": "C",
+    "texto": "Processos administrativos de gabinete no TCDF registrados sem condenação conhecida; sem rejeição de contas pessoal localizada. Pauta fiscal própria não detalhada."
+   },
+   "social": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Produção legislativa social densa e sancionada: prevenção ao assédio, doação de leite materno, procedimento cirúrgico precoce para pacientes. Leis sociais publicadas com efeito prático documentado."
+   },
+   "mobilidade": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Produção legislativa concentrada em saúde e assistência; sem pauta de mobilidade registrada."
+   }
+  }
+ },
+ "presidente|ZEMA|30": {
+  "cargo": "presidente",
+  "numero": "30",
+  "nome_urna": "ZEMA",
+  "partido": "NOVO",
+  "vice": "Eduardo Girão (NOVO)",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Governador de Minas Gerais com agenda de gestão por resultados, privatizações e recuperação fiscal negociada com o governo federal; aderência forte à pauta de eficiência do Estado e vulnerável nas pautas ambiental (flexibilização de licenciamento em MG) e social.",
+  "fontes": [
+   {
+    "titulo": "Governadores enfrentam reveses na agenda de privatizações em MG | O Globo (2024)",
+    "url": "https://oglobo.globo.com"
+   },
+   {
+    "titulo": "Zema antecipa lucro recorde da Cemig e apoia privatização | Folha (2024)",
+    "url": "https://www1.folha.uol.com.br"
+   },
+   {
+    "titulo": "Crítica à política de privatização da Copasa | Brasil de Fato (2025)",
+    "url": "https://www.brasildefato.com.br"
+   },
+   {
+    "titulo": "Cemig e Regime de Recuperação Fiscal de MG | Gazeta do Povo (2023)",
+    "url": "https://www.gazetadopovo.com.br"
+   },
+   {
+    "titulo": "RRF de Minas: relatório de fiscalização | TCE-MG (08/2026)",
+    "url": "https://tcnotas.tce.mg.gov.br"
+   }
+  ],
+  "foto": "",
+  "slug": "",
+  "foto_url": "",
+  "criterios": {
+   "transparencia": {
+    "nota": 5.5,
+    "nivel": "A",
+    "texto": "Gestão pública longa (grupo empresarial e Governo MG desde 2019) com prestação de contas submetida a tribunal de contas estadual e Regime de Recuperação Fiscal monitorado pela União; sem rejeição de contas pessoais localizada."
+   },
+   "desenvolvimento": {
+    "nota": 6.0,
+    "nivel": "A",
+    "texto": "Programa centrado em eficiência administrativa, desestatização e parcerias privadas; em MG, antecipou lucro recorde da Cemig e negociou o RRF, ainda que parte da agenda de privatizações (Copasa, trem) tenha travado na Assembleia."
+   },
+   "honestidade": {
+    "nota": 5.0,
+    "nivel": "B",
+    "texto": "Sem condenações ou rejeições de contas localizadas nas fontes consultadas; histórico empresarial e de gestor estadual sem casos judiciais proeminentes até a data da compilação."
+   },
+   "ambiental": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Lei mineira de licenciamento ambiental flexibilizado foi criticada por entidades ambientalistas como retrocesso, o que pesa no critério; em contrapartida mantém estrutura ambiental do estado operante."
+   },
+   "soberania": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Posição liberal de comércio aberto e convivência com blocos internacionais; sem bandeira explícita de soberania estratégica em setores sensíveis."
+   },
+   "tecnologia": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Discurso de modernização da máquina pública e uso de dados na gestão mineira; sem programa tecnológico de fronteira detalhado no plano registrado."
+   },
+   "democracia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Sem episódios de confronto institucional localizados; gestão estadual submetida a controles formais (TCE-MG, União no RRF) sem rejeição pessoal. Ausência de registro não comprova conduta."
+   },
+   "gestao": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Dois mandatos em Minas Gerais com agenda de gestão por resultados: recuperação fiscal negociada com a União, lucro recorde antecipado da Cemig e modernização administrativa. Entregas executivas auditáveis em governo estadual."
+   },
+   "fiscal": {
+    "nota": 7.0,
+    "nivel": "A",
+    "texto": "Regime de Recuperação Fiscal de Minas (RRF) instituído por lei estadual e monitorado pela União, com relatórios de fiscalização do TCE-MG em andamento (08/2026). Ajuste fiscal é o núcleo comprovado da gestão, ainda que críticos apontem esforço insuficiente."
+   },
+   "social": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Pauta social pouco estruturada no material consultado; prioridade declarada é o ajuste fiscal e a eficiência do Estado, com agendas sociais subordinadas a essa matriz."
+   }
+  }
+ },
+ "dep_federal|CRISTOVAM BUARQUE|4023": {
+  "cargo": "dep_federal",
+  "numero": "4023",
+  "nome_urna": "CRISTOVAM BUARQUE",
+  "partido": "PSB",
+  "vice": "",
+  "coligacao": "PARTIDO ISOLADO",
+  "resumo": "Engenheiro e economista, ex-governador do DF, ex-ministro da Educação e ex-senador; carreira dedicada à educação universal, criador do Bolsa Escola, hoje com 88 anos disputando a Câmara.",
+  "fontes": [
+   {
+    "titulo": "Educação: a bandeira de Cristovam Buarque | Jornal de Brasília (04/2026)",
+    "url": "https://jornaldebrasilia.com.br"
+   },
+   {
+    "titulo": "Perfil: vida pública pela educação | GZH (2015)",
+    "url": "https://gauchazh.clicrbs.com.br"
+   },
+   {
+    "titulo": "Cristovam: currículo do educador | Revista Educação (2021)",
+    "url": "https://revistaeducacao.com.br"
+   }
+  ],
+  "foto": "cristovam",
+  "slug": "cristovam",
+  "foto_url": "/fotos/cristovam.jpg",
+  "criterios": {
+   "transparencia": {
+    "nota": 6.5,
+    "nivel": "A",
+    "texto": "Décadas de cargos públicos (governador, ministro e senador) com prestações de contas submetidas periodicamente a tribunais de contas e sem rejeição pessoal localizada; posicionamentos públicos recorrentes sobre auditoria de gastos. O histórico auditado de longo prazo, em múltiplos cargos, supera o padrão de mandato documentado sem rejeições, sem alcançar os artefatos de transparência ativa (portal próprio, leis de transparência) dos primeiros colocados no critério."
+   },
+   "desenvolvimento": {
+    "nota": 7.0,
+    "nivel": "A",
+    "texto": "Autor do Bolsa Escola, base de programas nacionais de transferência de renda condicionada; reformas educacionais como governador e ministro; propostas atuais de federalização do ensino e renda básica."
+   },
+   "honestidade": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Sem condenações ou inquéritos proeminentes localizados em décadas de exposição pública."
+   },
+   "ambiental": {
+    "nota": 4.0,
+    "nivel": "C",
+    "texto": "Defendeu sustentabilidade em agenda internacional de educação; sem pauta ambiental detalhada recente."
+   },
+   "soberania": {
+    "nota": 4.5,
+    "nivel": "C",
+    "texto": "Propõe cooperação internacional para educação com soberania fiscal, sem subserviência a blocos."
+   },
+   "tecnologia": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Investimento em universidades e ciência constante em sua trajetória; pauta de tecnologia educacional."
+   },
+   "democracia": {
+    "nota": 6.5,
+    "nivel": "C",
+    "texto": "Décadas em cargos de Estado (governador, ministro, senador) sem episódio de confronto institucional localizado; defensor público recorrente de auditoria e transparência como pilares institucionais."
+   },
+   "gestao": {
+    "nota": 8.0,
+    "nivel": "A",
+    "texto": "Ex-governador do DF, ex-ministro da Educação e ex-senador com reformas educacionais implantadas e documentadas (Bolsa Escola como base de programas nacionais). Trajetória executiva completa e auditável."
+   },
+   "fiscal": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Prestações de contas de décadas sem rejeição pessoal localizada; posicionamentos públicos recorrentes por auditoria de gastos. Pauta fiscal atual centrada em cooperação educacional com soberania fiscal, sem plano detalhado."
+   },
+   "social": {
+    "nota": 9.0,
+    "nivel": "A",
+    "texto": "Criador do Bolsa Escola, base documentada dos programas nacionais de transferência de renda condicionada; agenda de vida dedicada à universalização da educação. Impacto social comprovado e rastreável em políticas públicas."
+   },
+   "mobilidade": {
+    "nota": 5.0,
+    "nivel": "C",
+    "texto": "Sem pauta de mobilidade documentada nesta triagem; agenda concentrada em educação."
+   }
+  }
+ },
+ "dep_distrital|MAX MACIEL|50100": {
+  "cargo": "dep_distrital",
+  "numero": "50100",
+  "nome_urna": "MAX MACIEL",
+  "partido": "PSOL",
+  "vice": "",
+  "coligacao": "FEDERAÇÃO",
+  "resumo": "Pedagogo da Estrutural, terceiro deputado distrital mais votado em 2022 (35.758 votos) e presidente da Comissão de Transporte e Mobilidade da CLDF; primeiro parlamentar eleito pela comunidade da Estrutural.",
+  "fontes": [
+   {
+    "titulo": "Max Maciel | Wikipédia",
+    "url": "https://pt.wikipedia.org"
+   },
+   {
+    "titulo": "Eleito em 2022 com 35.758 votos | Plural (08/2026)",
+    "url": "https://www.plural.jor.br"
+   },
+   {
+    "titulo": "Primeiro distrital da Estrutural | PolitiScore",
+    "url": "https://politiscore.com.br"
+   },
+   {
+    "titulo": "Preside Comissão de Transporte e Mobilidade | Wikifavelas",
+    "url": "https://wikifavelas.com.br"
+   }
+  ],
+  "foto": "",
+  "slug": "",
+  "foto_url": "",
+  "criterios": {
+   "transparencia": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Mandato coletivo com divulgação pública de atuação; presidência de comissão com audiências públicas; sem rejeições de contas localizadas; patrimônio declarado em crescimento modesto e público (R$ 296 mil)."
+   },
+   "desenvolvimento": {
+    "nota": 6.0,
+    "nivel": "B",
+    "texto": "Atuação em transporte e mobilidade (presidência da comissão) e agendas das periferias com proposições registradas; mandato documentado por imprensa local."
+   },
+   "honestidade": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Sem condenações ou investigações localizadas."
+   },
+   "ambiental": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Agenda de mobilidade urbana de baixa emissão e periferias com atuação documentada, sem metas climáticas formais."
+   },
+   "democracia": {
+    "nota": 7.0,
+    "nivel": "C",
+    "texto": "Mandato coletivo com participação pública ampliada e presidência de comissão com audiências abertas; sem episódios institucionais adversos localizados."
+   },
+   "gestao": {
+    "nota": 5.5,
+    "nivel": "B",
+    "texto": "Primeiro parlamentar eleito pela Estrutural, presidência da Comissão de Transporte e Mobilidade da CLDF com agendas registradas; gestão de mandato coletivo documentada."
+   },
+   "fiscal": {
+    "nota": 5.5,
+    "nivel": "C",
+    "texto": "Patrimônio declarado modesto e público (R$ 296 mil); sem rejeição de contas localizada. Pauta fiscal própria não detalhada."
+   },
+   "social": {
+    "nota": 8.0,
+    "nivel": "B",
+    "texto": "Agenda das periferias como núcleo do mandato: mobilidade de baixa emissão, transporte e direitos das populações da Estrutural com proposições registradas. Primeira representação eleita da comunidade."
+   },
+   "mobilidade": {
+    "nota": 6.5,
+    "nivel": "B",
+    "texto": "Preside a Comissão de Transporte e Mobilidade da CLDF com audiências registradas e agenda de mobilidade de baixa emissão e periferias documentada; é o cargo institucional mais aderente ao critério entre os extras."
+   }
+  }
+ }
+}
