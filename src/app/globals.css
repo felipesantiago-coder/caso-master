@@ -8,6 +8,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-headline: var(--font-oswald);
+  --font-maquina: var(--font-courier-prime);
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
@@ -139,18 +141,30 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-/* Tipografia de exibição, estilo editorial */
+/* Tipografia de exibição, estilo manchete de investigação */
 .display {
+  font-family: var(--font-headline), var(--font-geist-sans), sans-serif;
   font-size: clamp(3rem, 8.5vw, 7.2rem);
-  line-height: 0.94;
-  letter-spacing: -0.035em;
-  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: 0.005em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .display-sm {
-  font-size: clamp(2.1rem, 5vw, 3.9rem);
-  line-height: 1.02;
-  letter-spacing: -0.03em;
-  font-weight: 800;
+  font-family: var(--font-headline), var(--font-geist-sans), sans-serif;
+  font-size: clamp(2.05rem, 4.6vw, 3.7rem);
+  line-height: 1.06;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.manchete {
+  font-family: var(--font-headline), var(--font-geist-sans), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+}
+.maquina {
+  font-family: var(--font-maquina), "Courier New", monospace;
 }
 .kicker {
   font-family: var(--font-mono);
@@ -381,4 +395,208 @@ html.js .reveal.is-in {
 .nav-link:hover::after,
 .nav-link[data-active="true"]::after {
   right: 0;
+}
+
+/* ===================================================================
+   SISTEMA DE DOCUMENTO: folhas de expediente, carimbos de tinta,
+   marcas d'água, furos de arquivo e elementos de formulário.
+   Papel claro sobre a mesa escura: tirar uma folha do envelope.
+   =================================================================== */
+
+:root {
+  /* Tintas de carimbo sobre papel (contraste AAA no creme) */
+  --tinta-oficial: #1c6b48;
+  --tinta-multifonte: #10605c;
+  --tinta-fonteunica: #8a5410;
+  --tinta-alegacao: #a03434;
+  --tinta-dourada: #8a6a1c;
+  /* Papel de expediente */
+  --papel: #ece1c8;
+  --papel-claro: #f3ecdc;
+  --papel-escuro: #ddd0b0;
+  --tinta-corpo: #241b0d;
+  --tinta-mut: #5d5138;
+  --linha-doc: rgb(70 50 20 / 0.28);
+}
+
+/* A folha: papel envelhecido com manchas suaves, vinheta e textura */
+.folha {
+  position: relative;
+  background:
+    radial-gradient(52rem 30rem at 8% 4%, rgb(255 250 236 / 0.5), transparent 55%),
+    radial-gradient(40rem 26rem at 94% 96%, rgb(148 120 70 / 0.12), transparent 60%),
+    radial-gradient(30rem 22rem at 88% 8%, rgb(140 110 60 / 0.1), transparent 55%),
+    radial-gradient(36rem 26rem at 10% 90%, rgb(150 122 72 / 0.1), transparent 58%),
+    linear-gradient(176deg, var(--papel-claro), var(--papel) 38%, var(--papel) 72%, var(--papel-escuro));
+  color: var(--tinta-corpo);
+  box-shadow:
+    inset 0 0 0 1px rgb(60 42 16 / 0.18),
+    inset 0 0 3.2rem rgb(112 88 46 / 0.2),
+    0 30px 90px rgb(0 0 0 / 0.6);
+}
+/* Grão de papel impresso */
+.folha::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' seed='11'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.42 0 0 0 0 0.35 0 0 0 0 0.24 0 0 0 0.16 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E");
+  border-radius: inherit;
+}
+
+/* Cabeçalho e rodapé de formulário oficial */
+.form-topo {
+  border-bottom: 2.5px solid var(--tinta-corpo);
+  box-shadow: 0 3px 0 -1.5px rgb(70 50 20 / 0.35);
+}
+.form-rodape {
+  border-top: 1.5px solid var(--linha-doc);
+}
+
+/* Rótulo de campo de formulário */
+.campo-rotulo {
+  font-family: var(--font-maquina), "Courier New", monospace;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--tinta-mut);
+}
+/* Valor de campo: máquina de escrever, sublinhado de formulário */
+.campo-valor {
+  font-family: var(--font-maquina), "Courier New", monospace;
+  border-bottom: 1px solid var(--linha-doc);
+  padding-bottom: 0.2rem;
+  color: var(--tinta-corpo);
+}
+
+/* Carimbo de tinta: borda dupla, tipografia de selo, desgaste por máscara */
+.carimbo-tinta {
+  font-family: var(--font-maquina), "Courier New", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  line-height: 1.25;
+  border: 2.5px solid currentColor;
+  outline: 1px solid currentColor;
+  outline-offset: 2.5px;
+  border-radius: 3px;
+  padding: 0.3rem 0.55rem;
+  transform: rotate(-4deg);
+  mix-blend-mode: multiply;
+  opacity: 0.88;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.55' numOctaves='3' seed='7'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.88 0.2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23m)'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.55' numOctaves='3' seed='7'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.88 0.2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23m)'/%3E%3C/svg%3E");
+}
+.carimbo-tinta[title="Comprovado por documento oficial"] { color: var(--tinta-oficial); }
+.carimbo-tinta[data-grau="oficial"] { color: var(--tinta-oficial); }
+.carimbo-tinta[data-grau="multifonte"] { color: var(--tinta-multifonte); }
+.carimbo-tinta[data-grau="fonteunica"] { color: var(--tinta-fonteunica); }
+.carimbo-tinta[data-grau="alegacao"] { color: var(--tinta-alegacao); }
+/* Sobre a mesa escura (hero): tinta dourada sem multiplicação, com desgaste próprio */
+.carimbo-tinta[data-cor="dourada"] {
+  color: #dcb659;
+  mix-blend-mode: normal;
+  opacity: 0.55;
+  border-width: 3px;
+  padding: 0.5rem 0.9rem;
+  text-shadow: 0 0 18px rgb(227 179 65 / 0.35);
+}
+
+/* Marca d'água diagonal de expediente público */
+.marca-agua {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+}
+.marca-agua > span {
+  font-family: var(--font-maquina), "Courier New", monospace;
+  font-weight: 700;
+  font-size: clamp(1.4rem, 4.5vw, 2.6rem);
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--tinta-corpo);
+  opacity: 0.055;
+  transform: rotate(-19deg);
+}
+
+/* Furos de arquivo na lateral da folha */
+.furo {
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 999px;
+  background: radial-gradient(circle at 42% 34%, #1b1712 0 28%, #0b0a08 72%, #000);
+  box-shadow:
+    inset 0 1px 2px rgb(0 0 0 / 0.8),
+    0 1px 0 rgb(255 250 235 / 0.5);
+}
+
+/* Código de barras decorativo de arquivo */
+.codigo-barras {
+  height: 2rem;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--tinta-corpo) 0 2px,
+    transparent 2px 5px,
+    var(--tinta-corpo) 5px 6px,
+    transparent 6px 8px,
+    var(--tinta-corpo) 8px 12px,
+    transparent 12px 14px,
+    var(--tinta-corpo) 14px 15px,
+    transparent 15px 19px
+  );
+}
+
+/* Etiqueta de pasta (aba de arquivo) */
+.aba-pasta {
+  display: inline-block;
+  background: linear-gradient(180deg, #262014, #1b1710);
+  border: 1px solid rgb(227 179 65 / 0.4);
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  padding: 0.3rem 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+/* Régua de formulário nos cabeçalhos de seção */
+.regua-partes {
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgb(227 179 65 / 0.55) 0 10px,
+    transparent 10px 16px
+  );
+  height: 3px;
+}
+
+/* Pauta de linhas em blocos de registro */
+.pauta-doc {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 calc(1.85em - 1px),
+    var(--linha-doc) calc(1.85em - 1px) 1.85em
+  );
+}
+
+/* Cena 3D do hero: folhas flutuam atrás do conteúdo */
+.cena-hero {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.cena-hero canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
 }

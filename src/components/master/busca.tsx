@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Search, X } from "lucide-react";
 import { buscar, normalizar, type Pessoa } from "@/lib/master";
-import { Avatar, Kicker, useReveal } from "./atoms";
+import { Avatar, Kicker, useReveal, EtiquetaParte } from "./atoms";
 
 function Resultados({
   termo,
@@ -123,6 +123,7 @@ export function BuscaSection({
     <section id="busca" ref={ref} className="glow-soft scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
+          <EtiquetaParte n="06" folhas="consulta em todas as folhas" />
           <Kicker>Ferramenta de apuração · Busca livre</Kicker>
           <h2 className="display-sm mt-4">Faça a sua apuração: busque qualquer nome</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">

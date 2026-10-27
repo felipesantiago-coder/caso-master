@@ -1,7 +1,7 @@
 "use client";
 
 import { contagens, meta } from "@/lib/master";
-import { FontesList, Kicker, useReveal } from "./atoms";
+import { FontesList, Kicker, useReveal, EtiquetaParte, SeloCircular } from "./atoms";
 
 export default function SiteFooter() {
   const ref = useReveal<HTMLElement>();
@@ -9,6 +9,7 @@ export default function SiteFooter() {
     <footer id="metodologia" ref={ref} className="mt-auto scroll-mt-24 border-t border-border bg-card/40">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="reveal max-w-2xl">
+          <EtiquetaParte n="07" folhas="regras do arquivo" />
           <Kicker>Padrão editorial · Metodologia</Kicker>
           <h2 className="display-sm mt-4">Sob que regras este arquivo foi montado</h2>
         </div>
@@ -60,14 +61,29 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        <div className="reveal mt-12 flex flex-col gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            <span className="font-bold text-foreground">Caso Master</span> · dossiê público compilado em{" "}
-            {meta.atualizacao} · todas as informações provêm de documentos oficiais e matérias jornalísticas públicas.
-          </p>
-          <p className="font-mono text-[10px] uppercase tracking-[0.16em]">
-            Presunção de inocência · Fontes verificáveis · Transparência total
-          </p>
+        <div className="reveal mt-12 flex flex-col gap-6 border-t border-border pt-8 lg:flex-row lg:items-end lg:justify-between">
+          <div className="flex-1 space-y-3">
+            <div className="flex items-end gap-4">
+              <div className="codigo-barras w-44 opacity-70" aria-hidden />
+              <SeloCircular
+                texto="DOSSIÊ PÚBLICO · FONTE VERIFICÁVEL ·"
+                centro="PÚBLICO"
+                className="size-24 shrink-0 text-primary/80"
+              />
+            </div>
+            <p className="maquina text-[10px] tracking-[0.3em] text-muted-foreground uppercase">
+              7912-CASO-MASTER-DF · Compilado em {meta.atualizacao}
+            </p>
+          </div>
+          <div className="flex-1 space-y-2 text-xs text-muted-foreground lg:text-right">
+            <p>
+              <span className="font-bold text-foreground">Caso Master</span> · dossiê público compilado em{" "}
+              {meta.atualizacao} · todas as informações provêm de documentos oficiais e matérias jornalísticas públicas.
+            </p>
+            <p className="font-mono text-[10px] uppercase tracking-[0.16em]">
+              Presunção de inocência · Fontes verificáveis · Transparência total
+            </p>
+          </div>
         </div>
       </div>
     </footer>

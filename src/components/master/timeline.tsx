@@ -36,6 +36,7 @@ import {
   useReveal,
   Carimbo,
   EtiquetaArquivo,
+  EtiquetaParte,
 } from "./atoms";
 
 interface Filtros {
@@ -384,6 +385,7 @@ export default function Timeline({
     >
       <div className="vinheta-tl mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
+          <EtiquetaParte n="03" folhas={`${contagens.fatos} registros datados`} />
           <Kicker>Arquivo · Cronologia datada</Kicker>
           <h2 className="display-sm mt-4">
             Do sigilo ao arquivo aberto: {contagens.fatos} fatos datados

@@ -1,7 +1,11 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { contagens, meta } from "@/lib/master";
 import { useReveal } from "./atoms";
+
+// Folhas de expediente em 3D (three.js), carregadas só no cliente
+const HeroCena = dynamic(() => import("./hero-cena"), { ssr: false });
 
 const faixa = [
   "R$ 12,2 bi em carteiras sem lastro",
@@ -16,7 +20,25 @@ export default function Hero() {
   const ref = useReveal<HTMLElement>();
   return (
     <section id="inicio" ref={ref} className="glow-gold relative overflow-hidden pb-14 pt-32 sm:pb-20 sm:pt-40">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      {/* mesa de trabalho: folhas flutuando ao fundo */}
+      <div className="absolute inset-0" aria-hidden>
+        <HeroCena />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/55 via-background/25 to-background" />
+        <div className="absolute inset-0 bg-[radial-gradient(60rem_36rem_at_50%_28%,transparent_40%,var(--background)_92%)]" />
+      </div>
+
+      {/* carimbo decorativo de expediente, desktop */}
+      <span
+        className="carimbo-tinta pointer-events-none absolute right-[6%] top-36 z-10 hidden !rotate-[7deg] !text-lg !leading-tight text-[rgb(227,179,65,0.5)] lg:block"
+        data-cor="dourada"
+        aria-hidden
+      >
+        <span className="block !text-[0.62rem] !tracking-[0.3em]">Dossiê público</span>
+        <span className="block">CASO MASTER</span>
+        <span className="block !text-[0.6rem] !tracking-[0.26em]">Apuração em curso</span>
+      </span>
+
+      <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal">
           <p className="kicker">Investigação aberta · Dossiê atualizado em {meta.atualizacao}</p>
         </div>
@@ -27,7 +49,7 @@ export default function Hero() {
           <span className="text-muted-foreground">Tudo o que se sabe.</span>
         </h1>
 
-        <p className="reveal mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+        <p className="reveal maquina mt-6 max-w-2xl text-[0.95rem] leading-relaxed text-muted-foreground sm:text-base">
           {meta.subtitulo}. A linha do tempo completa das apurações, cada esquema explicado passo a passo, as pessoas
           mais mencionadas, a busca por qualquer nome e todas as fontes, com o grau de comprovação de cada fato.
         </p>
@@ -64,16 +86,19 @@ export default function Hero() {
           ].map((s) => (
             <div key={s.rotulo} className="bg-card px-4 py-5">
               <dt className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">{s.rotulo}</dt>
-              <dd className="mt-1.5 text-2xl font-bold tracking-tight sm:text-[1.7rem]">{s.valor}</dd>
+              <dd className="manchete mt-1.5 text-2xl font-bold tracking-tight sm:text-[1.7rem]">{s.valor}</dd>
             </div>
           ))}
         </dl>
       </div>
 
-      <div className="marquee-fade mt-14 overflow-hidden border-y border-border py-3" aria-hidden>
+      <div className="marquee-fade relative z-10 mt-14 overflow-hidden border-y border-border py-3" aria-hidden>
         <div className="marquee-track flex w-max gap-10 whitespace-nowrap">
           {[...faixa, ...faixa].map((t, i) => (
-            <span key={i} className="flex items-center gap-10 font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+            <span
+              key={i}
+              className="flex items-center gap-10 font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground"
+            >
               {t}
               <span className="text-primary">✦</span>
             </span>

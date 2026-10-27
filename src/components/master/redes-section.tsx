@@ -9,7 +9,7 @@ import dynamic from "next/dynamic";
 import { Expand, Eye, EyeOff, MousePointerClick } from "lucide-react";
 import { listaRedes, redeOuPadrao } from "@/lib/network";
 import { pessoaPorId } from "@/lib/master";
-import { Kicker, useReveal, Avatar } from "./atoms";
+import { Kicker, useReveal, Avatar, EtiquetaParte } from "./atoms";
 
 const RedeCanvas = dynamic(() => import("./rede/rede-canvas"), {
   ssr: false,
@@ -43,6 +43,7 @@ export default function RedesSection({ onPessoa }: { onPessoa: (id: string) => v
     <section id="redes" ref={ref} className="glow-soft scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-3xl">
+          <EtiquetaParte n="02" folhas="mapeamentos de vínculos" />
           <Kicker>Redes de conexão · Mapeamento de vínculos</Kicker>
           <h2 className="display-sm mt-4">A teia de contatos, exposta em 3D</h2>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground">

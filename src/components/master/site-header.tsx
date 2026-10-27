@@ -67,13 +67,13 @@ export default function SiteHeader({ onOpenSearch }: { onOpenSearch: () => void 
 
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
         <a href="#inicio" className="group flex items-center gap-2.5" aria-label="Caso Master, voltar ao início">
-          <span className="grid size-8 place-items-center rounded-md bg-primary font-mono text-sm font-bold text-primary-foreground transition-transform group-hover:scale-105">
+          <span className="grid size-8 rotate-[-3deg] place-items-center rounded-[3px] border-2 border-primary bg-primary font-mono text-sm font-bold text-primary-foreground shadow-[0_0_14px_rgb(227,179,65,0.25)] transition-transform group-hover:rotate-0 group-hover:scale-105">
             M
           </span>
           <span className="flex flex-col leading-none">
-            <span className="text-sm font-bold tracking-tight">Caso Master</span>
-            <span className="font-mono text-[9px] uppercase tracking-[0.22em] text-muted-foreground">
-              dossiê público
+            <span className="manchete text-sm font-semibold tracking-wide">Caso Master</span>
+            <span className="maquina mt-0.5 text-[9px] uppercase tracking-[0.22em] text-muted-foreground">
+              dossiê público · 7912-DF
             </span>
           </span>
         </a>

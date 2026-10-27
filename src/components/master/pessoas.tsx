@@ -1,7 +1,7 @@
 "use client";
 
 import { contagens, grupos, rankingPessoas } from "@/lib/master";
-import { Avatar, Kicker, Carimbo, EtiquetaArquivo, corStatus, useReveal } from "./atoms";
+import { Avatar, Kicker, Carimbo, EtiquetaArquivo, corStatus, useReveal, EtiquetaParte } from "./atoms";
 import { MousePointerClick } from "lucide-react";
 
 export default function Pessoas({ onPessoa }: { onPessoa: (id: string) => void }) {
@@ -10,6 +10,7 @@ export default function Pessoas({ onPessoa }: { onPessoa: (id: string) => void }
     <section id="pessoas" ref={ref} className="glow-soft scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
+          <EtiquetaParte n="04" folhas={`${contagens.pessoas} fichas abertas`} />
           <Kicker>Dossiê de personagens · Quem é quem</Kicker>
           <h2 className="display-sm mt-4">Quem é quem no caso: {contagens.pessoas} fichas abertas</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">

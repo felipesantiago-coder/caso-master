@@ -50,6 +50,92 @@ export function EtiquetaArquivo({ children, className = "" }: { children: ReactN
   );
 }
 
+/** Carimbo de tinta sobre papel: grau de comprovação em selo desgastado, rotacionado */
+export function CarimboDoc({
+  grau,
+  texto,
+  className = "",
+}: {
+  grau?: GrauId;
+  texto?: string;
+  className?: string;
+}) {
+  const esc = grau ? escalaPorId.get(grau) : undefined;
+  const rotulo = texto ?? esc?.rotulo ?? "";
+  if (!rotulo) return null;
+  return (
+    <span
+      data-grau={grau}
+      title={esc?.descricao}
+      className={`carimbo-tinta pointer-events-none inline-block text-center ${className}`}
+    >
+      {rotulo}
+    </span>
+  );
+}
+
+/** Cabeçalho de seção: número da parte + régua de formulário + contador de folhas */
+export function EtiquetaParte({ n, folhas }: { n: string; folhas?: string }) {
+  return (
+    <div className="mb-4 flex items-center gap-3" aria-hidden>
+      <span className="rounded-sm border-2 border-primary/60 px-1.5 py-0.5 font-mono text-[10px] font-bold tracking-[0.24em] text-primary">
+        PARTE {n}
+      </span>
+      <span className="regua-partes h-[3px] flex-1" />
+      {folhas && (
+        <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-muted-foreground">{folhas}</span>
+      )}
+    </div>
+  );
+}
+
+/** Marca d'água diagonal de expediente público sobre a folha */
+export function MarcaAgua({ texto }: { texto: string }) {
+  return (
+    <div className="marca-agua z-0" aria-hidden>
+      <span>{texto}</span>
+    </div>
+  );
+}
+
+/** Selo circular de tinta (decorativo), estilo carimbo redondo de arquivo */
+export function SeloCircular({
+  texto,
+  centro,
+  className = "",
+}: {
+  texto: string;
+  centro: string;
+  className?: string;
+}) {
+  const id = `selo-${centro.toLowerCase().replace(/[^a-z0-9]/g, "")}-${texto.length}`;
+  return (
+    <svg viewBox="0 0 120 120" className={className} aria-hidden>
+      <defs>
+        <path id={id} d="M 60,60 m -44,0 a 44,44 0 1,1 88,0 a 44,44 0 1,1 -88,0" fill="none" />
+      </defs>
+      <circle cx="60" cy="60" r="57" fill="none" stroke="currentColor" strokeWidth="2.5" />
+      <circle cx="60" cy="60" r="52" fill="none" stroke="currentColor" strokeWidth="1" />
+      <circle cx="60" cy="60" r="33" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      <text fontSize="8.5" fontWeight="700" letterSpacing="1.6" fill="currentColor" fontFamily="inherit">
+        <textPath href={`#${id}`}>{texto}</textPath>
+      </text>
+      <text
+        x="60"
+        y="65.5"
+        textAnchor="middle"
+        fontSize="11"
+        fontWeight="700"
+        letterSpacing="0.5"
+        fill="currentColor"
+        fontFamily="inherit"
+      >
+        {centro}
+      </text>
+    </svg>
+  );
+}
+
 export const corStatus: Record<string, string> = {
   preso: "text-grau-alegacao border-grau-alegacao/40 bg-grau-alegacao/10",
   investigado: "text-grau-fonteunica border-grau-fonteunica/40 bg-grau-fonteunica/10",
@@ -134,11 +220,23 @@ export function Avatar({
   );
 }
 
-export function FontesList({ fontes, compacto = false }: { fontes: Fonte[]; compacto?: boolean }) {
+export function FontesList({
+  fontes,
+  compacto = false,
+  papel = false,
+}: {
+  fontes: Fonte[];
+  compacto?: boolean;
+  papel?: boolean;
+}) {
   if (!fontes.length) return null;
   return (
     <div className="space-y-2">
-      <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+      <p
+        className={`font-mono text-[10px] uppercase tracking-[0.2em] ${
+          papel ? "campo-rotulo" : "text-muted-foreground"
+        }`}
+      >
         Fontes ({fontes.length})
       </p>
       <ul className={`space-y-1.5 ${compacto ? "text-xs" : "text-sm"}`}>
@@ -148,13 +246,35 @@ export function FontesList({ fontes, compacto = false }: { fontes: Fonte[]; comp
               href={f.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex flex-wrap items-baseline gap-x-2 text-foreground/85 transition-colors hover:text-primary"
+              className={`group inline-flex flex-wrap items-baseline gap-x-2 transition-colors ${
+                papel
+                  ? "text-[#241b0d] hover:text-[#8a5410]"
+                  : "text-foreground/85 hover:text-primary"
+              }`}
             >
-              <span className="font-mono text-[10px] text-muted-foreground">{f.veiculo}</span>
-              <span className="underline decoration-border underline-offset-4 group-hover:decoration-primary">
+              <span
+                className={`font-mono text-[10px] ${
+                  papel ? "text-[#5d5138]" : "text-muted-foreground"
+                }`}
+              >
+                {f.veiculo}
+              </span>
+              <span
+                className={`underline underline-offset-4 ${
+                  papel
+                    ? "decoration-[rgba(70,50,20,0.4)] group-hover:decoration-[#8a5410]"
+                    : "decoration-border group-hover:decoration-primary"
+                }`}
+              >
                 {f.titulo}
               </span>
-              <span className="font-mono text-[10px] text-muted-foreground">{f.data}</span>
+              <span
+                className={`font-mono text-[10px] ${
+                  papel ? "text-[#5d5138]" : "text-muted-foreground"
+                }`}
+              >
+                {f.data}
+              </span>
             </a>
           </li>
         ))}

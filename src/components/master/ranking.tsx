@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { rankingPessoas } from "@/lib/master";
-import { Avatar, Kicker, useReveal } from "./atoms";
+import { Avatar, Kicker, useReveal, EtiquetaParte } from "./atoms";
 
 const TOP = 20;
 
@@ -33,6 +33,7 @@ export default function Ranking({ onPessoa }: { onPessoa: (id: string) => void }
     <section id="ranking" ref={ref} className="scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
+          <EtiquetaParte n="05" folhas="ordem de presença nos autos" />
           <Kicker>Contagem de menções · Presença nos autos</Kicker>
           <h2 className="display-sm mt-4">Os nomes que mais aparecem nos autos</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
@@ -43,6 +44,13 @@ export default function Ranking({ onPessoa }: { onPessoa: (id: string) => void }
         </div>
 
         <div ref={barraRef} className="reveal mt-10 overflow-hidden rounded-2xl border border-border bg-card">
+          {/* cabeçalho de colunas do rol nominal */}
+          <div className="flex items-center gap-3 border-b border-border bg-secondary/60 px-4 py-2.5 sm:gap-4 sm:px-6" aria-hidden>
+            <span className="w-7 font-mono text-[9px] font-bold tracking-[0.2em] text-muted-foreground sm:w-8">Nº</span>
+            <span className="size-10 shrink-0 sm:size-11" />
+            <span className="flex-1 font-mono text-[9px] font-bold tracking-[0.2em] text-muted-foreground">INDIVÍDUO FICHADO</span>
+            <span className="font-mono text-[9px] font-bold tracking-[0.2em] text-muted-foreground">MENÇÕES</span>
+          </div>
           <ol>
             {top.map(({ pessoa, mencoes }, i) => (
               <li key={pessoa.id} className={i < top.length - 1 ? "border-b border-border" : ""}>

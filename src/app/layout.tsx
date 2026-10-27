@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Courier_Prime, Geist, Geist_Mono, Oswald } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +10,20 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+// Tipografia de manchete: condensada de jornal investigativo
+const oswald = Oswald({
+  variable: "--font-oswald",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+});
+
+// Tipografia de máquina de escrever: corpo dos expedientes
+const courierPrime = Courier_Prime({
+  variable: "--font-courier-prime",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -55,7 +69,9 @@ export default function RootLayout({
         {/* marca a presença de JS para o aprimoramento progressivo das animações */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${oswald.variable} ${courierPrime.variable} antialiased bg-background text-foreground`}
+      >
         {children}
       </body>
     </html>

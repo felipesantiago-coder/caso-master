@@ -1,7 +1,7 @@
 "use client";
 
 import { meta } from "@/lib/master";
-import { Kicker, bgGrau, corGrau, useReveal } from "./atoms";
+import { Kicker, bgGrau, corGrau, useReveal, EtiquetaParte } from "./atoms";
 
 export default function Escala() {
   const ref = useReveal<HTMLElement>();
@@ -9,6 +9,7 @@ export default function Escala() {
     <section id="como-ler" ref={ref} className="scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
+          <EtiquetaParte n="00" folhas="leia antes de prosseguir" />
           <Kicker>Manual de leitura · Cadeia de comprovação</Kicker>
           <h2 className="display-sm mt-4">Antes de entrar: o peso de cada fato</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">

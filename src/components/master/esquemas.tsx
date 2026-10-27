@@ -1,81 +1,155 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowRight, Compass, Share2 } from "lucide-react";
+import { ArrowRight, Compass, Share2, X } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { meta } from "@/lib/master";
 import { esquemas, esquemaPorId, nomePessoa, type Esquema } from "@/lib/master";
-import { FontesList, GrauBadge, Kicker, Carimbo, EtiquetaArquivo, useReveal } from "./atoms";
+import {
+  FontesList,
+  GrauBadge,
+  Kicker,
+  Carimbo,
+  CarimboDoc,
+  EtiquetaArquivo,
+  EtiquetaParte,
+  MarcaAgua,
+  SeloCircular,
+  useReveal,
+} from "./atoms";
 
-export function FlowEsquema({ esquema, onPessoa }: { esquema: Esquema; onPessoa: (id: string) => void }) {
+const rotuloStatus: Record<string, string> = {
+  preso: "DETIDO",
+  investigado: "SOB INVESTIGAÇÃO",
+  colaborador: "COLABORADOR",
+  institucional: "CARGO INSTITUCIONAL",
+  falecido: "FALECIDO",
+};
+
+/* Tintas de status sobre papel claro */
+const corStatusPapel: Record<string, string> = {
+  preso: "#a03434",
+  investigado: "#8a5410",
+  colaborador: "#1c6b48",
+  institucional: "#5d5138",
+  falecido: "#5d5138",
+};
+
+function Campo({ rotulo, children }: { rotulo: string; children: React.ReactNode }) {
   return (
-    <div className="space-y-10">
-      <p className="leading-relaxed text-foreground/85">{esquema.resumo}</p>
+    <div className="min-w-0">
+      <dt className="campo-rotulo">{rotulo}</dt>
+      <dd className="campo-valor mt-0.5 text-[0.92rem] leading-snug font-bold">{children}</dd>
+    </div>
+  );
+}
 
-      <div>
-        <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Como funcionava, passo a passo</p>
-        <ol className="relative mt-5 space-y-6 pl-0">
-          {esquema.passos.map((p, i) => (
-            <li key={p.n} className="relative flex gap-4">
-              {i < esquema.passos.length - 1 && (
-                <span
-                  className="absolute left-[1.15rem] top-10 h-[calc(100%+1.5rem)] w-px bg-gradient-to-b from-primary/50 to-border"
-                  aria-hidden
-                />
-              )}
-              <span className="relative z-10 grid size-[2.3rem] shrink-0 place-items-center rounded-full border border-primary/45 bg-background font-mono text-sm font-bold text-primary">
-                {p.n}
-              </span>
-              <div className="rounded-xl border border-border bg-card p-4">
-                <h4 className="text-sm font-bold tracking-tight sm:text-[0.95rem]">{p.titulo}</h4>
-                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{p.texto}</p>
-              </div>
-            </li>
-          ))}
-        </ol>
-      </div>
+export function FlowEsquema({
+  esquema,
+  onPessoa,
+  registro,
+}: {
+  esquema: Esquema;
+  onPessoa: (id: string) => void;
+  registro: string;
+}) {
+  return (
+    <div className="space-y-7">
+      <p className="maquina text-[0.95rem] leading-relaxed text-[#241b0d]">{esquema.resumo}</p>
 
-      {esquema.valores.length > 0 && (
-        <div>
-          <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Os números</p>
-          <dl className="mt-4 grid grid-cols-1 gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2">
-            {esquema.valores.map((v) => (
-              <div key={v.rotulo} className="bg-card px-4 py-3.5">
-                <dt className="font-mono text-[10px] uppercase tracking-[0.16em] text-muted-foreground">{v.rotulo}</dt>
-                <dd className="mt-1 text-lg font-bold tracking-tight text-primary">{v.valor}</dd>
-              </div>
+        <div className="mt-7">
+          <h4 className="campo-rotulo flex items-center gap-2">
+            <span className="grid size-5 place-items-center rounded-[3px] border border-[rgba(70,50,20,0.45)] text-[9px]">
+              {String(esquema.passos.length).padStart(2, "0")}
+            </span>
+            Como funcionava, passo a passo
+          </h4>
+          <ol className="relative mt-4 space-y-5 pl-0">
+            {esquema.passos.map((p, i) => (
+              <li key={p.n} className="relative flex gap-4">
+                {i < esquema.passos.length - 1 && (
+                  <span
+                    className="absolute left-[1.05rem] top-10 h-[calc(100%+1.25rem)] w-px bg-[repeating-linear-gradient(to_bottom,rgba(70,50,20,0.5)_0_4px,transparent_4px_8px)]"
+                    aria-hidden
+                  />
+                )}
+                <span className="relative z-10 maquina grid size-[2.1rem] shrink-0 place-items-center rounded-[3px] border-2 border-[#241b0d] bg-transparent text-sm font-bold text-[#241b0d]">
+                  {p.n}
+                </span>
+                <div className="min-w-0 flex-1 rounded-[4px] border border-[rgba(70,50,20,0.3)] bg-[rgb(255,252,242,0.5)] px-3.5 py-2.5">
+                  <h5 className="maquina text-[0.9rem] font-bold text-[#241b0d]">{p.titulo}</h5>
+                  <p className="maquina mt-1 text-[0.82rem] leading-relaxed text-[#4c4229]">{p.texto}</p>
+                </div>
+              </li>
             ))}
-          </dl>
+          </ol>
         </div>
-      )}
 
-      <div className="rounded-xl border border-border bg-card p-4">
-        <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Como foi descoberto</p>
-        <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{esquema.descoberta}</p>
-        <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-          <span className="font-semibold text-foreground/85">Status da apuração: </span>
-          {esquema.statusApuracao}
-        </p>
-      </div>
-
-      {esquema.pessoas.length > 0 && (
-        <div>
-          <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Pessoas ligadas a este esquema</p>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {esquema.pessoas.map((id) => (
-              <button
-                key={id}
-                type="button"
-                onClick={() => onPessoa(id)}
-                className="rounded-full border border-border bg-secondary px-3 py-1.5 text-xs font-medium text-foreground/85 transition-colors hover:border-primary/50 hover:text-primary"
-              >
-                {nomePessoa(id)}
-              </button>
-            ))}
+        {esquema.valores.length > 0 && (
+          <div className="mt-7">
+            <h4 className="campo-rotulo">Os números da operação</h4>
+            <dl className="mt-3 grid grid-cols-1 gap-px overflow-hidden rounded-[4px] border border-[rgba(70,50,20,0.35)] bg-[rgba(70,50,20,0.35)] sm:grid-cols-2">
+              {esquema.valores.map((v) => (
+                <div key={v.rotulo} className="bg-[rgb(255,252,242,0.72)] px-4 py-3">
+                  <dt className="campo-rotulo">{v.rotulo}</dt>
+                  <dd className="maquina mt-1 text-xl font-bold text-[#8a5410]">{v.valor}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
-        </div>
-      )}
+        )}
 
-      <FontesList fontes={esquema.fontes} />
+        <div className="mt-7 rounded-[4px] border border-[rgba(70,50,20,0.3)] bg-[rgb(255,252,242,0.5)] p-4">
+          <h4 className="campo-rotulo">Como foi descoberto</h4>
+          <p className="maquina mt-2 text-[0.85rem] leading-relaxed text-[#4c4229]">{esquema.descoberta}</p>
+          <p className="maquina mt-2.5 text-[0.85rem] leading-relaxed text-[#4c4229]">
+            <span className="font-bold text-[#241b0d]">Status da apuração: </span>
+            {esquema.statusApuracao}
+          </p>
+        </div>
+
+        {esquema.pessoas.length > 0 && (
+          <div className="mt-7">
+            <h4 className="campo-rotulo">Indivíduos ligados a esta operação</h4>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {esquema.pessoas.map((id) => (
+                <button
+                  key={id}
+                  type="button"
+                  onClick={() => onPessoa(id)}
+                  className="maquina rounded-[3px] border border-[rgba(70,50,20,0.45)] bg-[rgb(60,42,16,0.06)] px-2.5 py-1.5 text-[0.72rem] font-bold tracking-[0.08em] text-[#241b0d] uppercase transition-colors hover:bg-[rgb(60,42,16,0.13)]"
+                >
+                  {nomePessoa(id)}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="mt-7">
+          <FontesList fontes={esquema.fontes} papel />
+        </div>
+
+        {/* rodapé de formulário */}
+        <div className="form-rodape mt-7 flex items-end justify-between gap-4 pt-3">
+          <div className="min-w-0 flex-1">
+            <div className="codigo-barras w-36 opacity-75" aria-hidden />
+            <p className="maquina mt-1 text-[9px] tracking-[0.32em] text-[#5d5138] uppercase">7912-EXP-{registro}</p>
+          </div>
+          <div className="hidden text-right sm:block">
+            <p className="maquina text-[9.5px] leading-relaxed text-[#5d5138] uppercase">
+              Expediente compilado em {meta.atualizacao}
+            </p>
+            <p className="maquina text-[9.5px] leading-relaxed text-[#5d5138] uppercase">
+              Sem valor de acusação · Presunção de inocência
+            </p>
+          </div>
+          <SeloCircular
+            texto="DOSSIÊ PÚBLICO · FONTE VERIFICÁVEL ·"
+            centro="PÚBLICO"
+            className="size-[4.5rem] shrink-0 text-[#8a6a1c]"
+          />
+        </div>
     </div>
   );
 }
@@ -106,6 +180,7 @@ export default function Esquemas({
     <section id="esquemas" ref={ref} className="glow-soft scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
+          <EtiquetaParte n="01" folhas={`${esquemas.length} expedientes`} />
           <Kicker>Arquivo de operações · Peça por peça</Kicker>
           <h2 className="display-sm mt-4">Anatomia da fraude: onze engrenagens, uma máquina</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
@@ -173,26 +248,55 @@ export default function Esquemas({
             </div>
           </div>
 
-          <DialogContent className="max-h-[88vh] overflow-y-auto sm:max-w-2xl">
+          <DialogContent
+            showCloseButton={false}
+            className="max-h-[92vh] gap-0 overflow-y-auto rounded-md border-0 bg-transparent p-0 shadow-none sm:max-w-3xl"
+          >
             {esquemaAberto && (
-              <>
-                <DialogHeader>
-                  <div className="mb-1 flex flex-wrap items-center gap-2">
-                    <span className="rounded-md border border-border bg-background px-1.5 py-0.5 font-mono text-[9px] tracking-[0.12em] text-muted-foreground">
-                      {`EXP-${String(esquemas.findIndex((x) => x.id === esquemaAberto.id) + 1).padStart(2, "0")}`}
-                    </span>
-                    <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                      {esquemaAberto.periodo}
-                    </span>
+              <div className="folha relative overflow-hidden rounded-md">
+                <MarcaAgua texto="OPERAÇÃO · MATERIAL PÚBLICO" />
+                {/* furos de arquivo */}
+                <div
+                  className="absolute top-0 left-3.5 hidden h-full flex-col items-center justify-center gap-28 sm:flex"
+                  aria-hidden
+                >
+                  <span className="furo" />
+                  <span className="furo" />
+                  <span className="furo" />
+                </div>
+                {/* botão de fechar, em tinta sobre o papel */}
+                <button
+                  type="button"
+                  onClick={() => setAbertoId(null)}
+                  aria-label="Fechar expediente"
+                  className="absolute top-3 right-3 z-20 grid size-8 place-items-center rounded-sm border border-[rgba(70,50,20,0.4)] text-[#241b0d] transition-colors hover:bg-[rgb(60,42,16,0.1)]"
+                >
+                  <X className="size-4" aria-hidden />
+                </button>
+                <div className="relative z-10 px-5 py-6 sm:px-10 sm:py-8 sm:pl-14">
+                  <DialogHeader>
+                    <div className="form-topo flex items-start justify-between gap-4 pb-3.5">
+                      <div className="min-w-0">
+                        <p className="campo-rotulo !text-[0.6rem]">
+                          Expediente de operação · EXP-{String(esquemas.findIndex((x) => x.id === esquemaAberto.id) + 1).padStart(2, "0")} · {esquemaAberto.periodo}
+                        </p>
+                        <DialogTitle className="manchete mt-1.5 text-left text-3xl leading-[1.02] font-bold text-[#241b0d] sm:text-4xl">
+                          {esquemaAberto.nome}
+                        </DialogTitle>
+                        <p className="maquina mt-1 text-[0.82rem] text-[#5d5138]">{esquemaAberto.subtitulo}</p>
+                      </div>
+                      <CarimboDoc grau={esquemaAberto.grau} className="mt-1 shrink-0 !text-[0.78rem] sm:!text-[0.9rem]" />
+                    </div>
+                  </DialogHeader>
+                  <div className="mt-5">
+                    <FlowEsquema
+                      esquema={esquemaAberto}
+                      onPessoa={onPessoa}
+                      registro={String(esquemas.findIndex((x) => x.id === esquemaAberto.id) + 1).padStart(2, "0")}
+                    />
                   </div>
-                  <DialogTitle className="text-left text-2xl tracking-tight">{esquemaAberto.nome}</DialogTitle>
-                  <p className="text-left text-sm text-muted-foreground">{esquemaAberto.subtitulo}</p>
-                  <div className="mt-1 flex flex-wrap items-center gap-2">
-                    <Carimbo grau={esquemaAberto.grau} className="static" />
-                  </div>
-                </DialogHeader>
-                <FlowEsquema esquema={esquemaAberto} onPessoa={onPessoa} />
-              </>
+                </div>
+              </div>
             )}
           </DialogContent>
         </Dialog>
