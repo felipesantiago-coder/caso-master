@@ -1,17 +1,48 @@
 [
   {
+    "id": "tl-2026-barco-de-papel",
+    "data": "2026-01",
+    "dataLabel": "Janeiro de 2026",
+    "titulo": "Operação Barco de Papel mira aportes do Rioprevidência no Master",
+    "texto": "Em ação conjunta da PF e da PRF ligada ao caso, é deflagrada a Operação Barco de Papel, que identifica aportes suspeitos de R$ 970 milhões do Rioprevidência no Banco Master, realizados entre outubro de 2023 e julho de 2024, mesmo após alerta e proibição do TCE-RJ de novos aportes. O fundo geria benefícios de 235 mil aposentados e pensionistas fluminenses.",
+    "grau": "multifonte",
+    "tipos": [
+      "pf"
+    ],
+    "pessoas": [
+      "claudio-castro"
+    ],
+    "esquema": "fundos",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Cláudio Castro alvo da PF em investigação de R$ 3 bi no Banco Master",
+        "veiculo": "Painel Político",
+        "data": "26/05/2026",
+        "url": "https://painelpolitico.com/claudio-castro-alvo-da-pf-em-investigacao-de-r-3-bi-no-banco-master"
+      }
+    ]
+  },
+  {
     "id": "tl-2026-eua-bloqueio",
     "data": "2026-01-08",
     "dataLabel": "8 de janeiro de 2026",
     "titulo": "Justiça dos EUA reconhece a liquidação e bloqueia bens do Master",
     "texto": "O juiz Scott M. Grossman, do Tribunal de Falências da Flórida, reconhece a liquidação extrajudicial do Banco Master, o que implica bloqueio automático de bens da instituição no mercado americano e abre frente internacional de recuperação de ativos para o liquidante.",
     "grau": "oficial",
-    "tipos": ["internacional"],
+    "tipos": [
+      "internacional"
+    ],
     "pessoas": [],
     "esquema": "dinheiro",
     "destaque": false,
     "fontes": [
-      { "titulo": "Justiça dos EUA reconhece liquidação do Banco Master", "veiculo": "Valor Econômico", "data": "08/01/2026", "url": "https://valor.globo.com/financas/noticia/2026/01/08/justia-dos-eua-reconhece-liquidao-do-banco-master.ghtml" }
+      {
+        "titulo": "Justiça dos EUA reconhece liquidação do Banco Master",
+        "veiculo": "Valor Econômico",
+        "data": "08/01/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/01/08/justia-dos-eua-reconhece-liquidao-do-banco-master.ghtml"
+      }
     ]
   },
   {
@@ -21,13 +52,27 @@
     "titulo": "Haddad: podemos estar diante da maior fraude bancária da história do país",
     "texto": "O ministro da Fazenda, Fernando Haddad, afirma que o Brasil pode estar diante da maior fraude bancária da sua história. O esquema envolveu R$ 12,2 bilhões em carteiras sem lastro vendidas ao BRB, segundo a PF. Em fevereiro, ele repetiria a frase acrescentando que talvez seja uma das maiores do mundo, sem risco sistêmico, mas concentrado no FGC.",
     "grau": "multifonte",
-    "tipos": ["jornalismo"],
-    "pessoas": ["haddad"],
+    "tipos": [
+      "jornalismo"
+    ],
+    "pessoas": [
+      "haddad"
+    ],
     "esquema": "colapso",
     "destaque": true,
     "fontes": [
-      { "titulo": "Haddad diz que caso Master pode ser maior fraude bancária do Brasil", "veiculo": "CNN Brasil", "data": "13/01/2026", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/haddad-diz-que-caso-master-pode-ser-maior-fraude-bancaria-do-brasil" },
-      { "titulo": "'Podemos estar diante da maior fraude bancária da história do país', diz Haddad sobre caso Master", "veiculo": "Folha", "data": "13/01/2026", "url": "https://www1.folha.uol.com.br/mercado/2026/01/podemos-estar-diante-da-maior-fraude-bancaria-da-historia-do-pais-diz-haddad-sobre-caso-master.shtml" }
+      {
+        "titulo": "Haddad diz que caso Master pode ser maior fraude bancária do Brasil",
+        "veiculo": "CNN Brasil",
+        "data": "13/01/2026",
+        "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/haddad-diz-que-caso-master-pode-ser-maior-fraude-bancaria-do-brasil"
+      },
+      {
+        "titulo": "'Podemos estar diante da maior fraude bancária da história do país', diz Haddad sobre caso Master",
+        "veiculo": "Folha",
+        "data": "13/01/2026",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/01/podemos-estar-diante-da-maior-fraude-bancaria-da-historia-do-pais-diz-haddad-sobre-caso-master.shtml"
+      }
     ]
   },
   {
@@ -37,13 +82,27 @@
     "titulo": "BC liquida a Reag Investimentos",
     "texto": "O Banco Central decreta a liquidação extrajudicial da CBSF, antiga Reag Investimentos DTVM, gestora sócia do Master na compra do Banco Will e operadora de fundos usados, segundo delação posterior, para pagar propinas. A medida é motivada por graves violações às normas que regem as atividades das instituições do Sistema Financeiro Nacional.",
     "grau": "oficial",
-    "tipos": ["bc"],
-    "pessoas": ["rodrigo-mansur"],
+    "tipos": [
+      "bc"
+    ],
+    "pessoas": [
+      "rodrigo-mansur"
+    ],
     "esquema": "dinheiro",
     "destaque": false,
     "fontes": [
-      { "titulo": "Banco Central decreta liquidação da CBSF, ex-Reag, em meio a suspeitas ligadas ao Banco Master", "veiculo": "Lexlegal", "data": "15/01/2026", "url": "https://lexlegal.com.br/banco-central-decreta-liquidacao-da-cbsf-ex-reag-em-meio-a-suspeitas-ligadas-ao-banco-master" },
-      { "titulo": "BC liquida Reag Trust após novos desdobramentos do caso Master", "veiculo": "Bloomberg Línea", "data": "15/01/2026", "url": "https://www.bloomberg.com/news/articles/2026-01-15/bc-liquida-reag-trust-apos-novos-desdobramentos-do-caso-master" }
+      {
+        "titulo": "Banco Central decreta liquidação da CBSF, ex-Reag, em meio a suspeitas ligadas ao Banco Master",
+        "veiculo": "Lexlegal",
+        "data": "15/01/2026",
+        "url": "https://lexlegal.com.br/banco-central-decreta-liquidacao-da-cbsf-ex-reag-em-meio-a-suspeitas-ligadas-ao-banco-master"
+      },
+      {
+        "titulo": "BC liquida Reag Trust após novos desdobramentos do caso Master",
+        "veiculo": "Bloomberg Línea",
+        "data": "15/01/2026",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-15/bc-liquida-reag-trust-apos-novos-desdobramentos-do-caso-master"
+      }
     ]
   },
   {
@@ -53,12 +112,22 @@
     "titulo": "PGR aponta uso de R$ 650 milhões do Master em empresa de imóveis",
     "texto": "Segundo coluna da Natália Portinari no UOL, a Procuradoria-Geral da República aponta que Vorcaro usou R$ 650 milhões do Banco Master em empresa do setor imobiliário, uma das frentes de esvaziamento patrimonial apuradas depois da liquidação.",
     "grau": "fonteunica",
-    "tipos": ["mpf", "jornalismo"],
-    "pessoas": ["vorcaro"],
+    "tipos": [
+      "mpf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro"
+    ],
     "esquema": "dinheiro",
     "destaque": false,
     "fontes": [
-      { "titulo": "Vorcaro usou R$ 650 milhões do Master em empresa de imóveis, aponta PGR", "veiculo": "UOL", "data": "16/01/2026", "url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/01/16/vorcaro-usou-r-650-milhoes-do-master-em-empresa-de-imoveis-aponta-pgr.htm" }
+      {
+        "titulo": "Vorcaro usou R$ 650 milhões do Master em empresa de imóveis, aponta PGR",
+        "veiculo": "UOL",
+        "data": "16/01/2026",
+        "url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/01/16/vorcaro-usou-r-650-milhoes-do-master-em-empresa-de-imoveis-aponta-pgr.htm"
+      }
     ]
   },
   {
@@ -68,12 +137,23 @@
     "titulo": "Fundo Arleen, ligado à família de Toffoli, encerra atividade e manda R$ 33 mi a offshore",
     "texto": "O Arleen Fundo de Investimentos, cuja gestora era a Reag e que depois seria apontado pela PF como possivelmente controlado pelo ministro Dias Toffoli, encerra atividade e transfere R$ 33 milhões em cotas a um offshore em paraíso fiscal, segundo o SBT News. O ministro e familiares não responderam publicamente à reportagem na época.",
     "grau": "multifonte",
-    "tipos": ["jornalismo", "pf"],
-    "pessoas": ["toffoli", "rodrigo-mansur"],
+    "tipos": [
+      "jornalismo",
+      "pf"
+    ],
+    "pessoas": [
+      "toffoli",
+      "rodrigo-mansur"
+    ],
     "esquema": "stf",
     "destaque": false,
     "fontes": [
-      { "titulo": "Fundo ligado à família de Toffoli encerra atividade e transfere R$ 33 mi em cotas a offshore em paraíso fiscal", "veiculo": "SBT News", "data": "20/01/2026", "url": "https://sbtnews.sbt.com.br/noticia/economia/fundo-ligado-a-familia-de-toffoli-encerra-atividade-e-transfere-r-33-mi-em-cotas-a-offshore-em-paraiso-fiscal-1" }
+      {
+        "titulo": "Fundo ligado à família de Toffoli encerra atividade e transfere R$ 33 mi em cotas a offshore em paraíso fiscal",
+        "veiculo": "SBT News",
+        "data": "20/01/2026",
+        "url": "https://sbtnews.sbt.com.br/noticia/economia/fundo-ligado-a-familia-de-toffoli-encerra-atividade-e-transfere-r-33-mi-em-cotas-a-offshore-em-paraiso-fiscal-1"
+      }
     ]
   },
   {
@@ -83,28 +163,26 @@
     "titulo": "BC liquida o Will Bank e a Will Financeira",
     "texto": "O Banco Central decreta a liquidação extrajudicial do Will Bank, do conglomerado Master, e da Will Financeira, por extensão da crise, com bloqueio de bens dos controladores. O FGC estima pagar cerca de R$ 6,3 bilhões aos clientes do banco digital.",
     "grau": "oficial",
-    "tipos": ["bc", "fgc"],
+    "tipos": [
+      "bc",
+      "fgc"
+    ],
     "pessoas": [],
     "esquema": "colapso",
     "destaque": false,
     "fontes": [
-      { "titulo": "Banco Central decreta liquidação extrajudicial do Will Bank", "veiculo": "IstoÉ Dinheiro", "data": "21/01/2026", "url": "https://istoedinheiro.com.br/banco-central-decreta-liquidacao-extrajudicial-do-will-bank" },
-      { "titulo": "FGC aciona garantias e estima pagar R$ 6,3 bilhões a clientes do Will Bank", "veiculo": "Viva Notícias", "data": "22/01/2026", "url": "https://viva.com.br/noticias/fgc-aciona-garantias-e-estima-pagar-r-63-bilhoes-a-clientes-do-will-bank.html" }
-    ]
-  },
-  {
-    "id": "tl-2026-fgc-325",
-    "data": "2026-01-29",
-    "dataLabel": "29 de janeiro de 2026",
-    "titulo": "FGC já pagou R$ 32,5 bilhões a 75% dos credores",
-    "texto": "Menos de dois meses e meio após a liquidação, o FGC informa que já pagou R$ 32,5 bilhões a 75% dos credores do grupo Master, em pagamento escalonado por faixas de saldo. A Agência Brasil e o UOL registram o avanço dos reembolsos.",
-    "grau": "oficial",
-    "tipos": ["fgc"],
-    "pessoas": [],
-    "esquema": "colapso",
-    "destaque": false,
-    "fontes": [
-      { "titulo": "FGC já pagou R$ 32,5 bilhões a 75% dos credores do Banco Master", "veiculo": "Agência Brasil", "data": "01/2026", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/fgc-ja-pagou-r-325-bilhoes-75-dos-credores-do-banco-master" }
+      {
+        "titulo": "Banco Central decreta liquidação extrajudicial do Will Bank",
+        "veiculo": "IstoÉ Dinheiro",
+        "data": "21/01/2026",
+        "url": "https://istoedinheiro.com.br/banco-central-decreta-liquidacao-extrajudicial-do-will-bank"
+      },
+      {
+        "titulo": "FGC aciona garantias e estima pagar R$ 6,3 bilhões a clientes do Will Bank",
+        "veiculo": "Viva Notícias",
+        "data": "22/01/2026",
+        "url": "https://viva.com.br/noticias/fgc-aciona-garantias-e-estima-pagar-r-63-bilhoes-a-clientes-do-will-bank.html"
+      }
     ]
   },
   {
@@ -114,27 +192,41 @@
     "titulo": "PF ouve oito investigados do caso Master-BRB",
     "texto": "A PF inicia os depoimentos de oito investigados na operação Compliance Zero, que apura irregularidades na tentativa de compra do Banco Master pelo BRB, incluindo suspeitas de créditos fictícios e ativos inflados. Os depoimentos são feitos por videoconferência ou na sede do STF.",
     "grau": "oficial",
-    "tipos": ["pf"],
+    "tipos": [
+      "pf"
+    ],
     "pessoas": [],
     "esquema": "tirreno",
     "destaque": false,
     "fontes": [
-      { "titulo": "Compliance Zero: PF vai ouvir 8 investigados do caso Master-BRB", "veiculo": "JC/Folhapress", "data": "25/01/2026", "url": "https://jc.uol.com.br/politica/2026/01/25/compliance-zero-pf-vai-ouvir-8-investigados-do-caso-master-brb-saiba-quem-depoe.html" }
+      {
+        "titulo": "Compliance Zero: PF vai ouvir 8 investigados do caso Master-BRB",
+        "veiculo": "JC/Folhapress",
+        "data": "25/01/2026",
+        "url": "https://jc.uol.com.br/politica/2026/01/25/compliance-zero-pf-vai-ouvir-8-investigados-do-caso-master-brb-saiba-quem-depoe.html"
+      }
     ]
   },
   {
-    "id": "tl-2026-barco-de-papel",
-    "data": "2026-01",
-    "dataLabel": "Janeiro de 2026",
-    "titulo": "Operação Barco de Papel mira aportes do Rioprevidência no Master",
-    "texto": "Em ação conjunta da PF e da PRF ligada ao caso, é deflagrada a Operação Barco de Papel, que identifica aportes suspeitos de R$ 970 milhões do Rioprevidência no Banco Master, realizados entre outubro de 2023 e julho de 2024, mesmo após alerta e proibição do TCE-RJ de novos aportes. O fundo geria benefícios de 235 mil aposentados e pensionistas fluminenses.",
-    "grau": "multifonte",
-    "tipos": ["pf"],
-    "pessoas": ["claudio-castro"],
-    "esquema": "fundos",
+    "id": "tl-2026-fgc-325",
+    "data": "2026-01-29",
+    "dataLabel": "29 de janeiro de 2026",
+    "titulo": "FGC já pagou R$ 32,5 bilhões a 75% dos credores",
+    "texto": "Menos de dois meses e meio após a liquidação, o FGC informa que já pagou R$ 32,5 bilhões a 75% dos credores do grupo Master, em pagamento escalonado por faixas de saldo. A Agência Brasil e o UOL registram o avanço dos reembolsos.",
+    "grau": "oficial",
+    "tipos": [
+      "fgc"
+    ],
+    "pessoas": [],
+    "esquema": "colapso",
     "destaque": false,
     "fontes": [
-      { "titulo": "Cláudio Castro alvo da PF em investigação de R$ 3 bi no Banco Master", "veiculo": "Painel Político", "data": "26/05/2026", "url": "https://painelpolitico.com/claudio-castro-alvo-da-pf-em-investigacao-de-r-3-bi-no-banco-master" }
+      {
+        "titulo": "FGC já pagou R$ 32,5 bilhões a 75% dos credores do Banco Master",
+        "veiculo": "Agência Brasil",
+        "data": "01/2026",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/fgc-ja-pagou-r-325-bilhoes-75-dos-credores-do-banco-master"
+      }
     ]
   },
   {
@@ -144,13 +236,26 @@
     "titulo": "Análise: Master captou R$ 50 bilhões e estava totalmente ilíquido",
     "texto": "Análise divulgada pela Federação das APCEIs do Paraná estima que o Master captou ao menos R$ 50 bilhões em depósitos e CDBs, mas seus ativos valiam muito menos, e questiona onde foi parar o dinheiro. Dados do IFData do BC citados pelo UOL indicavam R$ 62,2 bilhões em depósitos elegíveis ao FGC, com a carteira de CDBs crescendo 16 vezes em poucos anos.",
     "grau": "multifonte",
-    "tipos": ["jornalismo", "bc"],
+    "tipos": [
+      "jornalismo",
+      "bc"
+    ],
     "pessoas": [],
     "esquema": "captacao",
     "destaque": false,
     "fontes": [
-      { "titulo": "Master captou R$ 50 bilhões, mas estava totalmente ilíquido: onde foi parar esse dinheiro?", "veiculo": "FeebPR", "data": "09/02/2026", "url": "https://feebpr.org.br/noticias/yUR5-master-captou-r-50-bilhoes-mas-estava-totalmente-iliquido-onde-foi-parar-esse-dinheiro" },
-      { "titulo": "Carteira de depósitos em CDB do Banco Master cresceu 16 vezes", "veiculo": "UOL Economia", "data": "19/11/2025", "url": "https://economia.uol.com.br/noticias/redacao/2025/11/19/carteira-cdb-banco-master.htm" }
+      {
+        "titulo": "Master captou R$ 50 bilhões, mas estava totalmente ilíquido: onde foi parar esse dinheiro?",
+        "veiculo": "FeebPR",
+        "data": "09/02/2026",
+        "url": "https://feebpr.org.br/noticias/yUR5-master-captou-r-50-bilhoes-mas-estava-totalmente-iliquido-onde-foi-parar-esse-dinheiro"
+      },
+      {
+        "titulo": "Carteira de depósitos em CDB do Banco Master cresceu 16 vezes",
+        "veiculo": "UOL Economia",
+        "data": "19/11/2025",
+        "url": "https://economia.uol.com.br/noticias/redacao/2025/11/19/carteira-cdb-banco-master.htm"
+      }
     ]
   },
   {
@@ -160,28 +265,19 @@
     "titulo": "FGC já pagou R$ 37,2 bilhões, 92% do total previsto",
     "texto": "O Fundo Garantidor de Créditos informa ter pagado R$ 37,2 bilhões em garantias a credores do Master, 92% do total previsto, e antecipa o reembolso a clientes com até R$ 1 mil a receber. O custo total da seguradora seguiria subindo nas estimativas ao longo do ano.",
     "grau": "oficial",
-    "tipos": ["fgc"],
+    "tipos": [
+      "fgc"
+    ],
     "pessoas": [],
     "esquema": "colapso",
     "destaque": false,
     "fontes": [
-      { "titulo": "FGC já pagou R$ 37,2 bilhões em garantias a credores do Master, 92% do total", "veiculo": "Tribunal do Sertão/Estadão Conteúdo", "data": "18/02/2026", "url": "https://www.tribunadosertao.com.br/geral/2026/02/18/859453-fgc-ja-pagou-r-372-bilhoes-em-garantias-a-credores-do-master-92-do-total" }
-    ]
-  },
-  {
-    "id": "tl-2026-represa-prisao",
-    "data": "2026-03-04",
-    "dataLabel": "4 de março de 2026",
-    "titulo": "Terceira fase: Vorcaro volta à prisão por decisão de Mendonça",
-    "texto": "O ministro André Mendonça autoriza a terceira fase da Operação Compliance Zero, e Vorcaro é re preso. A PF aponta que o banqueiro mantinha uma milícia privada, o grupo de WhatsApp conhecido como A Turma, usado para coação, monitoramento e intimidação de adversários, jornalistas e investigadores. No mesmo dia é preso Luiz Phillipi Mourão, o Sicário, chefe da estrutura, que tenta suicídio e morre dois dias depois na custódia.",
-    "grau": "oficial",
-    "tipos": ["pf", "stf"],
-    "pessoas": ["vorcaro", "sicario", "andre-mendonca", "henrique-vorcaro"],
-    "esquema": "milicia",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "Daniel Vorcaro, do Banco Master, é preso em nova fase da operação Compliance Zero", "veiculo": "Folha", "data": "04/03/2026", "url": "https://www1.folha.uol.com.br/mercado/2026/03/daniel-vorcaro-do-banco-master-e-preso-em-nova-fase-da-operacao-compliance-zero.shtml" },
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+      {
+        "titulo": "FGC já pagou R$ 37,2 bilhões em garantias a credores do Master, 92% do total",
+        "veiculo": "Tribunal do Sertão/Estadão Conteúdo",
+        "data": "18/02/2026",
+        "url": "https://www.tribunadosertao.com.br/geral/2026/02/18/859453-fgc-ja-pagou-r-372-bilhoes-em-garantias-a-credores-do-master-92-do-total"
+      }
     ]
   },
   {
@@ -191,12 +287,200 @@
     "titulo": "Liquidante: pai e irmã de Vorcaro desviaram ao menos US$ 1 bilhão",
     "texto": "O liquidante do Banco Master afirma ao Valor que Henrique Vorcaro, pai do banqueiro, e Natalia Vorcaro Zettel, irmã, desviaram ao menos US$ 1 bilhão do conglomerado e compraram uma mansão na Flórida, iniciando o cerco internacional ao patrimônio da família. O BC, no mesmo dia, libera parte do compulsório para recompor o caixa do FGC.",
     "grau": "multifonte",
-    "tipos": ["jornalismo", "bc"],
-    "pessoas": ["henrique-vorcaro", "natalia-zettel"],
+    "tipos": [
+      "jornalismo",
+      "bc"
+    ],
+    "pessoas": [
+      "henrique-vorcaro",
+      "natalia-zettel"
+    ],
     "esquema": "dinheiro",
     "destaque": true,
     "fontes": [
-      { "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi e compraram mansão na Flórida", "veiculo": "Valor Econômico", "data": "03/03/2026", "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml" }
+      {
+        "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi e compraram mansão na Flórida",
+        "veiculo": "Valor Econômico",
+        "data": "03/03/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-represa-prisao",
+    "data": "2026-03-04",
+    "dataLabel": "4 de março de 2026",
+    "titulo": "Terceira fase: Vorcaro volta à prisão por decisão de Mendonça",
+    "texto": "O ministro André Mendonça autoriza a terceira fase da Operação Compliance Zero, e Vorcaro é re preso. A PF aponta que o banqueiro mantinha uma milícia privada, o grupo de WhatsApp conhecido como A Turma, usado para coação, monitoramento e intimidação de adversários, jornalistas e investigadores. No mesmo dia é preso Luiz Phillipi Mourão, o Sicário, chefe da estrutura, que tenta suicídio e morre dois dias depois na custódia.",
+    "grau": "oficial",
+    "tipos": [
+      "pf",
+      "stf"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "sicario",
+      "andre-mendonca",
+      "henrique-vorcaro"
+    ],
+    "esquema": "milicia",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "Daniel Vorcaro, do Banco Master, é preso em nova fase da operação Compliance Zero",
+        "veiculo": "Folha",
+        "data": "04/03/2026",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/03/daniel-vorcaro-do-banco-master-e-preso-em-nova-fase-da-operacao-compliance-zero.shtml"
+      },
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-ameacas-jornalista",
+    "data": "2026-03-04",
+    "dataLabel": "4 de março de 2026",
+    "titulo": "Quebrar todos os dentes, num assalto: mensagens revelam plano contra jornalista",
+    "texto": "Na decisão que reabre a prisão de Vorcaro, o ministro André Mendonça divulga mensagens em que o banqueiro escreve ao agente Luiz Phillipi Mourão, o Sicário: Esse Lauro quero mandar dar um pau nele. Quebrar todos os dentes. Num assalto. Mourão responde: Pode? Vou olhar isso, e Vorcaro confirma: Sim. O nome tarjado corresponde ao colunista Lauro Jardim, de O Globo, que relata que a ação nunca foi executada. O jornal O Globo publica nota afirmando que seus jornalistas não se intimidarão com ameaças. As mensagens integram o grupo chamado A Turma, dedicado a obter informações sigilosas e intimidar adversários.",
+    "grau": "oficial",
+    "tipos": [
+      "pf",
+      "stf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "andre-mendonca"
+    ],
+    "esquema": "milicia",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "'Quebrar todos os dentes num assalto': mensagens de Daniel Vorcaro expõem ameaças contra opositores e jornalista Lauro Jardim",
+        "veiculo": "g1",
+        "data": "04/03/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/03/04/mensagens-ameacas-vorcaro.ghtml"
+      },
+      {
+        "titulo": "Lauro Jardim: como funcionava o grupo de Vorcaro que monitorava e ameaçava alvos",
+        "veiculo": "BBC News Brasil",
+        "data": "04/03/2026",
+        "url": "https://www.bbc.com/portuguese/articles/c0mggrkzkjno"
+      },
+      {
+        "titulo": "Mensagens no celular de Vorcaro citam plano de assalto para intimidar jornalista",
+        "veiculo": "Folha",
+        "data": "04/03/2026",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/03/mensagens-no-celular-do-vorcaro-citam-plano-de-assalto-para-intimidar-jornalista.shtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-mafia-banco",
+    "data": "2026-03-05",
+    "dataLabel": "5 de março de 2026",
+    "titulo": "Negócio de banco é igual a máfia: conversa com a namorada vai ao Jornal Nacional",
+    "texto": "O g1 e o Jornal Nacional divulgam mais uma conversa interceptada entre Vorcaro e a então namorada, Martha Graeff, em que o banqueiro afirma que negócio de banco é igual a máfia. O trecho integra a onda de vazamentos que acompanha a terceira fase da Operação Compliance Zero e a reabertura da prisão do banqueiro por decisão do ministro André Mendonça.",
+    "grau": "oficial",
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "martha-graeff"
+    ],
+    "esquema": "colapso",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Em troca de mensagens com a então namorada, Vorcaro diz que negócio de banco é igual a máfia",
+        "veiculo": "g1 / Jornal Nacional",
+        "data": "05/03/2026",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/03/05/em-troca-de-mensagens-com-a-entao-namorada-vorcaro-diz-que-negocio-de-banco-e-igual-a-mafia.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-sicario-cela",
+    "data": "2026-03-06",
+    "dataLabel": "4 a 6 de março de 2026",
+    "titulo": "Sicário de Vorcaro tenta suicídio na custódia da PF e morre dois dias depois",
+    "texto": "Luiz Phillipi Machado de Moraes Mourão, o Sicário, apontado pela PF como executor do grupo de intimidação de Vorcaro, é preso no dia 4 e encontrado agonizando na Superintendência da PF em Minas Gerais, em versão oficial de tentativa de suicídio com a própria camisa. Morre no dia 6 em hospital de Belo Horizonte. A PF abre inquérito sobre a custódia, concluído em abril; a família diz que não teve acesso a imagens e dados do inquérito.",
+    "grau": "oficial",
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro"
+    ],
+    "esquema": "milicia",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "PF abre inquérito para investigar tentativa de suicídio de 'Sicário' na prisão",
+        "veiculo": "g1",
+        "data": "05/03/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/03/05/pf-abre-inquerito-para-investigar-tentativa-de-suicidio-de-sicario-na-prisao.ghtml"
+      },
+      {
+        "titulo": "Aliado de Vorcaro, 'Sicário' tem suspeita de morte cerebral",
+        "veiculo": "Agência Brasil",
+        "data": "04/03/2026",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-03/aliado-de-vorcaro-sicario-tem-suspeita-de-morte-cerebral"
+      },
+      {
+        "titulo": "Família de 'sicário' de Vorcaro diz que não teve acesso a imagens e dados de inquérito sobre morte",
+        "veiculo": "g1",
+        "data": "13/04/2026",
+        "url": "https://g1.globo.com/politica/blog/julia-duailibi/post/2026/04/13/familia-de-sicario-de-vorcaro-diz-que-nao-teve-acesso-a-imagens-e-dados-de-inquerito-sobre-morte.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-vazamento-inquerito",
+    "data": "2026-03-06",
+    "dataLabel": "6 de março de 2026",
+    "titulo": "STF manda PF apurar o vazamento das mensagens íntimas de Vorcaro",
+    "texto": "Após pedido da defesa, o STF determina que a PF investigue o vazamento das mensagens íntimas trocadas entre Vorcaro e a então namorada e dos supostos diálogos com o contato atribuído a Alexandre de Moraes, feitos em visualização única no WhatsApp. O vazamento é chamado de barbárie institucional pelo ministro Gilmar Mendes, em 9 de março. Especialistas apontam que a divulgação de conversas de alguém que sequer é investigada gera dano moral indenizável.",
+    "grau": "oficial",
+    "tipos": [
+      "stf",
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "andre-mendonca",
+      "gilmar-mendes",
+      "martha-graeff"
+    ],
+    "esquema": "stf",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Supremo manda PF abrir inquérito sobre vazamento de diálogos atribuídos a Moraes",
+        "veiculo": "UOL/Reuters",
+        "data": "06/03/2026",
+        "url": "https://economia.uol.com.br/noticias/reuters/2026/03/06/defesa-de-vorcaro-pede-ao-stf-abertura-de-inquerito-sobre-vazamento-de-supostos-dialogos-com-moraes.htm"
+      },
+      {
+        "titulo": "Gilmar Mendes critica vazamento de mensagens entre Vorcaro e namorada: barbárie institucional",
+        "veiculo": "CBN",
+        "data": "09/03/2026",
+        "url": "https://cbn.globo.com/politica/noticia/2026/03/09/gilmar-mendes-critica-vazamento-de-mensagens-entre-vorcaro-e-namorada-barbarie-institucional.ghtml"
+      },
+      {
+        "titulo": "Vazamento de conversas íntimas de ex-namorada de Vorcaro gera dano moral indenizável",
+        "veiculo": "ConJur",
+        "data": "12/03/2026",
+        "url": "https://conjur.com.br/2026-mar-12/vazamento-de-conversas-intimas-de-ex-namorada-de-vorcaro-gera-dano-moral-indenizavel-2"
+      }
     ]
   },
   {
@@ -206,28 +490,19 @@
     "titulo": "Pública publica a reconstrução completa da fraude",
     "texto": "A Pública publica a reconstituição integral do caso, da negativa de 2017 ao colapso de 2025, consolidando a narrativa do esquema: captação superjuros, carteiras falsas ao BRB via Tirreno, cooptação de servidores do BC, emenda Master no Congresso e penetração nos três poderes. No mesmo dia, o ICL Notícias revela o investidor espanhol condenado por narcotráfico na compra do Banco Máxima.",
     "grau": "multifonte",
-    "tipos": ["jornalismo"],
+    "tipos": [
+      "jornalismo"
+    ],
     "pessoas": [],
     "esquema": "captacao",
     "destaque": false,
     "fontes": [
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
-    ]
-  },
-  {
-    "id": "tl-2026-reag-440",
-    "data": "2026-03-14",
-    "dataLabel": "14 de março de 2026",
-    "titulo": "Vorcaro lucrou mais de R$ 440 milhões com operações em fundos da Reag",
-    "texto": "O g1 revela, com base em apurações, que Vorcaro lucrou mais de R$ 440 milhões em operações com fundos administrados pela Reag, a gestora de Rodrigo Mansur que operava a estrutura financeira do grupo. Quatro dias depois, o mesmo portal informa que um fundo da Reag recebeu R$ 1 bilhão de empresas ligadas à lavagem de dinheiro do PCC, o que Mansur negou em CPI.",
-    "grau": "multifonte",
-    "tipos": ["jornalismo"],
-    "pessoas": ["vorcaro", "rodrigo-mansur"],
-    "esquema": "dinheiro",
-    "destaque": false,
-    "fontes": [
-      { "titulo": "Caso Master: Vorcaro lucrou mais de R$ 440 milhões em operações com fundos da Reag", "veiculo": "g1", "data": "14/03/2026", "url": "https://g1.globo.com/politica/noticia/2026/03/14/caso-master-vorcaro-lucrou-mais-de-r-440-milhoes-em-operacoes-com-fundos-da-reag.ghtml" },
-      { "titulo": "Fundo da Reag recebeu R$ 1 bilhão de empresas ligadas a lavagem de dinheiro do PCC", "veiculo": "g1", "data": "18/03/2026", "url": "https://g1.globo.com/politica/noticia/2026/03/18/fundo-da-reag-recebeu-r-1-bilhao-de-empresas-ligadas-a-lavagem-de-dinheiro-do-pcc.ghtml" }
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
     ]
   },
   {
@@ -237,12 +512,89 @@
     "titulo": "Fundador da Reag depõe na CPI do Crime Organizado",
     "texto": "Rodrigo Mansur, fundador da Reag, depõe na CPI do Crime Organizado do Senado e afirma que a gestora foi penalizada por ser grande e independente. Na mesma linha, negaria posteriormente qualquer vínculo com o PCC, antes de firmar delação com a PGR em setembro reconhecendo o uso dos fundos para pagar propinas de Vorcaro.",
     "grau": "oficial",
-    "tipos": ["congresso"],
-    "pessoas": ["rodrigo-mansur"],
+    "tipos": [
+      "congresso"
+    ],
+    "pessoas": [
+      "rodrigo-mansur"
+    ],
     "esquema": "dinheiro",
     "destaque": false,
     "fontes": [
-      { "titulo": "'Fomos penalizados por sermos grandes e independentes', diz fundador da Reag à CPI do Crime Organizado", "veiculo": "Valor Econômico", "data": "11/03/2026", "url": "https://valor.globo.com/financas/noticia/2026/03/11/fomos-penalizados-por-sermos-grandes-e-independentes-diz-fundador-da-reag-diz-a-cpi-do-crime-organizado.ghtml" }
+      {
+        "titulo": "'Fomos penalizados por sermos grandes e independentes', diz fundador da Reag à CPI do Crime Organizado",
+        "veiculo": "Valor Econômico",
+        "data": "11/03/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/03/11/fomos-penalizados-por-sermos-grandes-e-independentes-diz-fundador-da-reag-diz-a-cpi-do-crime-organizado.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-reag-440",
+    "data": "2026-03-14",
+    "dataLabel": "14 de março de 2026",
+    "titulo": "Vorcaro lucrou mais de R$ 440 milhões com operações em fundos da Reag",
+    "texto": "O g1 revela, com base em apurações, que Vorcaro lucrou mais de R$ 440 milhões em operações com fundos administrados pela Reag, a gestora de Rodrigo Mansur que operava a estrutura financeira do grupo. Quatro dias depois, o mesmo portal informa que um fundo da Reag recebeu R$ 1 bilhão de empresas ligadas à lavagem de dinheiro do PCC, o que Mansur negou em CPI.",
+    "grau": "multifonte",
+    "tipos": [
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "rodrigo-mansur"
+    ],
+    "esquema": "dinheiro",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Caso Master: Vorcaro lucrou mais de R$ 440 milhões em operações com fundos da Reag",
+        "veiculo": "g1",
+        "data": "14/03/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/03/14/caso-master-vorcaro-lucrou-mais-de-r-440-milhoes-em-operacoes-com-fundos-da-reag.ghtml"
+      },
+      {
+        "titulo": "Fundo da Reag recebeu R$ 1 bilhão de empresas ligadas a lavagem de dinheiro do PCC",
+        "veiculo": "g1",
+        "data": "18/03/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/03/18/fundo-da-reag-recebeu-r-1-bilhao-de-empresas-ligadas-a-lavagem-de-dinheiro-do-pcc.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-martha-fala",
+    "data": "2026-03-27",
+    "dataLabel": "27 de março de 2026",
+    "titulo": "Martha Graeff rompe silêncio e chama vazamento das conversas de violência",
+    "texto": "A ex-noiva de Vorcaro, Martha Graeff, fala pela primeira vez após o escândalo e a divulgação das conversas do casal, e classifica a exposição como violência. Mensagens interceptadas com ela também revelaram a compra de uma casa em Miami após a ascensão do Master, além de relatos de encontros com autoridades. Juristas apontam que o vazamento de conversas de quem não é investigada configura dano moral indenizável.",
+    "grau": "multifonte",
+    "tipos": [
+      "jornalismo"
+    ],
+    "pessoas": [
+      "martha-graeff",
+      "vorcaro"
+    ],
+    "esquema": "midia",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Ex-noiva de Vorcaro rompe silêncio sobre Master e mensagens vazadas",
+        "veiculo": "Metrópoles",
+        "data": "27/03/2026",
+        "url": "https://www.metropoles.com/brasil/ex-noiva-de-vorcaro-rompe-silencio-sobre-master-e-mensagens-vazadas"
+      },
+      {
+        "titulo": "Ex-namorada de Vorcaro chama vazamento de mensagens de violência",
+        "veiculo": "UOL",
+        "data": "08/03/2026",
+        "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/03/08/ex-namorada-de-vorcaro-diz-que-divulgacao-de-mensagens-do-casal-e-violencia.htm"
+      },
+      {
+        "titulo": "Vazamento de conversas íntimas de ex-namorada de Vorcaro gera dano moral indenizável",
+        "veiculo": "ConJur",
+        "data": "12/03/2026",
+        "url": "https://conjur.com.br/2026-mar-12/vazamento-de-conversas-intimas-de-ex-namorada-de-vorcaro-gera-dano-moral-indenizavel-2"
+      }
     ]
   },
   {
@@ -252,12 +604,21 @@
     "titulo": "Master e Vorcaro aplicaram R$ 12,2 bilhões em fundos entre 2017 e 2025",
     "texto": "Com base em dados da Receita Federal, o g1 aponta que o Banco Master e Vorcaro aplicaram R$ 12,2 bilhões em fundos de investimento entre 2017 e 2025, valor relevante para o rastreio dos recursos que sumiram do balanço do banco.",
     "grau": "multifonte",
-    "tipos": ["jornalismo"],
-    "pessoas": ["vorcaro"],
+    "tipos": [
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro"
+    ],
     "esquema": "dinheiro",
     "destaque": false,
     "fontes": [
-      { "titulo": "Master e Vorcaro aplicaram R$ 12,2 bilhões em fundos de investimento entre 2017 e 2025, aponta Receita", "veiculo": "g1", "data": "14/04/2026", "url": "https://g1.globo.com/politica/noticia/2026/04/14/master-e-vorcaro-aplicaram-r-122-bilhoes-em-fundos-de-investimento-entre-2017-e-2025-aponta-receita.ghtml" }
+      {
+        "titulo": "Master e Vorcaro aplicaram R$ 12,2 bilhões em fundos de investimento entre 2017 e 2025, aponta Receita",
+        "veiculo": "g1",
+        "data": "14/04/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/04/14/master-e-vorcaro-aplicaram-r-122-bilhoes-em-fundos-de-investimento-entre-2017-e-2025-aponta-receita.ghtml"
+      }
     ]
   },
   {
@@ -267,44 +628,28 @@
     "titulo": "Quarta fase: ex-presidente do BRB Paulo Henrique Costa é preso",
     "texto": "A quarta fase da Compliance Zero prende Paulo Henrique Costa, ex-presidente do BRB entre 2019 e 2025. A PF investiga se ele recebeu R$ 140 milhões de propina de Vorcaro para viabilizar a compra do Master, aponta que aprovou 25 operações de compra de carteiras que somaram R$ 17,5 bilhões e registra que agentes encontraram 24 armas com ele. Suas contas apareciam zeradas e com saldo devedor no dia do bloqueio de bens.",
     "grau": "oficial",
-    "tipos": ["pf"],
-    "pessoas": ["paulo-henrique-costa", "vorcaro"],
+    "tipos": [
+      "pf"
+    ],
+    "pessoas": [
+      "paulo-henrique-costa",
+      "vorcaro"
+    ],
     "esquema": "tirreno",
     "destaque": true,
     "fontes": [
-      { "titulo": "Quem é Paulo Henrique Costa, ex-presidente do BRB preso em operação da PF", "veiculo": "CNN Brasil", "data": "16/04/2026", "url": "https://www.cnnbrasil.com.br/politica/quem-e-paulo-henrique-costa-ex-presidente-do-brb-preso-em-operacao-da-pf/" },
-      { "titulo": "PF prende ex-presidente do BRB citado no caso do Banco Master", "veiculo": "Hoje em Dia", "data": "16/04/2026", "url": "https://www.hojeemdia.com.br/geral/pf-prende-ex-presidente-do-brb-citado-no-caso-do-banco-master-1.1113160" }
-    ]
-  },
-  {
-    "id": "tl-2026-fase5-ciro",
-    "data": "2026-05-07",
-    "dataLabel": "7 de maio de 2026",
-    "titulo": "PF aponta Ciro Nogueira como receptor central de vantagens de Vorcaro",
-    "texto": "Em nova fase da operação, a PF aponta o senador Ciro Nogueira (PP-PI) como receptor central de vantagens indevidas oferecidas por Vorcaro, com pagamentos mensais descritos em mensagens como mesada, em valores de R$ 300 mil a R$ 500 mil conforme o veículo. Investigadores encontraram no celular do banqueiro diálogos e registros de pagamentos a uma pessoa mencionada apenas como Ciro. O senador nega.",
-    "grau": "oficial",
-    "tipos": ["pf"],
-    "pessoas": ["ciro-nogueira", "vorcaro"],
-    "esquema": "politica",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "PF diz que Ciro Nogueira era receptor de 'vantagens indevidas' de Vorcaro", "veiculo": "TMC", "data": "07/05/2026", "url": "https://tmc.com.br/politica/ciro-nogueira-vantagens-banco-master" },
-      { "titulo": "Ciro Nogueira recebia mesada de R$ 500 mil de Vorcaro, aponta PF", "veiculo": "Brasil247", "data": "07/05/2026", "url": "https://www.brasil247.com/brasil/ciro-nogueira-recebia-mesada-de-r-500-mil-de-vorcaro-aponta-pf" }
-    ]
-  },
-  {
-    "id": "tl-2026-galipolo-terceira-divisao",
-    "data": "2026-05-07",
-    "dataLabel": "7 de maio de 2026",
-    "titulo": "Galípolo chama Master de banco da terceira divisão em audiência no Senado",
-    "texto": "Em audiência no Senado, o presidente do Banco Central descreve as ações do Master que chamaram a atenção do regulador e o classifica como banco da terceira divisão, reforçando a versão institucional de que o caso não representa risco sistêmico ao sistema financeiro.",
-    "grau": "oficial",
-    "tipos": ["bc", "congresso"],
-    "pessoas": ["galipolo"],
-    "esquema": "colapso",
-    "destaque": false,
-    "fontes": [
-      { "titulo": "Galípolo descreve ação do Master que chamou atenção do Banco Central", "veiculo": "O POVO", "data": "19/05/2026", "url": "https://www.opovo.com.br/noticias/economia/2026/05/19/galipolo-descreve-acao-do-master-que-chamou-atencao-do-banco-central.html" }
+      {
+        "titulo": "Quem é Paulo Henrique Costa, ex-presidente do BRB preso em operação da PF",
+        "veiculo": "CNN Brasil",
+        "data": "16/04/2026",
+        "url": "https://www.cnnbrasil.com.br/politica/quem-e-paulo-henrique-costa-ex-presidente-do-brb-preso-em-operacao-da-pf/"
+      },
+      {
+        "titulo": "PF prende ex-presidente do BRB citado no caso do Banco Master",
+        "veiculo": "Hoje em Dia",
+        "data": "16/04/2026",
+        "url": "https://www.hojeemdia.com.br/geral/pf-prende-ex-presidente-do-brb-citado-no-caso-do-banco-master-1.1113160"
+      }
     ]
   },
   {
@@ -314,12 +659,79 @@
     "titulo": "Sexta fase: pai de Vorcaro é preso como chefe do núcleo violento",
     "texto": "A sexta fase da Compliance Zero prende Henrique Vorcaro, pai do banqueiro, apontado pela PF como comandante dos núcleos A Turma e Os Meninos, no Rio de Janeiro, estruturas que monitoravam, coibiam e intimidavam alvos do banqueiro, e responsável pelos pagamentos a integrantes desses grupos.",
     "grau": "oficial",
-    "tipos": ["pf"],
-    "pessoas": ["henrique-vorcaro", "vorcaro", "sicario"],
+    "tipos": [
+      "pf"
+    ],
+    "pessoas": [
+      "henrique-vorcaro",
+      "vorcaro",
+      "sicario"
+    ],
     "esquema": "milicia",
     "destaque": true,
     "fontes": [
-      { "titulo": "Sicário, Joana, Manolo: quem são os nomes citados pela PF em novas revelações no caso Master", "veiculo": "g1", "data": "16/06/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/06/16/quem-sao-nomes-citados-pela-pf-novas-revelacoes-caso-master.ghtml" }
+      {
+        "titulo": "Sicário, Joana, Manolo: quem são os nomes citados pela PF em novas revelações no caso Master",
+        "veiculo": "g1",
+        "data": "16/06/2026",
+        "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/06/16/quem-sao-nomes-citados-pela-pf-novas-revelacoes-caso-master.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-fase5-ciro",
+    "data": "2026-05-07",
+    "dataLabel": "7 de maio de 2026",
+    "titulo": "PF aponta Ciro Nogueira como receptor central de vantagens de Vorcaro",
+    "texto": "Em nova fase da operação, a PF aponta o senador Ciro Nogueira (PP-PI) como receptor central de vantagens indevidas oferecidas por Vorcaro, com pagamentos mensais descritos em mensagens como mesada, em valores de R$ 300 mil a R$ 500 mil conforme o veículo. Investigadores encontraram no celular do banqueiro diálogos e registros de pagamentos a uma pessoa mencionada apenas como Ciro. O senador nega.",
+    "grau": "oficial",
+    "tipos": [
+      "pf"
+    ],
+    "pessoas": [
+      "ciro-nogueira",
+      "vorcaro"
+    ],
+    "esquema": "politica",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "PF diz que Ciro Nogueira era receptor de 'vantagens indevidas' de Vorcaro",
+        "veiculo": "TMC",
+        "data": "07/05/2026",
+        "url": "https://tmc.com.br/politica/ciro-nogueira-vantagens-banco-master"
+      },
+      {
+        "titulo": "Ciro Nogueira recebia mesada de R$ 500 mil de Vorcaro, aponta PF",
+        "veiculo": "Brasil247",
+        "data": "07/05/2026",
+        "url": "https://www.brasil247.com/brasil/ciro-nogueira-recebia-mesada-de-r-500-mil-de-vorcaro-aponta-pf"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-galipolo-terceira-divisao",
+    "data": "2026-05-07",
+    "dataLabel": "7 de maio de 2026",
+    "titulo": "Galípolo chama Master de banco da terceira divisão em audiência no Senado",
+    "texto": "Em audiência no Senado, o presidente do Banco Central descreve as ações do Master que chamaram a atenção do regulador e o classifica como banco da terceira divisão, reforçando a versão institucional de que o caso não representa risco sistêmico ao sistema financeiro.",
+    "grau": "oficial",
+    "tipos": [
+      "bc",
+      "congresso"
+    ],
+    "pessoas": [
+      "galipolo"
+    ],
+    "esquema": "colapso",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Galípolo descreve ação do Master que chamou atenção do Banco Central",
+        "veiculo": "O POVO",
+        "data": "19/05/2026",
+        "url": "https://www.opovo.com.br/noticias/economia/2026/05/19/galipolo-descreve-acao-do-master-que-chamou-atencao-do-banco-central.html"
+      }
     ]
   },
   {
@@ -329,12 +741,19 @@
     "titulo": "Buscas no caso Cajamar desdobram o caso Master",
     "texto": "A PF cumpre mandados de busca relacionados ao caso Cajamar, desdobramento que investiga recursos ligados ao grupo Master, segundo o Estadão. A fase integra a expansão da apuração para fundos e prefeituras que aplicaram recursos no banco.",
     "grau": "multifonte",
-    "tipos": ["pf"],
+    "tipos": [
+      "pf"
+    ],
     "pessoas": [],
     "esquema": "fundos",
     "destaque": false,
     "fontes": [
-      { "titulo": "Caso Master: investigações, números e personagens", "veiculo": "Estadão (referência em relatório de pesquisa)", "data": "05/2026", "url": "https://www.estadao.com.br/" }
+      {
+        "titulo": "Caso Master: investigações, números e personagens",
+        "veiculo": "Estadão (referência em relatório de pesquisa)",
+        "data": "05/2026",
+        "url": "https://www.estadao.com.br/"
+      }
     ]
   },
   {
@@ -344,13 +763,29 @@
     "titulo": "Oitava fase mira Cláudio Castro e o Rioprevidência: R$ 3 bilhões",
     "texto": "A oitava fase da operação mira o governador do Rio, Cláudio Castro, e o ex-presidente do Rioprevidência Ricardo Siqueira Rodrigues, apurando aportes de cerca de R$ 3 bilhões do fundo de pensão dos servidores fluminenses em fundos do Master: R$ 970 milhões entre outubro de 2023 e julho de 2024, e R$ 2,01 bilhões a partir de julho de 2024, mesmo após alerta e proibição do TCE-RJ. Dez mandados são cumpridos no Rio e no DF, expedidos por Mendonça. Castro nega e acompanha as buscas, segundo a defesa, com serenidade.",
     "grau": "oficial",
-    "tipos": ["pf", "stf"],
-    "pessoas": ["claudio-castro", "ricardo-siqueira"],
+    "tipos": [
+      "pf",
+      "stf"
+    ],
+    "pessoas": [
+      "claudio-castro",
+      "ricardo-siqueira"
+    ],
     "esquema": "fundos",
     "destaque": true,
     "fontes": [
-      { "titulo": "PF faz buscas contra Cláudio Castro em caso de aportes do Rioprevidência no Banco Master", "veiculo": "Extra/g1", "data": "26/05/2026", "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml" },
-      { "titulo": "Cláudio Castro alvo da PF em investigação de R$ 3 bi no Banco Master", "veiculo": "Painel Político", "data": "26/05/2026", "url": "https://painelpolitico.com/claudio-castro-alvo-da-pf-em-investigacao-de-r-3-bi-no-banco-master" }
+      {
+        "titulo": "PF faz buscas contra Cláudio Castro em caso de aportes do Rioprevidência no Banco Master",
+        "veiculo": "Extra/g1",
+        "data": "26/05/2026",
+        "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml"
+      },
+      {
+        "titulo": "Cláudio Castro alvo da PF em investigação de R$ 3 bi no Banco Master",
+        "veiculo": "Painel Político",
+        "data": "26/05/2026",
+        "url": "https://painelpolitico.com/claudio-castro-alvo-da-pf-em-investigacao-de-r-3-bi-no-banco-master"
+      }
     ]
   },
   {
@@ -360,12 +795,20 @@
     "titulo": "PF detalha fundos Arena e Horizonte usados no esquema",
     "texto": "O g1 detalha, com base em documentos da PF, o funcionamento dos fundos Arena e Horizonte, veículos de investimento ligados ao grupo usados no trânsito de recursos do Master, aprofundando o mapa da engenharia financeira do esquema.",
     "grau": "multifonte",
-    "tipos": ["pf", "jornalismo"],
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
     "pessoas": [],
     "esquema": "dinheiro",
     "destaque": false,
     "fontes": [
-      { "titulo": "PF detalha fundos Arena e Horizonte ligados ao caso Master", "veiculo": "g1", "data": "29/05/2026", "url": "https://g1.globo.com/" }
+      {
+        "titulo": "PF detalha fundos Arena e Horizonte ligados ao caso Master",
+        "veiculo": "g1",
+        "data": "29/05/2026",
+        "url": "https://g1.globo.com/"
+      }
     ]
   },
   {
@@ -375,12 +818,23 @@
     "titulo": "Vorcaro altera delação e classifica pagamentos a Ciro Nogueira como propina",
     "texto": "Daniel Vorcaro muda sua delação premiada, classificando como propina os pagamentos feitos ao senador Ciro Nogueira e incluindo detalhes sobre irregularidades na compra do Master pelo BRB. A delação segue sem acordo acatado pela PGR.",
     "grau": "fonteunica",
-    "tipos": ["mpf", "jornalismo"],
-    "pessoas": ["vorcaro", "ciro-nogueira"],
+    "tipos": [
+      "mpf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "ciro-nogueira"
+    ],
     "esquema": "politica",
     "destaque": false,
     "fontes": [
-      { "titulo": "Vorcaro altera delação e cita propina a Ciro Nogueira", "veiculo": "BP Money", "data": "10/06/2026", "url": "https://bpmoney.com.br/brasil/vorcaro-altera-delacao-e-classifica-pagamentos-a-ciro-nogueira-como-propina" }
+      {
+        "titulo": "Vorcaro altera delação e cita propina a Ciro Nogueira",
+        "veiculo": "BP Money",
+        "data": "10/06/2026",
+        "url": "https://bpmoney.com.br/brasil/vorcaro-altera-delacao-e-classifica-pagamentos-a-ciro-nogueira-como-propina"
+      }
     ]
   },
   {
@@ -390,13 +844,29 @@
     "titulo": "Nova fase mira o senador Jaques Wagner e o ex-sócio Augusto Lima",
     "texto": "A PF deflagra fase da Compliance Zero com o senador Jaques Wagner (PT-BA) e Augusto Lima, ex-sócio de Vorcaro, como alvos, apurando corrupção e o fluxo de pagamentos entre o Master e o grupo do senador. Segundo a delação de Vorcaro registrada pelo Poder360, o banqueiro disse que pagava R$ 3 milhões por mês a um grupo ligado a Wagner, que nega.",
     "grau": "multifonte",
-    "tipos": ["pf"],
-    "pessoas": ["jaques-wagner", "augusto-lima", "vorcaro"],
+    "tipos": [
+      "pf"
+    ],
+    "pessoas": [
+      "jaques-wagner",
+      "augusto-lima",
+      "vorcaro"
+    ],
     "esquema": "politica",
     "destaque": true,
     "fontes": [
-      { "titulo": "Caso Master: senador Jaques Wagner e ex-sócio de Vorcaro são alvo em nova fase de operação", "veiculo": "R7", "data": "18/06/2026", "url": "https://noticias.r7.com/brasilia/caso-master-senador-jaques-wagner-e-ex-socio-de-vorcaro-sao-alvo-em-nova-fase-de-operacao-18062026/" },
-      { "titulo": "PF cumpre mandados em nova fase da Compliance Zero, que tem agentes públicos como alvos", "veiculo": "O Tempo", "data": "18/06/2026", "url": "https://www.otempo.com.br/brasil/2026/6/18/caso-master-pf-cumpre-mandados-em-nova-fase-da-compliance-zero-que-tem-agentes-publicos-como-alvos" }
+      {
+        "titulo": "Caso Master: senador Jaques Wagner e ex-sócio de Vorcaro são alvo em nova fase de operação",
+        "veiculo": "R7",
+        "data": "18/06/2026",
+        "url": "https://noticias.r7.com/brasilia/caso-master-senador-jaques-wagner-e-ex-socio-de-vorcaro-sao-alvo-em-nova-fase-de-operacao-18062026/"
+      },
+      {
+        "titulo": "PF cumpre mandados em nova fase da Compliance Zero, que tem agentes públicos como alvos",
+        "veiculo": "O Tempo",
+        "data": "18/06/2026",
+        "url": "https://www.otempo.com.br/brasil/2026/6/18/caso-master-pf-cumpre-mandados-em-nova-fase-da-compliance-zero-que-tem-agentes-publicos-como-alvos"
+      }
     ]
   },
   {
@@ -406,13 +876,26 @@
     "titulo": "Sancionada a lei do socorro de R$ 6,6 bilhões ao BRB",
     "texto": "O Congresso aprova e o governo sanciona lei que autoriza socorro de R$ 6,6 bilhões ao BRB, atingido pela compra das carteiras sem lastro do Master. O Banco Central pede ainda provisão de R$ 26 bilhões ao banco, segundo reportagem da Seu Dinheiro com base em jornal, e o BRB perderia quase 800 mil clientes nos nove meses seguintes, segundo o Valor.",
     "grau": "oficial",
-    "tipos": ["congresso", "bc"],
+    "tipos": [
+      "congresso",
+      "bc"
+    ],
     "pessoas": [],
     "esquema": "colapso",
     "destaque": false,
     "fontes": [
-      { "titulo": "Lei do socorro de R$ 6,6 bilhões ao BRB é sancionada", "veiculo": "g1", "data": "24/06/2026", "url": "https://g1.globo.com/" },
-      { "titulo": "Banco Central pede provisão de R$ 26 bilhões ao BRB após compra de carteiras do Master, diz jornal", "veiculo": "Seu Dinheiro", "data": "2026", "url": "https://www.seudinheiro.com/2026/empresas/banco-central-pede-provisao-de-r-26-bilhoes-ao-brb-apos-compra-de-carteiras-do-master-diz-jornal/" }
+      {
+        "titulo": "Lei do socorro de R$ 6,6 bilhões ao BRB é sancionada",
+        "veiculo": "g1",
+        "data": "24/06/2026",
+        "url": "https://g1.globo.com/"
+      },
+      {
+        "titulo": "Banco Central pede provisão de R$ 26 bilhões ao BRB após compra de carteiras do Master, diz jornal",
+        "veiculo": "Seu Dinheiro",
+        "data": "2026",
+        "url": "https://www.seudinheiro.com/2026/empresas/banco-central-pede-provisao-de-r-26-bilhoes-ao-brb-apos-compra-de-carteiras-do-master-diz-jornal/"
+      }
     ]
   },
   {
@@ -422,12 +905,128 @@
     "titulo": "PGR rejeita a delação do ex-presidente do BRB",
     "texto": "A Procuradoria-Geral da República rejeita o acordo de delação premiada apresentado por Paulo Henrique Costa, ex-presidente do BRB preso desde abril. É a segunda delação rejeitada no caso, após as duas tentativas fracassadas de Vorcaro.",
     "grau": "oficial",
-    "tipos": ["mpf"],
-    "pessoas": ["paulo-henrique-costa", "gonet"],
+    "tipos": [
+      "mpf"
+    ],
+    "pessoas": [
+      "paulo-henrique-costa",
+      "gonet"
+    ],
     "esquema": "tirreno",
     "destaque": false,
     "fontes": [
-      { "titulo": "PGR rejeita acordo de delação de ex-presidente do BRB investigado no caso Master", "veiculo": "InfoMoney", "data": "26/06/2026", "url": "https://www.infomoney.com.br/politica/pgr-rejeita-acordo-de-delacao-de-ex-presidente-do-brb-investigado-no-caso-master/" }
+      {
+        "titulo": "PGR rejeita acordo de delação de ex-presidente do BRB investigado no caso Master",
+        "veiculo": "InfoMoney",
+        "data": "26/06/2026",
+        "url": "https://www.infomoney.com.br/politica/pgr-rejeita-acordo-de-delacao-de-ex-presidente-do-brb-investigado-no-caso-master/"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-gonet-anulacao",
+    "data": "2026-09-01",
+    "dataLabel": "1º de setembro de 2026",
+    "titulo": "Gonet pede a anulação de toda a apuração da PF sobre as mensagens",
+    "texto": "Na noite em que o relatório da PF sobre as mensagens de Vorcaro chega ao STF, o procurador-geral da República, Paulo Gonet, pede ao relator André Mendonça a anulação de toda a apuração, alegando que o ministro excedeu seus poderes ao mandar a polícia investigar um colega de Corte sem aval prévio do plenário e que a condução de investigações pré-processuais não caberia a um juiz. O episódio abre a maior crise interna da Corte em décadas.",
+    "grau": "oficial",
+    "tipos": [
+      "stf",
+      "mpf",
+      "pf"
+    ],
+    "pessoas": [
+      "gonet",
+      "andre-mendonca"
+    ],
+    "esquema": "stf",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Quem é quem nas mensagens que desencadearam a maior crise da história do STF",
+        "veiculo": "BBC News Brasil",
+        "data": "11/09/2026",
+        "url": "https://www.bbc.com/portuguese/articles/c7708dpmmg7o"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-moraes-mendonca",
+    "data": "2026-09-03",
+    "dataLabel": "3 a 9 de setembro de 2026",
+    "titulo": "Guerra aberta no STF: Moraes pede investigação contra Mendonça",
+    "texto": "Dois dias após a divulgação das mensagens extraídas do celular de Vorcaro, Alexandre de Moraes pede ao presidente do STF, Edson Fachin, autorização para investigar André Mendonça por improbidade administrativa, abuso de autoridade e crime de responsabilidade na condução das operações do caso Master e do caso INSS. Em 9 de setembro, Fachin retira Moraes da relatoria do inquérito das Fake News, que ele conduzia desde 2019, e assume o caso pessoalmente. É a primeira vez na história que um ministro do STF é formalmente investigado por atos no exercício do cargo.",
+    "grau": "oficial",
+    "tipos": [
+      "stf"
+    ],
+    "pessoas": [
+      "moraes",
+      "andre-mendonca",
+      "fachin"
+    ],
+    "esquema": "stf",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "Quem é quem nas mensagens que desencadearam a maior crise da história do STF",
+        "veiculo": "BBC News Brasil",
+        "data": "11/09/2026",
+        "url": "https://www.bbc.com/portuguese/articles/c7708dpmmg7o"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-crise-andrei",
+    "data": "2026-09-08",
+    "dataLabel": "8 e 9 de setembro de 2026",
+    "titulo": "Mendonça afasta diretor-geral da PF citado nas mensagens e Dino reintegra",
+    "texto": "O ministro André Mendonça determina o afastamento do diretor-geral da PF, Andrei Rodrigues, e do diretor de Inteligência, Leandro Almada, sob a alegação de que produziram relatórios de inteligência sigilosos para monitorá-lo, a ele e ao advogado-geral da União. No dia seguinte, o ministro Flávio Dino reintegra os dois, apontando que a definição de quem comanda a PF é prerrogativa do presidente da República e que Mendonça seria parte interessada no caso. O afastamento tem vista aberta por Gilmar Mendes e a controvérsia segue ao plenário.",
+    "grau": "oficial",
+    "tipos": [
+      "stf",
+      "pf"
+    ],
+    "pessoas": [
+      "andre-mendonca",
+      "flavio-dino",
+      "gilmar-mendes"
+    ],
+    "esquema": "stf",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Quem é quem nas mensagens que desencadearam a maior crise da história do STF",
+        "veiculo": "BBC News Brasil",
+        "data": "11/09/2026",
+        "url": "https://www.bbc.com/portuguese/articles/c7708dpmmg7o"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-vorcaro-filtro",
+    "data": "2026-09-11",
+    "dataLabel": "11 de setembro de 2026",
+    "titulo": "Vorcaro pede a Mendonça filtro prévio de documentos do inquérito",
+    "texto": "A defesa de Vorcaro pede ao ministro André Mendonça uma prévia filtragem dos documentos a serem tornados públicos a partir do inquérito, invocando o vazamento dos diálogos íntimos com a então namorada ocorrido em março. O pedido ilustra a disputa pela narrativa sobre o que das mensagens extraídas do celular do banqueiro pode ser tornado público.",
+    "grau": "fonteunica",
+    "tipos": [
+      "stf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "andre-mendonca"
+    ],
+    "esquema": "stf",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Vorcaro invoca vazamento de diálogos íntimos com namorada e pede a Mendonça filtro de documentos",
+        "veiculo": "Estadão",
+        "data": "11/09/2026",
+        "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/vorcaro-invoca-vazamento-de-dialogos-intimos-com-namorada-e-pede-a-mendonca-filtro-de-documentos/"
+      }
     ]
   }
 ]

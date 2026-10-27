@@ -50,13 +50,13 @@ export function TipoBadges({ tipos, max = 3 }: { tipos: string[]; max?: number }
       {visiveis.map((t) => (
         <span
           key={t}
-          className="rounded-full border border-border bg-secondary px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground"
+          className="rounded-full border border-border bg-secondary px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.12em] text-foreground/80"
         >
           {labelTipo(t)}
         </span>
       ))}
       {tipos.length > max && (
-        <span className="font-mono text-[10px] text-muted-foreground">+{tipos.length - max}</span>
+        <span className="font-mono text-[10px] text-foreground/80">+{tipos.length - max}</span>
       )}
     </span>
   );
@@ -115,13 +115,13 @@ export function FontesList({ fontes, compacto = false }: { fontes: Fonte[]; comp
               href={f.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex flex-wrap items-baseline gap-x-2 text-muted-foreground transition-colors hover:text-primary"
+              className="group inline-flex flex-wrap items-baseline gap-x-2 text-foreground/85 transition-colors hover:text-primary"
             >
-              <span className="font-mono text-[10px] text-muted-foreground/70">{f.veiculo}</span>
+              <span className="font-mono text-[10px] text-muted-foreground">{f.veiculo}</span>
               <span className="underline decoration-border underline-offset-4 group-hover:decoration-primary">
                 {f.titulo}
               </span>
-              <span className="font-mono text-[10px] text-muted-foreground/70">{f.data}</span>
+              <span className="font-mono text-[10px] text-muted-foreground">{f.data}</span>
             </a>
           </li>
         ))}
@@ -136,7 +136,7 @@ export function useReveal<T extends HTMLElement>() {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const alvos = el.querySelectorAll<HTMLElement>(".reveal:not(.is-in)");
+    const alvos = el.querySelectorAll<HTMLElement>(".reveal:not(.is-in), .reveal-item:not(.is-in)");
     if (!alvos.length) return;
     const io = new IntersectionObserver(
       (entries) => {
@@ -150,7 +150,14 @@ export function useReveal<T extends HTMLElement>() {
       // threshold 0: dispara ao entrar 1px na viewport, essencial para contêineres altos (linha do tempo)
       { rootMargin: "0px 0px -6% 0px", threshold: 0 }
     );
-    alvos.forEach((a) => io.observe(a));
+    alvos.forEach((a) => {
+      // já ficou acima da viewport (salto instantâneo, âncora): revela sem esperar
+      if (a.getBoundingClientRect().bottom < 0) {
+        a.classList.add("is-in");
+        return;
+      }
+      io.observe(a);
+    });
     return () => io.disconnect();
   });
   return ref;

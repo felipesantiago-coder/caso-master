@@ -6,27 +6,22 @@
     "titulo": "Décima fase mira o publicitário Thiago Miranda",
     "texto": "A décima fase da Compliance Zero prende e investiga o publicitário Thiago Miranda, operador de mídia de Vorcaro, por suspeitas de coordenar ataques ao Banco Central e intimidação de jornalistas. No mesmo dia, o blog de Andréia Sadi revela que investigadores descrevem o Master como uma mafia fantasiada de banco, com núcleos financeiro, político, de mídia e violento.",
     "grau": "oficial",
-    "tipos": ["pf"],
-    "pessoas": ["thiago-miranda", "vorcaro"],
+    "tipos": [
+      "pf"
+    ],
+    "pessoas": [
+      "thiago-miranda",
+      "vorcaro"
+    ],
     "esquema": "midia",
     "destaque": true,
     "fontes": [
-      { "titulo": "Master funcionava como 'máfia fantasiada de banco', segundo investigadores", "veiculo": "g1 (blog Andréia Sadi)", "data": "10/07/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/07/10/master-funcionava-como-mafia-fantasiada-de-banco-segundo-investigadores.ghtml" }
-    ]
-  },
-  {
-    "id": "tl-2026-cancela-venda-15bi",
-    "data": "2026-07-17",
-    "dataLabel": "17 de julho de 2026",
-    "titulo": "BRB e Quadra Capital cancelam venda de até R$ 15 bilhões em ativos do Master",
-    "texto": "O BRB e a gestora Quadra Capital, contratada para alienar ativos do grupo Master, cancelam a operação de venda de até R$ 15 bilhões em ativos, aprofundando a perda esperada pelo banco de Brasília e pelos credores. A Quadra havia sido contratada para administrar o passivo do conglomerado liquidado.",
-    "grau": "multifonte",
-    "tipos": ["jornalismo"],
-    "pessoas": [],
-    "esquema": "colapso",
-    "destaque": false,
-    "fontes": [
-      { "titulo": "BRB e Quadra Capital cancelam venda de até R$ 15 bilhões em ativos do Master", "veiculo": "g1", "data": "17/07/2026", "url": "https://g1.globo.com/" }
+      {
+        "titulo": "Master funcionava como 'máfia fantasiada de banco', segundo investigadores",
+        "veiculo": "g1 (blog Andréia Sadi)",
+        "data": "10/07/2026",
+        "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/07/10/master-funcionava-como-mafia-fantasiada-de-banco-segundo-investigadores.ghtml"
+      }
     ]
   },
   {
@@ -36,201 +31,47 @@
     "titulo": "FGC ainda tem R$ 1,83 bilhão para devolver; Will Bank já pagou 94,69%",
     "texto": "A Agência Brasil registra o estado do reembolso: faltam R$ 1,83 bilhão para os credores do grupo Master, e o FGC já desembolsou R$ 5,75 bilhões do Will Bank, 94,69% do previsto, restando cerca de R$ 950 milhões. Mais de 90 mil credores do Master ainda não haviam pedido reembolso, segundo a B3.",
     "grau": "oficial",
-    "tipos": ["fgc"],
+    "tipos": [
+      "fgc"
+    ],
     "pessoas": [],
     "esquema": "colapso",
     "destaque": false,
     "fontes": [
-      { "titulo": "FGC ainda tem R$ 1,83 bi para devolver a clientes do grupo Master", "veiculo": "Agência Brasil", "data": "07/2026", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fgc-ainda-tem-r-183-bi-para-devolver-clientes-do-grupo-master" },
-      { "titulo": "Mais de 90 mil credores do Master ainda não pediram reembolso ao FGC", "veiculo": "Bora Investir (B3)", "data": "2026", "url": "https://borainvestir.b3.com.br/noticias/mais-de-90-mil-credores-do-master-ainda-nao-pediram-reembolso-ao-fgc/" }
+      {
+        "titulo": "FGC ainda tem R$ 1,83 bi para devolver a clientes do grupo Master",
+        "veiculo": "Agência Brasil",
+        "data": "07/2026",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fgc-ainda-tem-r-183-bi-para-devolver-clientes-do-grupo-master"
+      },
+      {
+        "titulo": "Mais de 90 mil credores do Master ainda não pediram reembolso ao FGC",
+        "veiculo": "Bora Investir (B3)",
+        "data": "2026",
+        "url": "https://borainvestir.b3.com.br/noticias/mais-de-90-mil-credores-do-master-ainda-nao-pediram-reembolso-ao-fgc/"
+      }
     ]
   },
   {
-    "id": "tl-2026-multa-cvm",
-    "data": "2026-09-08",
-    "dataLabel": "8 de setembro de 2026",
-    "titulo": "CVM multa Vorcaro em R$ 20 milhões; total do grupo chega a R$ 201,5 milhões",
-    "texto": "A Comissão de Valores Mobiliários condena Daniel Vorcaro ao pagamento de R$ 20 milhões por fraude em operação de cotas do fundo imobiliário Brazil Realty. O conjunto de multas aplicadas a Vorcaro, ao Banco Master, ao pai Henrique, ao primo Felipe Vorcaro e à Viking Participações soma cerca de R$ 201,5 milhões, segundo o Poder360.",
-    "grau": "oficial",
-    "tipos": ["cvm"],
-    "pessoas": ["vorcaro", "henrique-vorcaro", "felipe-vorcaro"],
-    "esquema": "dinheiro",
-    "destaque": false,
-    "fontes": [
-      { "titulo": "CVM multa Vorcaro em R$ 20 milhões por fraude em fundo imobiliário", "veiculo": "Agência Brasil", "data": "08/09/2026", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cvm-multa-vorcaro-em-r-20-milhoes-por-fraude-em-fundo-imobiliario" },
-      { "titulo": "CVM multa Vorcaro e Master em R$ 201,5 milhões por fraude", "veiculo": "Poder360", "data": "08/09/2026", "url": "https://www.poder360.com.br/poder-economia/cvm-multa-vorcaro-e-master-em-r-2015-milhoes-por-fraude" }
-    ]
-  },
-  {
-    "id": "tl-2026-delacao-mansur",
-    "data": "2026-09-02",
-    "dataLabel": "2 de setembro de 2026",
-    "titulo": "PGR fecha a primeira delação aceita do caso, com o fundador da Reag",
-    "texto": "A Procuradoria-Geral da República firma o primeiro acordo de colaboração premiada do caso com Rodrigo Mansur, fundador da Reag Investimentos. Em delação, Mansur confirma que fundos da Reag foram usados para pagar propinas de Vorcaro. O acordo é encaminhado ao STF, com tramitação atrasada pela disputa de relatoria entre ministros.",
-    "grau": "oficial",
-    "tipos": ["mpf"],
-    "pessoas": ["rodrigo-mansur", "gonet", "vorcaro"],
-    "esquema": "dinheiro",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "PGR fecha primeira delação do caso Master com fundador da Reag", "veiculo": "InfoMoney", "data": "02/09/2026", "url": "https://www.infomoney.com.br/politica/pgr-fecha-primeira-delacao-do-caso-master-com-fundador-da-reag/" },
-      { "titulo": "Em delação, Mansur confirma que fundos da Reag foram usados para pagar propinas de Vorcaro", "veiculo": "Itatiaia", "data": "10/09/2026", "url": "https://www.itatiaia.com.br/politica/em-delacao-mansur-confirma-que-fundos-da-reag-foram-usados-para-pagar-propinas-de-vorcaro/" }
-    ]
-  },
-  {
-    "id": "tl-2026-moraes-contrato",
-    "data": "2026-09-01",
-    "dataLabel": "1º de setembro de 2026",
-    "titulo": "PF: Moraes analisou e fez alterações em contrato de R$ 130 milhões com o escritório da esposa",
-    "texto": "O Jornal Nacional revela, com base em relatório da PF, que o ministro Alexandre de Moraes analisou e fez alterações no contrato de R$ 130 milhões entre o Banco Master e o escritório de advocacia de sua esposa, Viviane Barci de Moraes. A PF aponta ainda que os pagamentos ao escritório envolviam uso de aeronaves ligadas ao banqueiro, nas quais o ministro e a esposa fizeram oito viagens entre maio e outubro de 2025. O ministro nega interferência e afirma que os contratos eram lícitos.",
-    "grau": "oficial",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["moraes", "viviane-barci", "vorcaro"],
-    "esquema": "stf",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "Moraes analisou e fez alterações em contrato de R$ 130 milhões do escritório da mulher dele com o Banco Master, aponta PF", "veiculo": "g1 (Jornal Nacional)", "data": "01/09/2026", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/01/moraes-analisou-e-fez-alteracoes-em-contrato-de-r-130-milhoes-do-escritorio-da-mulher-dele-com-o-banco-master-aponta-pf.ghtml" },
-      { "titulo": "Vorcaro pagou escritório de mulher de Moraes com aeronaves, diz PF", "veiculo": "Poder360", "data": "09/2026", "url": "https://www.poder360.com.br/poder-justica/vorcaro-pagou-escritorio-de-mulher-de-moraes-com-aeronaves-diz-pf/" }
-    ]
-  },
-  {
-    "id": "tl-2026-oferta-moraes",
-    "data": "2026-09-02",
-    "dataLabel": "2 de setembro de 2026",
-    "titulo": "g1 divulga o que Vorcaro teria oferecido a Moraes e à família",
-    "texto": "O g1 publica detalhes do relatório da PF sobre os benesses e promessas que Vorcaro teria oferecido ao ministro Alexandre de Moraes e à família dele, no contexto das mensagens e da relação comercial do banco com o escritório da esposa. Entre os episódios, a BBC registraria depois o fornecimento de jatinho e champanhe a um desembargador para viagem a Buenos Aires, em outras apurações de mensagens.",
+    "id": "tl-2026-cancela-venda-15bi",
+    "data": "2026-07-17",
+    "dataLabel": "17 de julho de 2026",
+    "titulo": "BRB e Quadra Capital cancelam venda de até R$ 15 bilhões em ativos do Master",
+    "texto": "O BRB e a gestora Quadra Capital, contratada para alienar ativos do grupo Master, cancelam a operação de venda de até R$ 15 bilhões em ativos, aprofundando a perda esperada pelo banco de Brasília e pelos credores. A Quadra havia sido contratada para administrar o passivo do conglomerado liquidado.",
     "grau": "multifonte",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["moraes", "vorcaro"],
-    "esquema": "stf",
-    "destaque": false,
-    "fontes": [
-      { "titulo": "Veja o que Vorcaro ofereceu a Moraes e sua família, segundo a PF", "veiculo": "g1", "data": "02/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/02/que-vorcaro-ofereceu-a-moraes-e-sua-familia-segundo-a-pf.ghtml" }
-    ]
-  },
-  {
-    "id": "tl-2026-levanta-sigilo",
-    "data": "2026-09-10",
-    "dataLabel": "10 de setembro de 2026",
-    "titulo": "Mendonça levanta o sigilo dos principais inquéritos do caso",
-    "texto": "O ministro André Mendonça retira o sigilo de partes dos inquéritos que apuram as fraudes do Banco Master e afirma que cópia integral dos autos será enviada aos demais membros da Corte. O presidente do STF, Edson Fachin, havia pressionado pelo levantamento. Começa a cascata de revelações públicas que domina o noticiário pelas semanas seguintes.",
-    "grau": "oficial",
-    "tipos": ["stf"],
-    "pessoas": ["andre-mendonca", "fachin"],
-    "esquema": "stf",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "Caso Master no STF: veja a linha do tempo da crise e da queda dos sigilos", "veiculo": "Exame", "data": "10/09/2026", "url": "https://exame.com/brasil/caso-master-no-stf-veja-a-linha-do-tempo-da-crise-e-da-queda-dos-sigilos/" }
-    ]
-  },
-  {
-    "id": "tl-2026-onda-servidores-bc",
-    "data": "2026-09-11",
-    "dataLabel": "11 a 13 de setembro de 2026",
-    "titulo": "Onda de revelações: servidores do BC, carteiras falsas e 6 diretores do BRB",
-    "texto": "Com os autos abertos, a PF e o BC detalham: o servidor Paulo Sérgio Neves recebia de R$ 4,8 a R$ 13 milhões, e Belline Santana cerca de R$ 4 milhões; a sindicância do BC aponta propina total de R$ 12 milhões aos dois, incluindo a venda simulada de sítio ao cunhado de Vorcaro. A perícia aponta produção industrial de CCBs e documentos para as carteiras vendidas ao BRB, e identifica seis diretores do BRB em suposta gestão fraudulenta nas 25 operações que somaram R$ 17,5 bilhões. O BRB afasta funcionários citados.",
-    "grau": "oficial",
-    "tipos": ["pf", "bc", "jornalismo"],
-    "pessoas": ["paulo-sergio-neves", "belline-santana", "fabiano-zettel", "diretores-brb", "paulo-henrique-costa"],
-    "esquema": "regulador",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "PF detalha relação de Vorcaro com servidores do BC", "veiculo": "g1", "data": "11/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/11/assessoria-informal-grupo-de-mensagens-cobranca-de-pagamento-pf-detalha-relacao-de-vorcaro-com-servidores-do-bc.ghtml" },
-      { "titulo": "Propina do Master a servidores do BC pode ter chegado a R$ 12 milhões, diz sindicância", "veiculo": "g1/GloboNews", "data": "13/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/13/propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-milhoes-diz-sindicancia.ghtml" },
-      { "titulo": "PF identifica seis diretores do BRB em suposta gestão fraudulenta no caso Master", "veiculo": "Valor Econômico", "data": "11/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/11/pf-identifica-seis-diretores-do-brb-que-teriam-cometido-suposta-gesto-fraudulenta-no-caso-master.ghtml" }
-    ]
-  },
-  {
-    "id": "tl-2026-toffoli-arleen",
-    "data": "2026-09-11",
-    "dataLabel": "11 de setembro de 2026",
-    "titulo": "PF suspeita que Toffoli era beneficiário do fundo Arleen",
-    "texto": "Relatório da PF obtido pela revista Piauí aponta o ministro Dias Toffoli como suspeito de ser proprietário ou beneficiário final do fundo Arleen, que recebeu cerca de R$ 35 milhões ligados ao grupo Master e transferiu R$ 33 milhões a offshore em janeiro. A Folha, a CNN e outros veículos reproduzem a suspeita; o ministro nega categoricamente. O relatório leva Fachin a afastá-lo da relatoria dos inquéritos do caso.",
-    "grau": "multifonte",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["toffoli"],
-    "esquema": "stf",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "PF suspeita que Toffoli tinha dinheiro de Vorcaro em paraíso fiscal, diz revista", "veiculo": "Folha", "data": "11/09/2026", "url": "https://www1.folha.uol.com.br/poder/2026/09/pf-suspeita-que-toffoli-tinha-dinheiro-de-vorcaro-em-paraiso-fiscal-diz-revista.shtml" },
-      { "titulo": "Toffoli seria beneficiário de fundo ligado a Vorcaro, diz revista", "veiculo": "CNN Brasil", "data": "11/09/2026", "url": "https://www.cnnbrasil.com.br/politica/toffoli-seria-beneficiario-de-fundo-ligado-a-vorcaro-diz-revista" }
-    ]
-  },
-  {
-    "id": "tl-2026-kevin-500k",
-    "data": "2026-09-11",
-    "dataLabel": "11 de setembro de 2026",
-    "titulo": "Mensagens apontam pagamentos de R$ 500 mil mensais ao filho de Nunes Marques",
-    "texto": "Com a abertura dos autos, ficam públicas as mensagens em que o diretor jurídico do Master trata dos pagamentos mensais de R$ 500 mil ao advogado Kevin Marques, filho do ministro Kassio Nunes Marques, via Consult Inteligência Tributária, e envia a Vorcaro a imagem dos contatos do advogado com a legenda Dominado aqui após decisão favorável a destilaria. A Folha apontaria depois R$ 6,6 milhões pagos ao grupo em 14 operações. O ministro e a defesa de Kevin negam.",
-    "grau": "oficial",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["kevin-marques", "nunes-marques", "luiz-renno", "vorcaro"],
-    "esquema": "stf",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" },
-      { "titulo": "Consultoria ligada a filho de Nunes Marques recebeu R$ 6,6 mi do Master e R$ 113 mi da JBS", "veiculo": "Folha via Bahia Notícias", "data": "21/03/2026", "url": "https://www.bahianoticias.com.br/amp/folha/noticia/384830-consultoria-ligada-a-filho-de-nunes-marques-recebeu-rdollar-66-mi-do-master-e-rdollar-113-mi-da-jbs" }
-    ]
-  },
-  {
-    "id": "tl-2026-julgamento-stf",
-    "data": "2026-09-15",
-    "dataLabel": "15 e 16 de setembro de 2026",
-    "titulo": "STF inicia julgamento sobre a conduta de Moraes no caso",
-    "texto": "O plenário do STF começa a julgar se a conduta de Alexandre de Moraes nas mensagens e contratos com o Master configura suspeição ou ilícito. Nunes Marques se declara suspeito, Flávio Dino pede vista e Gilmar Mendes pede a suspensão dos trabalhos até a identificação de todos os ministros citados nas mensagens de Vorcaro. O julgamento segue pendente no fim de outubro.",
-    "grau": "oficial",
-    "tipos": ["stf"],
-    "pessoas": ["moraes", "nunes-marques", "flavio-dino", "gilmar-mendes", "fachin"],
-    "esquema": "stf",
-    "destaque": true,
-    "fontes": [
-      { "titulo": "Caso Master: as críticas à atuação e o julgamento no STF", "veiculo": "O Globo/g1", "data": "09/2026", "url": "https://oglobo.globo.com/" }
-    ]
-  },
-  {
-    "id": "tl-2026-200-dias",
-    "data": "2026-09-19",
-    "dataLabel": "19 de setembro de 2026",
-    "titulo": "Vorcaro completa 200 dias preso",
-    "texto": "Preso desde 4 de março, Vorcaro completa 200 dias de prisão preventiva com a delação travada na disputa entre PGR e STF e o caso estremecendo o STF, como resume a Times Brasil. Ele segue depoindo à PF como preso e tentando novo acordo de colaboração.",
-    "grau": "multifonte",
-    "tipos": ["jornalismo"],
-    "pessoas": ["vorcaro"],
+    "tipos": [
+      "jornalismo"
+    ],
+    "pessoas": [],
     "esquema": "colapso",
     "destaque": false,
     "fontes": [
-      { "titulo": "Vorcaro completa 200 dias preso, com delação travada e caso Master estremecendo o STF", "veiculo": "Times Brasil", "data": "19/09/2026", "url": "https://timesbrasil.com.br/brasil/vorcaro-completa-neste-domingo-200-dias-preso-com-delacao-travada-e-caso-master-estremecendo-o-stf/" }
-    ]
-  },
-  {
-    "id": "tl-2026-gonet-conselho",
-    "data": "2026-09-25",
-    "dataLabel": "25 de setembro de 2026",
-    "titulo": "Conselho do MPF barra investigação sobre Gonet e mantém o PGR no caso",
-    "texto": "O Conselho Superior do Ministério Público Federal rejeita abrir investigação sobre o procurador-geral Paulo Gonet, diante das revelações sobre a foto com Vorcaro em Londres, as mensagens de saudade e o jantar relatado por advogado do banqueiro, e mantém o PGR à frente do caso Master. A oposição no Congresso pede seu afastamento.",
-    "grau": "oficial",
-    "tipos": ["mpf"],
-    "pessoas": ["gonet", "vorcaro"],
-    "esquema": "stf",
-    "destaque": false,
-    "fontes": [
-      { "titulo": "Conselho do MPF barra investigação sobre Gonet e mantém procurador-geral à frente do caso Master", "veiculo": "O Globo", "data": "25/09/2026", "url": "https://oglobo.globo.com/politica/noticia/2026/09/25/conselho-do-mpf-barra-investigacao-sobre-gonet-e-mantem-procurador-geral-a-frente-do-caso-master.ghtml" },
-      { "titulo": "Charuto, uísque e encontro em Londres: o que se sabe da foto de Gonet com Vorcaro", "veiculo": "O Globo", "data": "19/09/2026", "url": "https://oglobo.globo.com/politica/noticia/2026/09/19/charuto-uisque-e-encontro-em-londres-o-que-se-sabe-da-foto-de-gonet-com-vorcaro.ghtml" }
-    ]
-  },
-  {
-    "id": "tl-2026-indiciamento-mansur",
-    "data": "2026-09-30",
-    "dataLabel": "30 de setembro de 2026",
-    "titulo": "PF indicia Mansur e mais 12 por gestão fraudulenta e lavagem",
-    "texto": "A Polícia Federal indicia Rodrigo Mansur, fundador da Reag, e mais 12 pessoas por gestão fraudulenta e lavagem de dinheiro no setor de combustíveis, braço de uma das estruturas apuradas no caso Master. No mesmo dia, o Valor revela que Vorcaro disse que iria à reunião decisiva com espada na mão, irritado com a demora do BC em avaliar o acordo com o BRB.",
-    "grau": "oficial",
-    "tipos": ["pf"],
-    "pessoas": ["rodrigo-mansur", "vorcaro"],
-    "esquema": "dinheiro",
-    "destaque": false,
-    "fontes": [
-      { "titulo": "PF indicia fundador da Reag e mais 12 por gestão fraudulenta e lavagem no setor de combustíveis", "veiculo": "Terra", "data": "30/09/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/pf-indicia-fundador-da-reag-e-mais-12-por-gestao-fraudulenta-e-lavagem-no-setor-de-combustiveis,88f07893cd5c2ce5fe6d305572ef2c59t5sbckks.html" }
+      {
+        "titulo": "BRB e Quadra Capital cancelam venda de até R$ 15 bilhões em ativos do Master",
+        "veiculo": "g1",
+        "data": "17/07/2026",
+        "url": "https://g1.globo.com/"
+      }
     ]
   },
   {
@@ -240,12 +81,414 @@
     "titulo": "Lula pede quebra completa de sigilo do caso Master",
     "texto": "O presidente Lula pede publicamente a quebra completa de sigilo do caso Master, doa a quem doer, segundo a Agência Brasil, no contexto das revelações que alcançam governistas e oposicionistas. O pedido é cobrado por parlamentares da base e da oposição.",
     "grau": "multifonte",
-    "tipos": ["eleicoes"],
-    "pessoas": ["lula"],
+    "tipos": [
+      "eleicoes"
+    ],
+    "pessoas": [
+      "lula"
+    ],
     "esquema": "politica",
     "destaque": false,
     "fontes": [
-      { "titulo": "Lula pede quebra completa de sigilo do caso Master, 'doa a quem doer'", "veiculo": "Agência Brasil", "data": "09/2026", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/lula-pede-quebra-completa-de-sigilo-do-caso-master-doa-quem-doer" }
+      {
+        "titulo": "Lula pede quebra completa de sigilo do caso Master, 'doa a quem doer'",
+        "veiculo": "Agência Brasil",
+        "data": "09/2026",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/lula-pede-quebra-completa-de-sigilo-do-caso-master-doa-quem-doer"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-moraes-contrato",
+    "data": "2026-09-01",
+    "dataLabel": "1º de setembro de 2026",
+    "titulo": "PF: Moraes analisou e fez alterações em contrato de R$ 130 milhões com o escritório da esposa",
+    "texto": "O Jornal Nacional revela, com base em relatório da PF, que o ministro Alexandre de Moraes analisou e fez alterações no contrato de R$ 130 milhões entre o Banco Master e o escritório de advocacia de sua esposa, Viviane Barci de Moraes. A PF aponta ainda que os pagamentos ao escritório envolviam uso de aeronaves ligadas ao banqueiro, nas quais o ministro e a esposa fizeram oito viagens entre maio e outubro de 2025. O ministro nega interferência e afirma que os contratos eram lícitos.",
+    "grau": "oficial",
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "moraes",
+      "viviane-barci",
+      "vorcaro"
+    ],
+    "esquema": "stf",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "Moraes analisou e fez alterações em contrato de R$ 130 milhões do escritório da mulher dele com o Banco Master, aponta PF",
+        "veiculo": "g1 (Jornal Nacional)",
+        "data": "01/09/2026",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/01/moraes-analisou-e-fez-alteracoes-em-contrato-de-r-130-milhoes-do-escritorio-da-mulher-dele-com-o-banco-master-aponta-pf.ghtml"
+      },
+      {
+        "titulo": "Vorcaro pagou escritório de mulher de Moraes com aeronaves, diz PF",
+        "veiculo": "Poder360",
+        "data": "09/2026",
+        "url": "https://www.poder360.com.br/poder-justica/vorcaro-pagou-escritorio-de-mulher-de-moraes-com-aeronaves-diz-pf/"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-delacao-mansur",
+    "data": "2026-09-02",
+    "dataLabel": "2 de setembro de 2026",
+    "titulo": "PGR fecha a primeira delação aceita do caso, com o fundador da Reag",
+    "texto": "A Procuradoria-Geral da República firma o primeiro acordo de colaboração premiada do caso com Rodrigo Mansur, fundador da Reag Investimentos. Em delação, Mansur confirma que fundos da Reag foram usados para pagar propinas de Vorcaro. O acordo é encaminhado ao STF, com tramitação atrasada pela disputa de relatoria entre ministros.",
+    "grau": "oficial",
+    "tipos": [
+      "mpf"
+    ],
+    "pessoas": [
+      "rodrigo-mansur",
+      "gonet",
+      "vorcaro"
+    ],
+    "esquema": "dinheiro",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "PGR fecha primeira delação do caso Master com fundador da Reag",
+        "veiculo": "InfoMoney",
+        "data": "02/09/2026",
+        "url": "https://www.infomoney.com.br/politica/pgr-fecha-primeira-delacao-do-caso-master-com-fundador-da-reag/"
+      },
+      {
+        "titulo": "Em delação, Mansur confirma que fundos da Reag foram usados para pagar propinas de Vorcaro",
+        "veiculo": "Itatiaia",
+        "data": "10/09/2026",
+        "url": "https://www.itatiaia.com.br/politica/em-delacao-mansur-confirma-que-fundos-da-reag-foram-usados-para-pagar-propinas-de-vorcaro/"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-oferta-moraes",
+    "data": "2026-09-02",
+    "dataLabel": "2 de setembro de 2026",
+    "titulo": "g1 divulga o que Vorcaro teria oferecido a Moraes e à família",
+    "texto": "O g1 publica detalhes do relatório da PF sobre os benesses e promessas que Vorcaro teria oferecido ao ministro Alexandre de Moraes e à família dele, no contexto das mensagens e da relação comercial do banco com o escritório da esposa. Entre os episódios, a BBC registraria depois o fornecimento de jatinho e champanhe a um desembargador para viagem a Buenos Aires, em outras apurações de mensagens.",
+    "grau": "multifonte",
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "moraes",
+      "vorcaro"
+    ],
+    "esquema": "stf",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Veja o que Vorcaro ofereceu a Moraes e sua família, segundo a PF",
+        "veiculo": "g1",
+        "data": "02/09/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/09/02/que-vorcaro-ofereceu-a-moraes-e-sua-familia-segundo-a-pf.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-multa-cvm",
+    "data": "2026-09-08",
+    "dataLabel": "8 de setembro de 2026",
+    "titulo": "CVM multa Vorcaro em R$ 20 milhões; total do grupo chega a R$ 201,5 milhões",
+    "texto": "A Comissão de Valores Mobiliários condena Daniel Vorcaro ao pagamento de R$ 20 milhões por fraude em operação de cotas do fundo imobiliário Brazil Realty. O conjunto de multas aplicadas a Vorcaro, ao Banco Master, ao pai Henrique, ao primo Felipe Vorcaro e à Viking Participações soma cerca de R$ 201,5 milhões, segundo o Poder360.",
+    "grau": "oficial",
+    "tipos": [
+      "cvm"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "henrique-vorcaro",
+      "felipe-vorcaro"
+    ],
+    "esquema": "dinheiro",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "CVM multa Vorcaro em R$ 20 milhões por fraude em fundo imobiliário",
+        "veiculo": "Agência Brasil",
+        "data": "08/09/2026",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cvm-multa-vorcaro-em-r-20-milhoes-por-fraude-em-fundo-imobiliario"
+      },
+      {
+        "titulo": "CVM multa Vorcaro e Master em R$ 201,5 milhões por fraude",
+        "veiculo": "Poder360",
+        "data": "08/09/2026",
+        "url": "https://www.poder360.com.br/poder-economia/cvm-multa-vorcaro-e-master-em-r-2015-milhoes-por-fraude"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-levanta-sigilo",
+    "data": "2026-09-10",
+    "dataLabel": "10 de setembro de 2026",
+    "titulo": "Mendonça levanta o sigilo dos principais inquéritos do caso",
+    "texto": "O ministro André Mendonça retira o sigilo de partes dos inquéritos que apuram as fraudes do Banco Master e afirma que cópia integral dos autos será enviada aos demais membros da Corte. O presidente do STF, Edson Fachin, havia pressionado pelo levantamento. Começa a cascata de revelações públicas que domina o noticiário pelas semanas seguintes.",
+    "grau": "oficial",
+    "tipos": [
+      "stf"
+    ],
+    "pessoas": [
+      "andre-mendonca",
+      "fachin"
+    ],
+    "esquema": "stf",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "Caso Master no STF: veja a linha do tempo da crise e da queda dos sigilos",
+        "veiculo": "Exame",
+        "data": "10/09/2026",
+        "url": "https://exame.com/brasil/caso-master-no-stf-veja-a-linha-do-tempo-da-crise-e-da-queda-dos-sigilos/"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-onda-servidores-bc",
+    "data": "2026-09-11",
+    "dataLabel": "11 a 13 de setembro de 2026",
+    "titulo": "Onda de revelações: servidores do BC, carteiras falsas e 6 diretores do BRB",
+    "texto": "Com os autos abertos, a PF e o BC detalham: o servidor Paulo Sérgio Neves recebia de R$ 4,8 a R$ 13 milhões, e Belline Santana cerca de R$ 4 milhões; a sindicância do BC aponta propina total de R$ 12 milhões aos dois, incluindo a venda simulada de sítio ao cunhado de Vorcaro. A perícia aponta produção industrial de CCBs e documentos para as carteiras vendidas ao BRB, e identifica seis diretores do BRB em suposta gestão fraudulenta nas 25 operações que somaram R$ 17,5 bilhões. O BRB afasta funcionários citados.",
+    "grau": "oficial",
+    "tipos": [
+      "pf",
+      "bc",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "paulo-sergio-neves",
+      "belline-santana",
+      "fabiano-zettel",
+      "diretores-brb",
+      "paulo-henrique-costa"
+    ],
+    "esquema": "regulador",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "PF detalha relação de Vorcaro com servidores do BC",
+        "veiculo": "g1",
+        "data": "11/09/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/09/11/assessoria-informal-grupo-de-mensagens-cobranca-de-pagamento-pf-detalha-relacao-de-vorcaro-com-servidores-do-bc.ghtml"
+      },
+      {
+        "titulo": "Propina do Master a servidores do BC pode ter chegado a R$ 12 milhões, diz sindicância",
+        "veiculo": "g1/GloboNews",
+        "data": "13/09/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/09/13/propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-milhoes-diz-sindicancia.ghtml"
+      },
+      {
+        "titulo": "PF identifica seis diretores do BRB em suposta gestão fraudulenta no caso Master",
+        "veiculo": "Valor Econômico",
+        "data": "11/09/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/09/11/pf-identifica-seis-diretores-do-brb-que-teriam-cometido-suposta-gesto-fraudulenta-no-caso-master.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-toffoli-arleen",
+    "data": "2026-09-11",
+    "dataLabel": "11 de setembro de 2026",
+    "titulo": "PF suspeita que Toffoli era beneficiário do fundo Arleen",
+    "texto": "Relatório da PF obtido pela revista Piauí aponta o ministro Dias Toffoli como suspeito de ser proprietário ou beneficiário final do fundo Arleen, que recebeu cerca de R$ 35 milhões ligados ao grupo Master e transferiu R$ 33 milhões a offshore em janeiro. A Folha, a CNN e outros veículos reproduzem a suspeita; o ministro nega categoricamente. O relatório leva Fachin a afastá-lo da relatoria dos inquéritos do caso.",
+    "grau": "multifonte",
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "toffoli"
+    ],
+    "esquema": "stf",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "PF suspeita que Toffoli tinha dinheiro de Vorcaro em paraíso fiscal, diz revista",
+        "veiculo": "Folha",
+        "data": "11/09/2026",
+        "url": "https://www1.folha.uol.com.br/poder/2026/09/pf-suspeita-que-toffoli-tinha-dinheiro-de-vorcaro-em-paraiso-fiscal-diz-revista.shtml"
+      },
+      {
+        "titulo": "Toffoli seria beneficiário de fundo ligado a Vorcaro, diz revista",
+        "veiculo": "CNN Brasil",
+        "data": "11/09/2026",
+        "url": "https://www.cnnbrasil.com.br/politica/toffoli-seria-beneficiario-de-fundo-ligado-a-vorcaro-diz-revista"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-kevin-500k",
+    "data": "2026-09-11",
+    "dataLabel": "11 de setembro de 2026",
+    "titulo": "Mensagens apontam pagamentos de R$ 500 mil mensais ao filho de Nunes Marques",
+    "texto": "Com a abertura dos autos, ficam públicas as mensagens em que o diretor jurídico do Master trata dos pagamentos mensais de R$ 500 mil ao advogado Kevin Marques, filho do ministro Kassio Nunes Marques, via Consult Inteligência Tributária, e envia a Vorcaro a imagem dos contatos do advogado com a legenda Dominado aqui após decisão favorável a destilaria. A Folha apontaria depois R$ 6,6 milhões pagos ao grupo em 14 operações. O ministro e a defesa de Kevin negam.",
+    "grau": "oficial",
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "kevin-marques",
+      "nunes-marques",
+      "luiz-renno",
+      "vorcaro"
+    ],
+    "esquema": "stf",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "Veja ligações de ministros do STF com o caso Master",
+        "veiculo": "Folhapress/Estado de Minas",
+        "data": "17/09/2026",
+        "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html"
+      },
+      {
+        "titulo": "Consultoria ligada a filho de Nunes Marques recebeu R$ 6,6 mi do Master e R$ 113 mi da JBS",
+        "veiculo": "Folha via Bahia Notícias",
+        "data": "21/03/2026",
+        "url": "https://www.bahianoticias.com.br/amp/folha/noticia/384830-consultoria-ligada-a-filho-de-nunes-marques-recebeu-rdollar-66-mi-do-master-e-rdollar-113-mi-da-jbs"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-julgamento-stf",
+    "data": "2026-09-15",
+    "dataLabel": "15 e 16 de setembro de 2026",
+    "titulo": "STF inicia julgamento sobre a conduta de Moraes no caso",
+    "texto": "O plenário do STF começa a julgar se a conduta de Alexandre de Moraes nas mensagens e contratos com o Master configura suspeição ou ilícito. Nunes Marques se declara suspeito, Flávio Dino pede vista e Gilmar Mendes pede a suspensão dos trabalhos até a identificação de todos os ministros citados nas mensagens de Vorcaro. O julgamento segue pendente no fim de outubro.",
+    "grau": "oficial",
+    "tipos": [
+      "stf"
+    ],
+    "pessoas": [
+      "moraes",
+      "nunes-marques",
+      "flavio-dino",
+      "gilmar-mendes",
+      "fachin"
+    ],
+    "esquema": "stf",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "Caso Master: as críticas à atuação e o julgamento no STF",
+        "veiculo": "O Globo/g1",
+        "data": "09/2026",
+        "url": "https://oglobo.globo.com/"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-200-dias",
+    "data": "2026-09-19",
+    "dataLabel": "19 de setembro de 2026",
+    "titulo": "Vorcaro completa 200 dias preso",
+    "texto": "Preso desde 4 de março, Vorcaro completa 200 dias de prisão preventiva com a delação travada na disputa entre PGR e STF e o caso estremecendo o STF, como resume a Times Brasil. Ele segue depoindo à PF como preso e tentando novo acordo de colaboração.",
+    "grau": "multifonte",
+    "tipos": [
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro"
+    ],
+    "esquema": "colapso",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Vorcaro completa 200 dias preso, com delação travada e caso Master estremecendo o STF",
+        "veiculo": "Times Brasil",
+        "data": "19/09/2026",
+        "url": "https://timesbrasil.com.br/brasil/vorcaro-completa-neste-domingo-200-dias-preso-com-delacao-travada-e-caso-master-estremecendo-o-stf/"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-masterwhats",
+    "data": "2026-09-21",
+    "dataLabel": "21 a 24 de setembro de 2026",
+    "titulo": "MasterWhats: site com mais de 65 mil mensagens do celular de Vorcaro sai do ar e volta",
+    "texto": "O site MasterWhats, que reúne e simula em formato de WhatsApp mais de 65 mil mensagens atribuídas a Vorcaro, incluindo conversas com o contato salvo como Alexandre de Moraes, sai do ar por ordem judicial em 21 de setembro e volta ao ar em 24 de setembro. O arquivo tornou-se uma das principais referências públicas sobre o conteúdo das conversas extraídas pela PF do celular do banqueiro.",
+    "grau": "multifonte",
+    "tipos": [
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro"
+    ],
+    "esquema": "midia",
+    "destaque": true,
+    "fontes": [
+      {
+        "titulo": "Site que simula WhatsApp de Vorcaro sai do ar por ordem judicial",
+        "veiculo": "Poder360",
+        "data": "21/09/2026",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/site-que-simula-whatsapp-de-vorcaro-sai-do-ar-por-ordem-judicial"
+      },
+      {
+        "titulo": "MasterWhats: site expõe 66 mil mensagens de Daniel Vorcaro em formato de WhatsApp",
+        "veiculo": "Estado de Minas",
+        "data": "24/09/2026",
+        "url": "https://www.em.com.br/nacional/2026/09/7507611-masterwhats-site-expoe-66-mil-mensagens-de-daniel-vorcaro-em-formato-de-whatsapp.html"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-gonet-conselho",
+    "data": "2026-09-25",
+    "dataLabel": "25 de setembro de 2026",
+    "titulo": "Conselho do MPF barra investigação sobre Gonet e mantém o PGR no caso",
+    "texto": "O Conselho Superior do Ministério Público Federal rejeita abrir investigação sobre o procurador-geral Paulo Gonet, diante das revelações sobre a foto com Vorcaro em Londres, as mensagens de saudade e o jantar relatado por advogado do banqueiro, e mantém o PGR à frente do caso Master. A oposição no Congresso pede seu afastamento.",
+    "grau": "oficial",
+    "tipos": [
+      "mpf"
+    ],
+    "pessoas": [
+      "gonet",
+      "vorcaro"
+    ],
+    "esquema": "stf",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "Conselho do MPF barra investigação sobre Gonet e mantém procurador-geral à frente do caso Master",
+        "veiculo": "O Globo",
+        "data": "25/09/2026",
+        "url": "https://oglobo.globo.com/politica/noticia/2026/09/25/conselho-do-mpf-barra-investigacao-sobre-gonet-e-mantem-procurador-geral-a-frente-do-caso-master.ghtml"
+      },
+      {
+        "titulo": "Charuto, uísque e encontro em Londres: o que se sabe da foto de Gonet com Vorcaro",
+        "veiculo": "O Globo",
+        "data": "19/09/2026",
+        "url": "https://oglobo.globo.com/politica/noticia/2026/09/19/charuto-uisque-e-encontro-em-londres-o-que-se-sabe-da-foto-de-gonet-com-vorcaro.ghtml"
+      }
+    ]
+  },
+  {
+    "id": "tl-2026-indiciamento-mansur",
+    "data": "2026-09-30",
+    "dataLabel": "30 de setembro de 2026",
+    "titulo": "PF indicia Mansur e mais 12 por gestão fraudulenta e lavagem",
+    "texto": "A Polícia Federal indicia Rodrigo Mansur, fundador da Reag, e mais 12 pessoas por gestão fraudulenta e lavagem de dinheiro no setor de combustíveis, braço de uma das estruturas apuradas no caso Master. No mesmo dia, o Valor revela que Vorcaro disse que iria à reunião decisiva com espada na mão, irritado com a demora do BC em avaliar o acordo com o BRB.",
+    "grau": "oficial",
+    "tipos": [
+      "pf"
+    ],
+    "pessoas": [
+      "rodrigo-mansur",
+      "vorcaro"
+    ],
+    "esquema": "dinheiro",
+    "destaque": false,
+    "fontes": [
+      {
+        "titulo": "PF indicia fundador da Reag e mais 12 por gestão fraudulenta e lavagem no setor de combustíveis",
+        "veiculo": "Terra",
+        "data": "30/09/2026",
+        "url": "https://www.terra.com.br/noticias/brasil/politica/pf-indicia-fundador-da-reag-e-mais-12-por-gestao-fraudulenta-e-lavagem-no-setor-de-combustiveis,88f07893cd5c2ce5fe6d305572ef2c59t5sbckks.html"
+      }
     ]
   },
   {
@@ -255,12 +498,23 @@
     "titulo": "Fachin pede à PF apuração sem exceção no STF",
     "texto": "O presidente do STF, Edson Fachin, reúne-se com a direção da Polícia Federal e pede apuração sem exceção dos fatos ligados a integrantes do Tribunal, inclusive ministros, no caso Master. A PGR pede em seguida a ele decisões urgentes e a manutenção das prisões.",
     "grau": "oficial",
-    "tipos": ["stf", "pf"],
-    "pessoas": ["fachin", "gonet"],
+    "tipos": [
+      "stf",
+      "pf"
+    ],
+    "pessoas": [
+      "fachin",
+      "gonet"
+    ],
     "esquema": "stf",
     "destaque": false,
     "fontes": [
-      { "titulo": "Caso Master: Fachin pede à PF apuração 'sem exceção' de fatos ligados a integrantes do STF", "veiculo": "Exame", "data": "02/10/2026", "url": "https://exame.com/brasil/caso-master-fachin-pede-a-pf-apuracao-sem-excecao-de-fatos-ligados-a-integrantes-do-stf/" }
+      {
+        "titulo": "Caso Master: Fachin pede à PF apuração 'sem exceção' de fatos ligados a integrantes do STF",
+        "veiculo": "Exame",
+        "data": "02/10/2026",
+        "url": "https://exame.com/brasil/caso-master-fachin-pede-a-pf-apuracao-sem-excecao-de-fatos-ligados-a-integrantes-do-stf/"
+      }
     ]
   },
   {
@@ -270,12 +524,23 @@
     "titulo": "Primeiro turno: a conta do escândalo nas urnas",
     "texto": "No primeiro turno das eleições, a Pública mapeia o que chamou de a conta do escândalo: o caso puniu apenas parte dos políticos ligados a Vorcaro, poupou outros e deixou Flávio Bolsonaro para o segundo turno presidencial. Ibaneis Rocha já havia desistido da candidatura ao Senado em julho. Vorcarosfera, como a imprensa chamou o fenômeno, atravessou a campanha.",
     "grau": "multifonte",
-    "tipos": ["eleicoes"],
-    "pessoas": ["flavio-bolsonaro", "ibaneis", "claudio-castro"],
+    "tipos": [
+      "eleicoes"
+    ],
+    "pessoas": [
+      "flavio-bolsonaro",
+      "ibaneis",
+      "claudio-castro"
+    ],
     "esquema": "politica",
     "destaque": false,
     "fontes": [
-      { "titulo": "Banco Master: a conta do escândalo no 1º turno das eleições", "veiculo": "Pública", "data": "05/10/2026", "url": "https://apublica.org/2026/10/escandalo-master-pesa-na-urna-para-uns-e-passa-batido-para-outros" }
+      {
+        "titulo": "Banco Master: a conta do escândalo no 1º turno das eleições",
+        "veiculo": "Pública",
+        "data": "05/10/2026",
+        "url": "https://apublica.org/2026/10/escandalo-master-pesa-na-urna-para-uns-e-passa-batido-para-outros"
+      }
     ]
   },
   {
@@ -285,13 +550,29 @@
     "titulo": "Galípolo depõe à PF sobre a cooptação de servidores",
     "texto": "O presidente do Banco Central presta depoimento à PF como testemunha no caso da cooptação de servidores, classificando o episódio como um dos fatos mais graves da história da instituição. No mesmo período, o PF cancela o depoimento de Roberto Campos Neto, ex-presidente do BC, e a PF o mantém como testemunha.",
     "grau": "multifonte",
-    "tipos": ["pf", "bc"],
-    "pessoas": ["galipolo", "campos-neto"],
+    "tipos": [
+      "pf",
+      "bc"
+    ],
+    "pessoas": [
+      "galipolo",
+      "campos-neto"
+    ],
     "esquema": "regulador",
     "destaque": false,
     "fontes": [
-      { "titulo": "Caso Master: Galípolo depõe à PF como testemunha no caso de cooptação de servidores do Banco Central", "veiculo": "R7", "data": "06/10/2026", "url": "https://noticias.r7.com/prisma/natalia-martins/caso-master-galipolo-depoe-a-pf-como-testemunha-no-caso-de-cooptacao-de-servidores-do-banco-central-06102026/" },
-      { "titulo": "PF cancela depoimento de Campos Neto em investigação sobre servidores do BC", "veiculo": "Valor Econômico", "data": "07/10/2026", "url": "https://valor.globo.com/financas/noticia/2026/10/07/pf-cancela-depoimento-de-campos-neto-em-investigao-sobre-atuao-de-servidores-do-bc-no-caso-master.ghtml" }
+      {
+        "titulo": "Caso Master: Galípolo depõe à PF como testemunha no caso de cooptação de servidores do Banco Central",
+        "veiculo": "R7",
+        "data": "06/10/2026",
+        "url": "https://noticias.r7.com/prisma/natalia-martins/caso-master-galipolo-depoe-a-pf-como-testemunha-no-caso-de-cooptacao-de-servidores-do-banco-central-06102026/"
+      },
+      {
+        "titulo": "PF cancela depoimento de Campos Neto em investigação sobre servidores do BC",
+        "veiculo": "Valor Econômico",
+        "data": "07/10/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/10/07/pf-cancela-depoimento-de-campos-neto-em-investigao-sobre-atuao-de-servidores-do-bc-no-caso-master.ghtml"
+      }
     ]
   },
   {
@@ -301,13 +582,29 @@
     "titulo": "Liquidante rastreia R$ 840 milhões em mansões e R$ 2,15 bilhões ligados a Vorcaro nos EUA",
     "texto": "O liquidante do Master, com base na autorização do tribunal de falências da Flórida, informa ter rastreado mais de US$ 168 milhões, cerca de R$ 840 milhões, em operações ligadas a três propriedades de luxo, e aponta R$ 2,15 bilhões em bens e transferências ligados a Vorcaro nos EUA. Pede anulação de transferências e bloqueio das mansões. A justiça americana amplifica o cerco ao patrimônio da família.",
     "grau": "multifonte",
-    "tipos": ["internacional"],
-    "pessoas": ["vorcaro", "henrique-vorcaro", "natalia-zettel"],
+    "tipos": [
+      "internacional"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "henrique-vorcaro",
+      "natalia-zettel"
+    ],
     "esquema": "dinheiro",
     "destaque": true,
     "fontes": [
-      { "titulo": "Liquidante do Master rastreia R$ 840 milhões e pede bloqueio de mansões ligadas a Vorcaro nos EUA", "veiculo": "Times Brasil", "data": "08/10/2026", "url": "https://timesbrasil.com.br/brasil/liquidante-do-master-rastreia-r-840-milhoes-e-pede-bloqueio-de-mansoes-ligadas-a-vorcaro-nos-eua" },
-      { "titulo": "Mansões de luxo nos EUA entram na mira da Justiça após liquidante apontar R$ 2,15 bilhões ligados a Vorcaro", "veiculo": "Diário 360", "data": "09/10/2026", "url": "https://diario360.com.br/2026/10/09/mansoes-de-luxo-nos-eua-entram-na-mira-da-justica-apos-liquidante-apontar-r-215-bilhoes-ligados-a-vorcaro" }
+      {
+        "titulo": "Liquidante do Master rastreia R$ 840 milhões e pede bloqueio de mansões ligadas a Vorcaro nos EUA",
+        "veiculo": "Times Brasil",
+        "data": "08/10/2026",
+        "url": "https://timesbrasil.com.br/brasil/liquidante-do-master-rastreia-r-840-milhoes-e-pede-bloqueio-de-mansoes-ligadas-a-vorcaro-nos-eua"
+      },
+      {
+        "titulo": "Mansões de luxo nos EUA entram na mira da Justiça após liquidante apontar R$ 2,15 bilhões ligados a Vorcaro",
+        "veiculo": "Diário 360",
+        "data": "09/10/2026",
+        "url": "https://diario360.com.br/2026/10/09/mansoes-de-luxo-nos-eua-entram-na-mira-da-justica-apos-liquidante-apontar-r-215-bilhoes-ligados-a-vorcaro"
+      }
     ]
   },
   {
@@ -317,12 +614,24 @@
     "titulo": "PF: decisão de comprar o Master foi tomada em reunião na Suíça com Ibaneis",
     "texto": "O g1 revela, com base na PF, que a decisão de comprar o Banco Master pelo BRB teria sido tomada em reunião na Suíça com Ibaneis Rocha, o então presidente do banco Paulo Henrique Costa e Vorcaro, no estágio final das tratativas de 2024/2025. A PF mapeia a trama como decisão política do governador, não técnica do banco.",
     "grau": "multifonte",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["ibaneis", "paulo-henrique-costa", "vorcaro"],
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "ibaneis",
+      "paulo-henrique-costa",
+      "vorcaro"
+    ],
     "esquema": "tirreno",
     "destaque": false,
     "fontes": [
-      { "titulo": "BRB: decisão de comprar Master foi tomada em reunião na Suíça com Ibaneis, Paulo Henrique e Vorcaro, aponta PF", "veiculo": "g1", "data": "10/10/2026", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/10/10/brb-decisao-de-comprar-master-foi-tomada-em-reuniao-na-suica-com-ibaneis-paulo-henrique-e-vorcaro-aponta-policia-federal.ghtml" }
+      {
+        "titulo": "BRB: decisão de comprar Master foi tomada em reunião na Suíça com Ibaneis, Paulo Henrique e Vorcaro, aponta PF",
+        "veiculo": "g1",
+        "data": "10/10/2026",
+        "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/10/10/brb-decisao-de-comprar-master-foi-tomada-em-reuniao-na-suica-com-ibaneis-paulo-henrique-e-vorcaro-aponta-policia-federal.ghtml"
+      }
     ]
   },
   {
@@ -332,12 +641,24 @@
     "titulo": "PF: Flávio Bolsonaro e Ciro Nogueira estiveram na casa de Vorcaro na noite em que a compra foi selada",
     "texto": "Segundo a PF, o senador Flávio Bolsonaro (PL) e o ex-ministro Ciro Nogueira (PP) estiveram na casa de Daniel Vorcaro na noite em que foi selada a compra do Master pelo BRB. A revelação conecta definitivamente a oposição bolsonarista à negociação que era tratada como bipartidária nos bastidores.",
     "grau": "multifonte",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["flavio-bolsonaro", "ciro-nogueira", "vorcaro"],
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "flavio-bolsonaro",
+      "ciro-nogueira",
+      "vorcaro"
+    ],
     "esquema": "politica",
     "destaque": true,
     "fontes": [
-      { "titulo": "Flávio Bolsonaro se reuniu com Vorcaro na noite em que foi selada a compra do Master pelo BRB, aponta PF", "veiculo": "Leia Sempre Brasil", "data": "12/10/2026", "url": "https://leiasemprebrasil.com.br/2026/10/12/flavio-bolsonaro-se-reuniu-com-vorcaro-na-noite-em-que-foi-selada-a-compra-do-master-pelo-brb-aponta-pf" }
+      {
+        "titulo": "Flávio Bolsonaro se reuniu com Vorcaro na noite em que foi selada a compra do Master pelo BRB, aponta PF",
+        "veiculo": "Leia Sempre Brasil",
+        "data": "12/10/2026",
+        "url": "https://leiasemprebrasil.com.br/2026/10/12/flavio-bolsonaro-se-reuniu-com-vorcaro-na-noite-em-que-foi-selada-a-compra-do-master-pelo-brb-aponta-pf"
+      }
     ]
   },
   {
@@ -347,12 +668,23 @@
     "titulo": "Flávio Bolsonaro era usuário master em conta de empresa do advogado Willer Tomaz",
     "texto": "O g1 revela que a PF encontrou registro de cadastro de Flávio Bolsonaro como usuário master em conta bancária de empresa do advogado Willer Tomaz, investigado por suspeita de lavagem, além de e-mails da secretária do senador na estrutura. A defesa de Tomaz diz que as empresas são lícitas; Flávio nega ter mantido conta compartilhada.",
     "grau": "oficial",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["flavio-bolsonaro", "willer-tomaz"],
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "flavio-bolsonaro",
+      "willer-tomaz"
+    ],
     "esquema": "politica",
     "destaque": false,
     "fontes": [
-      { "titulo": "Flávio Bolsonaro foi cadastrado como 'usuário master' em conta bancária de empresa de advogado investigado", "veiculo": "g1", "data": "14/10/2026", "url": "https://g1.globo.com/politica/noticia/2026/10/14/flavio-bolsonaro-foi-cadastrado-como-usuario-master-em-conta-bancaria-de-empresa-de-advogado-investigado.ghtml" }
+      {
+        "titulo": "Flávio Bolsonaro foi cadastrado como 'usuário master' em conta bancária de empresa de advogado investigado",
+        "veiculo": "g1",
+        "data": "14/10/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/10/14/flavio-bolsonaro-foi-cadastrado-como-usuario-master-em-conta-bancaria-de-empresa-de-advogado-investigado.ghtml"
+      }
     ]
   },
   {
@@ -362,12 +694,24 @@
     "titulo": "Estadão: Vorcaro orientava reportagens do Metrópoles contra diretor do BC",
     "texto": "Documentos da PF divulgados pelo Estadão mostram que reportagens do portal Metrópoles contra o diretor do BC Renato Gomes, obstáculo à venda do Master, eram orientadas por Vorcaro, com textos prévios submetidos à aprovação do banqueiro pela CEO Lilian Tahan e divulgados até em painéis eletrônicos de Brasília. O portal nega.",
     "grau": "oficial",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["vorcaro", "lilian-tahan", "renato-gomes"],
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "lilian-tahan",
+      "renato-gomes"
+    ],
     "esquema": "midia",
     "destaque": true,
     "fontes": [
-      { "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master", "veiculo": "Estadão via Terra", "data": "15/10/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/vorcaro-orientou-reportagens-do-metropoles-contra-diretor-do-bc-que-fiscalizou-master,f44edc67441916e5555b50be7ce4fd584rw3lrkw.html" }
+      {
+        "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master",
+        "veiculo": "Estadão via Terra",
+        "data": "15/10/2026",
+        "url": "https://www.terra.com.br/noticias/brasil/politica/vorcaro-orientou-reportagens-do-metropoles-contra-diretor-do-bc-que-fiscalizou-master,f44edc67441916e5555b50be7ce4fd584rw3lrkw.html"
+      }
     ]
   },
   {
@@ -377,13 +721,30 @@
     "titulo": "STF abre novo inquérito contra Flávio Bolsonaro e Willer Tomaz",
     "texto": "Chega ao STF nova investigação da PF sobre Flávio Bolsonaro e o advogado Willer Tomaz, por suspeita de corrupção e lavagem de dinheiro ligadas ao caso Master; Alexandre de Moraes é sorteado relator. Em 27 de outubro, Moraes determina que Flávio entregue o passaporte e proíbe sua saída do país.",
     "grau": "oficial",
-    "tipos": ["stf", "pf"],
-    "pessoas": ["flavio-bolsonaro", "willer-tomaz", "moraes"],
+    "tipos": [
+      "stf",
+      "pf"
+    ],
+    "pessoas": [
+      "flavio-bolsonaro",
+      "willer-tomaz",
+      "moraes"
+    ],
     "esquema": "politica",
     "destaque": true,
     "fontes": [
-      { "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz", "veiculo": "Poder360", "data": "19/10/2026", "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal" },
-      { "titulo": "Moraes manda Flávio Bolsonaro entregar passaporte e o proíbe de deixar o país", "veiculo": "g1", "data": "27/10/2026", "url": "https://g1.globo.com/" }
+      {
+        "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz",
+        "veiculo": "Poder360",
+        "data": "19/10/2026",
+        "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal"
+      },
+      {
+        "titulo": "Moraes manda Flávio Bolsonaro entregar passaporte e o proíbe de deixar o país",
+        "veiculo": "g1",
+        "data": "27/10/2026",
+        "url": "https://g1.globo.com/"
+      }
     ]
   },
   {
@@ -393,12 +754,22 @@
     "titulo": "Dino abre inquérito para apurar o papel da CVM no caso Master",
     "texto": "O ministro Flávio Dino abre inquérito no STF para apurar a atuação da CVM, que registrou alertas sobre operações do Master anos antes do colapso sem impedir o esquema, e que teria sido alvo de pressões. A medida amplia a apuração para as falhas regulatórias além do BC. A Transparência Internacional havia apontado fragilidades de governança e fiscalização na CVM expostas pelas decisões do STF no caso.",
     "grau": "multifonte",
-    "tipos": ["stf", "cvm"],
-    "pessoas": ["flavio-dino"],
+    "tipos": [
+      "stf",
+      "cvm"
+    ],
+    "pessoas": [
+      "flavio-dino"
+    ],
     "esquema": "regulador",
     "destaque": false,
     "fontes": [
-      { "titulo": "Flávio Dino abre inquérito para apurar o papel da CVM em relação ao Banco Master", "veiculo": "O Globo", "data": "19/10/2026", "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/10/flavio-dino-abre-inquerito-para-apurar-o-papel-da-cvm-em-relacao-ao-banco-master.ghtml" }
+      {
+        "titulo": "Flávio Dino abre inquérito para apurar o papel da CVM em relação ao Banco Master",
+        "veiculo": "O Globo",
+        "data": "19/10/2026",
+        "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/10/flavio-dino-abre-inquerito-para-apurar-o-papel-da-cvm-em-relacao-ao-banco-master.ghtml"
+      }
     ]
   },
   {
@@ -408,12 +779,24 @@
     "titulo": "PGR pede manutenção das prisões e decisões urgentes a Fachin",
     "texto": "A Procuradoria-Geral da República pede ao presidente do STF a manutenção das prisões do caso Master e decisões urgentes, num momento em que o julgamento sobre Moraes segue parado com pedido de vista. A Gazeta do Povo registra que o PGR aponta risco à apuração se as decisões não forem tomadas.",
     "grau": "multifonte",
-    "tipos": ["mpf", "stf"],
-    "pessoas": ["gonet", "fachin", "vorcaro"],
+    "tipos": [
+      "mpf",
+      "stf"
+    ],
+    "pessoas": [
+      "gonet",
+      "fachin",
+      "vorcaro"
+    ],
     "esquema": "stf",
     "destaque": false,
     "fontes": [
-      { "titulo": "PGR pede manutenção de prisões e diz que Fachin deve tomar decisões urgentes no caso Master", "veiculo": "Gazeta do Povo", "data": "21/10/2026", "url": "https://www.gazetadopovo.com.br/republica/pgr-pede-manutencao-de-prisoes-e-diz-que-fachin-deve-tomar-decisoes-urgentes-no-caso-master/" }
+      {
+        "titulo": "PGR pede manutenção de prisões e diz que Fachin deve tomar decisões urgentes no caso Master",
+        "veiculo": "Gazeta do Povo",
+        "data": "21/10/2026",
+        "url": "https://www.gazetadopovo.com.br/republica/pgr-pede-manutencao-de-prisoes-e-diz-que-fachin-deve-tomar-decisoes-urgentes-no-caso-master/"
+      }
     ]
   },
   {
@@ -423,13 +806,30 @@
     "titulo": "Mensagens e delação: Ibaneis pilotou a operação BRB-Master",
     "texto": "O Diário do Centro do Mundo e o UOL publicam, com base nas mensagens periciadas pela PF, o papel de Ibaneis Rocha nas negociações BRB-Master: o então governador acompanhava acertos de capital e de carteiras, cobrava explicações e era tratado como dono do processo. A delação de Vorcaro fala em propina de R$ 400 milhões com R$ 80 milhões adiantados a Valverde, versão anterior falava em R$ 80 milhões. Ibaneis nega participação nas decisões do banco.",
     "grau": "multifonte",
-    "tipos": ["pf", "jornalismo"],
-    "pessoas": ["ibaneis", "leonardo-valverde", "vorcaro"],
+    "tipos": [
+      "pf",
+      "jornalismo"
+    ],
+    "pessoas": [
+      "ibaneis",
+      "leonardo-valverde",
+      "vorcaro"
+    ],
     "esquema": "politica",
     "destaque": true,
     "fontes": [
-      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" },
-      { "titulo": "Ibaneis pilotou operação BRB-Master, e Vorcaro fala em propina de R$ 80 mi", "veiculo": "UOL", "data": "21/10/2026", "url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/21/ibaneis-pilotou-operacao-brb-master-e-vorcaro-fala-em-propina-de-r-80-mi.htm" }
+      {
+        "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens",
+        "veiculo": "Diário do Centro do Mundo",
+        "data": "21/10/2026",
+        "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/"
+      },
+      {
+        "titulo": "Ibaneis pilotou operação BRB-Master, e Vorcaro fala em propina de R$ 80 mi",
+        "veiculo": "UOL",
+        "data": "21/10/2026",
+        "url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/21/ibaneis-pilotou-operacao-brb-master-e-vorcaro-fala-em-propina-de-r-80-mi.htm"
+      }
     ]
   },
   {
@@ -439,12 +839,23 @@
     "titulo": "BBC: Derruba esse site, a guerra de imagem de Vorcaro",
     "texto": "A BBC News Brasil publica como Vorcaro tentava controlar sua imagem e a de aliados na internet: contratos com influenciadores, revisão de vídeos, negociação de participação em veículos, remoção de reportagens e campanhas contra jornalistas, num aparato que a PF descreve como núcleo de mídia da organização. O relatório completa o mapa do poder de fogo comunicacional do banqueiro.",
     "grau": "multifonte",
-    "tipos": ["jornalismo"],
-    "pessoas": ["vorcaro", "thiago-miranda", "gabriela-prioli"],
+    "tipos": [
+      "jornalismo"
+    ],
+    "pessoas": [
+      "vorcaro",
+      "thiago-miranda",
+      "gabriela-prioli"
+    ],
     "esquema": "midia",
     "destaque": false,
     "fontes": [
-      { "titulo": "'Derruba esse site': como Vorcaro tentava controlar sua imagem e a de aliados na internet", "veiculo": "BBC News Brasil", "data": "23/10/2026", "url": "https://www.bbc.com/portuguese/articles/cjy56grn51zzo" }
+      {
+        "titulo": "'Derruba esse site': como Vorcaro tentava controlar sua imagem e a de aliados na internet",
+        "veiculo": "BBC News Brasil",
+        "data": "23/10/2026",
+        "url": "https://www.bbc.com/portuguese/articles/cjy56grn51zzo"
+      }
     ]
   },
   {
@@ -454,12 +865,23 @@
     "titulo": "Lula reeleito; Celina Leão eleita no DF; Flávio Bolsonaro perde",
     "texto": "No segundo turno das eleições de 2026, Lula é reeleito presidente, derrotando o senador Flávio Bolsonaro, investigado no caso Master, e Celina Leão é eleita governadora do Distrito Federal. A eleição encerra o ciclo político que começou com a tentativa de venda do Master ao BRB do governo Ibaneis Rocha.",
     "grau": "oficial",
-    "tipos": ["eleicoes"],
-    "pessoas": ["lula", "flavio-bolsonaro", "celina-leao"],
+    "tipos": [
+      "eleicoes"
+    ],
+    "pessoas": [
+      "lula",
+      "flavio-bolsonaro",
+      "celina-leao"
+    ],
     "esquema": "politica",
     "destaque": false,
     "fontes": [
-      { "titulo": "Lula é eleito presidente do Brasil, pela 4ª vez, em virada histórica", "veiculo": "Pública", "data": "25/10/2026", "url": "https://apublica.org/" }
+      {
+        "titulo": "Lula é eleito presidente do Brasil, pela 4ª vez, em virada histórica",
+        "veiculo": "Pública",
+        "data": "25/10/2026",
+        "url": "https://apublica.org/"
+      }
     ]
   },
   {
@@ -469,12 +891,23 @@
     "titulo": "Ex-diretor do BC diz que alertou para os riscos da compra do Master",
     "texto": "A Metrópoles publica que Ailton de Aquino, ex-diretor de Fiscalização do BC, afirma que alertou para os riscos na compra do Master pelo BRB, usando como prova a análise interna que recebeu do servidor Paulo Sérgio em junho de 2025. A declaração tenta reposicionar a cúpula do regulador no embate sobre quem sabia o quê, e quando.",
     "grau": "fonteunica",
-    "tipos": ["jornalismo", "bc"],
-    "pessoas": ["ailton-aquino", "paulo-sergio-neves"],
+    "tipos": [
+      "jornalismo",
+      "bc"
+    ],
+    "pessoas": [
+      "ailton-aquino",
+      "paulo-sergio-neves"
+    ],
     "esquema": "regulador",
     "destaque": false,
     "fontes": [
-      { "titulo": "Ex-diretor do BC diz que alertou para riscos na compra do Master pelo BRB", "veiculo": "Metrópoles", "data": "26/10/2026", "url": "https://www.metropoles.com/colunas/manoela-alcantara/ex-diretor-do-bc-diz-que-alertou-para-riscos-na-compra-do-master-pelo-brb" }
+      {
+        "titulo": "Ex-diretor do BC diz que alertou para riscos na compra do Master pelo BRB",
+        "veiculo": "Metrópoles",
+        "data": "26/10/2026",
+        "url": "https://www.metropoles.com/colunas/manoela-alcantara/ex-diretor-do-bc-diz-que-alertou-para-riscos-na-compra-do-master-pelo-brb"
+      }
     ]
   },
   {
@@ -484,12 +917,23 @@
     "titulo": "Moraes determina que Flávio Bolsonaro entregue o passaporte",
     "texto": "No dia da publicação desta compilação, o ministro Alexandre de Moraes determina que o senador Flávio Bolsonaro entregue o passaporte e o proíbe de deixar o país, no âmbito dos inquéritos ligados ao caso Master. O g1 informa também que ações contra ele podem seguir no STF mesmo com a perda do foro de senador após a eleição.",
     "grau": "multifonte",
-    "tipos": ["stf", "pf"],
-    "pessoas": ["flavio-bolsonaro", "moraes"],
+    "tipos": [
+      "stf",
+      "pf"
+    ],
+    "pessoas": [
+      "flavio-bolsonaro",
+      "moraes"
+    ],
     "esquema": "politica",
     "destaque": true,
     "fontes": [
-      { "titulo": "Moraes manda Flávio Bolsonaro entregar passaporte e o proíbe de deixar o país", "veiculo": "g1", "data": "27/10/2026", "url": "https://g1.globo.com/" }
+      {
+        "titulo": "Moraes manda Flávio Bolsonaro entregar passaporte e o proíbe de deixar o país",
+        "veiculo": "g1",
+        "data": "27/10/2026",
+        "url": "https://g1.globo.com/"
+      }
     ]
   }
 ]
