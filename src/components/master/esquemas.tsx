@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowRight, Compass } from "lucide-react";
+import { ArrowRight, Compass, Share2 } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { esquemas, esquemaPorId, nomePessoa, type Esquema } from "@/lib/master";
 import { FontesList, GrauBadge, Kicker, useReveal } from "./atoms";
@@ -132,6 +132,15 @@ export default function Esquemas({
                     <Compass className="size-4" aria-hidden />
                     Abrir infográfico do esquema
                   </button>
+                  <a
+                    href={`/rede/${destaque.id}/`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex h-11 items-center gap-2 rounded-full border border-primary/50 bg-primary/10 px-5 text-sm font-bold text-primary transition-transform hover:scale-[1.03]"
+                  >
+                    <Share2 className="size-4" aria-hidden />
+                    Rede 3D em tela cheia
+                  </a>
                   <GrauBadge grau={destaque.grau} />
                 </div>
               </div>
@@ -179,11 +188,18 @@ export default function Esquemas({
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {esquemas.map((e, i) => (
-            <button
+            <div
               key={e.id}
-              type="button"
+              role="button"
+              tabIndex={0}
               onClick={() => setAbertoId(e.id)}
-              className="card-hover reveal group flex h-full flex-col rounded-2xl border border-border bg-card p-6 text-left"
+              onKeyDown={(ev) => {
+                if (ev.key === "Enter" || ev.key === " ") {
+                  ev.preventDefault();
+                  setAbertoId(e.id);
+                }
+              }}
+              className="card-hover reveal group flex h-full cursor-pointer flex-col rounded-2xl border border-border bg-card p-6 text-left"
               style={{ transitionDelay: `${(i % 3) * 70}ms` }}
             >
               <span className="font-mono text-[11px] tracking-[0.2em] text-muted-foreground">
@@ -199,11 +215,24 @@ export default function Esquemas({
                   {e.periodo}
                 </span>
               </div>
-              <span className="mt-auto inline-flex items-center gap-1.5 pt-6 text-sm font-semibold text-primary">
-                Ver o passo a passo
-                <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" aria-hidden />
+              <span className="mt-auto inline-flex items-center justify-between gap-1.5 pt-6">
+                <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
+                  Ver o passo a passo
+                  <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" aria-hidden />
+                </span>
+                <a
+                  href={`/rede/${e.id}/`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(ev) => ev.stopPropagation()}
+                  title="Abrir a rede 3D de conexões deste esquema em nova aba, em tela cheia"
+                  className="inline-flex h-9 items-center gap-1.5 rounded-full border border-border bg-secondary px-3 text-[13px] font-semibold text-foreground/75 transition-colors hover:border-primary/50 hover:text-primary"
+                >
+                  <Share2 className="size-3.5" aria-hidden />
+                  Rede 3D
+                </a>
               </span>
-            </button>
+            </div>
           ))}
         </div>
       </div>

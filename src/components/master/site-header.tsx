@@ -5,6 +5,7 @@ import { Menu, Search, X } from "lucide-react";
 
 const links = [
   { href: "#esquemas", rotulo: "Esquemas" },
+  { href: "#redes", rotulo: "Redes" },
   { href: "#linha-do-tempo", rotulo: "Linha do tempo" },
   { href: "#pessoas", rotulo: "Pessoas" },
   { href: "#ranking", rotulo: "Ranking" },
@@ -83,7 +84,7 @@ export default function SiteHeader({ onOpenSearch }: { onOpenSearch: () => void 
               key={l.href}
               href={l.href}
               data-active={ativo === l.href}
-              className="nav-link text-[13px] font-medium text-foreground/75 transition-colors hover:text-foreground"
+              className="nav-link text-sm font-medium text-foreground/75 transition-colors hover:text-foreground"
             >
               {l.rotulo}
             </a>
@@ -94,10 +95,10 @@ export default function SiteHeader({ onOpenSearch }: { onOpenSearch: () => void 
           <button
             type="button"
             onClick={onOpenSearch}
-            className="inline-flex h-9 items-center gap-2 rounded-full border border-border bg-secondary/70 px-3.5 text-[13px] text-foreground/80 transition-colors hover:border-primary/50 hover:text-foreground"
+            className="inline-flex h-10 items-center gap-2 rounded-full border border-border bg-secondary/70 px-4 text-sm text-foreground/80 transition-colors hover:border-primary/50 hover:text-foreground"
             aria-label="Abrir busca"
           >
-            <Search className="size-3.5" aria-hidden />
+            <Search className="size-4" aria-hidden />
             <span className="hidden sm:inline">Buscar nome</span>
             <kbd className="hidden rounded border border-border bg-background px-1.5 font-mono text-[10px] text-muted-foreground sm:inline">
               /

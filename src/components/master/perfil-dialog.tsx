@@ -1,6 +1,7 @@
 "use client";
 
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Share2 } from "lucide-react";
 import {
   esquemasDePessoa,
   fatosDePessoa,
@@ -66,15 +67,25 @@ export function PerfilPessoa({ pessoa, aoAbrirFato }: { pessoa: Pessoa; aoAbrirF
       )}
 
       {esquemasRel.length > 0 && (
-        <div className="flex flex-wrap gap-2">
-          {esquemasRel.map((e) => (
-            <span
-              key={e.id}
-              className="rounded-full border border-primary/35 bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary"
-            >
-              {e.nome}
-            </span>
-          ))}
+        <div>
+          <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">
+            Esquemas ligados a esta pessoa
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {esquemasRel.map((e) => (
+              <a
+                key={e.id}
+                href={`/rede/${e.id}/`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Abrir a rede 3D de conexões do esquema ${e.nome} em nova aba, em tela cheia`}
+                className="inline-flex items-center gap-1.5 rounded-full border border-primary/35 bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary transition-colors hover:border-primary/60 hover:bg-primary/15"
+              >
+                <Share2 className="size-3.5" aria-hidden />
+                {e.nome}
+              </a>
+            ))}
+          </div>
         </div>
       )}
 

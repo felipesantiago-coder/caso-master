@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Caso Master: tudo o que se sabe sobre o Banco Master e Daniel Vorcaro",
   description:
-    "Dossiê público do caso Banco Master e Daniel Vorcaro: linha do tempo completa das apurações da Polícia Federal, do Banco Central, do STF e do TCU, ranking das pessoas mais mencionadas, busca por nomes, explicação passo a passo de cada esquema e todas as fontes com grau de comprovação.",
+    "Dossiê público do caso Banco Master e Daniel Vorcaro: linha do tempo completa das apurações da Polícia Federal, do Banco Central, do STF e do TCU, ranking das pessoas mais mencionadas, redes de conexão 3D interativas dos esquemas, busca por nomes e todas as fontes com grau de comprovação.",
   keywords: [
     "Banco Master",
     "Daniel Vorcaro",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Caso Master: tudo o que se sabe sobre o Banco Master e Daniel Vorcaro",
     description:
-      "Linha do tempo, esquemas explicados passo a passo, ranking de envolvidos e busca por nomes, com fontes e grau de comprovação de cada fato.",
+      "Linha do tempo, esquemas explicados passo a passo, redes de conexão 3D interativas, ranking de envolvidos e busca por nomes, com fontes e grau de comprovação de cada fato.",
     type: "website",
     locale: "pt_BR",
   },

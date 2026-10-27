@@ -32,25 +32,25 @@
 
 :root {
   --radius: 0.875rem;
-  /* Tema escuro premium: preto quente + dourado */
-  --background: #0a0a0c;
-  --foreground: #f2f0eb;
-  --card: #131316;
-  --card-foreground: #f2f0eb;
-  --popover: #16161a;
-  --popover-foreground: #f2f0eb;
-  --primary: #e3b341;
+  /* Tema escuro premium: preto quente + dourado, com contraste elevado */
+  --background: #08090c;
+  --foreground: #f5f3ee;
+  --card: #121215;
+  --card-foreground: #f5f3ee;
+  --popover: #15151a;
+  --popover-foreground: #f5f3ee;
+  --primary: #e6b94a;
   --primary-foreground: #171208;
-  --secondary: #1c1c21;
-  --secondary-foreground: #e6e3dc;
-  --muted: #17171a;
-  --muted-foreground: #a09c93;
-  --accent: #1d1d23;
-  --accent-foreground: #f2f0eb;
+  --secondary: #1d1d23;
+  --secondary-foreground: #eae7e0;
+  --muted: #17171b;
+  --muted-foreground: #b3afa6;
+  --accent: #1e1e25;
+  --accent-foreground: #f5f3ee;
   --destructive: #f05252;
-  --border: #26262c;
-  --input: #2a2a31;
-  --ring: #e3b341;
+  --border: #2b2b33;
+  --input: #2f2f38;
+  --ring: #e6b94a;
 }
 
 @theme {
@@ -60,8 +60,25 @@
   --color-grau-fonteunica: #fbbf24;
   --color-grau-alegacao: #fb7185;
   /* Acentos de cena */
-  --color-gold: #e3b341;
+  --color-gold: #e6b94a;
   --color-ember: #f05252;
+  /* Tipografia ampliada: leitura confortável em desktop e mobile */
+  --text-xs: 0.8125rem; /* 13px */
+  --text-xs--line-height: 1.55;
+  --text-sm: 0.9375rem; /* 15px */
+  --text-sm--line-height: 1.62;
+  --text-base: 1.0625rem; /* 17px */
+  --text-base--line-height: 1.7;
+  --text-lg: 1.1875rem; /* 19px */
+  --text-lg--line-height: 1.65;
+  --text-xl: 1.375rem; /* 22px */
+  --text-xl--line-height: 1.35;
+  --text-2xl: 1.625rem; /* 26px */
+  --text-2xl--line-height: 1.25;
+  --text-3xl: 2rem; /* 32px */
+  --text-3xl--line-height: 1.2;
+  --text-4xl: 2.4rem; /* 38px */
+  --text-4xl--line-height: 1.15;
 }
 
 html {
@@ -118,27 +135,27 @@ body {
   inset: 0;
   z-index: 60;
   pointer-events: none;
-  opacity: 0.05;
+  opacity: 0.04;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 /* Tipografia de exibição, estilo editorial */
 .display {
-  font-size: clamp(2.9rem, 8.5vw, 7rem);
+  font-size: clamp(3rem, 8.5vw, 7.2rem);
   line-height: 0.94;
   letter-spacing: -0.035em;
   font-weight: 800;
 }
 .display-sm {
-  font-size: clamp(2rem, 5vw, 3.75rem);
+  font-size: clamp(2.1rem, 5vw, 3.9rem);
   line-height: 1.02;
   letter-spacing: -0.03em;
   font-weight: 800;
 }
 .kicker {
   font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  letter-spacing: 0.28em;
+  font-size: 0.75rem;
+  letter-spacing: 0.26em;
   text-transform: uppercase;
   color: var(--primary);
 }
@@ -164,11 +181,32 @@ html.js .reveal.is-in {
 /* Glows de fundo por seção */
 .glow-gold {
   background:
-    radial-gradient(52rem 30rem at 78% -10%, rgb(227 179 65 / 0.13), transparent 62%),
+    radial-gradient(52rem 30rem at 78% -10%, rgb(230 185 74 / 0.13), transparent 62%),
     radial-gradient(44rem 26rem at 8% 12%, rgb(240 82 82 / 0.07), transparent 60%);
 }
 .glow-soft {
-  background: radial-gradient(46rem 26rem at 50% -12%, rgb(227 179 65 / 0.07), transparent 60%);
+  background: radial-gradient(46rem 26rem at 50% -12%, rgb(230 185 74 / 0.07), transparent 60%);
+}
+
+/* Iluminação de palco para as redes 3D: foco central + acentos laterais */
+.rede-glow {
+  background:
+    radial-gradient(40rem 26rem at 50% 36%, rgb(230 185 74 / 0.11), transparent 66%),
+    radial-gradient(30rem 20rem at 84% 88%, rgb(240 82 82 / 0.08), transparent 60%),
+    radial-gradient(26rem 18rem at 10% 86%, rgb(107 216 255 / 0.055), transparent 60%),
+    radial-gradient(22rem 16rem at 88% 10%, rgb(179 155 255 / 0.05), transparent 60%);
+}
+
+/* Rótulos dos nós da rede: pílula escura ao destaque, legibilidade máxima */
+[data-rede-canvas] [role="button"] {
+  transition: opacity 0.25s ease, background-color 0.2s ease;
+}
+[data-rede-canvas] [role="button"][data-destaque="1"] {
+  background: rgb(8 9 12 / 0.82);
+  box-shadow:
+    0 0 0 1px rgb(230 185 74 / 0.5),
+    0 4px 20px rgb(0 0 0 / 0.55);
+  backdrop-filter: blur(6px);
 }
 
 /* Linha da linha do tempo */

@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import SiteHeader from "./site-header";
 import Hero from "./hero";
 import Esquemas from "./esquemas";
+import RedesSection from "./redes-section";
 import Timeline from "./timeline";
 import Pessoas from "./pessoas";
 import Ranking from "./ranking";
@@ -33,6 +34,14 @@ export default function MasterApp() {
     return () => window.removeEventListener("keydown", aoTeclar);
   }, []);
 
+  // link ?pessoa=id (vindo dos infográficos) abre a ficha logo após a montagem
+  useEffect(() => {
+    const pid = new URLSearchParams(window.location.search).get("pessoa");
+    if (!pid) return;
+    const t = window.setTimeout(() => setPessoaAberta(pid), 80);
+    return () => window.clearTimeout(t);
+  }, []);
+
   const abrirPessoa = useCallback((id: string) => {
     setPessoaAberta(id);
     setBuscaAberta(false);
@@ -59,6 +68,7 @@ export default function MasterApp() {
         <Hero />
         <Escala />
         <Esquemas onPessoa={abrirPessoa} focoEsquemaId={focoEsquemaId} aoLimparFoco={limparFocoEsquema} />
+        <RedesSection onPessoa={abrirPessoa} />
         <Timeline onPessoa={abrirPessoa} focoEventoId={focoEventoId} aoLimparFoco={limparFocoEvento} />
         <Pessoas onPessoa={abrirPessoa} />
         <Ranking onPessoa={abrirPessoa} />
