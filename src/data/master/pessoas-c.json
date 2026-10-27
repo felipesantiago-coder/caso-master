@@ -10,9 +10,24 @@
     "grau": "oficial",
     "foto": "/pessoas/ciro-nogueira.jpg",
     "fontes": [
-      { "titulo": "PF diz que Ciro Nogueira era receptor de 'vantagens indevidas' de Vorcaro", "veiculo": "TMC", "data": "07/05/2026", "url": "https://tmc.com.br/politica/ciro-nogueira-vantagens-banco-master" },
-      { "titulo": "Ciro Nogueira recebia mesada de R$ 500 mil de Vorcaro, aponta PF", "veiculo": "Brasil247", "data": "07/05/2026", "url": "https://www.brasil247.com/brasil/ciro-nogueira-recebia-mesada-de-r-500-mil-de-vorcaro-aponta-pf" },
-      { "titulo": "Vorcaro altera delação e cita propina a Ciro Nogueira", "veiculo": "BP Money", "data": "10/06/2026", "url": "https://bpmoney.com.br/brasil/vorcaro-altera-delacao-e-classifica-pagamentos-a-ciro-nogueira-como-propina" }
+      {
+        "titulo": "PF diz que Ciro Nogueira era receptor de 'vantagens indevidas' de Vorcaro",
+        "veiculo": "TMC",
+        "data": "07/05/2026",
+        "url": "https://tmc.com.br/politica/ciro-nogueira-vantagens-banco-master"
+      },
+      {
+        "titulo": "Ciro Nogueira recebia mesada de R$ 500 mil de Vorcaro, aponta PF",
+        "veiculo": "Brasil247",
+        "data": "07/05/2026",
+        "url": "https://www.brasil247.com/brasil/ciro-nogueira-recebia-mesada-de-r-500-mil-de-vorcaro-aponta-pf"
+      },
+      {
+        "titulo": "Vorcaro altera delação e cita propina a Ciro Nogueira",
+        "veiculo": "BP Money",
+        "data": "10/06/2026",
+        "url": "https://bpmoney.com.br/brasil/vorcaro-altera-delacao-e-classifica-pagamentos-a-ciro-nogueira-como-propina"
+      }
     ]
   },
   {
@@ -26,9 +41,24 @@
     "grau": "oficial",
     "foto": "/pessoas/flavio-bolsonaro.jpg",
     "fontes": [
-      { "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz", "veiculo": "Poder360", "data": "19/10/2026", "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal" },
-      { "titulo": "Flávio Bolsonaro foi cadastrado como 'usuário master' em conta bancária de empresa de advogado investigado", "veiculo": "g1", "data": "14/10/2026", "url": "https://g1.globo.com/politica/noticia/2026/10/14/flavio-bolsonaro-foi-cadastrado-como-usuario-master-em-conta-bancaria-de-empresa-de-advogado-investigado.ghtml" },
-      { "titulo": "Flávio Bolsonaro se reuniu com Vorcaro na noite em que foi selada a compra do Master pelo BRB, aponta PF", "veiculo": "Leia Sempre Brasil", "data": "12/10/2026", "url": "https://leiasemprebrasil.com.br/2026/10/12/flavio-bolsonaro-se-reuniu-com-vorcaro-na-noite-em-que-foi-selada-a-compra-do-master-pelo-brb-aponta-pf" }
+      {
+        "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz",
+        "veiculo": "Poder360",
+        "data": "19/10/2026",
+        "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal"
+      },
+      {
+        "titulo": "Flávio Bolsonaro foi cadastrado como 'usuário master' em conta bancária de empresa de advogado investigado",
+        "veiculo": "g1",
+        "data": "14/10/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/10/14/flavio-bolsonaro-foi-cadastrado-como-usuario-master-em-conta-bancaria-de-empresa-de-advogado-investigado.ghtml"
+      },
+      {
+        "titulo": "Flávio Bolsonaro se reuniu com Vorcaro na noite em que foi selada a compra do Master pelo BRB, aponta PF",
+        "veiculo": "Leia Sempre Brasil",
+        "data": "12/10/2026",
+        "url": "https://leiasemprebrasil.com.br/2026/10/12/flavio-bolsonaro-se-reuniu-com-vorcaro-na-noite-em-que-foi-selada-a-compra-do-master-pelo-brb-aponta-pf"
+      }
     ]
   },
   {
@@ -42,8 +72,18 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz", "veiculo": "Poder360", "data": "19/10/2026", "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal" },
-      { "titulo": "O que pesa contra Flávio Bolsonaro?", "veiculo": "BBC News Brasil", "data": "24/10/2026", "url": "https://www.bbc.com/portuguese/articles/cm0ld9kpnwk2o" }
+      {
+        "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz",
+        "veiculo": "Poder360",
+        "data": "19/10/2026",
+        "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal"
+      },
+      {
+        "titulo": "O que pesa contra Flávio Bolsonaro?",
+        "veiculo": "BBC News Brasil",
+        "data": "24/10/2026",
+        "url": "https://www.bbc.com/portuguese/articles/cm0ld9kpnwk2o"
+      }
     ]
   },
   {
@@ -57,8 +97,18 @@
     "grau": "multifonte",
     "foto": "/pessoas/lula.jpg",
     "fontes": [
-      { "titulo": "Lula pede quebra completa de sigilo do caso Master, 'doa a quem doer'", "veiculo": "Agência Brasil", "data": "09/2026", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/lula-pede-quebra-completa-de-sigilo-do-caso-master-doa-quem-doer" },
-      { "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda", "veiculo": "Veja", "data": "12/2024", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" }
+      {
+        "titulo": "Lula pede quebra completa de sigilo do caso Master, 'doa a quem doer'",
+        "veiculo": "Agência Brasil",
+        "data": "09/2026",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/lula-pede-quebra-completa-de-sigilo-do-caso-master-doa-quem-doer"
+      },
+      {
+        "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda",
+        "veiculo": "Veja",
+        "data": "12/2024",
+        "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/"
+      }
     ]
   },
   {
@@ -70,10 +120,20 @@
     "status": "Ministro; autoridade da pasta",
     "statusTipo": "institucional",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/haddad.jpg",
     "fontes": [
-      { "titulo": "Haddad diz que caso Master pode ser maior fraude bancária do Brasil", "veiculo": "CNN Brasil", "data": "13/01/2026", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/haddad-diz-que-caso-master-pode-ser-maior-fraude-bancaria-do-brasil" },
-      { "titulo": "Haddad diz que Master não tem risco sistêmico porque está concentrado no FGC, mas é 'pancada'", "veiculo": "Estadão", "data": "27/02/2026", "url": "https://www.estadao.com.br/economia/haddad-diz-que-master-nao-tem-risco-sistemico-porque-esta-concentrado-no-fgc-mas-e-pancada/" }
+      {
+        "titulo": "Haddad diz que caso Master pode ser maior fraude bancária do Brasil",
+        "veiculo": "CNN Brasil",
+        "data": "13/01/2026",
+        "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/haddad-diz-que-caso-master-pode-ser-maior-fraude-bancaria-do-brasil"
+      },
+      {
+        "titulo": "Haddad diz que Master não tem risco sistêmico porque está concentrado no FGC, mas é 'pancada'",
+        "veiculo": "Estadão",
+        "data": "27/02/2026",
+        "url": "https://www.estadao.com.br/economia/haddad-diz-que-master-nao-tem-risco-sistemico-porque-esta-concentrado-no-fgc-mas-e-pancada/"
+      }
     ]
   },
   {
@@ -85,9 +145,14 @@
     "status": "Citado em mensagens",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/hugo-motta.jpg",
     "fontes": [
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
     ]
   },
   {
@@ -99,9 +164,14 @@
     "status": "Senador; nega",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/alcolumbre.jpg",
     "fontes": [
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
     ]
   },
   {
@@ -113,10 +183,20 @@
     "status": "Governador; investigado; nega",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
+    "foto": "/pessoas/claudio-castro.jpg",
     "fontes": [
-      { "titulo": "Cláudio Castro é alvo da 8ª fase da Compliance Zero, que investiga aportes de R$ 3 bilhões do Rioprevidência no Banco Master", "veiculo": "Extra/g1", "data": "26/05/2026", "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml" },
-      { "titulo": "Castro faz trocas no Rioprevidência após fundo virar alvo da PF por aplicações no Master", "veiculo": "Folha", "data": "29/01/2026", "url": "https://www1.folha.uol.com.br/mercado/2026/01/castro-faz-trocas-no-rioprevidencia-apos-fundo-virar-alvo-da-pf-por-aplicacoes-no-master.shtml" }
+      {
+        "titulo": "Cláudio Castro é alvo da 8ª fase da Compliance Zero, que investiga aportes de R$ 3 bilhões do Rioprevidência no Banco Master",
+        "veiculo": "Extra/g1",
+        "data": "26/05/2026",
+        "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml"
+      },
+      {
+        "titulo": "Castro faz trocas no Rioprevidência após fundo virar alvo da PF por aplicações no Master",
+        "veiculo": "Folha",
+        "data": "29/01/2026",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/01/castro-faz-trocas-no-rioprevidencia-apos-fundo-virar-alvo-da-pf-por-aplicacoes-no-master.shtml"
+      }
     ]
   },
   {
@@ -130,8 +210,18 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Cláudio Castro é alvo da 8ª fase da Compliance Zero, que investiga aportes de R$ 3 bilhões do Rioprevidência no Banco Master", "veiculo": "Extra/g1", "data": "26/05/2026", "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml" },
-      { "titulo": "PF amplia investigação sobre Rioprevidência e mira Cláudio Castro por repasses bilionários ao Banco Master", "veiculo": "Painel Político", "data": "26/05/2026", "url": "https://painelpolitico.com/claudio-castro-alvo-da-pf-em-investigacao-de-r-3-bi-no-banco-master" }
+      {
+        "titulo": "Cláudio Castro é alvo da 8ª fase da Compliance Zero, que investiga aportes de R$ 3 bilhões do Rioprevidência no Banco Master",
+        "veiculo": "Extra/g1",
+        "data": "26/05/2026",
+        "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml"
+      },
+      {
+        "titulo": "PF amplia investigação sobre Rioprevidência e mira Cláudio Castro por repasses bilionários ao Banco Master",
+        "veiculo": "Painel Político",
+        "data": "26/05/2026",
+        "url": "https://painelpolitico.com/claudio-castro-alvo-da-pf-em-investigacao-de-r-3-bi-no-banco-master"
+      }
     ]
   },
   {
@@ -143,10 +233,20 @@
     "status": "Senador; investigado; nega",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/jaques-wagner.jpg",
     "fontes": [
-      { "titulo": "Caso Master: senador Jaques Wagner e ex-sócio de Vorcaro são alvo em nova fase de operação", "veiculo": "R7", "data": "18/06/2026", "url": "https://noticias.r7.com/brasilia/caso-master-senador-jaques-wagner-e-ex-socio-de-vorcaro-sao-alvo-em-nova-fase-de-operacao-18062026/" },
-      { "titulo": "Vorcaro disse que pagava R$ 3 mi ao mês para grupo de Jaques Wagner", "veiculo": "Poder360", "data": "06/2026", "url": "https://www.poder360.com.br/poder-justica/vorcaro-disse-que-pagava-r-3-mi-ao-mes-para-grupo-de-jaques-wagner/" }
+      {
+        "titulo": "Caso Master: senador Jaques Wagner e ex-sócio de Vorcaro são alvo em nova fase de operação",
+        "veiculo": "R7",
+        "data": "18/06/2026",
+        "url": "https://noticias.r7.com/brasilia/caso-master-senador-jaques-wagner-e-ex-socio-de-vorcaro-sao-alvo-em-nova-fase-de-operacao-18062026/"
+      },
+      {
+        "titulo": "Vorcaro disse que pagava R$ 3 mi ao mês para grupo de Jaques Wagner",
+        "veiculo": "Poder360",
+        "data": "06/2026",
+        "url": "https://www.poder360.com.br/poder-justica/vorcaro-disse-que-pagava-r-3-mi-ao-mes-para-grupo-de-jaques-wagner/"
+      }
     ]
   },
   {
@@ -158,9 +258,14 @@
     "status": "Deputado; sem imputação conhecida",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/filipe-de-barros.jpg",
     "fontes": [
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
     ]
   },
   {
@@ -172,9 +277,14 @@
     "status": "Citado em reportagem",
     "statusTipo": "investigado",
     "grau": "fonteunica",
-    "foto": null,
+    "foto": "/pessoas/cezinha-madureira.jpg",
     "fontes": [
-      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" }
+      {
+        "titulo": "Veja ligações de ministros do STF com o caso Master",
+        "veiculo": "Folhapress/Estado de Minas",
+        "data": "17/09/2026",
+        "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html"
+      }
     ]
   },
   {
@@ -186,9 +296,14 @@
     "status": "Citado em reportagem",
     "statusTipo": "investigado",
     "grau": "fonteunica",
-    "foto": null,
+    "foto": "/pessoas/walfrido-warde.jpg",
     "fontes": [
-      { "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda", "veiculo": "Veja", "data": "12/2024", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" }
+      {
+        "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda",
+        "veiculo": "Veja",
+        "data": "12/2024",
+        "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/"
+      }
     ]
   },
   {
@@ -200,9 +315,14 @@
     "status": "Citado em reportagem",
     "statusTipo": "investigado",
     "grau": "fonteunica",
-    "foto": null,
+    "foto": "/pessoas/guido-mantega.jpg",
     "fontes": [
-      { "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda", "veiculo": "Veja", "data": "12/2024", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" }
+      {
+        "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda",
+        "veiculo": "Veja",
+        "data": "12/2024",
+        "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/"
+      }
     ]
   },
   {
@@ -214,9 +334,14 @@
     "status": "Dirigente partidário; investigado; nega",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/antonio-rueda.jpg",
     "fontes": [
-      { "titulo": "Banco Master: delação de Vorcaro cita R$ 400 milhões em propina para Ibaneis", "veiculo": "Jornal de Brasília", "data": "10/2026", "url": "https://www.jb.com.br/brasil/policia/2026/10/1061299-banco-master-delacao-de-vorcaro-cita-rs-400-milhoes-em-propina-para-ibaneis.html" }
+      {
+        "titulo": "Banco Master: delação de Vorcaro cita R$ 400 milhões em propina para Ibaneis",
+        "veiculo": "Jornal de Brasília",
+        "data": "10/2026",
+        "url": "https://www.jb.com.br/brasil/policia/2026/10/1061299-banco-master-delacao-de-vorcaro-cita-rs-400-milhoes-em-propina-para-ibaneis.html"
+      }
     ]
   },
   {
@@ -228,9 +353,14 @@
     "status": "Citado em delação rejeitada; nega",
     "statusTipo": "investigado",
     "grau": "alegacao",
-    "foto": null,
+    "foto": "/pessoas/kassab.jpg",
     "fontes": [
-      { "titulo": "Banco Master: delação de Vorcaro cita R$ 400 milhões em propina para Ibaneis", "veiculo": "Jornal de Brasília", "data": "10/2026", "url": "https://www.jb.com.br/brasil/policia/2026/10/1061299-banco-master-delacao-de-vorcaro-cita-rs-400-milhoes-em-propina-para-ibaneis.html" }
+      {
+        "titulo": "Banco Master: delação de Vorcaro cita R$ 400 milhões em propina para Ibaneis",
+        "veiculo": "Jornal de Brasília",
+        "data": "10/2026",
+        "url": "https://www.jb.com.br/brasil/policia/2026/10/1061299-banco-master-delacao-de-vorcaro-cita-rs-400-milhoes-em-propina-para-ibaneis.html"
+      }
     ]
   },
   {
@@ -244,7 +374,12 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master", "veiculo": "Estadão via Terra", "data": "15/10/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/vorcaro-orientou-reportagens-do-metropoles-contra-diretor-do-bc-que-fiscalizou-master,f44edc67441916e5555b50be7ce4fd584rw3lrkw.html" }
+      {
+        "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master",
+        "veiculo": "Estadão via Terra",
+        "data": "15/10/2026",
+        "url": "https://www.terra.com.br/noticias/brasil/politica/vorcaro-orientou-reportagens-do-metropoles-contra-diretor-do-bc-que-fiscalizou-master,f44edc67441916e5555b50be7ce4fd584rw3lrkw.html"
+      }
     ]
   },
   {
@@ -258,8 +393,18 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Em mensagem, Vorcaro diz que Celina Leão 'não ficou de fora' de operação entre BRB e Master", "veiculo": "g1", "data": "15/09/2026", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/09/15/em-mensagem-vorcaro-diz-que-celina-leao-nao-ficou-de-fora-de-operacao-entre-brb-e-master.ghtml" },
-      { "titulo": "Master funcionava como 'máfia fantasiada de banco', segundo investigadores", "veiculo": "g1 (blog Andréia Sadi)", "data": "10/07/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/07/10/master-funcionava-como-mafia-fantasiada-de-banco-segundo-investigadores.ghtml" }
+      {
+        "titulo": "Em mensagem, Vorcaro diz que Celina Leão 'não ficou de fora' de operação entre BRB e Master",
+        "veiculo": "g1",
+        "data": "15/09/2026",
+        "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/09/15/em-mensagem-vorcaro-diz-que-celina-leao-nao-ficou-de-fora-de-operacao-entre-brb-e-master.ghtml"
+      },
+      {
+        "titulo": "Master funcionava como 'máfia fantasiada de banco', segundo investigadores",
+        "veiculo": "g1 (blog Andréia Sadi)",
+        "data": "10/07/2026",
+        "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/07/10/master-funcionava-como-mafia-fantasiada-de-banco-segundo-investigadores.ghtml"
+      }
     ]
   },
   {
@@ -271,9 +416,14 @@
     "status": "Citada em mensagens periciadas",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/martha-graeff.jpg",
     "fontes": [
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
     ]
   },
   {
@@ -285,10 +435,20 @@
     "status": "Nega vínculo",
     "statusTipo": "investigado",
     "grau": "fonteunica",
-    "foto": null,
+    "foto": "/pessoas/gabriela-prioli.jpg",
     "fontes": [
-      { "titulo": "Mensagens do celular de Daniel Vorcaro citam contrato de 12 meses e revisão de vídeos de Gabriela Prioli sobre Banco Master; influenciadora nega vínculo", "veiculo": "Jornal Grande Bahia", "data": "10/2026", "url": "https://jornalgrandebahia.com.br/2026/10/mensagens-do-celular-de-daniel-vorcaro-citam-contrato-de-12-meses-e-revisao-de-videos-de-gabriela-prioli-sobre-banco-master-influenciadora-nega-vinculo/" },
-      { "titulo": "Gabriela Prioli nega contrato com Master e comunicação com Vorcaro", "veiculo": "Poder360", "data": "10/2026", "url": "https://www.poder360.com.br/poder-gente/gabriela-prioli-nega-contrato-com-master-e-comunicacao-com-vorcaro/" }
+      {
+        "titulo": "Mensagens do celular de Daniel Vorcaro citam contrato de 12 meses e revisão de vídeos de Gabriela Prioli sobre Banco Master; influenciadora nega vínculo",
+        "veiculo": "Jornal Grande Bahia",
+        "data": "10/2026",
+        "url": "https://jornalgrandebahia.com.br/2026/10/mensagens-do-celular-de-daniel-vorcaro-citam-contrato-de-12-meses-e-revisao-de-videos-de-gabriela-prioli-sobre-banco-master-influenciadora-nega-vinculo/"
+      },
+      {
+        "titulo": "Gabriela Prioli nega contrato com Master e comunicação com Vorcaro",
+        "veiculo": "Poder360",
+        "data": "10/2026",
+        "url": "https://www.poder360.com.br/poder-gente/gabriela-prioli-nega-contrato-com-master-e-comunicacao-com-vorcaro/"
+      }
     ]
   },
   {
@@ -302,8 +462,18 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Daniel Vorcaro, do Banco Master, é preso em nova fase da operação Compliance Zero", "veiculo": "Folha", "data": "04/03/2026", "url": "https://www1.folha.uol.com.br/mercado/2026/03/daniel-vorcaro-do-banco-master-e-preso-em-nova-fase-da-operacao-compliance-zero.shtml" },
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+      {
+        "titulo": "Daniel Vorcaro, do Banco Master, é preso em nova fase da operação Compliance Zero",
+        "veiculo": "Folha",
+        "data": "04/03/2026",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/03/daniel-vorcaro-do-banco-master-e-preso-em-nova-fase-da-operacao-compliance-zero.shtml"
+      },
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
     ]
   },
   {
@@ -317,7 +487,12 @@
     "grau": "fonteunica",
     "foto": null,
     "fontes": [
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República (referência a ICL Notícias)", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República (referência a ICL Notícias)",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
     ]
   },
   {
@@ -331,7 +506,12 @@
     "grau": "fonteunica",
     "foto": null,
     "fontes": [
-      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República (referência a ICL Notícias)", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+      {
+        "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República (referência a ICL Notícias)",
+        "veiculo": "Pública",
+        "data": "09/03/2026",
+        "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/"
+      }
     ]
   }
 ]

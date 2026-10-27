@@ -12,9 +12,24 @@
     "grau": "oficial",
     "foto": "/pessoas/vorcaro.jpg",
     "fontes": [
-      { "titulo": "Quem é Daniel Vorcaro, dono do Banco Master preso em operação da PF", "veiculo": "CNN Brasil", "data": "04/03/2026", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/quem-e-daniel-vorcaro-dono-do-banco-master-preso-em-operacao-da-pf/" },
-      { "titulo": "Master funcionava como 'máfia fantasiada de banco', segundo investigadores", "veiculo": "g1 (blog Andréia Sadi)", "data": "10/07/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/07/10/master-funcionava-como-mafia-fantasiada-de-banco-segundo-investigadores.ghtml" },
-      { "titulo": "Vorcaro completa 200 dias preso, com delação travada e caso Master estremecendo o STF", "veiculo": "Times Brasil", "data": "19/09/2026", "url": "https://timesbrasil.com.br/brasil/vorcaro-completa-neste-domingo-200-dias-preso-com-delacao-travada-e-caso-master-estremecendo-o-stf/" }
+      {
+        "titulo": "Quem é Daniel Vorcaro, dono do Banco Master preso em operação da PF",
+        "veiculo": "CNN Brasil",
+        "data": "04/03/2026",
+        "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/quem-e-daniel-vorcaro-dono-do-banco-master-preso-em-operacao-da-pf/"
+      },
+      {
+        "titulo": "Master funcionava como 'máfia fantasiada de banco', segundo investigadores",
+        "veiculo": "g1 (blog Andréia Sadi)",
+        "data": "10/07/2026",
+        "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/07/10/master-funcionava-como-mafia-fantasiada-de-banco-segundo-investigadores.ghtml"
+      },
+      {
+        "titulo": "Vorcaro completa 200 dias preso, com delação travada e caso Master estremecendo o STF",
+        "veiculo": "Times Brasil",
+        "data": "19/09/2026",
+        "url": "https://timesbrasil.com.br/brasil/vorcaro-completa-neste-domingo-200-dias-preso-com-delacao-travada-e-caso-master-estremecendo-o-stf/"
+      }
     ]
   },
   {
@@ -28,8 +43,18 @@
     "grau": "oficial",
     "foto": "/pessoas/henrique-vorcaro.jpg",
     "fontes": [
-      { "titulo": "Sicário, Joana, Manolo: quem são os nomes citados pela PF em novas revelações no caso Master", "veiculo": "g1", "data": "16/06/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/06/16/quem-sao-nomes-citados-pela-pf-novas-revelacoes-caso-master.ghtml" },
-      { "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi e compraram mansão na Flórida", "veiculo": "Valor Econômico", "data": "03/03/2026", "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml" }
+      {
+        "titulo": "Sicário, Joana, Manolo: quem são os nomes citados pela PF em novas revelações no caso Master",
+        "veiculo": "g1",
+        "data": "16/06/2026",
+        "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/06/16/quem-sao-nomes-citados-pela-pf-novas-revelacoes-caso-master.ghtml"
+      },
+      {
+        "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi e compraram mansão na Flórida",
+        "veiculo": "Valor Econômico",
+        "data": "03/03/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml"
+      }
     ]
   },
   {
@@ -43,8 +68,18 @@
     "grau": "multifonte",
     "foto": null,
     "fontes": [
-      { "titulo": "Com pai, marido e irmão presos, Natalia Vorcaro Zettel segue à frente de 54 empresas", "veiculo": "Pública", "data": "09/09/2026", "url": "https://apublica.org/2026/09/com-pai-marido-e-irmao-presos-natalia-vorcaro-zettel-segue-a-frente-de-54-empresas/" },
-      { "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi", "veiculo": "Valor Econômico", "data": "03/03/2026", "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml" }
+      {
+        "titulo": "Com pai, marido e irmão presos, Natalia Vorcaro Zettel segue à frente de 54 empresas",
+        "veiculo": "Pública",
+        "data": "09/09/2026",
+        "url": "https://apublica.org/2026/09/com-pai-marido-e-irmao-presos-natalia-vorcaro-zettel-segue-a-frente-de-54-empresas/"
+      },
+      {
+        "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi",
+        "veiculo": "Valor Econômico",
+        "data": "03/03/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml"
+      }
     ]
   },
   {
@@ -58,8 +93,18 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12 milhões, diz sindicância", "veiculo": "g1/GloboNews", "data": "13/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/13/propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-milhoes-diz-sindicancia.ghtml" },
-      { "titulo": "Master: operação Compliance Zero contra fraude bilionária completa seis meses", "veiculo": "Hoje em Dia", "data": "18/05/2026", "url": "https://www.hojeemdia.com.br/politica/master-operac-o-compliance-zero-contra-fraude-bilionaria-completa-seis-meses-1.1117433" }
+      {
+        "titulo": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12 milhões, diz sindicância",
+        "veiculo": "g1/GloboNews",
+        "data": "13/09/2026",
+        "url": "https://g1.globo.com/politica/noticia/2026/09/13/propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-milhoes-diz-sindicancia.ghtml"
+      },
+      {
+        "titulo": "Master: operação Compliance Zero contra fraude bilionária completa seis meses",
+        "veiculo": "Hoje em Dia",
+        "data": "18/05/2026",
+        "url": "https://www.hojeemdia.com.br/politica/master-operac-o-compliance-zero-contra-fraude-bilionaria-completa-seis-meses-1.1117433"
+      }
     ]
   },
   {
@@ -73,8 +118,18 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "CVM multa Vorcaro e Master em R$ 201,5 milhões por fraude", "veiculo": "Poder360", "data": "08/09/2026", "url": "https://www.poder360.com.br/poder-economia/cvm-multa-vorcaro-e-master-em-r-2015-milhoes-por-fraude" },
-      { "titulo": "Banco Master e Daniel Vorcaro são condenados pela CVM por fraude com cotas de FII", "veiculo": "Estadão E-Investidor", "data": "09/09/2026", "url": "https://www.estadao.com.br/einvestidor/direto-da-faria-lima/cvm-condena-banco-master-e-daniel-vorcaro-por-fraude-com-cotas-de-fii-multas-somam-r-203-milhoes/" }
+      {
+        "titulo": "CVM multa Vorcaro e Master em R$ 201,5 milhões por fraude",
+        "veiculo": "Poder360",
+        "data": "08/09/2026",
+        "url": "https://www.poder360.com.br/poder-economia/cvm-multa-vorcaro-e-master-em-r-2015-milhoes-por-fraude"
+      },
+      {
+        "titulo": "Banco Master e Daniel Vorcaro são condenados pela CVM por fraude com cotas de FII",
+        "veiculo": "Estadão E-Investidor",
+        "data": "09/09/2026",
+        "url": "https://www.estadao.com.br/einvestidor/direto-da-faria-lima/cvm-condena-banco-master-e-daniel-vorcaro-por-fraude-com-cotas-de-fii-multas-somam-r-203-milhoes/"
+      }
     ]
   },
   {
@@ -88,7 +143,12 @@
     "grau": "multifonte",
     "foto": null,
     "fontes": [
-      { "titulo": "Quem é Aline, mãe de Daniel Vorcaro, ex-dono do Banco Master", "veiculo": "iG Último Segundo", "data": "14/09/2026", "url": "https://ultimosegundo.ig.com.br/2026-09-14/quem-e-aline-vorcaro-mae-de-daniel-vorcaro-ex-dono-banco-master.html" }
+      {
+        "titulo": "Quem é Aline, mãe de Daniel Vorcaro, ex-dono do Banco Master",
+        "veiculo": "iG Último Segundo",
+        "data": "14/09/2026",
+        "url": "https://ultimosegundo.ig.com.br/2026-09-14/quem-e-aline-vorcaro-mae-de-daniel-vorcaro-ex-dono-banco-master.html"
+      }
     ]
   },
   {
@@ -102,7 +162,12 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" }
+      {
+        "titulo": "Veja ligações de ministros do STF com o caso Master",
+        "veiculo": "Folhapress/Estado de Minas",
+        "data": "17/09/2026",
+        "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html"
+      }
     ]
   },
   {
@@ -116,7 +181,12 @@
     "grau": "multifonte",
     "foto": null,
     "fontes": [
-      { "titulo": "Caso Master: Temer tinha contrato de R$ 30 milhões com banco de Vorcaro para atuar na tentativa de venda ao BRB", "veiculo": "Times Brasil", "data": "14/10/2026", "url": "https://timesbrasil.com.br/brasil/caso-master-temer-tinha-contrato-de-r-30-milhoes-com-banco-de-vorcaro-para-atuar-na-tentativa-de-venda-ao-brb/" }
+      {
+        "titulo": "Caso Master: Temer tinha contrato de R$ 30 milhões com banco de Vorcaro para atuar na tentativa de venda ao BRB",
+        "veiculo": "Times Brasil",
+        "data": "14/10/2026",
+        "url": "https://timesbrasil.com.br/brasil/caso-master-temer-tinha-contrato-de-r-30-milhoes-com-banco-de-vorcaro-para-atuar-na-tentativa-de-venda-ao-brb/"
+      }
     ]
   },
   {
@@ -130,7 +200,12 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF", "veiculo": "Valor Econômico", "data": "13/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml" }
+      {
+        "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF",
+        "veiculo": "Valor Econômico",
+        "data": "13/09/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml"
+      }
     ]
   },
   {
@@ -144,7 +219,12 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF", "veiculo": "Valor Econômico", "data": "13/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml" }
+      {
+        "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF",
+        "veiculo": "Valor Econômico",
+        "data": "13/09/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml"
+      }
     ]
   },
   {
@@ -158,7 +238,12 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF", "veiculo": "Valor Econômico", "data": "13/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml" }
+      {
+        "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF",
+        "veiculo": "Valor Econômico",
+        "data": "13/09/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml"
+      }
     ]
   },
   {
@@ -170,10 +255,20 @@
     "status": "Investigado; ouvido pela PF",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
+    "foto": "/pessoas/augusto-lima.jpg",
     "fontes": [
-      { "titulo": "Augusto Lima, ex-sócio de Daniel Vorcaro, depõe à PF sobre transações do Banco Master", "veiculo": "R7", "data": "16/10/2026", "url": "https://noticias.r7.com/prisma/natalia-martins/augusto-lima-ex-socio-de-daniel-vorcaro-depoe-a-pf-sobre-transacoes-do-banco-master-16102026/" },
-      { "titulo": "Caso Master: senador Jaques Wagner e ex-sócio de Vorcaro são alvo em nova fase de operação", "veiculo": "R7", "data": "18/06/2026", "url": "https://noticias.r7.com/brasilia/caso-master-senador-jaques-wagner-e-ex-socio-de-vorcaro-sao-alvo-em-nova-fase-de-operacao-18062026/" }
+      {
+        "titulo": "Augusto Lima, ex-sócio de Daniel Vorcaro, depõe à PF sobre transações do Banco Master",
+        "veiculo": "R7",
+        "data": "16/10/2026",
+        "url": "https://noticias.r7.com/prisma/natalia-martins/augusto-lima-ex-socio-de-daniel-vorcaro-depoe-a-pf-sobre-transacoes-do-banco-master-16102026/"
+      },
+      {
+        "titulo": "Caso Master: senador Jaques Wagner e ex-sócio de Vorcaro são alvo em nova fase de operação",
+        "veiculo": "R7",
+        "data": "18/06/2026",
+        "url": "https://noticias.r7.com/brasilia/caso-master-senador-jaques-wagner-e-ex-socio-de-vorcaro-sao-alvo-em-nova-fase-de-operacao-18062026/"
+      }
     ]
   },
   {
@@ -185,11 +280,26 @@
     "status": "Indiciado; colaborador (delação firmada)",
     "statusTipo": "colaborador",
     "grau": "oficial",
-    "foto": null,
+    "foto": "/pessoas/rodrigo-mansur.jpg",
     "fontes": [
-      { "titulo": "PGR fecha primeira delação do caso Master com fundador da Reag", "veiculo": "InfoMoney", "data": "02/09/2026", "url": "https://www.infomoney.com.br/politica/pgr-fecha-primeira-delacao-do-caso-master-com-fundador-da-reag/" },
-      { "titulo": "Em delação, Mansur confirma que fundos da Reag foram usados para pagar propinas de Vorcaro", "veiculo": "Itatiaia", "data": "10/09/2026", "url": "https://www.itatiaia.com.br/politica/em-delacao-mansur-confirma-que-fundos-da-reag-foram-usados-para-pagar-propinas-de-vorcaro/" },
-      { "titulo": "PF indicia fundador da Reag e mais 12 por gestão fraudulenta e lavagem no setor de combustíveis", "veiculo": "Terra", "data": "30/09/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/pf-indicia-fundador-da-reag-e-mais-12-por-gestao-fraudulenta-e-lavagem-no-setor-de-combustiveis,88f07893cd5c2ce5fe6d305572ef2c59t5sbckks.html" }
+      {
+        "titulo": "PGR fecha primeira delação do caso Master com fundador da Reag",
+        "veiculo": "InfoMoney",
+        "data": "02/09/2026",
+        "url": "https://www.infomoney.com.br/politica/pgr-fecha-primeira-delacao-do-caso-master-com-fundador-da-reag/"
+      },
+      {
+        "titulo": "Em delação, Mansur confirma que fundos da Reag foram usados para pagar propinas de Vorcaro",
+        "veiculo": "Itatiaia",
+        "data": "10/09/2026",
+        "url": "https://www.itatiaia.com.br/politica/em-delacao-mansur-confirma-que-fundos-da-reag-foram-usados-para-pagar-propinas-de-vorcaro/"
+      },
+      {
+        "titulo": "PF indicia fundador da Reag e mais 12 por gestão fraudulenta e lavagem no setor de combustíveis",
+        "veiculo": "Terra",
+        "data": "30/09/2026",
+        "url": "https://www.terra.com.br/noticias/brasil/politica/pf-indicia-fundador-da-reag-e-mais-12-por-gestao-fraudulenta-e-lavagem-no-setor-de-combustiveis,88f07893cd5c2ce5fe6d305572ef2c59t5sbckks.html"
+      }
     ]
   },
   {
@@ -203,9 +313,24 @@
     "grau": "oficial",
     "foto": "/pessoas/paulo-henrique-costa.jpg",
     "fontes": [
-      { "titulo": "Quem é Paulo Henrique Costa, ex-presidente do BRB preso em operação da PF", "veiculo": "CNN Brasil", "data": "16/04/2026", "url": "https://www.cnnbrasil.com.br/politica/quem-e-paulo-henrique-costa-ex-presidente-do-brb-preso-em-operacao-da-pf/" },
-      { "titulo": "Diretoria do BRB aprovou 25 operações de aquisição de carteiras do Master no total de R$ 17,5 bilhões", "veiculo": "Valor Econômico", "data": "11/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/11/diretoria-do-brb-aprovou-25-operaes-de-aquisio-de-carteiras-do-master-no-total-de-r-175-bilhes.ghtml" },
-      { "titulo": "PGR rejeita acordo de delação de ex-presidente do BRB investigado no caso Master", "veiculo": "InfoMoney", "data": "26/06/2026", "url": "https://www.infomoney.com.br/politica/pgr-rejeita-acordo-de-delacao-de-ex-presidente-do-brb-investigado-no-caso-master/" }
+      {
+        "titulo": "Quem é Paulo Henrique Costa, ex-presidente do BRB preso em operação da PF",
+        "veiculo": "CNN Brasil",
+        "data": "16/04/2026",
+        "url": "https://www.cnnbrasil.com.br/politica/quem-e-paulo-henrique-costa-ex-presidente-do-brb-preso-em-operacao-da-pf/"
+      },
+      {
+        "titulo": "Diretoria do BRB aprovou 25 operações de aquisição de carteiras do Master no total de R$ 17,5 bilhões",
+        "veiculo": "Valor Econômico",
+        "data": "11/09/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/09/11/diretoria-do-brb-aprovou-25-operaes-de-aquisio-de-carteiras-do-master-no-total-de-r-175-bilhes.ghtml"
+      },
+      {
+        "titulo": "PGR rejeita acordo de delação de ex-presidente do BRB investigado no caso Master",
+        "veiculo": "InfoMoney",
+        "data": "26/06/2026",
+        "url": "https://www.infomoney.com.br/politica/pgr-rejeita-acordo-de-delacao-de-ex-presidente-do-brb-investigado-no-caso-master/"
+      }
     ]
   },
   {
@@ -219,9 +344,24 @@
     "grau": "multifonte",
     "foto": "/pessoas/ibaneis.jpg",
     "fontes": [
-      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" },
-      { "titulo": "Ibaneis pilotou operação BRB-Master, e Vorcaro fala em propina de R$ 80 mi", "veiculo": "UOL", "data": "21/10/2026", "url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/21/ibaneis-pilotou-operacao-brb-master-e-vorcaro-fala-em-propina-de-r-80-mi.htm" },
-      { "titulo": "BRB: decisão de comprar Master foi tomada em reunião na Suíça com Ibaneis, Paulo Henrique e Vorcaro, aponta PF", "veiculo": "g1", "data": "10/10/2026", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/10/10/brb-decisao-de-comprar-master-foi-tomada-em-reuniao-na-suica-com-ibaneis-paulo-henrique-e-vorcaro-aponta-policia-federal.ghtml" }
+      {
+        "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens",
+        "veiculo": "Diário do Centro do Mundo",
+        "data": "21/10/2026",
+        "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/"
+      },
+      {
+        "titulo": "Ibaneis pilotou operação BRB-Master, e Vorcaro fala em propina de R$ 80 mi",
+        "veiculo": "UOL",
+        "data": "21/10/2026",
+        "url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/21/ibaneis-pilotou-operacao-brb-master-e-vorcaro-fala-em-propina-de-r-80-mi.htm"
+      },
+      {
+        "titulo": "BRB: decisão de comprar Master foi tomada em reunião na Suíça com Ibaneis, Paulo Henrique e Vorcaro, aponta PF",
+        "veiculo": "g1",
+        "data": "10/10/2026",
+        "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/10/10/brb-decisao-de-comprar-master-foi-tomada-em-reuniao-na-suica-com-ibaneis-paulo-henrique-e-vorcaro-aponta-policia-federal.ghtml"
+      }
     ]
   },
   {
@@ -235,7 +375,12 @@
     "grau": "alegacao",
     "foto": null,
     "fontes": [
-      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+      {
+        "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens",
+        "veiculo": "Diário do Centro do Mundo",
+        "data": "21/10/2026",
+        "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/"
+      }
     ]
   },
   {
@@ -249,7 +394,12 @@
     "grau": "alegacao",
     "foto": null,
     "fontes": [
-      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+      {
+        "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens",
+        "veiculo": "Diário do Centro do Mundo",
+        "data": "21/10/2026",
+        "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/"
+      }
     ]
   },
   {
@@ -263,7 +413,12 @@
     "grau": "alegacao",
     "foto": null,
     "fontes": [
-      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+      {
+        "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens",
+        "veiculo": "Diário do Centro do Mundo",
+        "data": "21/10/2026",
+        "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/"
+      }
     ]
   },
   {
@@ -277,7 +432,12 @@
     "grau": "alegacao",
     "foto": null,
     "fontes": [
-      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+      {
+        "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens",
+        "veiculo": "Diário do Centro do Mundo",
+        "data": "21/10/2026",
+        "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/"
+      }
     ]
   },
   {
@@ -291,8 +451,18 @@
     "grau": "oficial",
     "foto": null,
     "fontes": [
-      { "titulo": "PF identifica seis diretores do BRB que teriam cometido suposta gestão fraudulenta no caso Master", "veiculo": "Valor Econômico", "data": "11/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/11/pf-identifica-seis-diretores-do-brb-que-teriam-cometido-suposta-gesto-fraudulenta-no-caso-master.ghtml" },
-      { "titulo": "BRB afasta funcionários citados em investigação do Caso Master", "veiculo": "Metrópoles", "data": "14/09/2026", "url": "https://www.metropoles.com/colunas/grande-angular/brb-afasta-funcionarios-citados-em-investigacao-do-caso-master" }
+      {
+        "titulo": "PF identifica seis diretores do BRB que teriam cometido suposta gestão fraudulenta no caso Master",
+        "veiculo": "Valor Econômico",
+        "data": "11/09/2026",
+        "url": "https://valor.globo.com/financas/noticia/2026/09/11/pf-identifica-seis-diretores-do-brb-que-teriam-cometido-suposta-gesto-fraudulenta-no-caso-master.ghtml"
+      },
+      {
+        "titulo": "BRB afasta funcionários citados em investigação do Caso Master",
+        "veiculo": "Metrópoles",
+        "data": "14/09/2026",
+        "url": "https://www.metropoles.com/colunas/grande-angular/brb-afasta-funcionarios-citados-em-investigacao-do-caso-master"
+      }
     ]
   },
   {
@@ -304,9 +474,14 @@
     "status": "Governadora eleita; nega participação",
     "statusTipo": "investigado",
     "grau": "alegacao",
-    "foto": null,
+    "foto": "/pessoas/celina-leao.jpg",
     "fontes": [
-      { "titulo": "Em mensagem, Vorcaro diz que Celina Leão 'não ficou de fora' de operação entre BRB e Master", "veiculo": "g1", "data": "15/09/2026", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/09/15/em-mensagem-vorcaro-diz-que-celina-leao-nao-ficou-de-fora-de-operacao-entre-brb-e-master.ghtml" }
+      {
+        "titulo": "Em mensagem, Vorcaro diz que Celina Leão 'não ficou de fora' de operação entre BRB e Master",
+        "veiculo": "g1",
+        "data": "15/09/2026",
+        "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/09/15/em-mensagem-vorcaro-diz-que-celina-leao-nao-ficou-de-fora-de-operacao-entre-brb-e-master.ghtml"
+      }
     ]
   }
 ]
