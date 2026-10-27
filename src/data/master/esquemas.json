@@ -1,0 +1,302 @@
+[
+  {
+    "id": "origem",
+    "nome": "A origem de um banqueiro",
+    "subtitulo": "Como Vorcaro comprou a porta de entrada para o sistema financeiro",
+    "periodo": "2017 a 2021",
+    "statusApuracao": "Autorização aprovada pelo BC em 2019 confirmada. Investidor condenado por narcotráfico na composição societária apontado por reportagem investigativa de 2026.",
+    "resumo": "A saga de Vorcaro para virar dono de banco começou com uma recusa do Banco Central em 2017 e terminou com a aprovação em 2019, após pressão direta sobre servidores da autarquia. A compra do Banco Máxima, rebatizado de Master, teria contado com um investidor inominado: um narcotraficante espanhol.",
+    "passos": [
+      { "n": 1, "titulo": "A primeira porta fechada", "texto": "Em 2017, o BC, por meio do diretor Sidnei Marques, nega a Vorcaro a autorização para assumir o controle do Banco Máxima. O mercado o vê como um corretor de consignado sem lastro para controlar uma instituição financeira." },
+      { "n": 2, "titulo": "O assédio ao regulador", "texto": "Em fevereiro de 2019, Vorcaro manda mensagem ao diretor de Fiscalização Paulo Sérgio Neves de Souza, pedindo ajuda para que a autorização saia antes da sua saída: preciso de sua ajuda, escreve o banqueiro, na mensagem recuperada pela PF." },
+      { "n": 3, "titulo": "O aval da Febraban", "texto": "Dois dias depois, Vorcaro e Isaac Sidney, presidente da Febraban, se reúnem com o servidor. Em agosto de 2019, o BC reavalia e aprova o pedido. O Máxima é rebatizado de Banco Master." },
+      { "n": 4, "titulo": "O investidor escondido", "texto": "Segundo o ICL Notícias, a compra do Máxima tinha entre os investidores o espanhol Oliver Ortiz de Zarate Martin, condenado por narcotráfico, ligado ao grupo por meio do operador Benjamim Botelho e da corretora Sefer, que administrava fundos do Grupo Aquilla." },
+      { "n": 5, "titulo": "A máquina pronta", "texto": "Com a licença em mãos e R$ 400 milhões de capitalização, Vorcaro passa a comprar instituições (Voiter, Will) e a captar bilhões em CDBs, usando a licença bancária como matéria-prima de um conglomerado que chegaria a R$ 62 bilhões em depósitos elegíveis ao FGC." }
+    ],
+    "descoberta": "A mensagem de 2019 ao servidor do BC foi recuperada pela PF no iCloud de Vorcaro e enviada à CPMI do INSS, revelada pelo Estadão. O investidor espanhol foi revelado pelo ICL Notícias em março de 2026.",
+    "valores": [
+      { "rotulo": "Capitalização do Máxima", "valor": "R$ 400 milhões" },
+      { "rotulo": "Autorização do BC", "valor": "Agosto de 2019" }
+    ],
+    "pessoas": ["vorcaro", "paulo-sergio-neves", "sidnei-marques", "isaac-sidney", "oliver-martin", "benjamim-botelho"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "captacao",
+    "nome": "O castelo de areia",
+    "subtitulo": "CDBs a 140% do CDI e a aposta bilionária no seguro do FGC",
+    "periodo": "2019 a 2024",
+    "statusApuracao": "Modelo de captação e taxas confirmados por dados oficiais e imprensa. Crise de liquidez de 2024 e inação do BC documentados pela Pública.",
+    "resumo": "O Master cresceu vendendo CDBs com juros muito acima do mercado, até 140% do CDI, vendidos com a garantia do FGC, que cobre até R$ 250 mil por CPF. O modelo funcionou como um castelo de areia: captação caríssima sustentava carteiras frágeis, e cada novo depósito pagava os juros do anterior. Quando a liquidez secou, o castelo caiu sobre 1,6 milhão de clientes.",
+    "passos": [
+      { "n": 1, "titulo": "O produto: juro impossível", "texto": "O banco oferece CDBs a taxas de até 140% do CDI, contra a média do mercado de pouco mais de 100%. A argumentação de venda é simples: o FGC cobre até R$ 250 mil por CPF, então o risco percebido é zero. Investidores chegam a fracionar depósitos para reapositar acima do teto, multiplicando a exposição." },
+      { "n": 2, "titulo": "A montanha-russa de depósitos", "texto": "A carteira de CDBs cresce 16 vezes em poucos anos, chegando a R$ 62,2 bilhões em depósitos elegíveis ao FGC, segundo dados do IFData do BC citados pelo UOL. Estimativas apontam captação total de até R$ 50 bilhões." },
+      { "n": 3, "titulo": "O custo que ninguém cobria", "texto": "Captar a 140% do CDI exige emprestar ainda mais caro ou assumir risco extremo. O banco compra carteiras de consignado, empresas e fundos; a liquidez nunca acompanha. No primeiro semestre de 2024, precisava de R$ 15 bilhões e captou apenas R$ 2 bilhões." },
+      { "n": 4, "titulo": "A tentativa de mudar a regra do jogo", "texto": "Como todo o modelo dependia da cobertura do FGC, o senador Ciro Nogueira apresenta a emenda Master, PEC que quadruplicava a cobertura para R$ 1 milhão por CPF. Rejeitada na CCJ em agosto de 2024, ressuscitada por outro deputado em novembro do mesmo ano." },
+      { "n": 5, "titulo": "O castelo desaba", "texto": "Com a venda ao BRB vetada pelo BC em setembro de 2025 e nenhuma saída de capital, o BC decreta a liquidação em 18 de novembro de 2025. O FGC assume o maior reembolso da história: até R$ 46,9 bilhões, estimados em R$ 52 bilhões pelo governo." }
+    ],
+    "descoberta": "A fragilidade era conhecida do mercado desde 2024, e do BC desde as fiscalizações de março de 2025. O colapso veio com a prisão de Vorcaro e a liquidação em novembro de 2025.",
+    "valores": [
+      { "rotulo": "CDBs ofertados a", "valor": "até 140% do CDI" },
+      { "rotulo": "Depósitos elegíveis ao FGC", "valor": "R$ 62,2 bilhões" },
+      { "rotulo": "Clientes do conglomerado", "valor": "1,6 milhão no Master, 12 milhões afetados" },
+      { "rotulo": "Reembolso do FGC", "valor": "até R$ 46,9 a R$ 52 bilhões" }
+    ],
+    "pessoas": ["vorcaro", "ciro-nogueira", "filipe-de-barros", "galipolo"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Banco Central determina a liquidação extrajudicial do Banco Master", "veiculo": "g1", "data": "18/11/2025", "url": "https://g1.globo.com/" },
+      { "titulo": "O risco conhecido, o prazo ignorado e o retorno dos CDB do Banco Master", "veiculo": "Investing.com Brasil", "data": "05/02/2026", "url": "https://br.investing.com/analysis/o-risco-conhecido-o-prazo-ignorado-e-o-retorno-dos-cdb-do-banco-master-200475377" }
+    ]
+  },
+  {
+    "id": "tirreno",
+    "nome": "A fábrica de créditos fantasmas",
+    "subtitulo": "R$ 12,2 bilhões em carteiras sem lastro vendidas ao BRB via Tirreno",
+    "periodo": "julho de 2024 a novembro de 2025",
+    "statusApuracao": "Apuração oficial da PF: 25 operações aprovadas pela diretoria do BRB somaram R$ 17,5 bilhões; 130 contratos auditados sem lastro; produção industrial de documentos comprovada pela perícia.",
+    "resumo": "O coração da fraude: para parecer sólido ao BRB, o Master vendeu carteiras de crédito de consignado que, segundo a PF, nunca existiram. A engenharia usava a empresa Tirreno, fachada criada pelo próprio Vorcaro, e uma fábrica de documentos que produzia contratos, procurações e termos em escala industrial. O BRB pagou à vista por créditos que não tinha como verificar.",
+    "passos": [
+      { "n": 1, "titulo": "A fachada: empresa Tirreno", "texto": "O Master cria ou controla a Tirreno, empresa recém-criada apontada pela PF como fachada do próprio Vorcaro, formalmente responsável por André Seixas Maia. É ela quem origina os créditos de consignado que serão vendidos ao BRB." },
+      { "n": 2, "titulo": "A fábrica de documentos", "texto": "Em junho de 2025, o grupo produz de forma industrial 1.785 conjuntos de documentos: contrato de crédito (CCB), procuração e termo por contrato. Funcionários do banco, como Allan Machado, pedem à tesoureira Romy Klenquen que comprovantes não apareçam com número de contrato e histórico, aponta a PF." },
+      { "n": 3, "titulo": "A venda ao BRB", "texto": "Em 23 de junho de 2025, os documentos são enviados ao BRB. A Tirreno vende créditos ao banco por R$ 12,2 bilhões, embutindo prêmio ao comprador. O Master recebe à vista do BRB e não paga à vista à Tirreno: o ciclo fecha internamente." },
+      { "n": 4, "titulo": "A aprovação cega", "texto": "A diretoria do BRB aprova 25 operações de compra de carteiras somando R$ 17,5 bilhões, segundo perícia da PF que identifica seis diretores em suposta gestão fraudulenta. A decisão da compra teria sido tomada em reunião na Suíça com Ibaneis, Paulo Henrique Costa e Vorcaro." },
+      { "n": 5, "titulo": "O lastro que não existia", "texto": "Questionado pelo BC em março de 2025 sobre a falta de documentação, o Master alega que duas associações de servidores da Bahia originaram os créditos. O BC verifica que CPFs de todo o país foram usados e que 130 contratos auditados aleatoriamente não têm lastro nenhum." },
+      { "n": 6, "titulo": "A conta final", "texto": "O negócio vetado pelo BC custa ao BRB um socorro de R$ 6,6 bilhões aprovado em lei, provisão de R$ 26 bilhões pedida pelo regulador, quase 800 mil clientes perdidos e um prejuízo bilionário suportado no fim pelo FGC e pelo Tesouro do DF." }
+    ],
+    "descoberta": "A fiscalização iniciada pelo BC em março de 2025, os questionamentos sobre a origem dos créditos e a perícia da PF sobre a produção industrial de documentos, divulgada com o levantamento do sigilo em setembro de 2026.",
+    "valores": [
+      { "rotulo": "Carteiras vendidas sem lastro", "valor": "R$ 12,2 bilhões" },
+      { "rotulo": "25 operações aprovadas pelo BRB", "valor": "R$ 17,5 bilhões" },
+      { "rotulo": "Contratos fabricados", "valor": "1.785 em um único envio" },
+      { "rotulo": "Socorro ao BRB", "valor": "R$ 6,6 bilhões" }
+    ],
+    "pessoas": ["vorcaro", "paulo-henrique-costa", "diretores-brb", "andre-seixas-maia", "allan-machado", "romy-klenquen", "ibaneis", "luiz-renno", "renato-lemos"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF", "veiculo": "Valor Econômico", "data": "13/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml" },
+      { "titulo": "Diretoria do BRB aprovou 25 operações de aquisição de carteiras do Master no total de R$ 17,5 bilhões", "veiculo": "Valor Econômico", "data": "11/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/11/diretoria-do-brb-aprovou-25-operaes-de-aquisio-de-carteiras-do-master-no-total-de-r-175-bilhes.ghtml" }
+    ]
+  },
+  {
+    "id": "regulador",
+    "nome": "A compra do regulador",
+    "subtitulo": "Mesadas, grupos de WhatsApp e um servidor apelidado de anjo na vida",
+    "periodo": "2019 a 2025",
+    "statusApuracao": "Sindicância do BC aponta propina de R$ 12 milhões a dois servidores. PF identifica assessoria informal, revisão de minutas e interlocução direta. Dois servidores afastados desde janeiro de 2026.",
+    "resumo": "O Master não venceu o regulador: comprou parte dele. A PF aponta que Vorcaro manteve servidores do BC como consultores paralelos, pagando mesadas, recebendo orientação sobre supervisão, revisando ofícios e até sugerindo pautas para reuniões com o presidente da autarquia.",
+    "passos": [
+      { "n": 1, "titulo": "O primeiro favor, em 2019", "texto": "Antes mesmo de ser dono de banco, Vorcaro pede ajuda ao diretor de Fiscalização Paulo Sérgio Neves de Souza para destravar a autorização do Banco Máxima. A porta se abre em agosto de 2019. O apelido que o banqueiro daria ao servidor depois: anjo na vida." },
+      { "n": 2, "titulo": "A assessoria informal", "texto": "Paulo Sérgio vira consultor paralelo: orienta Vorcaro sobre supervisão, ajuda a articular a compra do Banco Will, tenta alterar normas da Previc a pedido do banqueiro e revisa minutas de ofícios do Master ao BC. Em dezembro de 2023, sugere pauta para reunião de Vorcaro com o então presidente do BC, Campos Neto, o Presi." },
+      { "n": 3, "titulo": "A mesada do regulado", "texto": "A PF suspeita de repasses de R$ 4,8 a R$ 13 milhões a Paulo Sérgio; a sindicância do BC aponta R$ 8 milhões. Belline Santana, chefe de departamento da supervisão, recebeu cerca de R$ 4 milhões, incluindo R$ 760 mil via intermediários, justificados como consultoria a empresa de operador de Vorcaro, tratada como simulação." },
+      { "n": 4, "titulo": "O grupo de WhatsApp", "texto": "Em outubro de 2025, no auge da crise, Belline cria grupo de mensagens com Vorcaro e Paulo Sérgio para facilitar a interlocução entre o regulador e o regulado. Chefes da supervisão agiam como empregados de Vorcaro, resume a PF em relatório citado pela imprensa." },
+      { "n": 5, "titulo": "O sítio da propina", "texto": "Para justificar o patrimônio, Paulo Sérgio alega ter vendido um sítio em Minas Gerais a Fabiano Zettel, cunhado de Vorcaro. A sindicância trata a venda como simulação de pagamento de propina. Os dois servidores são afastados em janeiro de 2026 e respondem à CGU." },
+      { "n": 6, "titulo": "Os que resistiram", "texto": "O diretor Renato Gomes, que apertou a fiscalização e virou obstáculo à venda, foi alvo de campanha de reportagens encomendadas. A CVM, que registrou alertas desde 2023, também passou a ser apurada: Dino abriu inquérito no STF em outubro de 2026 sobre o papel dela." }
+    ],
+    "descoberta": "Mensagens periciadas pela PF, a sindicância interna do BC e o levantamento do sigilo dos inquéritos em setembro de 2026.",
+    "valores": [
+      { "rotulo": "Propina a servidores (sindicância)", "valor": "R$ 12 milhões" },
+      { "rotulo": "Suspeita da PF sobre Paulo Sérgio", "valor": "R$ 4,8 a R$ 13 milhões" },
+      { "rotulo": "Suspeita da PF sobre Belline", "valor": "cerca de R$ 4 milhões" }
+    ],
+    "pessoas": ["paulo-sergio-neves", "belline-santana", "vorcaro", "fabiano-zettel", "campos-neto", "renato-gomes", "ailton-aquino", "flavio-dino"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Assessoria informal, grupo de mensagens, cobrança de pagamento: PF detalha relação de Vorcaro com servidores do BC", "veiculo": "g1", "data": "11/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/11/assessoria-informal-grupo-de-mensagens-cobranca-de-pagamento-pf-detalha-relacao-de-vorcaro-com-servidores-do-bc.ghtml" },
+      { "titulo": "Chefes da supervisão do BC agiam como 'empregados' de Vorcaro, diz PF", "veiculo": "Congresso em Foco", "data": "09/2026", "url": "https://www.congressoemfoco.com.br/noticia/122153/chefes-da-supervisao-do-bc-agiam-como-empregados-de-vorcaro-diz-pf" }
+    ]
+  },
+  {
+    "id": "politica",
+    "nome": "A marchinha em Brasília",
+    "subtitulo": "Propinas, emendas, almoços e um Planalto fora da agenda",
+    "periodo": "2024 a 2026",
+    "statusApuracao": "Apontamentos da PF e mensagens periciadas confirmam contatos e pagamentos. Valores de propina vêm de delação de Vorcaro não acatada pela PGR: são alegações negadas pelos citados.",
+    "resumo": "Nos bastidores, Vorcaro construiu uma rede política que atravessou partidos: o governador do DF na compra pelo BRB, o senador da emenda Master, a entrada no Planalto, encontros com ministros do STF e a delação final apontando propinas a políticos de todos os lados. O dinheiro do banco comprava influência nos três poderes.",
+    "passos": [
+      { "n": 1, "titulo": "O almoço da propina", "texto": "Em setembro de 2024, segundo a delação de Vorcaro, após almoço na casa do banqueiro com Ibaneis Rocha, o filho do governador, o secretário de Economia e o sócio dele, teria sido acertada propina de R$ 400 milhões, com R$ 80 milhões adiantados a Valverde. Versão anterior da delação falava em R$ 80 milhões. Todos negam." },
+      { "n": 2, "titulo": "O BRB como caixa", "texto": "A compra das carteiras pelo BRB injetava caixa novo no Master a cada operação, em 25 transações de R$ 17,5 bilhões. A decisão política da compra teria sido tomada na Suíça, com Ibaneis, e o senador Ciro Nogueira e Antonio Rueda teriam feito a aproximação, segundo a PF." },
+      { "n": 3, "titulo": "A emenda Master", "texto": "No Congresso, Ciro Nogueira apresenta a PEC que quadruplicava a cobertura do FGC, peça central para sustentar o modelo de captação. Rejeitada, ressuscitada por Filipe Barros em novembro de 2024. Em mensagens, o senador aparecia recebendo mesada de R$ 300 a 500 mil, segundo a PF; Vorcaro o classificou como propina em delação alterada." },
+      { "n": 4, "titulo": "O Planalto", "texto": "Em dezembro de 2024, Vorcaro se encontra com o presidente Lula no Planalto, fora da agenda, mediado por Walfrido Warde e Guido Mantega, segundo a Veja. O banqueiro circulava com políticos de todos os partidos e negociava encontros com ministros." },
+      { "n": 5, "titulo": "A noite da compra", "texto": "Segundo a PF, Flávio Bolsonaro e Ciro Nogueira estiveram na casa de Vorcaro na noite em que foi selada a compra do Master pelo BRB. Flávio teria pedido dinheiro a Vorcaro para o filme Dark Horse, sobre Jair Bolsonaro, e foi cadastrado como usuário master em conta de empresa do advogado Willer Tomaz." },
+      { "n": 6, "titulo": "A delação final", "texto": "Preso e sem acordo, Vorcaro aponta em delação: R$ 400 milhões a Ibaneis (com adiantamento a Valverde), comissões a Kassab, 10% sobre aportes a Rueda e ACM Neto, pagamentos a Flávio Bolsonaro e Ciro Nogueira, R$ 3 milhões mensais a grupo ligado a Jaques Wagner. A PGR rejeitou o acordo; todos os citados negam." }
+    ],
+    "descoberta": "Mensagens periciadas pela PF, delação não acatada de Vorcaro, cronologia dos autos e o levantamento de sigilo de setembro de 2026.",
+    "valores": [
+      { "rotulo": "Propina alegada a Ibaneis", "valor": "R$ 400 milhões (alegação)" },
+      { "rotulo": "Mesada de Ciro Nogueira (PF)", "valor": "R$ 300 a 500 mil mensais" },
+      { "rotulo": "Grupo de Jaques Wagner (delação)", "valor": "R$ 3 milhões por mês (alegação)" },
+      { "rotulo": "Contrato com escritório de Temer", "valor": "até R$ 30 milhões" }
+    ],
+    "pessoas": ["vorcaro", "ibaneis", "ciro-nogueira", "antonio-rueda", "flavio-bolsonaro", "willer-tomaz", "jaques-wagner", "lula", "leonardo-valverde", "kassab", "hugo-motta"],
+    "grau": "alegacao",
+    "fontes": [
+      { "titulo": "Banco Master: delação de Vorcaro cita R$ 400 milhões em propina para Ibaneis", "veiculo": "Jornal de Brasília", "data": "10/2026", "url": "https://www.jb.com.br/brasil/policia/2026/10/1061299-banco-master-delacao-de-vorcaro-cita-rs-400-milhoes-em-propina-para-ibaneis.html" },
+      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+    ]
+  },
+  {
+    "id": "fundos",
+    "nome": "O assalto aos fundos de pensão",
+    "subtitulo": "Dinheiro de aposentados no castelo de areia, do Rio ao Amapá",
+    "periodo": "2023 a 2026",
+    "statusApuracao": "Apuração oficial da PF em ao menos duas fases (Barco de Papel e oitava fase da Compliance Zero). Alertas do TCE-RJ ignorados documentados.",
+    "resumo": "Fundos de pensão de estados e municípios aplicaram bilhões em ativos do Master, mesmo após alertas de órgãos de controle. O Rio de Janeiro lidera o prejuízo com cerca de R$ 3 bilhões do Rioprevidência; 18 fundos tinham R$ 1,86 bilhão na data da liquidação; o Amapá perdeu R$ 400 milhões.",
+    "passos": [
+      { "n": 1, "titulo": "O produto de venda", "texto": "O grupo oferecia aos fundos de pensão letras e ativos do Master com rentabilidade acima do mercado, embalada na mesma promessa do FGC e da solidez de um banco que ostentava lucros recordes e conselheiros famosos." },
+      { "n": 2, "titulo": "O Rio entra em peso", "texto": "Entre outubro de 2023 e julho de 2024, o Rioprevidência, que gere benefícios de 235 mil aposentados e pensionistas fluminenses, aporta R$ 970 milhões no Master, depois mais R$ 2,01 bilhões. O total sob escrutínio da PF chega a cerca de R$ 3 bilhões, mesmo após o TCE-RJ proibir novos aportes." },
+      { "n": 3, "titulo": "O Amapá e os 18 fundos", "texto": "No Amapá, estado do senador Davi Alcolumbre, amigo de Vorcaro, o fundo de servidores perde R$ 400 milhões. Na data da liquidação, 18 fundos de pensão de estados e municípios tinham R$ 1,86 bilhão aplicados no banco, segundo o g1." },
+      { "n": 4, "titulo": "As operações da PF", "texto": "Em janeiro de 2026, a Operação Barco de Papel mira os aportes do Rioprevidência; em maio, a oitava fase da Compliance Zero prende e investiga Cláudio Castro e o ex-presidente do fundo Ricardo Siqueira Rodrigues. Em fevereiro, o então presidente do fundo Deivis Marcon Antunes havia sido preso." },
+      { "n": 5, "titulo": "A conta dos aposentados", "texto": "Com a liquidação, o buraco fica com os segurados: o FGC cobre parte, mas o resíduo é bilionário. O caso virou símbolo da fragilidade da governança dos fundos previdenciários estaduais e municipais no país." }
+    ],
+    "descoberta": "Operações da PF (Barco de Papel, janeiro de 2026; oitava fase, maio de 2026), alertas do TCE-RJ e levantamentos do g1 e da Pública.",
+    "valores": [
+      { "rotulo": "Rioprevidência sob escrutínio", "valor": "cerca de R$ 3 bilhões" },
+      { "rotulo": "18 fundos de pensão na liquidação", "valor": "R$ 1,86 bilhão" },
+      { "rotulo": "Prejuízo do fundo do Amapá", "valor": "R$ 400 milhões" }
+    ],
+    "pessoas": ["claudio-castro", "ricardo-siqueira", "alcolumbre"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Cláudio Castro é alvo da 8ª fase da Compliance Zero, que investiga aportes de R$ 3 bilhões do Rioprevidência", "veiculo": "Extra/g1", "data": "26/05/2026", "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml" },
+      { "titulo": "18 fundos de pensão de estados e municípios tem R$ 1,86 bilhão aplicados no Banco Master", "veiculo": "g1", "data": "19/11/2025", "url": "https://g1.globo.com/economia/noticia/2025/11/19/18-fundos-de-pensao-de-estados-e-municipios-tem-r-186-bilhao-aplicados-no-banco-master.ghtml" }
+    ]
+  },
+  {
+    "id": "stf",
+    "nome": "A engrenagem no Supremo",
+    "subtitulo": "Mensagens apagadas, contrato de R$ 131 milhões, jatos e um fundo em paraíso fiscal",
+    "periodo": "2024 a 2026",
+    "statusApuracao": "Mensagens, contratos e relatórios da PF confirmados pela imprensa com o levantamento do sigilo. Suspeitas sobre Toffoli são do relatório; ele nega. Moraes nega ser destinatário das mensagens e diz que contratos eram lícitos.",
+    "resumo": "O caso Master produziu a maior crise do STF em décadas. Mensagens de Vorcaro citam ou ligam ao caso ao menos cinco ministros: Alexandre de Moraes (mensagens no dia da prisão e contrato bilionário da esposa), Kassio Nunes Marques (pagamentos ao filho), Dias Toffoli (fundo Arleen), Gilmar Mendes e Lewandowski (consultorias e intermediação).",
+    "passos": [
+      { "n": 1, "titulo": "O contrato de R$ 131 milhões", "texto": "O escritório da advogada Viviane Barci de Moraes, esposa de Alexandre de Moraes, mantinha contrato com o Master de R$ 131 milhões, pago em 36 meses a cerca de R$ 3,6 milhões mensais desde o início de 2024. A PF aponta que o próprio ministro analisou e alterou um contrato de R$ 130 milhões; ele nega interferência e o escritório afirma licitude." },
+      { "n": 2, "titulo": "Os jatos da Faria Lima", "texto": "Segundo a Folha, Moraes e a esposa fizeram oito viagens em jatos de empresas ligadas a Vorcaro entre maio e outubro de 2025, com itinerários de até R$ 290 mil. A PF aponta que os pagamentos ao escritório envolviam o uso das aeronaves. O escritório confirma os voos." },
+      { "n": 3, "titulo": "As mensagens apagadas", "texto": "No dia da prisão, Vorcaro escreve a contato atribuído a Moraes: Fiz uma correria aqui para tentar salvar. Alguma novidade? Conseguiu ter notícia ou bloquear?. As respostas foram enviadas em modo de visualização única e nunca foram recuperadas. Acha que segunda já tenho que estar fora?, escrevera dois dias antes. O ministro nega ser o destinatário." },
+      { "n": 4, "titulo": "O filho do ministro no payroll", "texto": "O advogado Kevin Marques, filho de Kassio Nunes Marques, recebia R$ 500 mil mensais do Master via Consult Inteligência Tributária, segundo mensagens da PF; a consultoria acumulou R$ 6,6 milhões do banco. Após decisão favorável a destilaria, o diretor jurídico do banco mandou a Vorcaro print dos contatos do advogado com a legenda Dominado aqui. O ministro e a defesa de Kevin negam." },
+      { "n": 5, "titulo": "O fundo em paraíso fiscal", "texto": "A PF suspeita que o ministro Dias Toffoli era o beneficiário final do fundo Arleen, gestora da Reag, que recebeu R$ 35 milhões ligados ao grupo e transferiu R$ 33 milhões a offshore em janeiro de 2026. Toffoli nega; o relatório o afastou da relatoria dos inquéritos." },
+      { "n": 6, "titulo": "A Corte em crise", "texto": "Com os sigilos derrubados por Mendonça em setembro de 2026, o STF passa a julgar a própria conduta de Moraes: Nunes Marques se declara suspeito, Dino pede vista, Gilmar pede suspensão até identificar todos os ministros citados. Fachin pede apuração sem exceção; a PGR pede decisões urgentes. O caso segue sem solução no dia desta compilação." }
+    ],
+    "descoberta": "Perícia das mensagens de Vorcaro, contratos obtidos pelo JOTA e pela Folha, relatório da PF obtido pela Piauí e levantamento de sigilos em setembro de 2026.",
+    "valores": [
+      { "rotulo": "Contrato do escritório de Viviane Barci", "valor": "R$ 131 milhões" },
+      { "rotulo": "Pagamento mensal a Kevin Marques", "valor": "R$ 500 mil (segundo PF)" },
+      { "rotulo": "Fundo Arleen", "valor": "R$ 35 milhões recebidos; R$ 33 milhões a offshore" }
+    ],
+    "pessoas": ["moraes", "viviane-barci", "nunes-marques", "kevin-marques", "toffoli", "gilmar-mendes", "lewandowski", "andre-mendonca", "fachin", "vorcaro", "luiz-renno"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Moraes analisou e fez alterações em contrato de R$ 130 milhões do escritório da mulher dele com o Banco Master, aponta PF", "veiculo": "g1 (Jornal Nacional)", "data": "01/09/2026", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/01/moraes-analisou-e-fez-alteracoes-em-contrato-de-r-130-milhoes-do-escritorio-da-mulher-dele-com-o-banco-master-aponta-pf.ghtml" },
+      { "titulo": "Veja a íntegra do contrato de R$ 131 milhões da esposa de Moraes com o Banco Master", "veiculo": "JOTA", "data": "11/09/2026", "url": "https://www.jota.info/stf/do-supremo/veja-a-integra-do-contrato-de-r-131-milhoes-da-esposa-de-moraes-com-o-banco-master" }
+    ]
+  },
+  {
+    "id": "milicia",
+    "nome": "A milícia privada do banqueiro",
+    "subtitulo": "A Turma, o Sicário e a terrorização de adversários e jornalistas",
+    "periodo": "2024 a 2026",
+    "statusApuracao": "Estrutura descrita em relatórios da PF e confirmada com a terceira fase da operação em março de 2026.",
+    "resumo": "No celular de Vorcaro, a PF encontrou uma camada mais sombria: um grupo de WhatsApp batizado de A Turma, estrutura paralela de coação e violência descrita como milícia privada, com núcleos A Turma e Os Meninos no Rio de Janeiro, comandados por um operador apelidado de Sicário e, segundo a PF, pelo pai do banqueiro.",
+    "passos": [
+      { "n": 1, "titulo": "A estrutura", "texto": "O grupo operava como milícia privada a serviço de Vorcaro: monitorava alvos, coibia vazamentos, intimidava jornalistas, investigadores e adversários do banco. A PF descreve núcleos financeiro, político, de mídia e violento dentro da organização." },
+      { "n": 2, "titulo": "O comando violento", "texto": "A sexta fase da operação prende Henrique Vorcaro, pai do banqueiro, apontado como comandante dos núcleos A Turma e Os Meninos, no Rio, e responsável pelos pagamentos aos integrantes. O operador conhecido como Sicário, Luiz Phillipi Mourão, chefiava a célula de execução das ações." },
+      { "n": 3, "titulo": "A intimidação da imprensa", "texto": "Jornalistas que cobriam o caso relataram pressões; a décima fase da operação mira o publicitário Thiago Miranda por coordenar ataques ao BC e intimidação de jornalistas. A BBC documentou a máquina de remoção de conteúdo e ataque a críticos." },
+      { "n": 4, "titulo": "A morte na custódia", "texto": "Preso em 4 de março de 2026 no mesmo dia de Vorcaro, o Sicário tentou suicídio e morreu em 6 de março na custódia da PF, episódio que apressou a segunda prisão do banqueiro e revelou publicamente a existência da estrutura." }
+    ],
+    "descoberta": "Mensagens no celular de Vorcaro periciadas após a prisão de novembro de 2025, confirmadas na terceira fase da Compliance Zero em março de 2026.",
+    "valores": [
+      { "rotulo": "Fases da operação ligadas", "valor": "3ª, 6ª e 10ª da Compliance Zero" }
+    ],
+    "pessoas": ["vorcaro", "henrique-vorcaro", "sicario", "thiago-miranda"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" },
+      { "titulo": "Sicário, Joana, Manolo: quem são os nomes citados pela PF em novas revelações no caso Master", "veiculo": "g1", "data": "16/06/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/06/16/quem-sao-nomes-citados-pela-pf-novas-revelacoes-caso-master.ghtml" }
+    ]
+  },
+  {
+    "id": "dinheiro",
+    "nome": "A fuga do dinheiro",
+    "subtitulo": "Offshores, mansões na Flórida e um bilhão de dólares fora do país",
+    "periodo": "2021 a 2026",
+    "statusApuracao": "Apontamentos do liquidante do banco e da Receita confirmados pela imprensa; recuperação de ativos em curso nos EUA desde janeiro de 2026.",
+    "resumo": "Enquanto o castelo de areia se erguia, o dinheiro saía: fundos da Reag usados para propinas e para receber recursos de lavagem ligados ao PCC, R$ 650 milhões em empresa de imóveis, US$ 1 bilhão desviados por pai e irmã do banqueiro para uma mansão na Flórida, offshore no Caribe e R$ 12,2 bilhões aplicados em fundos entre 2017 e 2025.",
+    "passos": [
+      { "n": 1, "titulo": "A caixa registradora da Reag", "texto": "A gestora Reag, sócia do Master na compra do Will, operava fundos que recebiam e distribuíam recursos do grupo. Vorcaro lucrou mais de R$ 440 milhões em operações com esses fundos; um deles recebeu R$ 1 bilhão de empresas ligadas à lavagem do PCC, segundo o g1; Mansur negou vínculo com a facção." },
+      { "n": 2, "titulo": "O imobiliário", "texto": "A PGR aponta que Vorcaro usou R$ 650 milhões do Master em empresa do setor imobiliário, uma das vias de saída do caixa do banco para o patrimônio pessoal do controlador." },
+      { "n": 3, "titulo": "A mansão da Flórida", "texto": "O liquidante aponta que Henrique Vorcaro e Natalia Vorcaro Zettel desviaram ao menos US$ 1 bilhão e compraram uma mansão na Flórida. A justiça americana reconhece a liquidação em janeiro de 2026 e autoriza intimações e bloqueios." },
+      { "n": 4, "titulo": "O cerco americano", "texto": "Em outubro de 2026, o liquidante informa ter rastreado US$ 168 milhões (R$ 840 milhões) ligados a três mansões e R$ 2,15 bilhões em bens e transferências ligados a Vorcaro nos EUA, pedindo anulação de transferências e bloqueio dos imóveis." },
+      { "n": 5, "titulo": "A contabilidade do buraco", "texto": "Entre 2017 e 2025, o Master e Vorcaro aplicaram R$ 12,2 bilhões em fundos, segundo a Receita. Com a liquidação, o buraco somado ao FGC chega a R$ 52 bilhões, e a recuperação de ativos segue em curso no Brasil e nos EUA." }
+    ],
+    "descoberta": "Delação de Mansur, apontamentos do liquidante, dados da Receita e bloqueios na justiça americana.",
+    "valores": [
+      { "rotulo": "Desvio apontado nos EUA", "valor": "ao menos US$ 1 bilhão" },
+      { "rotulo": "Bens rastreados nos EUA", "valor": "R$ 2,15 bilhões" },
+      { "rotulo": "Imóveis (PGR)", "valor": "R$ 650 milhões" },
+      { "rotulo": "Fundos da Reag ligados ao PCC", "valor": "R$ 1 bilhão" }
+    ],
+    "pessoas": ["vorcaro", "henrique-vorcaro", "natalia-zettel", "rodrigo-mansur", "fabiano-zettel"],
+    "grau": "multifonte",
+    "fontes": [
+      { "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi e compraram mansão na Flórida", "veiculo": "Valor Econômico", "data": "03/03/2026", "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml" },
+      { "titulo": "Fundo da Reag recebeu R$ 1 bilhão de empresas ligadas a lavagem de dinheiro do PCC", "veiculo": "g1", "data": "18/03/2026", "url": "https://g1.globo.com/politica/noticia/2026/03/18/fundo-da-reag-recebeu-r-1-bilhao-de-empresas-ligadas-a-lavagem-de-dinheiro-do-pcc.ghtml" }
+    ]
+  },
+  {
+    "id": "midia",
+    "nome": "A compra da narração",
+    "subtitulo": "Reportagens encomendadas, influenciadores e o comando: derruba esse site",
+    "periodo": "2024 a 2026",
+    "statusApuracao": "Documentos da PF divulgados pelo Estadão confirmam reportagens orientadas por Vorcaro no Metrópoles. Contratos com influenciadores aparecem em mensagens; os citados negam em geral.",
+    "resumo": "Vorcaro montou um núcleo de mídia para controlar a própria imagem e atacar obstáculos: reportagens encomendadas com textos aprovados pelo banqueiro antes da publicação, contratos com influenciadores e comentaristas, negociação de participação em veículos e campanhas para derrubar reportagens críticas.",
+    "passos": [
+      { "n": 1, "titulo": "O gatilho: o perfil na Folha", "texto": "Em agosto de 2024, a Folha publica o perfil do banqueiro novato da Faria Lima. Começa a roda de remoção de conteúdo mapeada pela BBC: pedidos de derrubada de reportagens e ataques a jornalistas que cobriam o caso." },
+      { "n": 2, "titulo": "O alvo: o diretor do BC", "texto": "O diretor Renato Gomes, que apertava a fiscalização, vira alvo de série de reportagens no Metrópoles. Segundo documentos da PF divulgados pelo Estadão, os textos eram previamente submetidos à aprovação de Vorcaro pela CEO do portal, Lilian Tahan, e divulgados até em painéis eletrônicos de Brasília. O portal nega." },
+      { "n": 3, "titulo": "Os contratados do celular", "texto": "Mensagens citam contrato de 12 meses e revisão de vídeos da comentarista Gabriela Prioli sobre o Master, que nega; negociações com Virginia e Zé Felipe por divulgação; pedido à diretora de comunicação de Bruno Marçal para alinhar postagens em defesa do banco; conversas sobre participação societária na CNN Brasil; e o nome de Luciano Huck em negociatas de imagem, segundo reportagens." },
+      { "n": 4, "titulo": "O comandante do aparato", "texto": "O publicitário Thiago Miranda operava o conjunto. A décima fase da Compliance Zero o mira por coordenar ataques ao Banco Central e intimidação de jornalistas; a PF descreve um núcleo de mídia dentro da organização criminosa." },
+      { "n": 5, "titulo": "O limite do dinheiro", "texto": "Mesmo com todo o aparato, a narrativa pública virou contra o grupo a partir do levantamento dos sigilos em setembro de 2026. As matérias encomendadas, agora documentadas, passaram a ser parte das provas, e não do espetáculo." }
+    ],
+    "descoberta": "Mensagens do celular de Vorcaro periciadas pela PF, divulgadas em cascata de setembro a outubro de 2026.",
+    "valores": [
+      { "rotulo": "Contrato de Temer para mídia/brb", "valor": "até R$ 30 milhões" },
+      { "rotulo": "Negociação com Virginia e Zé Felipe", "valor": "R$ 25 milhões (segundo mensagens)" }
+    ],
+    "pessoas": ["vorcaro", "thiago-miranda", "lilian-tahan", "gabriela-prioli", "renato-gomes"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master", "veiculo": "Estadão via Terra", "data": "15/10/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/vorcaro-orientou-reportagens-do-metropoles-contra-diretor-do-bc-que-fiscalizou-master,f44edc67441916e5555b50be7ce4fd584rw3lrkw.html" },
+      { "titulo": "'Derruba esse site': como Vorcaro tentava controlar sua imagem e a de aliados na internet", "veiculo": "BBC News Brasil", "data": "23/10/2026", "url": "https://www.bbc.com/portuguese/articles/cjy56grn51zzo" }
+    ]
+  },
+  {
+    "id": "colapso",
+    "nome": "O colapso e a conta",
+    "subtitulo": "A noite da prisão, a liquidação e os R$ 52 bilhões que o Brasil pagou",
+    "periodo": "novembro de 2025 a 2026",
+    "statusApuracao": "Decisões oficiais do BC, do FGC e da justiça americana confirmadas por fontes oficiais e imprensa.",
+    "resumo": "Em uma única noite de novembro de 2025, o Banco Master se transformou na maior fraude bancária da história do Brasil: prisão, liquidação e o maior reembolso do FGC. A conta final: até R$ 52 bilhões, 12 milhões de clientes afetados, 8 instituições liquidadas, um banco estadual sangrando e a recuperação de ativos correndo nos EUA.",
+    "passos": [
+      { "n": 1, "titulo": "17 de novembro, a noite", "texto": "15h29: o juiz assina a ordem de prisão. 17h24: o banco anuncia venda ao grupo Fictor por R$ 3 bilhões. 17h26: Vorcaro escreve para contato atribuído a Moraes. 22h: a PF o prende em Guarulhos, tentando embarcar para Dubai via Malta." },
+      { "n": 2, "titulo": "18 de novembro, a liquidação", "texto": "O BC coloca o Master em administração especial e decreta a liquidação extrajudicial. No mesmo dia, a Justiça afasta Paulo Henrique Costa do BRB. O FGC estima pagar R$ 41 bilhões a 1,6 milhão de clientes." },
+      { "n": 3, "titulo": "A conta do FGC", "texto": "Os pagamentos escalam: R$ 32,5 bilhões em janeiro, R$ 37,2 bilhões (92%) em fevereiro, R$ 1,83 bilhão ainda por pagar em julho. Com o Will Bank, a estimativa total chega a R$ 46,9 bilhões; o governo fala em até R$ 52 bilhões. Mais de 90 mil credores ainda não tinham pedido o reembolso." },
+      { "n": 4, "titulo": "O efeito cascata", "texto": "Oito instituições ligadas ao grupo foram liquidadas (Master, Will, Will Financeira, Reag e outras). O BRB recebe socorro de R$ 6,6 bilhões e provisão de R$ 26 bilhões, perde 800 mil clientes e cancela a venda de R$ 15 bilhões em ativos. Haddad: a maior fraude bancária da história, talvez uma das maiores do mundo." },
+      { "n": 5, "titulo": "A recuperação", "texto": "O liquidante EFB rastreia bens no Brasil e nos EUA, com R$ 2,15 bilhões mapeados e mansões na mira da justiça americana. A recuperação deve levar anos; o resíduo do FGC é o prejuízo que fica para o sistema financeiro e para o contribuinte." }
+    ],
+    "descoberta": "Decisões oficiais do BC e do FGC, cronologia dos autos reconstruída pela Pública e registros da justiça americana.",
+    "valores": [
+      { "rotulo": "Prejuízo estimado", "valor": "até R$ 52 bilhões" },
+      { "rotulo": "Clientes afetados", "valor": "12 milhões" },
+      { "rotulo": "Instituições liquidadas", "valor": "8" },
+      { "rotulo": "Venda ao Fictor anunciada", "valor": "R$ 3 bilhões (não se concretizou)" }
+    ],
+    "pessoas": ["vorcaro", "galipolo", "paulo-henrique-costa", "haddad"],
+    "grau": "oficial",
+    "fontes": [
+      { "titulo": "Banco Central determina a liquidação extrajudicial do Banco Master", "veiculo": "g1", "data": "18/11/2025", "url": "https://g1.globo.com/" },
+      { "titulo": "FGC ainda tem R$ 1,83 bi para devolver a clientes do grupo Master", "veiculo": "Agência Brasil", "data": "07/2026", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fgc-ainda-tem-r-183-bi-para-devolver-clientes-do-grupo-master" }
+    ]
+  }
+]

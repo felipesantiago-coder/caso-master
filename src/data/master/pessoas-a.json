@@ -1,0 +1,312 @@
+[
+  {
+    "id": "vorcaro",
+    "nome": "Daniel Vorcaro",
+    "nomeCompleto": "Daniel Bueno Vorcaro",
+    "papel": "Ex-controlador do Banco Master",
+    "grupo": "nucleo-master",
+    "nascimento": "1983, Belo Horizonte (MG)",
+    "resumo": "Banqueiro que construiu o Banco Master sobre CDBs de juros agressivos e aquisições em série (Máxima, Voiter, Will). Para a PF, chefe de uma organização criminosa descrita como uma mafia fantasiada de banco, com núcleos financeiro, político, de mídia e violento. Ele nega todas as acusações e classifica as apurações como fantasiosas. Preso em novembro de 2025, solto em dezembro, e re preso em março de 2026, segue preso. Buscou colaboração premiada ao menos três vezes, sem acordo acatado, e em nova versão da delação apontou pagamento de propinas a políticos de diversos partidos.",
+    "status": "Preso preventivamente desde 04/03/2026",
+    "statusTipo": "preso",
+    "grau": "oficial",
+    "foto": "/pessoas/vorcaro.jpg",
+    "fontes": [
+      { "titulo": "Quem é Daniel Vorcaro, dono do Banco Master preso em operação da PF", "veiculo": "CNN Brasil", "data": "04/03/2026", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/quem-e-daniel-vorcaro-dono-do-banco-master-preso-em-operacao-da-pf/" },
+      { "titulo": "Master funcionava como 'máfia fantasiada de banco', segundo investigadores", "veiculo": "g1 (blog Andréia Sadi)", "data": "10/07/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/07/10/master-funcionava-como-mafia-fantasiada-de-banco-segundo-investigadores.ghtml" },
+      { "titulo": "Vorcaro completa 200 dias preso, com delação travada e caso Master estremecendo o STF", "veiculo": "Times Brasil", "data": "19/09/2026", "url": "https://timesbrasil.com.br/brasil/vorcaro-completa-neste-domingo-200-dias-preso-com-delacao-travada-e-caso-master-estremecendo-o-stf/" }
+    ]
+  },
+  {
+    "id": "henrique-vorcaro",
+    "nome": "Henrique Vorcaro",
+    "papel": "Pai de Daniel Vorcaro; apontado como chefe do núcleo violento",
+    "grupo": "familia",
+    "resumo": "Segundo documentos da PF divulgados pelo STF, comandava os núcleos conhecidos como A Turma e Os Meninos, no Rio de Janeiro, que monitoravam, coibiam e intimidavam alvos do banqueiro, e efetuava pagamentos a integrantes desses grupos. O liquidante do banco apontou ainda que ele e a filha desviaram ao menos US$ 1 bilhão do conglomerado e compraram uma mansão na Flórida. Foi preso na sexta fase da Operação Compliance Zero, em maio de 2026.",
+    "status": "Preso desde maio de 2026",
+    "statusTipo": "preso",
+    "grau": "oficial",
+    "foto": "/pessoas/henrique-vorcaro.jpg",
+    "fontes": [
+      { "titulo": "Sicário, Joana, Manolo: quem são os nomes citados pela PF em novas revelações no caso Master", "veiculo": "g1", "data": "16/06/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/06/16/quem-sao-nomes-citados-pela-pf-novas-revelacoes-caso-master.ghtml" },
+      { "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi e compraram mansão na Flórida", "veiculo": "Valor Econômico", "data": "03/03/2026", "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml" }
+    ]
+  },
+  {
+    "id": "natalia-zettel",
+    "nome": "Natalia Vorcaro Zettel",
+    "papel": "Irmã de Daniel Vorcaro; controladora de dezenas de empresas do grupo",
+    "grupo": "familia",
+    "resumo": "Com o pai e o marido presos, segue à frente de 54 empresas ligadas ao grupo, segundo a Pública. O liquidante do Master apontou que ela e o pai desviaram ao menos US$ 1 bilhão e adquiriram imóvel de luxo nos Estados Unidos. É casada com Fabiano Zettel, também investigado.",
+    "status": "Investigada; responde por empresas do grupo",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Com pai, marido e irmão presos, Natalia Vorcaro Zettel segue à frente de 54 empresas", "veiculo": "Pública", "data": "09/09/2026", "url": "https://apublica.org/2026/09/com-pai-marido-e-irmao-presos-natalia-vorcaro-zettel-segue-a-frente-de-54-empresas/" },
+      { "titulo": "Liquidante do Banco Master diz que Vorcaro, pai e irmã desviaram ao menos US$ 1 bi", "veiculo": "Valor Econômico", "data": "03/03/2026", "url": "https://valor.globo.com/financas/noticia/2026/03/03/liquidante-do-banco-master-diz-que-vorcaro-pai-e-irma-desviaram-ao-menos-us-1-bi-e-compraram-mansao-na-florida.ghtml" }
+    ]
+  },
+  {
+    "id": "fabiano-zettel",
+    "nome": "Fabiano Zettel",
+    "papel": "Cunhado de Daniel Vorcaro; dono da Pipe Participações",
+    "grupo": "familia",
+    "resumo": "Segundo a sindicância do Banco Central, a venda de um sítio de Paulo Sérgio Neves de Souza, servidor do BC, à empresa de Zettel teria sido uma simulação para pagar propina. Outros negócios entre os dois são tratados como possíveis repasses. Foi alvo de mandado de prisão preventiva na primeira fase da Compliance Zero, ao lado de Vorcaro, segundo o Hoje em Dia. Negou irregularidades.",
+    "status": "Investigado",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12 milhões, diz sindicância", "veiculo": "g1/GloboNews", "data": "13/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/13/propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-milhoes-diz-sindicancia.ghtml" },
+      { "titulo": "Master: operação Compliance Zero contra fraude bilionária completa seis meses", "veiculo": "Hoje em Dia", "data": "18/05/2026", "url": "https://www.hojeemdia.com.br/politica/master-operac-o-compliance-zero-contra-fraude-bilionaria-completa-seis-meses-1.1117433" }
+    ]
+  },
+  {
+    "id": "felipe-vorcaro",
+    "nome": "Felipe Vorcaro",
+    "papel": "Parente de Daniel Vorcaro; multado pela CVM",
+    "grupo": "familia",
+    "resumo": "Foi condenado pela CVM junto com o Banco Master, Daniel, Henrique Vorcaro e a Viking Participações por fraude em cotas do fundo imobiliário Brazil Realty, em setembro de 2026. O conjunto de multas somou cerca de R$ 201,5 milhões, segundo o Poder360.",
+    "status": "Multa aplicada pela CVM",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "CVM multa Vorcaro e Master em R$ 201,5 milhões por fraude", "veiculo": "Poder360", "data": "08/09/2026", "url": "https://www.poder360.com.br/poder-economia/cvm-multa-vorcaro-e-master-em-r-2015-milhoes-por-fraude" },
+      { "titulo": "Banco Master e Daniel Vorcaro são condenados pela CVM por fraude com cotas de FII", "veiculo": "Estadão E-Investidor", "data": "09/09/2026", "url": "https://www.estadao.com.br/einvestidor/direto-da-faria-lima/cvm-condena-banco-master-e-daniel-vorcaro-por-fraude-com-cotas-de-fii-multas-somam-r-203-milhoes/" }
+    ]
+  },
+  {
+    "id": "aline-vorcaro",
+    "nome": "Aline Vorcaro",
+    "papel": "Mãe de Daniel Vorcaro",
+    "grupo": "familia",
+    "resumo": "Citada em apurações no contexto familiar e patrimonial do grupo. Perfil publicado pelo iG em setembro de 2026 descreveu sua posição na estrutura familiar do banqueiro. Não foi localizada como alvo formal das fases da operação.",
+    "status": "Citada em apurações",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Quem é Aline, mãe de Daniel Vorcaro, ex-dono do Banco Master", "veiculo": "iG Último Segundo", "data": "14/09/2026", "url": "https://ultimosegundo.ig.com.br/2026-09-14/quem-e-aline-vorcaro-mae-de-daniel-vorcaro-ex-dono-banco-master.html" }
+    ]
+  },
+  {
+    "id": "luiz-renno",
+    "nome": "Luiz Rennó",
+    "papel": "Diretor jurídico do Banco Master",
+    "grupo": "nucleo-master",
+    "resumo": "Segundo mensagens periciadas pela PF, tratava dos pagamentos mensais de R$ 500 mil ao advogado Kevin Marques, filho do ministro Kassio Nunes Marques, por meio da Consult Inteligência Tributária. Após decisão favorável a uma destilaria, enviou a Vorcaro a imagem dos contatos de Kevin com a legenda Dominado aqui. Em conversas, falava em pagamentos essenciais. Investigado; defesa diz que contratos eram lícitos.",
+    "status": "Investigado",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" }
+    ]
+  },
+  {
+    "id": "renato-lemos",
+    "nome": "Renato Lemos",
+    "papel": "Diretor do Banco Master",
+    "grupo": "nucleo-master",
+    "resumo": "Diretor do Master cuja participação na operação com o BRB teria sido suspensa pelo Banco Central, segundo apontamentos citados pela imprensa. O contrato com o escritório do ex-presidente Michel Temer previa tentar reverter essa suspensão. Reportagem do ICL Notícias registrou que o BC, na gestão anterior, teria aprovado sua atuação mesmo após alerta da CVM.",
+    "status": "Investigado",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Caso Master: Temer tinha contrato de R$ 30 milhões com banco de Vorcaro para atuar na tentativa de venda ao BRB", "veiculo": "Times Brasil", "data": "14/10/2026", "url": "https://timesbrasil.com.br/brasil/caso-master-temer-tinha-contrato-de-r-30-milhoes-com-banco-de-vorcaro-para-atuar-na-tentativa-de-venda-ao-brb/" }
+    ]
+  },
+  {
+    "id": "allan-machado",
+    "nome": "Allan Machado",
+    "papel": "Funcionário do Banco Master",
+    "grupo": "nucleo-master",
+    "resumo": "Segundo relatório da PF divulgado pelo Valor, pediu à tesoureira do banco que comprovantes de transferência não aparecessem com número de contrato e histórico, no contexto da alteração de documentos da cadeia Tirreno-BRB. Investigado por gestão fraudulenta.",
+    "status": "Investigado",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF", "veiculo": "Valor Econômico", "data": "13/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml" }
+    ]
+  },
+  {
+    "id": "romy-klenquen",
+    "nome": "Romy Klenquen",
+    "papel": "Tesoureira do Banco Master",
+    "grupo": "nucleo-master",
+    "resumo": "Segundo a PF, foi pressionada por Allan Machado a alterar comprovantes de transferência, removendo número de contrato e histórico, dentro da produção de documentos da operação Tirreno-BRB. Investigada.",
+    "status": "Investigada",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF", "veiculo": "Valor Econômico", "data": "13/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml" }
+    ]
+  },
+  {
+    "id": "andre-seixas-maia",
+    "nome": "André Seixas Maia",
+    "papel": "Responsável formal pela empresa Tirreno",
+    "grupo": "operadores",
+    "resumo": "Constava formalmente à frente da Tirreno, empresa apontada pela PF como fachada criada pelo próprio Vorcaro para vender créditos ao BRB. Em 23/06/2025, enviou ao BRB o link com os documentos de 1.785 contratos (CCB, procuração e termo por contrato), material que a investigação relaciona à produção industrial de documentos. Investigado.",
+    "status": "Investigado",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF", "veiculo": "Valor Econômico", "data": "13/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/13/investigao-interna-do-master-apontou-produo-industrial-de-documentos-usados-em-carteiras-do-brb-diz-pf.ghtml" }
+    ]
+  },
+  {
+    "id": "augusto-lima",
+    "nome": "Augusto Lima",
+    "papel": "Ex-sócio de Daniel Vorcaro",
+    "grupo": "operadores",
+    "resumo": "Ex-sócio do banqueiro nos anos de formação do grupo, tornou-se alvo de fase da operação em junho de 2026 junto com o senador Jaques Wagner. Segundo o Poder360, Vorcaro disse em delação que pagava R$ 3 milhões por mês a um grupo ligado ao senador. Depôs à PF em 16/10/2026 sobre transações Master-BRB.",
+    "status": "Investigado; ouvido pela PF",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Augusto Lima, ex-sócio de Daniel Vorcaro, depõe à PF sobre transações do Banco Master", "veiculo": "R7", "data": "16/10/2026", "url": "https://noticias.r7.com/prisma/natalia-martins/augusto-lima-ex-socio-de-daniel-vorcaro-depoe-a-pf-sobre-transacoes-do-banco-master-16102026/" },
+      { "titulo": "Caso Master: senador Jaques Wagner e ex-sócio de Vorcaro são alvo em nova fase de operação", "veiculo": "R7", "data": "18/06/2026", "url": "https://noticias.r7.com/brasilia/caso-master-senador-jaques-wagner-e-ex-socio-de-vorcaro-sao-alvo-em-nova-fase-de-operacao-18062026/" }
+    ]
+  },
+  {
+    "id": "rodrigo-mansur",
+    "nome": "Rodrigo Mansur",
+    "papel": "Fundador da Reag Investimentos; colaborador da Justiça",
+    "grupo": "operadores",
+    "resumo": "Fundador da gestora sócia na compra do Banco Will e prestadora da estrutura de fundos usada, segundo sua própria delação, para pagar propinas de Vorcaro. Foi indiciado pela PF com mais 12 pessoas por gestão fraudulenta e lavagem de dinheiro no setor de combustíveis. Fechou com a PGR a primeira delação do caso, encaminhada ao STF em setembro de 2026. Negou vínculo com o PCC em CPI, dizendo que a Reag foi penalizada por ser grande e independente.",
+    "status": "Indiciado; colaborador (delação firmada)",
+    "statusTipo": "colaborador",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "PGR fecha primeira delação do caso Master com fundador da Reag", "veiculo": "InfoMoney", "data": "02/09/2026", "url": "https://www.infomoney.com.br/politica/pgr-fecha-primeira-delacao-do-caso-master-com-fundador-da-reag/" },
+      { "titulo": "Em delação, Mansur confirma que fundos da Reag foram usados para pagar propinas de Vorcaro", "veiculo": "Itatiaia", "data": "10/09/2026", "url": "https://www.itatiaia.com.br/politica/em-delacao-mansur-confirma-que-fundos-da-reag-foram-usados-para-pagar-propinas-de-vorcaro/" },
+      { "titulo": "PF indicia fundador da Reag e mais 12 por gestão fraudulenta e lavagem no setor de combustíveis", "veiculo": "Terra", "data": "30/09/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/pf-indicia-fundador-da-reag-e-mais-12-por-gestao-fraudulenta-e-lavagem-no-setor-de-combustiveis,88f07893cd5c2ce5fe6d305572ef2c59t5sbckks.html" }
+    ]
+  },
+  {
+    "id": "paulo-henrique-costa",
+    "nome": "Paulo Henrique Costa",
+    "papel": "Ex-presidente do BRB (2019 a 2025)",
+    "grupo": "brb-df",
+    "resumo": "Presidente do BRB indicado por Ibaneis Rocha, aprovou a compra de 25 carteiras do Master que somaram R$ 17,5 bilhões, segundo perícia da PF divulgada pelo Valor. A PF investiga se recebeu R$ 140 milhões de propina para viabilizar o negócio; ele nega. Mensagens com Vorcaro mostram negociação para dar menos explicação e partir pro gol. Contas pessoais apareciam zeradas e com saldo devedor no dia do bloqueio de bens, e a PF achou 24 armas com ele. Tentou delação, rejeitada pela PGR. Preso desde 16/04/2026.",
+    "status": "Preso preventivamente desde 16/04/2026",
+    "statusTipo": "preso",
+    "grau": "oficial",
+    "foto": "/pessoas/paulo-henrique-costa.jpg",
+    "fontes": [
+      { "titulo": "Quem é Paulo Henrique Costa, ex-presidente do BRB preso em operação da PF", "veiculo": "CNN Brasil", "data": "16/04/2026", "url": "https://www.cnnbrasil.com.br/politica/quem-e-paulo-henrique-costa-ex-presidente-do-brb-preso-em-operacao-da-pf/" },
+      { "titulo": "Diretoria do BRB aprovou 25 operações de aquisição de carteiras do Master no total de R$ 17,5 bilhões", "veiculo": "Valor Econômico", "data": "11/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/11/diretoria-do-brb-aprovou-25-operaes-de-aquisio-de-carteiras-do-master-no-total-de-r-175-bilhes.ghtml" },
+      { "titulo": "PGR rejeita acordo de delação de ex-presidente do BRB investigado no caso Master", "veiculo": "InfoMoney", "data": "26/06/2026", "url": "https://www.infomoney.com.br/politica/pgr-rejeita-acordo-de-delacao-de-ex-presidente-do-brb-investigado-no-caso-master/" }
+    ]
+  },
+  {
+    "id": "ibaneis",
+    "nome": "Ibaneis Rocha",
+    "papel": "Governador do DF até 2026; controlador de fato do BRB",
+    "grupo": "brb-df",
+    "resumo": "Governador do Distrito Federal durante toda a negociação entre BRB e Master; o governo do DF é o acionista controlador do banco. Mensagens periciadas pela PF mostram que acompanhou os acertos (aumento de capital do BRB, compra de carteiras e a tentativa de aquisição). Segundo a delação de Vorcaro, teria exigido R$ 400 milhões de propina, com cerca de R$ 80 milhões adiantados a Leonardo Valverde, após almoço na casa do banqueiro em setembro de 2024; versão anterior da mesma delação falava em R$ 80 milhões. Deixou o cargo durante 2026, desistiu da disputa ao Senado e nega participação nas decisões do BRB.",
+    "status": "Ex-governador; investigado; sem prisão conhecida",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": "/pessoas/ibaneis.jpg",
+    "fontes": [
+      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" },
+      { "titulo": "Ibaneis pilotou operação BRB-Master, e Vorcaro fala em propina de R$ 80 mi", "veiculo": "UOL", "data": "21/10/2026", "url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/21/ibaneis-pilotou-operacao-brb-master-e-vorcaro-fala-em-propina-de-r-80-mi.htm" },
+      { "titulo": "BRB: decisão de comprar Master foi tomada em reunião na Suíça com Ibaneis, Paulo Henrique e Vorcaro, aponta PF", "veiculo": "g1", "data": "10/10/2026", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/10/10/brb-decisao-de-comprar-master-foi-tomada-em-reuniao-na-suica-com-ibaneis-paulo-henrique-e-vorcaro-aponta-policia-federal.ghtml" }
+    ]
+  },
+  {
+    "id": "leonardo-valverde",
+    "nome": "Leonardo Valverde",
+    "papel": "Homem de confiança de Ibaneis Rocha",
+    "grupo": "brb-df",
+    "resumo": "Citado na delação de Vorcaro como receptor de cerca de R$ 80 milhões adiantados dos R$ 400 milhões de propina que, segundo a versão do banqueiro, teriam sido combinados com o então governador do DF. O entorno de Ibaneis nega as alegações.",
+    "status": "Investigado; alegações negadas",
+    "statusTipo": "investigado",
+    "grau": "alegacao",
+    "foto": null,
+    "fontes": [
+      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+    ]
+  },
+  {
+    "id": "caio-rocha",
+    "nome": "Caio Rocha",
+    "papel": "Filho de Ibaneis Rocha",
+    "grupo": "brb-df",
+    "resumo": "Participou, segundo registros da PF, do almoço de setembro de 2024 na casa de Vorcaro em que, segundo a delação do banqueiro, se acertou o esquema de propina com o então governador. Investigado; família nega irregularidades.",
+    "status": "Investigado (contexto)",
+    "statusTipo": "investigado",
+    "grau": "alegacao",
+    "foto": null,
+    "fontes": [
+      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+    ]
+  },
+  {
+    "id": "ney-ferraz",
+    "nome": "Ney Ferraz",
+    "papel": "Secretário de Economia do DF",
+    "grupo": "brb-df",
+    "resumo": "Participou do almoço de setembro de 2024 na casa de Vorcaro, segundo a delação de Vorcaro, junto com Ibaneis, o filho Caio Rocha e o sócio William Guimarães. Investigado no contexto da negociação BRB-Master.",
+    "status": "Investigado (contexto)",
+    "statusTipo": "investigado",
+    "grau": "alegacao",
+    "foto": null,
+    "fontes": [
+      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+    ]
+  },
+  {
+    "id": "william-guimaraes",
+    "nome": "William Guimarães",
+    "papel": "Sócio declarado de Ibaneis Rocha",
+    "grupo": "brb-df",
+    "resumo": "Sócio declarado do então governador, citado como participante do almoço de setembro de 2024 na casa de Vorcaro, de acordo com a versão do banqueiro em delação. Nega irregularidades.",
+    "status": "Investigado (contexto)",
+    "statusTipo": "investigado",
+    "grau": "alegacao",
+    "foto": null,
+    "fontes": [
+      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" }
+    ]
+  },
+  {
+    "id": "diretores-brb",
+    "nome": "Seis diretores do BRB",
+    "papel": "Diretoria que aprovou as compras de carteiras do Master",
+    "grupo": "brb-df",
+    "resumo": "Perícia da PF apontou que seis diretores do BRB cometeram suposta gestão fraudulenta ao aprovar as 25 operações de compra de carteiras que somaram R$ 17,5 bilhões. A PF pediu prazo ao STF para aprofundar a apuração e indicou envolvimento de mais diretores. O BRB afastou funcionários citados. Os nomes individuais não haviam sido divulgados até 27/10/2026.",
+    "status": "Investigados; alguns afastados pelo banco",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "PF identifica seis diretores do BRB que teriam cometido suposta gestão fraudulenta no caso Master", "veiculo": "Valor Econômico", "data": "11/09/2026", "url": "https://valor.globo.com/financas/noticia/2026/09/11/pf-identifica-seis-diretores-do-brb-que-teriam-cometido-suposta-gesto-fraudulenta-no-caso-master.ghtml" },
+      { "titulo": "BRB afasta funcionários citados em investigação do Caso Master", "veiculo": "Metrópoles", "data": "14/09/2026", "url": "https://www.metropoles.com/colunas/grande-angular/brb-afasta-funcionarios-citados-em-investigacao-do-caso-master" }
+    ]
+  },
+  {
+    "id": "celina-leao",
+    "nome": "Celina Leão",
+    "papel": "Vice-governadora do DF na negociação; governadora eleita em 2026",
+    "grupo": "brb-df",
+    "resumo": "Era vice-governadora do DF no período da negociação BRB-Master e assumiu o governo durante 2026. Em mensagem de Vorcaro ao publicitário Thiago Miranda datada de 05/04/2025, o banqueiro disse que ela não ficou de fora da operação, ao comentar que isso é jogo. Ela nega qualquer participação e afirma que sempre foi contra a compra. Foi eleita governadora do DF no segundo turno em 25/10/2026.",
+    "status": "Governadora eleita; nega participação",
+    "statusTipo": "investigado",
+    "grau": "alegacao",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Em mensagem, Vorcaro diz que Celina Leão 'não ficou de fora' de operação entre BRB e Master", "veiculo": "g1", "data": "15/09/2026", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/09/15/em-mensagem-vorcaro-diz-que-celina-leao-nao-ficou-de-fora-de-operacao-entre-brb-e-master.ghtml" }
+    ]
+  }
+]

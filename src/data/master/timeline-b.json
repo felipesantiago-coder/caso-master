@@ -1,0 +1,218 @@
+[
+  {
+    "id": "tl-2025-reuniao-mendonca",
+    "data": "2025-03-14",
+    "dataLabel": "14 de março de 2025",
+    "titulo": "Vorcaro se reúne com o ministro André Mendonça em São Paulo",
+    "texto": "Reunião articulada por um advogado e pelo ex-deputado Cezinha de Madureira, segundo a Folha, no auge da tentativa de viabilizar a venda do Master ao BRB. O encontro seria um dos pontos de partida da proximidade entre o banqueiro e o ministro que depois viraria relator do caso no STF.",
+    "grau": "multifonte",
+    "tipos": ["jornalismo"],
+    "pessoas": ["vorcaro", "andre-mendonca", "cezinha-madureira"],
+    "esquema": "politica",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" }
+    ]
+  },
+  {
+    "id": "tl-2025-fiscalizacao-cessoes",
+    "data": "2025-03-17",
+    "dataLabel": "17 de março de 2025",
+    "titulo": "BC inicia fiscalização das cessões bilionárias de consignado Master-BRB",
+    "texto": "Segundo documentos da PF reproduzidos pela R7, o Banco Central dá início à fiscalização das operações de cessão de créditos de consignado entre o Master e o BRB, bilionárias e sem documentação adequada. É o começo formal do cerco regulatório que desmontaria o negócio.",
+    "grau": "oficial",
+    "tipos": ["bc", "pf"],
+    "pessoas": [],
+    "esquema": "tirreno",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Caso Master: investigações, números e personagens, reunidos pelo g1", "veiculo": "g1", "data": "14/01/2026", "url": "https://g1.globo.com/economia/noticia/2026/01/14/do-banco-central-ao-stf-entenda-caso-banco-master.ghtml" }
+    ]
+  },
+  {
+    "id": "tl-2025-brb-anuncio",
+    "data": "2025-03-26",
+    "dataLabel": "26 de março de 2025",
+    "titulo": "BRB anuncia compra de 58% do Banco Master por cerca de R$ 2 bilhões",
+    "texto": "O Banco de Brasília anuncia a intenção de comprar 58% do capital do Banco Master, em acerto avaliado em cerca de R$ 2 bilhões na época. O negócio depende de aprovação do Banco Central e se torna o projeto central de Vorcaro para salvar o banco: o BRB injetaria capital e legitimidade, e as carteiras já compradas dariam lastro ao conglomerado.",
+    "grau": "multifonte",
+    "tipos": ["jornalismo"],
+    "pessoas": ["paulo-henrique-costa", "ibaneis", "vorcaro"],
+    "esquema": "tirreno",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "BRB compra Banco Master de Daniel Vorcaro por R$ 2 bilhões", "veiculo": "Neofeed", "data": "26/03/2025", "url": "https://neofeed.com.br/negocios/brb-compra-banco-master-de-daniel-vorcaro-por-r-2-bilhoes/" },
+      { "titulo": "Relembre a tentativa do BRB de comprar o Banco Master", "veiculo": "g1", "data": "18/11/2025", "url": "https://g1.globo.com/" }
+    ]
+  },
+  {
+    "id": "tl-2025-contrato-temer",
+    "data": "2025-09-03",
+    "dataLabel": "3 de setembro de 2025",
+    "titulo": "Master contrata escritório ligado a Temer por até R$ 30 milhões",
+    "texto": "Com a negociação travada, o Master contrata escritório de advocacia ligado ao ex-presidente Michel Temer por até R$ 30 milhões, para atuar na tentativa de venda ao BRB. Segundo reportagens, o contrato previa tentar reverter a suspensão, imposta pelo BC, da participação do diretor Renato Lemos no negócio. O ex-presidente confirmou o contrato, que teria sido encerrado sem pagamento integral.",
+    "grau": "multifonte",
+    "tipos": ["jornalismo"],
+    "pessoas": ["vorcaro", "renato-lemos"],
+    "esquema": "politica",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Escritório de Temer negociou contrato de até R$ 30 milhões com Master para viabilizar negócio com BRB", "veiculo": "O Globo", "data": "14/10/2026", "url": "https://oglobo.globo.com/politica/noticia/2026/10/14/escritorio-de-temer-negociou-contrato-de-ate-r-30-milhoes-com-master-para-viabilizar-negocio-com-brb.ghtml" },
+      { "titulo": "Caso Master: Temer tinha contrato de R$ 30 milhões com banco de Vorcaro", "veiculo": "Times Brasil", "data": "14/10/2026", "url": "https://timesbrasil.com.br/brasil/caso-master-temer-tinha-contrato-de-r-30-milhoes-com-banco-de-vorcaro-para-atuar-na-tentativa-de-venda-ao-brb/" }
+    ]
+  },
+  {
+    "id": "tl-2025-veto-bc",
+    "data": "2025-09",
+    "dataLabel": "Setembro de 2025",
+    "titulo": "Diretoria do BC veta a compra do Master pelo BRB",
+    "texto": "Cinco meses de tratativas chegam ao fim: a diretoria colegiada do Banco Central, presidida por Gabriel Galípolo, veta a compra do Master pelo BRB, apontando problemas de governança e a falta de documentação das carteiras vendidas. É o ponto de inflexão que acelera a deterioração do banco, que perde a última esperança de capitalização estruturada.",
+    "grau": "oficial",
+    "tipos": ["bc"],
+    "pessoas": ["galipolo", "paulo-henrique-costa"],
+    "esquema": "tirreno",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Relembre a tentativa do BRB de comprar o Banco Master", "veiculo": "g1", "data": "18/11/2025", "url": "https://g1.globo.com/" }
+    ]
+  },
+  {
+    "id": "tl-2025-belline-grupo",
+    "data": "2025-10",
+    "dataLabel": "Outubro de 2025",
+    "titulo": "Chefe de departamento do BC cria grupo de mensagens com Vorcaro",
+    "texto": "Belline Santana, chefe de departamento da supervisão bancária do BC, cria grupo de mensagens com Vorcaro e o servidor Paulo Sérgio para, segundo a PF, facilitar a interlocução entre o regulador e o regulado no período crítico. Recebia pagamentos recorrentes do grupo, incluindo R$ 760 mil via intermediários, segundo a sindicância do BC.",
+    "grau": "oficial",
+    "tipos": ["pf", "bc"],
+    "pessoas": ["belline-santana", "paulo-sergio-neves", "vorcaro"],
+    "esquema": "regulador",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Assessoria informal, grupo de mensagens, cobrança de pagamento: PF detalha relação de Vorcaro com servidores do BC", "veiculo": "g1", "data": "11/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/11/assessoria-informal-grupo-de-mensagens-cobranca-de-pagamento-pf-detalha-relacao-de-vorcaro-com-servidores-do-bc.ghtml" }
+    ]
+  },
+  {
+    "id": "tl-2025-msg-fora",
+    "data": "2025-11-15",
+    "dataLabel": "15 de novembro de 2025",
+    "titulo": "Mensagem a Moraes: Acha que segunda já tenho que estar fora?",
+    "texto": "Dois dias antes de ser preso, Vorcaro pergunta por mensagem a contato atribuído ao ministro Alexandre de Moraes: Acha que segunda já tenho que estar fora?, referindo-se à iminência de medidas do BC contra o banco, segundo mensagens divulgadas pela Folha. O ministro nega ser o destinatário.",
+    "grau": "multifonte",
+    "tipos": ["pf", "jornalismo", "stf"],
+    "pessoas": ["vorcaro", "moraes"],
+    "esquema": "stf",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" }
+    ]
+  },
+  {
+    "id": "tl-2025-ordem-prisao",
+    "data": "2025-11-17",
+    "dataLabel": "17 de novembro de 2025, 15h29",
+    "titulo": "Juiz assina ordem de prisão de Vorcaro",
+    "texto": "Às 15h29 do dia 17, o juiz Ricardo Leite, da 10ª Vara Federal de Brasília, assina a ordem de prisão de Vorcaro. Dezoito minutos depois, a defesa do banqueiro envia petição à mesma vara pedindo que sejam barradas medidas cautelares eventualmente requeridas, segundo a reconstituição da Pública, com base na cronologia dos autos.",
+    "grau": "oficial",
+    "tipos": ["justica", "pf"],
+    "pessoas": ["vorcaro"],
+    "esquema": "colapso",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2025-fictor-mensagem",
+    "data": "2025-11-17",
+    "dataLabel": "17 de novembro de 2025, 17h24",
+    "titulo": "Venda ao grupo Fictor é anunciada por R$ 3 bilhões; dois minutos depois, mensagem a Moraes",
+    "texto": "Às 17h24, o Master anuncia a venda ao grupo Fictor por R$ 3 bilhões, na tentativa de demonstrar viabilidade e evitar a liquidação. Segundo mensagens vazadas, às 17h26 Vorcaro escreve para contato identificado como Alexandre de Moraes: Fiz uma correria aqui para tentar salvar. Alguma novidade? Conseguiu ter notícia ou bloquear?. As respostas foram enviadas em modo de visualização única e nunca foram recuperadas; o ministro nega ser o destinatário.",
+    "grau": "multifonte",
+    "tipos": ["pf", "jornalismo", "stf"],
+    "pessoas": ["vorcaro", "moraes"],
+    "esquema": "stf",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" },
+      { "titulo": "Vorcaro trocou mensagens com Moraes no dia da prisão para salvar Master, diz jornal", "veiculo": "Folha via Folha Vitória", "data": "06/03/2026", "url": "https://www.folhavitoria.com.br/politica/vorcaro-trocou-mensagens-com-moraes-no-dia-da-prisao-para-salvar-master-diz-jornal" }
+    ]
+  },
+  {
+    "id": "tl-2025-prisao-guarulhos",
+    "data": "2025-11-17",
+    "dataLabel": "17 de novembro de 2025, por volta das 22h",
+    "titulo": "Vorcaro é preso ao tentar embarcar em jato para Dubai via Malta",
+    "texto": "Na primeira fase da Operação Compliance Zero, a PF prende Vorcaro no Aeroporto de Guarulhos, quando ele tentava embarcar em jato particular com destino a Dubai, nos Emirados Árabes Unidos, com escala em Malta. No celular, a mensagem enviada horas antes e atribuída a Moraes: Alguma novidade? Conseguiu ter notícia ou bloquear?. No mesmo dia, ele havia participado de videoconferência com o diretor de fiscalização do BC, Ailton de Aquino, na qual alegou ter propostas de compra sem apresentar documentos.",
+    "grau": "oficial",
+    "tipos": ["pf"],
+    "pessoas": ["vorcaro", "ailton-aquino"],
+    "esquema": "colapso",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" },
+      { "titulo": "PF prende Daniel Vorcaro, dono do Banco Master, ao tentar embarcar para Malta", "veiculo": "g1", "data": "17/11/2025", "url": "https://g1.globo.com/" }
+    ]
+  },
+  {
+    "id": "tl-2025-liquidacao",
+    "data": "2025-11-18",
+    "dataLabel": "18 de novembro de 2025",
+    "titulo": "BC decreta liquidação extrajudicial do conglomerado Master",
+    "texto": "Um dia depois da prisão e um dia após a proposta da Fictor, o Banco Central coloca o Banco Master sob administração especial temporária de 120 dias e decreta a liquidação extrajudicial do conglomerado, encerrando as atividades do banco. No mesmo dia, a Justiça afasta Paulo Henrique Costa da presidência do BRB. O FGC assume o reembolso dos clientes, e começa a maior operação de garantia de depósitos da história do país.",
+    "grau": "oficial",
+    "tipos": ["bc", "fgc", "justica"],
+    "pessoas": ["galipolo", "paulo-henrique-costa", "vorcaro"],
+    "esquema": "colapso",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Banco Central determina a liquidação extrajudicial do Banco Master", "veiculo": "g1", "data": "18/11/2025", "url": "https://g1.globo.com/" }
+    ]
+  },
+  {
+    "id": "tl-2025-fgc-estimativa",
+    "data": "2025-11-18",
+    "dataLabel": "18 de novembro de 2025",
+    "titulo": "FGC estima pagar R$ 41 bilhões a 1,6 milhão de clientes",
+    "texto": "O Fundo Garantidor de Créditos anuncia que vai pagar até R$ 41 bilhões a cerca de 1,6 milhão de clientes do Banco Master, no maior evento de reembolso da sua história. O governo federal estima que 12 milhões de clientes e trabalhadores seriam afetados pelo fim do conglomerado.",
+    "grau": "oficial",
+    "tipos": ["fgc"],
+    "pessoas": [],
+    "esquema": "colapso",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "FGC diz que vai pagar R$ 41 bi a 1,6 milhão de clientes do Banco Master", "veiculo": "UOL Economia", "data": "18/11/2025", "url": "https://economia.uol.com.br/noticias/redacao/2025/11/18/fgc-diz-vai-pagar-r-41-bi-a-16-milhao-de-clientes-do-banco-master.htm" },
+      { "titulo": "Fim do Master: trabalhadores e 12 milhões de clientes serão afetados", "veiculo": "Agência Brasil", "data": "11/2025", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-11/fim-do-master-trabalhadores-e-12-milhoes-de-clientes-serao-afetado" }
+    ]
+  },
+  {
+    "id": "tl-2025-fundos-pensao",
+    "data": "2025-11-19",
+    "dataLabel": "19 de novembro de 2025",
+    "titulo": "18 fundos de pensão de estados e municípios tinham R$ 1,86 bilhão no Master",
+    "texto": "O g1 revela que 18 fundos de pensão de estados e municípios tinham R$ 1,86 bilhão aplicados no Banco Master na data da liquidação, incluindo recursos previdenciários de servidores públicos. O número depois seria revisado para cima com a inclusão do Rio de Janeiro e do Amapá nas apurações.",
+    "grau": "multifonte",
+    "tipos": ["jornalismo"],
+    "pessoas": [],
+    "esquema": "fundos",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "18 fundos de pensão de estados e municípios tem R$ 1,86 bilhão aplicados no Banco Master", "veiculo": "g1", "data": "19/11/2025", "url": "https://g1.globo.com/economia/noticia/2025/11/19/18-fundos-de-pensao-de-estados-e-municipios-tem-r-186-bilhao-aplicados-no-banco-master.ghtml" }
+    ]
+  },
+  {
+    "id": "tl-2025-soltura",
+    "data": "2025-12",
+    "dataLabel": "Dezembro de 2025",
+    "titulo": "TRF revoga prisão preventiva; Vorcaro sai com tornozeleira",
+    "texto": "O Tribunal Regional Federal revoga a prisão preventiva de Vorcaro e dos demais presos da primeira fase da Compliance Zero, atendendo a defesa; o banqueiro é solto sob prisão domiciliar com tornozeleira eletrônica, segundo a Folha e a Metrópoles. Ele permanece livre até março de 2026.",
+    "grau": "oficial",
+    "tipos": ["justica"],
+    "pessoas": ["vorcaro"],
+    "esquema": "colapso",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Desembargadora revoga prisão de Vorcaro e demais presos da Compliance Zero", "veiculo": "Metrópoles", "data": "12/2025", "url": "https://www.metropoles.com/colunas/grande-angular/desembargadora-revoga-prisao-de-vorcaro-e-demais-presos-da-compliance-zero" },
+      { "titulo": "Juíza ordena tornozeleira para Daniel Vorcaro, que deve ser solto", "veiculo": "Folha", "data": "11/2025", "url": "https://www1.folha.uol.com.br/mercado/2025/11/juiza-ordena-tornozeleira-para-daniel-vorcaro-que-deve-ser-solto.shtml" }
+    ]
+  }
+]

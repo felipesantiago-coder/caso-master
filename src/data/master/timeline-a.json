@@ -1,0 +1,259 @@
+[
+  {
+    "id": "tl-2017-pedido-maxima",
+    "data": "2017",
+    "dataLabel": "2017",
+    "titulo": "Primeiro pedido para virar dono de banco é negado pelo BC",
+    "texto": "Vorcaro pede ao Banco Central autorização para assumir o controle do Banco Máxima. O pedido é rejeitado por Sidnei Marques, então diretor de Organização do Sistema Financeiro. Seria o início de uma disputa de dois anos pelo controle da instituição que viria a ser rebatizada de Banco Master.",
+    "grau": "multifonte",
+    "tipos": ["bc", "jornalismo"],
+    "pessoas": ["vorcaro", "sidnei-marques"],
+    "esquema": "captacao",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2017-investidor-espanhol",
+    "data": "2017",
+    "dataLabel": "2017",
+    "titulo": "Investidor na compra do Máxima teria sido narcotraficante espanhol",
+    "texto": "Segundo reportagem do ICL Notícias reproduzida pela Pública, a operação de compra do Banco Máxima por Vorcaro tinha entre seus investidores Oliver Ortiz de Zarate Martin, um narcotraficante espanhol. A relação teria sido constituída por meio do operador Benjamim Botelho de Almeida, ligado à corretora Sefer Investimento, que administrava fundos do Grupo Aquilla com investimentos de Martin.",
+    "grau": "fonteunica",
+    "tipos": ["jornalismo"],
+    "pessoas": ["vorcaro", "oliver-martin", "benjamim-botelho"],
+    "esquema": "origem",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2019-mensagem-paulo-sergio",
+    "data": "2019-02-09",
+    "dataLabel": "9 de fevereiro de 2019",
+    "titulo": "Mensagem a servidor do BC pede destravar autorização",
+    "texto": "Num sábado, Vorcaro envia mensagem a Paulo Sérgio Neves de Souza, então diretor de Fiscalização do BC, recuperada depois pela PF no iCloud do banqueiro: Estou há dois anos sendo rechaçado, humilhado pelo BC, mesmo depois de ter feito todas as mudanças e concessões. E o pedido, direto: Precisamos resolver isso, precisamos de sua ajuda para que o Sidnei aprove agora, antes da sua saída. Paulo Sérgio seria identificado anos depois como um dos servidores cooptados pelo Master.",
+    "grau": "oficial",
+    "tipos": ["pf", "jornalismo"],
+    "pessoas": ["vorcaro", "paulo-sergio-neves", "sidnei-marques"],
+    "esquema": "regulador",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2019-reuniao-febraban",
+    "data": "2019-02-11",
+    "dataLabel": "11 de fevereiro de 2019",
+    "titulo": "Reunião com presidente da Febraban dois dias depois",
+    "texto": "Dois dias após a mensagem, Vorcaro e Isaac Sidney, presidente da Febraban, se reúnem com o servidor Paulo Sérgio Neves de Souza, segundo documentos periciados pela PF e revelados pelo Estadão. A autorização não veio de imediato, mas em agosto de 2019 o BC voltou a analisar o pedido e o aprovou.",
+    "grau": "oficial",
+    "tipos": ["pf", "jornalismo"],
+    "pessoas": ["vorcaro", "isaac-sidney", "paulo-sergio-neves"],
+    "esquema": "regulador",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2019-autorizacao",
+    "data": "2019-08",
+    "dataLabel": "Agosto de 2019",
+    "titulo": "BC autoriza; Banco Máxima é rebatizado Banco Master",
+    "texto": "O Banco Central reavalia e aprova o pedido de controle do Banco Máxima. A instituição é rebatizada de Banco Master e passa a crescer de forma acelerada sobre um modelo agressivo de captação, com CDBs de taxas muito acima do mercado, vendidos com o argumento da cobertura do FGC.",
+    "grau": "multifonte",
+    "tipos": ["bc", "jornalismo"],
+    "pessoas": ["vorcaro"],
+    "esquema": "captacao",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2021-maxima-concluida",
+    "data": "2021",
+    "dataLabel": "2021",
+    "titulo": "Aquisição do Banco Máxima é concluída com capitalização de R$ 400 milhões",
+    "texto": "Vorcaro conclui a aquisição do Banco Máxima, com capitalização de R$ 400 milhões, segundo a CNN Brasil. É o marco da entrada definitiva dele no sistema financeiro nacional como controlador de banco múltiplo, base do que viria a ser o conglomerado Master.",
+    "grau": "multifonte",
+    "tipos": ["jornalismo"],
+    "pessoas": ["vorcaro"],
+    "esquema": "origem",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Quem é Daniel Vorcaro, dono do Banco Master preso em operação da PF", "veiculo": "CNN Brasil", "data": "04/03/2026", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/quem-e-daniel-vorcaro-dono-do-banco-master-preso-em-operacao-da-pf/" }
+    ]
+  },
+  {
+    "id": "tl-2023-lucro-record",
+    "data": "2023",
+    "dataLabel": "2023",
+    "titulo": "Lucro recorde de R$ 532 milhões e patrimônio multiplicado por 10",
+    "texto": "O banco registra seu maior lucro líquido da história, R$ 532 milhões, e o patrimônio salta de R$ 219 milhões em 2019 para R$ 2,3 bilhões, segundo levantamentos publicados pelo Investidor Sardinha e pela Folha. O banco passa a montar um conselho estratégico com nomes famosos e Vorcaro se torna presença constante em festas e eventos da Faria Lima.",
+    "grau": "multifonte",
+    "tipos": ["jornalismo"],
+    "pessoas": ["vorcaro"],
+    "esquema": "captacao",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Relembre o caso Master e quais instituições também foram liquidadas", "veiculo": "Veja", "data": "2026", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" }
+    ]
+  },
+  {
+    "id": "tl-2023-pauta-presi",
+    "data": "2023-12",
+    "dataLabel": "Dezembro de 2023",
+    "titulo": "Servidor do BC sugere pauta para reunião de Vorcaro com o presidente do BC",
+    "texto": "Em mensagens periciadas pela PF, o servidor Paulo Sérgio Neves de Souza sugere a Vorcaro uma pauta para reunião do banqueiro com o então presidente do Banco Central, Roberto Campos Neto, a quem se refere como Presi. O episódio ilustra a assessoria informal que a PF aponta que o grupo de servidores prestava ao banqueiro.",
+    "grau": "oficial",
+    "tipos": ["pf", "jornalismo"],
+    "pessoas": ["paulo-sergio-neves", "campos-neto", "vorcaro"],
+    "esquema": "regulador",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Assessoria informal, grupo de mensagens, cobrança de pagamento: PF detalha relação de Vorcaro com servidores do BC", "veiculo": "g1", "data": "11/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/11/assessoria-informal-grupo-de-mensagens-cobranca-de-pagamento-pf-detalha-relacao-de-vorcaro-com-servidores-do-bc.ghtml" }
+    ]
+  },
+  {
+    "id": "tl-2024-compra-will",
+    "data": "2024-02",
+    "dataLabel": "Fevereiro de 2024",
+    "titulo": "Master e Reag compram o Banco Will",
+    "texto": "O Banco Master e a gestora Reag Investimentos compram o Banco Will, base do Will Bank, ampliando o conglomerado, segundo documentos da PF divulgados pelo g1. A Reag seria depois apontada como peça central da estrutura de fundos usada para pagar propinas, segundo delação firmada em 2026.",
+    "grau": "oficial",
+    "tipos": ["pf", "jornalismo"],
+    "pessoas": ["vorcaro", "rodrigo-mansur"],
+    "esquema": "origem",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Caso Master: investigações, números e personagens, reunidos pelo g1", "veiculo": "g1", "data": "14/01/2026", "url": "https://g1.globo.com/economia/noticia/2026/01/14/do-banco-central-ao-stf-entenda-caso-banco-master.ghtml" }
+    ]
+  },
+  {
+    "id": "tl-2024-voiter-cdb",
+    "data": "2024-06",
+    "dataLabel": "Primeiro semestre de 2024",
+    "titulo": "Compra do Voiter por R$ 436 milhões e CDBs a até 140% do CDI",
+    "texto": "No primeiro semestre de 2024, o Master compra o Banco Voiter por R$ 436 milhões e leva às alturas a captação por CDBs, com taxas que chegavam a 140% do CDI, vendidas com o argumento da cobertura do FGC de R$ 250 mil por CPF. A estratégia vira fenômeno entre investidores pessoa física e dispara a carteira de depósitos do banco.",
+    "grau": "multifonte",
+    "tipos": ["jornalismo"],
+    "pessoas": ["vorcaro"],
+    "esquema": "captacao",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Relembre o caso Master e quais instituições também foram liquidadas", "veiculo": "Veja", "data": "2026", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" },
+      { "titulo": "O risco conhecido, o prazo ignorado e o retorno dos CDB do Banco Master", "veiculo": "Investing.com Brasil", "data": "05/02/2026", "url": "https://br.investing.com/analysis/o-risco-conhecido-o-prazo-ignorado-e-o-retorno-dos-cdb-do-banco-master-200475377" }
+    ]
+  },
+  {
+    "id": "tl-2024-crise-liquidez",
+    "data": "2024-06",
+    "dataLabel": "Primeiro semestre de 2024",
+    "titulo": "Crise de liquidez silenciosa: captou R$ 2 bi quando precisava de R$ 15 bi",
+    "texto": "Segundo a reconstituição da Pública, durante todo o primeiro semestre de 2024 o BC deixou passar operações suspeitas e assistiu à crise contínua de liquidez do banco: de um mínimo de R$ 15 bilhões esperados para garantir liquidez, o Master captou apenas R$ 2 bilhões. É o período em que o banco passa a depender de novos aportes e da venda ao BRB.",
+    "grau": "multifonte",
+    "tipos": ["bc", "jornalismo"],
+    "pessoas": [],
+    "esquema": "captacao",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2024-cartelas-brb",
+    "data": "2024-07",
+    "dataLabel": "Julho de 2024",
+    "titulo": "BRB começa a comprar carteiras de crédito do Master",
+    "texto": "A aproximação entre o Master e o BRB não foi espontânea, segundo a Pública: em julho de 2024 o BRB começou a comprar carteiras de crédito, parte delas apontadas pela PF como inexistentes, em negócios que chegariam a R$ 12 bilhões. Os interlocutores que teriam aproximado Vorcaro de Ibaneis Rocha seriam o senador Ciro Nogueira e o presidente do União Brasil, Antonio Rueda.",
+    "grau": "multifonte",
+    "tipos": ["pf", "jornalismo"],
+    "pessoas": ["ciro-nogueira", "antonio-rueda", "ibaneis", "paulo-henrique-costa", "vorcaro"],
+    "esquema": "tirreno",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2024-pec-fgc",
+    "data": "2024-08",
+    "dataLabel": "Agosto de 2024",
+    "titulo": "A emenda Master: PEC para quadruplicar cobertura do FGC é rejeitada",
+    "texto": "Como os fundos de renda fixa do Master dependiam fortemente do FGC, o senador Ciro Nogueira apresenta uma PEC, apelidada pela imprensa de emenda Master, que quadruplicava a cobertura do fundo, de R$ 250 mil para R$ 1 milhão por CPF. A proposta é rejeitada na CCJ do Senado em agosto de 2024, após resistência dos grandes bancos, principais contribuintes do fundo. Em novembro de 2024, o deputado Filipe Barros apresentaria novo projeto para ressuscitar a ideia na Câmara.",
+    "grau": "multifonte",
+    "tipos": ["congresso", "jornalismo"],
+    "pessoas": ["ciro-nogueira", "filipe-de-barros"],
+    "esquema": "politica",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2024-perfil-folha",
+    "data": "2024-08-30",
+    "dataLabel": "30 de agosto de 2024",
+    "titulo": "Perfil na Folha inaugura a guerra de imagem de Vorcaro",
+    "texto": "A Folha publica o perfil Novato na Faria Lima, banqueiro de 40 anos chama atenção por aquisições em série e festa com Alok. Segundo a BBC News Brasil, a partir daí começa uma roda sistemática de tentativas de remoção de conteúdo e compra de imagem, que envolveria influenciadores, portais e até a negociação de participação em veículos de comunicação.",
+    "grau": "multifonte",
+    "tipos": ["jornalismo"],
+    "pessoas": ["vorcaro", "thiago-miranda"],
+    "esquema": "midia",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "'Derruba esse site': como Vorcaro tentava controlar sua imagem e a de aliados na internet", "veiculo": "BBC News Brasil", "data": "23/10/2026", "url": "https://www.bbc.com/portuguese/articles/cjy56grn51zzo" }
+    ]
+  },
+  {
+    "id": "tl-2024-almoco-ibaneis",
+    "data": "2024-09",
+    "dataLabel": "Setembro de 2024",
+    "titulo": "Almoço na casa de Vorcaro com Ibaneis Rocha",
+    "texto": "Segundo a delação de Vorcaro, após almoço na casa do banqueiro com o governador Ibaneis Rocha, o filho dele Caio Rocha, o secretário de Economia Ney Ferraz e o sócio William Guimarães, teria sido acertado o esquema de propina de R$ 400 milhões, com cerca de R$ 80 milhões adiantados a Leonardo Valverde. Versão anterior da mesma delação falava em R$ 80 milhões. Ibaneis nega ter discutido a aquisição do Master pelo BRB e afirma que encontros foram rápidos; não há acordo de delação acatado com esse conteúdo.",
+    "grau": "alegacao",
+    "tipos": ["pf", "jornalismo"],
+    "pessoas": ["vorcaro", "ibaneis", "caio-rocha", "ney-ferraz", "william-guimaraes", "leonardo-valverde"],
+    "esquema": "politica",
+    "destaque": true,
+    "fontes": [
+      { "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens", "veiculo": "Diário do Centro do Mundo", "data": "21/10/2026", "url": "https://www.diariodocentrodomundo.com.br/pf-mensagens-ibaneis-operacao-brb-banco-master/" },
+      { "titulo": "Ibaneis pilotou operação BRB-Master, e Vorcaro fala em propina de R$ 80 mi", "veiculo": "UOL", "data": "21/10/2026", "url": "https://noticias.uol.com.br/colunas/natalia-portinari/2026/10/21/ibaneis-pilotou-operacao-brb-master-e-vorcaro-fala-em-propina-de-r-80-mi.htm" }
+    ]
+  },
+  {
+    "id": "tl-2024-estrategia-guerra",
+    "data": "2024-08",
+    "dataLabel": "Agosto de 2024",
+    "titulo": "Estratégia de guerra com Ibaneis, em mensagem à namorada",
+    "texto": "Em mensagem vazada da investigação, Vorcaro diz à então namorada, a influenciadora Martha Graeff, que se reuniu com Ibaneis para definir, em suas próprias palavras, uma estratégia de guerra. O contexto é a luta para salvar o banco e viabilizar a venda ao BRB. Ibaneis nega.",
+    "grau": "multifonte",
+    "tipos": ["pf", "jornalismo"],
+    "pessoas": ["vorcaro", "ibaneis", "martha-graeff"],
+    "esquema": "politica",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "tl-2024-lula-planalto",
+    "data": "2024-12",
+    "dataLabel": "Dezembro de 2024",
+    "titulo": "Encontro com Lula no Planalto, fora da agenda",
+    "texto": "Vorcaro se encontra com o presidente Lula no Planalto, fora da agenda oficial, em encontro mediado pelo advogado Walfrido Warde e pelo ex-ministro Guido Mantega, segundo a Veja. O episódio ilustra a penetração do banqueiro nos três poderes no auge da tentativa de salvar o banco.",
+    "grau": "fonteunica",
+    "tipos": ["jornalismo"],
+    "pessoas": ["vorcaro", "lula", "walfrido-warde", "guido-mantega"],
+    "esquema": "politica",
+    "destaque": false,
+    "fontes": [
+      { "titulo": "Relembre o caso Master e quais instituições também foram liquidadas", "veiculo": "Veja", "data": "2026", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" }
+    ]
+  }
+]

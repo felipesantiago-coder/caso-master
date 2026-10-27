@@ -1,0 +1,337 @@
+[
+  {
+    "id": "ciro-nogueira",
+    "nome": "Ciro Nogueira",
+    "papel": "Senador (PP-PI); ex-ministro da Casa Civil",
+    "grupo": "politica",
+    "resumo": "Apontado pela PF como receptor central de vantagens indevidas de Vorcaro, com pagamentos mensais descritos em mensagens como mesada, em valores de R$ 300 mil a R$ 500 mil, segundo diferentes reportagens. Foi autor da chamada emenda Master, PEC que quadruplicava a cobertura do FGC para R$ 1 milhão, rejeitada na CCJ do Senado em agosto de 2024. Segundo a PF, ele e o presidente do União Brasil, Antonio Rueda, foram os interlocutores que aproximaram Vorcaro do BRB, e ele esteve na casa do banqueiro na noite em que a compra foi selada. Vorcaro alterou sua delação em junho de 2026 para classificar os pagamentos a Ciro como propina. O senador nega tudo.",
+    "status": "Senador; investigado; nega",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": "/pessoas/ciro-nogueira.jpg",
+    "fontes": [
+      { "titulo": "PF diz que Ciro Nogueira era receptor de 'vantagens indevidas' de Vorcaro", "veiculo": "TMC", "data": "07/05/2026", "url": "https://tmc.com.br/politica/ciro-nogueira-vantagens-banco-master" },
+      { "titulo": "Ciro Nogueira recebia mesada de R$ 500 mil de Vorcaro, aponta PF", "veiculo": "Brasil247", "data": "07/05/2026", "url": "https://www.brasil247.com/brasil/ciro-nogueira-recebia-mesada-de-r-500-mil-de-vorcaro-aponta-pf" },
+      { "titulo": "Vorcaro altera delação e cita propina a Ciro Nogueira", "veiculo": "BP Money", "data": "10/06/2026", "url": "https://bpmoney.com.br/brasil/vorcaro-altera-delacao-e-classifica-pagamentos-a-ciro-nogueira-como-propina" }
+    ]
+  },
+  {
+    "id": "flavio-bolsonaro",
+    "nome": "Flávio Bolsonaro",
+    "papel": "Senador (PL-RJ); candidato derrotado à Presidência em 2026",
+    "grupo": "politica",
+    "resumo": "Senador e candidato presidencial em 2026, derrotado no segundo turno por Lula em 25/10/2026. A PF identificou que ele e o ex-ministro Ciro Nogueira estiveram na casa de Vorcaro na noite em que a compra do Master pelo BRB foi selada. Investigado por corrupção e lavagem em inquérito sobre o filme Dark Horse, para o qual pediu dinheiro a Vorcaro, e alvo de novo inquérito aberto em outubro de 2026 com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro, com Moraes como relator sorteado; documentos indicam que foi cadastrado como usuário master em conta bancária de empresa de Tomaz. Em 27/10/2026, Moraes determinou que entregasse o passaporte e proibiu sua saída do país. Ele nega ser investigado por ilicitude e acusa perseguição.",
+    "status": "Senador; investigado em ao menos dois inquéritos no STF",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": "/pessoas/flavio-bolsonaro.jpg",
+    "fontes": [
+      { "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz", "veiculo": "Poder360", "data": "19/10/2026", "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal" },
+      { "titulo": "Flávio Bolsonaro foi cadastrado como 'usuário master' em conta bancária de empresa de advogado investigado", "veiculo": "g1", "data": "14/10/2026", "url": "https://g1.globo.com/politica/noticia/2026/10/14/flavio-bolsonaro-foi-cadastrado-como-usuario-master-em-conta-bancaria-de-empresa-de-advogado-investigado.ghtml" },
+      { "titulo": "Flávio Bolsonaro se reuniu com Vorcaro na noite em que foi selada a compra do Master pelo BRB, aponta PF", "veiculo": "Leia Sempre Brasil", "data": "12/10/2026", "url": "https://leiasemprebrasil.com.br/2026/10/12/flavio-bolsonaro-se-reuniu-com-vorcaro-na-noite-em-que-foi-selada-a-compra-do-master-pelo-brb-aponta-pf" }
+    ]
+  },
+  {
+    "id": "willer-tomaz",
+    "nome": "Willer Tomaz",
+    "papel": "Advogado; alvo de inquérito no STF",
+    "grupo": "politica",
+    "resumo": "Advogado investigado na Operação Sem Desconto e em inquérito do STF aberto em outubro de 2026 por suspeita de lavagem de dinheiro ligada ao caso Master e a Flávio Bolsonaro, com Moraes como relator. Documentos periciados indicam que Flávio foi cadastrado como usuário master em conta bancária de empresa dele; a PF identificou ainda e-mails da secretária do senador na estrutura. A defesa diz que as empresas são lícitas.",
+    "status": "Investigado no STF",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz", "veiculo": "Poder360", "data": "19/10/2026", "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal" },
+      { "titulo": "O que pesa contra Flávio Bolsonaro?", "veiculo": "BBC News Brasil", "data": "24/10/2026", "url": "https://www.bbc.com/portuguese/articles/cm0ld9kpnwk2o" }
+    ]
+  },
+  {
+    "id": "lula",
+    "nome": "Luiz Inácio Lula da Silva",
+    "papel": "Presidente do Brasil; reeleito em 2026",
+    "grupo": "politica",
+    "resumo": "Teve encontro com Vorcaro no Planalto em dezembro de 2024, fora da agenda oficial, mediado pelo advogado Walfrido Warde e pelo ex-ministro Guido Mantega, segundo a Veja. Em 2026, pediu publicamente a quebra completa de sigilo do caso Master, doa a quem doer, segundo a Agência Brasil. Foi reeleito presidente no segundo turno de 25/10/2026, derrotando Flávio Bolsonaro.",
+    "status": "Presidente reeleito; encontro registrado por imprensa",
+    "statusTipo": "institucional",
+    "grau": "multifonte",
+    "foto": "/pessoas/lula.jpg",
+    "fontes": [
+      { "titulo": "Lula pede quebra completa de sigilo do caso Master, 'doa a quem doer'", "veiculo": "Agência Brasil", "data": "09/2026", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/lula-pede-quebra-completa-de-sigilo-do-caso-master-doa-quem-doer" },
+      { "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda", "veiculo": "Veja", "data": "12/2024", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" }
+    ]
+  },
+  {
+    "id": "haddad",
+    "nome": "Fernando Haddad",
+    "papel": "Ministro da Fazenda",
+    "grupo": "bc-governo",
+    "resumo": "Classificou o caso Master como a maior fraude bancária da história do Brasil e talvez uma das maiores do mundo, afirmando em janeiro de 2026 que o esquema envolveu R$ 12,2 bilhões, segundo a PF. Também afirmou que o episódio não representa risco sistêmico porque está concentrado no FGC, mas é uma pancada para as contas públicas.",
+    "status": "Ministro; autoridade da pasta",
+    "statusTipo": "institucional",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Haddad diz que caso Master pode ser maior fraude bancária do Brasil", "veiculo": "CNN Brasil", "data": "13/01/2026", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/haddad-diz-que-caso-master-pode-ser-maior-fraude-bancaria-do-brasil" },
+      { "titulo": "Haddad diz que Master não tem risco sistêmico porque está concentrado no FGC, mas é 'pancada'", "veiculo": "Estadão", "data": "27/02/2026", "url": "https://www.estadao.com.br/economia/haddad-diz-que-master-nao-tem-risco-sistemico-porque-esta-concentrado-no-fgc-mas-e-pancada/" }
+    ]
+  },
+  {
+    "id": "hugo-motta",
+    "nome": "Hugo Motta",
+    "papel": "Presidente da Câmara dos Deputados",
+    "grupo": "politica",
+    "resumo": "Citado em mensagens periciadas pela PF sobre jantares com Vorcaro, revelados após a segunda prisão do banqueiro em março de 2026. Sem imputação criminal conhecida nos documentos consultados até 27/10/2026.",
+    "status": "Citado em mensagens",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "alcolumbre",
+    "nome": "Davi Alcolumbre",
+    "papel": "Senador (União-AP); presidente do Senado",
+    "grupo": "politica",
+    "resumo": "Amigo de Vorcaro, segundo a Pública; no Amapá, fundo de pensão de servidores estaduais ligado ao grupo dele teve prejuízo de R$ 400 milhões em letras do Master. O senador nega conhecimento do esquema.",
+    "status": "Senador; nega",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "claudio-castro",
+    "nome": "Cláudio Castro",
+    "papel": "Governador do Rio de Janeiro",
+    "grupo": "politica",
+    "resumo": "Alvo da oitava fase da operação em maio de 2026, junto com o ex-presidente do Rioprevidência Ricardo Siqueira Rodrigues, em apuração sobre a aplicação de cerca de R$ 3 bilhões do fundo de pensão dos servidores fluminenses em ativos ligados ao Master, dos quais quase R$ 1 bilhão teria sido em letras sem lastro, segundo a PF e a Pública. Após a operação, exonerou o presidente do Rioprevidência. Nega irregularidades.",
+    "status": "Governador; investigado; nega",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Cláudio Castro é alvo da 8ª fase da Compliance Zero, que investiga aportes de R$ 3 bilhões do Rioprevidência no Banco Master", "veiculo": "Extra/g1", "data": "26/05/2026", "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml" },
+      { "titulo": "Castro faz trocas no Rioprevidência após fundo virar alvo da PF por aplicações no Master", "veiculo": "Folha", "data": "29/01/2026", "url": "https://www1.folha.uol.com.br/mercado/2026/01/castro-faz-trocas-no-rioprevidencia-apos-fundo-virar-alvo-da-pf-por-aplicacoes-no-master.shtml" }
+    ]
+  },
+  {
+    "id": "ricardo-siqueira",
+    "nome": "Ricardo Siqueira Rodrigues",
+    "papel": "Ex-presidente do Rioprevidência",
+    "grupo": "politica",
+    "resumo": "Alvo da oitava fase da operação da PF em maio de 2026, apontado como responsável pela aplicação de cerca de R$ 3 bilhões do fundo de pensão dos servidores do Rio em ativos ligados ao Master. Exonerado pelo governador Cláudio Castro após a operação.",
+    "status": "Exonerado; investigado",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Cláudio Castro é alvo da 8ª fase da Compliance Zero, que investiga aportes de R$ 3 bilhões do Rioprevidência no Banco Master", "veiculo": "Extra/g1", "data": "26/05/2026", "url": "https://extra.globo.com/politica/noticia/2026/05/pf-faz-buscas-contra-claudio-castro-em-caso-de-aportes-do-rioprevidencia-no-banco-master.ghtml" },
+      { "titulo": "PF amplia investigação sobre Rioprevidência e mira Cláudio Castro por repasses bilionários ao Banco Master", "veiculo": "Painel Político", "data": "26/05/2026", "url": "https://painelpolitico.com/claudio-castro-alvo-da-pf-em-investigacao-de-r-3-bi-no-banco-master" }
+    ]
+  },
+  {
+    "id": "jaques-wagner",
+    "nome": "Jaques Wagner",
+    "papel": "Senador (PT-BA); ex-ministro",
+    "grupo": "politica",
+    "resumo": "Alvo de fase da operação em junho de 2026, junto com o ex-sócio de Vorcaro Augusto Lima. Segundo a delação de Vorcaro, um grupo ligado ao senador recebia R$ 3 milhões por mês; as duas associações de servidores da Bahia apontadas pelo Master como originadoras dos créditos vendidos ao BRB reforçam o vínculo baiano da trama, segundo a PF. O senador nega qualquer irregularidade.",
+    "status": "Senador; investigado; nega",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Caso Master: senador Jaques Wagner e ex-sócio de Vorcaro são alvo em nova fase de operação", "veiculo": "R7", "data": "18/06/2026", "url": "https://noticias.r7.com/brasilia/caso-master-senador-jaques-wagner-e-ex-socio-de-vorcaro-sao-alvo-em-nova-fase-de-operacao-18062026/" },
+      { "titulo": "Vorcaro disse que pagava R$ 3 mi ao mês para grupo de Jaques Wagner", "veiculo": "Poder360", "data": "06/2026", "url": "https://www.poder360.com.br/poder-justica/vorcaro-disse-que-pagava-r-3-mi-ao-mes-para-grupo-de-jaques-wagner/" }
+    ]
+  },
+  {
+    "id": "filipe-de-barros",
+    "nome": "Filipe Barros",
+    "papel": "Deputado federal (PL-PR)",
+    "grupo": "politica",
+    "resumo": "Deputado próximo a Eduardo Bolsonaro que, em novembro de 2024, apresentou projeto de lei para ressuscitar a chamada emenda Master na Câmara, tentando quadruplicar a cobertura do FGC quando o Master já vivia crise de liquidez, segundo a Pública.",
+    "status": "Deputado; sem imputação conhecida",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "cezinha-madureira",
+    "nome": "Cezinha de Madureira",
+    "papel": "Ex-deputado federal (PSD-RJ)",
+    "grupo": "operadores",
+    "resumo": "Ex-deputado apontado pela Folha como um dos articuladores da reunião entre Vorcaro e o ministro André Mendonça em São Paulo, em março de 2025, quando o Master lutava pela venda ao BRB.",
+    "status": "Citado em reportagem",
+    "statusTipo": "investigado",
+    "grau": "fonteunica",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" }
+    ]
+  },
+  {
+    "id": "walfrido-warde",
+    "nome": "Walfrido Warde",
+    "papel": "Advogado; mediador do encontro de Vorcaro com Lula",
+    "grupo": "operadores",
+    "resumo": "Advogado apontado pela Veja como um dos mediadores, junto com Guido Mantega, do encontro de Vorcaro com o presidente Lula no Planalto, em dezembro de 2024, fora da agenda oficial.",
+    "status": "Citado em reportagem",
+    "statusTipo": "investigado",
+    "grau": "fonteunica",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda", "veiculo": "Veja", "data": "12/2024", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" }
+    ]
+  },
+  {
+    "id": "guido-mantega",
+    "nome": "Guido Mantega",
+    "papel": "Ex-ministro da Fazenda; mediador do encontro de Vorcaro com Lula",
+    "grupo": "operadores",
+    "resumo": "Ex-ministro apontado pela Veja como mediador, junto com Walfrido Warde, do encontro de Vorcaro com o presidente Lula no Planalto, em dezembro de 2024, fora da agenda oficial.",
+    "status": "Citado em reportagem",
+    "statusTipo": "investigado",
+    "grau": "fonteunica",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Encontro de Vorcaro com Lula no Planalto, fora da agenda", "veiculo": "Veja", "data": "12/2024", "url": "https://veja.abril.com.br/economia/relembre-o-caso-master-e-quais-instituicoes-tambem-foram-liquidadas/" }
+    ]
+  },
+  {
+    "id": "antonio-rueda",
+    "nome": "Antonio Rueda",
+    "papel": "Presidente nacional do União Brasil",
+    "grupo": "politica",
+    "resumo": "Apontado pela PF, junto com Ciro Nogueira, como um dos interlocutores que aproximaram Vorcaro do BRB. Citado na delação de Vorcaro de outubro de 2026 entre os beneficiários de comissões, com 10% sobre aportes, segundo reportagens sobre a nova versão da delação. Nega.",
+    "status": "Dirigente partidário; investigado; nega",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: delação de Vorcaro cita R$ 400 milhões em propina para Ibaneis", "veiculo": "Jornal de Brasília", "data": "10/2026", "url": "https://www.jb.com.br/brasil/policia/2026/10/1061299-banco-master-delacao-de-vorcaro-cita-rs-400-milhoes-em-propina-para-ibaneis.html" }
+    ]
+  },
+  {
+    "id": "kassab",
+    "nome": "Gilberto Kassab",
+    "papel": "Ex-ministro; presidente nacional do PSD",
+    "grupo": "politica",
+    "resumo": "Citado na delação de Vorcaro de outubro de 2026 como receptor de comissões no contexto dos negócios do grupo, segundo reportagens sobre a nova versão da delação. Nega.",
+    "status": "Citado em delação rejeitada; nega",
+    "statusTipo": "investigado",
+    "grau": "alegacao",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: delação de Vorcaro cita R$ 400 milhões em propina para Ibaneis", "veiculo": "Jornal de Brasília", "data": "10/2026", "url": "https://www.jb.com.br/brasil/policia/2026/10/1061299-banco-master-delacao-de-vorcaro-cita-rs-400-milhoes-em-propina-para-ibaneis.html" }
+    ]
+  },
+  {
+    "id": "lilian-tahan",
+    "nome": "Lilian Tahan",
+    "papel": "CEO do portal Metrópoles",
+    "grupo": "midia",
+    "resumo": "Segundo documentos da PF divulgados pelo Estadão e pelo Terra, submetia a Vorcaro textos prévios de reportagens encomendadas contra o diretor do BC Renato Gomes, obstáculo à venda do Master ao BRB, antes da publicação; as matérias eram divulgadas até em painéis eletrônicos de Brasília. O portal nega que tenha recebido ordens para publicar e afirma independência editorial.",
+    "status": "Citada em documentos da PF; portal nega",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master", "veiculo": "Estadão via Terra", "data": "15/10/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/vorcaro-orientou-reportagens-do-metropoles-contra-diretor-do-bc-que-fiscalizou-master,f44edc67441916e5555b50be7ce4fd584rw3lrkw.html" }
+    ]
+  },
+  {
+    "id": "thiago-miranda",
+    "nome": "Thiago Miranda",
+    "papel": "Publicitário; operador de mídia de Vorcaro",
+    "grupo": "midia",
+    "resumo": "Publicitário operador das campanhas de imagem de Vorcaro, recebeu do banqueiro mensagens como a de que Celina Leão não ficou de fora da negociação BRB-Master. Foi alvo da décima fase da operação da PF, em julho de 2026, por suspeitas de coordenar ataques ao Banco Central e intimidação de jornalistas, segundo o g1.",
+    "status": "Alvo da 10ª fase da operação; investigado",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Em mensagem, Vorcaro diz que Celina Leão 'não ficou de fora' de operação entre BRB e Master", "veiculo": "g1", "data": "15/09/2026", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/09/15/em-mensagem-vorcaro-diz-que-celina-leao-nao-ficou-de-fora-de-operacao-entre-brb-e-master.ghtml" },
+      { "titulo": "Master funcionava como 'máfia fantasiada de banco', segundo investigadores", "veiculo": "g1 (blog Andréia Sadi)", "data": "10/07/2026", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/07/10/master-funcionava-como-mafia-fantasiada-de-banco-segundo-investigadores.ghtml" }
+    ]
+  },
+  {
+    "id": "martha-graeff",
+    "nome": "Martha Graeff",
+    "papel": "Influenciadora; namorada de Vorcaro no período",
+    "grupo": "midia",
+    "resumo": "Influenciadora com quem Vorcaro trocava mensagens íntimas periciadas pela PF, nas quais descrevia a estratégia de guerra com Ibaneis e comentava o movimento do dinheiro, segundo reportagens. Sem imputação criminal conhecida.",
+    "status": "Citada em mensagens periciadas",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "gabriela-prioli",
+    "nome": "Gabriela Prioli",
+    "papel": "Advogada e comentarista",
+    "grupo": "midia",
+    "resumo": "Mensagens do celular de Vorcaro citam contrato de 12 meses e revisão de vídeos dela sobre o Banco Master, segundo reportagens de outubro de 2026. Ela nega contrato com o Master e comunicação com Vorcaro.",
+    "status": "Nega vínculo",
+    "statusTipo": "investigado",
+    "grau": "fonteunica",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Mensagens do celular de Daniel Vorcaro citam contrato de 12 meses e revisão de vídeos de Gabriela Prioli sobre Banco Master; influenciadora nega vínculo", "veiculo": "Jornal Grande Bahia", "data": "10/2026", "url": "https://jornalgrandebahia.com.br/2026/10/mensagens-do-celular-de-daniel-vorcaro-citam-contrato-de-12-meses-e-revisao-de-videos-de-gabriela-prioli-sobre-banco-master-influenciadora-nega-vinculo/" },
+      { "titulo": "Gabriela Prioli nega contrato com Master e comunicação com Vorcaro", "veiculo": "Poder360", "data": "10/2026", "url": "https://www.poder360.com.br/poder-gente/gabriela-prioli-nega-contrato-com-master-e-comunicacao-com-vorcaro/" }
+    ]
+  },
+  {
+    "id": "sicario",
+    "nome": "Luiz Phillipi Mourão (Sicário)",
+    "papel": "Operador do núcleo violento do grupo",
+    "grupo": "operadores",
+    "resumo": "Identificado pela PF como o Sicário, chefe do grupo de WhatsApp conhecido como A Turma, estrutura paralela de coação e violência descrita como milícia privada a serviço do banqueiro. Preso em 04/03/2026, no mesmo dia de Vorcaro, tentou suicídio na custódia e morreu em 06/03/2026.",
+    "status": "Morreu em custódia em 06/03/2026",
+    "statusTipo": "falecido",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Daniel Vorcaro, do Banco Master, é preso em nova fase da operação Compliance Zero", "veiculo": "Folha", "data": "04/03/2026", "url": "https://www1.folha.uol.com.br/mercado/2026/03/daniel-vorcaro-do-banco-master-e-preso-em-nova-fase-da-operacao-compliance-zero.shtml" },
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "oliver-martin",
+    "nome": "Oliver Ortiz de Zarate Martin",
+    "papel": "Narcotraficante espanhol; investidor na compra do Banco Máxima",
+    "grupo": "operadores",
+    "resumo": "Segundo reportagem do ICL Notícias de março de 2026, constava entre os investidores da operação de compra do Banco Máxima por Vorcaro, concluída em 2021; a relação teria sido constituída por meio do operador Benjamim Botelho de Almeida e da corretora Sefer Investimento, que administrava fundos do Grupo Aquilla com investimentos dele.",
+    "status": "Citado em reportagem investigativa",
+    "statusTipo": "investigado",
+    "grau": "fonteunica",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República (referência a ICL Notícias)", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "benjamim-botelho",
+    "nome": "Benjamim Botelho de Almeida",
+    "papel": "Operador ligado à corretora Sefer Investimento",
+    "grupo": "operadores",
+    "resumo": "Operador apontado pelo ICL Notícias como o elo entre Vorcaro e o investidor espanhol Oliver Ortiz de Zarate Martin na compra do Banco Máxima; administrava fundos do Grupo Aquilla, que participou da compra em 2017/2021.",
+    "status": "Citado em reportagem investigativa",
+    "statusTipo": "investigado",
+    "grau": "fonteunica",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República (referência a ICL Notícias)", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  }
+]

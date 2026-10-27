@@ -72,3 +72,9 @@ agent-ctx
 
 # cache de busca de links (grande, regenerável)
 research_backup/cache_busca.json
+
+# pesquisa local do caso master
+/research_master/
+/tool-results/
+dev.log
+/agent-ctx/

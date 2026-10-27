@@ -1,8 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Toaster } from "@/components/ui/toaster";
-import { ThemeProvider } from "@/components/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,24 +13,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Voto Claro: Ranking de Compatibilidade Eleitoral DF 2026",
+  title: "Caso Master: tudo o que se sabe sobre o Banco Master e Daniel Vorcaro",
   description:
-    "Voto Claro: ranking de compatibilidade com os seus valores nos cargos do 2º turno das eleições 2026 no Distrito Federal (25/10/2026): Presidente e Governador do DF. Escolha o grau de importância de cada critério (essencial, importante ou irrelevante) e compare os 2 finalistas de cada cargo, com notas ponderadas, níveis de evidência e fontes.",
+    "Dossiê público do caso Banco Master e Daniel Vorcaro: linha do tempo completa das apurações da Polícia Federal, do Banco Central, do STF e do TCU, ranking das pessoas mais mencionadas, busca por nomes, explicação passo a passo de cada esquema e todas as fontes com grau de comprovação.",
   keywords: [
-    "Voto Claro",
-    "eleições 2026",
-    "Distrito Federal",
-    "Brasília",
-    "candidatos",
-    "ranking",
-    "guia eleitoral",
-    "análise de compatibilidade",
+    "Banco Master",
+    "Daniel Vorcaro",
+    "caso Master",
+    "Operação Compliance Zero",
+    "BRB",
+    "FGC",
+    "fraude bancária",
+    "linha do tempo",
+    "dossiê",
   ],
   authors: [{ name: "Felipe Santiago" }],
   openGraph: {
-    title: "Voto Claro: Ranking de Compatibilidade Eleitoral DF 2026",
+    title: "Caso Master: tudo o que se sabe sobre o Banco Master e Daniel Vorcaro",
     description:
-      "Os 2 finalistas de cada cargo do 2º turno (Presidente e Governador do DF) segundo os seus valores, com evidências e fontes.",
+      "Linha do tempo, esquemas explicados passo a passo, ranking de envolvidos e busca por nomes, com fontes e grau de comprovação de cada fato.",
     type: "website",
     locale: "pt_BR",
   },
@@ -42,10 +41,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#059669" },
-    { media: "(prefers-color-scheme: dark)", color: "#022c22" },
-  ],
+  themeColor: "#0a0a0c",
 };
 
 export default function RootLayout({
@@ -54,12 +50,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
-      >
-        <ThemeProvider>{children}</ThemeProvider>
-        <Toaster />
+    <html lang="pt-BR" className="dark" suppressHydrationWarning>
+      <head>
+        {/* marca a presença de JS para o aprimoramento progressivo das animações */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}>
+        {children}
       </body>
     </html>
   );

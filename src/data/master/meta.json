@@ -1,0 +1,61 @@
+{
+  "nome": "Caso Master",
+  "subtitulo": "Tudo o que se sabe sobre o caso Banco Master e Daniel Vorcaro",
+  "atualizacao": "27/10/2026",
+  "recorte": "Fatos e apurações de 2017 a 27/10/2026, compilados exclusivamente de documentos oficiais e matérias jornalísticas públicas",
+  "disclaimer": "Este projeto apenas organiza, com fontes, informações públicas sobre o caso Banco Master. Nenhuma pessoa aqui citada foi condenada criminalmente até esta data, e todos respondem ou responderam a apurações na condição de investigados, com presunção de inocência garantida. Alegações não confirmadas estão sempre marcadas como alegação, com a identificação de quem alega e de quem nega.",
+  "metodologia": [
+    "Cada fato tem um grau de comprovação: oficial (documento ou decisão de órgão público), multi-fonte (confirmado por dois ou mais veículos independentes), fonte única (divulgado por um único veículo) ou alegação (versão de uma parte, geralmente negada por outra).",
+    "Cada item da linha do tempo, cada esquema e cada ficha de pessoa traz as fontes originais, com veículo, título, data e link, para que o leitor confira na fonte.",
+    "As apurações da Polícia Federal e de outros órgãos são retratadas como estão nos documentos: relatórios apontam indícios, não condenações. Onde há versões conflitantes, todas são registradas.",
+    "A compilação foi feita em 27/10/2026. Fatos posteriores a essa data não constam. Contribuições com novas fontes são bem-vindas."
+  ],
+  "escala": [
+    {
+      "id": "oficial",
+      "rotulo": "Oficial",
+      "cor": "emerald",
+      "descricao": "Consta de documento, decisão, comunicado ou relatório de órgão público (Banco Central, PF, STF, TCU, CVM, FGC, tribunais) reproduzido por fontes públicas."
+    },
+    {
+      "id": "multifonte",
+      "rotulo": "Multi-fonte",
+      "cor": "teal",
+      "descricao": "Confirmado de forma independente por dois ou mais veículos jornalísticos, ou amplamente reportado pela imprensa."
+    },
+    {
+      "id": "fonteunica",
+      "rotulo": "Fonte única",
+      "cor": "amber",
+      "descricao": "Apurado ou divulgado até agora por um único veículo, ou por um veículo que teve acesso exclusivo. Pode ser confirmado ou desmentido no futuro."
+    },
+    {
+      "id": "alegacao",
+      "rotulo": "Alegação",
+      "cor": "rose",
+      "descricao": "Versão de uma parte envolvida, como uma delação ou uma defesa, geralmente negada pela outra parte. Nunca deve ser tratada como fato."
+    }
+  ],
+  "tiposApuracao": [
+    { "id": "bc", "rotulo": "Banco Central" },
+    { "id": "pf", "rotulo": "Polícia Federal" },
+    { "id": "stf", "rotulo": "STF" },
+    { "id": "tcu", "rotulo": "TCU" },
+    { "id": "cvm", "rotulo": "CVM" },
+    { "id": "mpf", "rotulo": "Ministério Público" },
+    { "id": "justica", "rotulo": "Justiça" },
+    { "id": "fgc", "rotulo": "FGC" },
+    { "id": "congresso", "rotulo": "Congresso" },
+    { "id": "jornalismo", "rotulo": "Jornalismo" },
+    { "id": "internacional", "rotulo": "Justiça estrangeira" },
+    { "id": "eleicoes", "rotulo": "Eleições" }
+  ],
+  "numerosChave": [
+    { "rotulo": "Prejuízo estimado ao FGC", "valor": "R$ 52 bi", "nota": "estimativa máxima citada pelo Ministério da Fazenda e pela imprensa", "grau": "multifonte" },
+    { "rotulo": "Clientes afetados", "valor": "12 mi", "nota": "contas e investidores do conglomerado Master, segundo o governo federal", "grau": "multifonte" },
+    { "rotulo": "Carteiras sem lastro vendidas ao BRB", "valor": "R$ 12,2 bi", "nota": "valor apontado pela PF e citado por Haddad", "grau": "oficial" },
+    { "rotulo": "Instituições financeiras liquidadas", "valor": "8", "nota": "conglomerado Master e empresas ligadas, de acordo com o Banco Central", "grau": "multifonte" },
+    { "rotulo": "Fatos documentados na linha do tempo", "valor": "ver seção", "nota": "contagem exibida na própria linha do tempo", "grau": "oficial" },
+    { "rotulo": "Pessoas fichadas neste projeto", "valor": "ver seção", "nota": "contagem exibida na seção Pessoas", "grau": "oficial" }
+  ]
+}

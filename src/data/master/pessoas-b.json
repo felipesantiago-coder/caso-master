@@ -1,0 +1,289 @@
+[
+  {
+    "id": "galipolo",
+    "nome": "Gabriel Galípolo",
+    "papel": "Presidente do Banco Central desde 2025",
+    "grupo": "bc-governo",
+    "resumo": "Vetou a compra do Master pelo BRB em setembro de 2025 e decidiu a liquidação extrajudicial em novembro do mesmo ano. Em audiência no Senado, chamou o Master de banco da terceira divisão. Depôs à PF como testemunha no caso da cooptação de servidores, classificando o episódio como um dos fatos mais graves da história do BC.",
+    "status": "Testemunha; autoridade responsável pelas decisões",
+    "statusTipo": "institucional",
+    "grau": "oficial",
+    "foto": "/pessoas/galipolo.jpg",
+    "fontes": [
+      { "titulo": "Caso Master: Galípolo depõe à PF como testemunha no caso de cooptação de servidores do Banco Central", "veiculo": "R7", "data": "06/10/2026", "url": "https://noticias.r7.com/prisma/natalia-martins/caso-master-galipolo-depoe-a-pf-como-testemunha-no-caso-de-cooptacao-de-servidores-do-banco-central-06102026/" },
+      { "titulo": "Galípolo descreve ação do Master que chamou atenção do Banco Central", "veiculo": "O POVO", "data": "19/05/2026", "url": "https://www.opovo.com.br/noticias/economia/2026/05/19/galipolo-descreve-acao-do-master-que-chamou-atencao-do-banco-central.html" }
+    ]
+  },
+  {
+    "id": "paulo-sergio-neves",
+    "nome": "Paulo Sérgio Neves de Souza",
+    "papel": "Servidor do BC; chefe-adjunto do Desup",
+    "grupo": "bc-governo",
+    "resumo": "Apontado pela PF como consultor informal e paralelo de Vorcaro dentro do BC, apelidado pelo banqueiro de anjo na vida. Orientava o banqueiro sobre supervisão, ajudou a articular a compra do Banco Will, tentou alterar normas da Previc a pedido dele e revisou minutas de ofícios do Master ao BC; em dezembro de 2023 sugeriu pauta para reunião do banqueiro com o então presidente do BC, Roberto Campos Neto. A PF suspeita de repasses de R$ 4,8 milhões a R$ 13 milhões; a sindicância do BC aponta cerca de R$ 8 milhões, num total de R$ 12 milhões com a colega Belline. Justificou patrimônio com a venda de um sítio ao cunhado de Vorcaro, vista como simulação. Afastado desde janeiro de 2026, responde a processo na CGU. A defesa diz que ele alertou para os riscos da operação BRB-Master.",
+    "status": "Afastado do BC; investigado pela PF; processo na CGU",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Assessoria informal, grupo de mensagens, cobrança de pagamento: PF detalha relação de Vorcaro com servidores do BC", "veiculo": "g1", "data": "11/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/11/assessoria-informal-grupo-de-mensagens-cobranca-de-pagamento-pf-detalha-relacao-de-vorcaro-com-servidores-do-bc.ghtml" },
+      { "titulo": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12 milhões, diz sindicância", "veiculo": "g1/GloboNews", "data": "13/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/13/propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-milhoes-diz-sindicancia.ghtml" },
+      { "titulo": "Ex-diretor do BC diz que alertou para riscos na compra do Master pelo BRB", "veiculo": "Metrópoles", "data": "26/10/2026", "url": "https://www.metropoles.com/colunas/manoela-alcantara/ex-diretor-do-bc-diz-que-alertou-para-riscos-na-compra-do-master-pelo-brb" }
+    ]
+  },
+  {
+    "id": "belline-santana",
+    "nome": "Belline Santana",
+    "papel": "Ex-chefe de departamento da supervisão bancária do BC",
+    "grupo": "bc-governo",
+    "resumo": "Criou em outubro de 2025 um grupo de mensagens com Vorcaro e Paulo Sérgio para, segundo a PF, facilitar a interlocução entre o regulador e o regulado. Recebia pagamentos recorrentes, incluindo R$ 760 mil via intermediários; a sindicância aponta cerca de R$ 4 milhões. Justificou os valores como consultoria a uma empresa ligada ao operador de Vorcaro, justificativa tratada pelo BC como simulação. Afastada desde janeiro de 2026.",
+    "status": "Afastada do BC; investigada pela PF",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Assessoria informal, grupo de mensagens, cobrança de pagamento: PF detalha relação de Vorcaro com servidores do BC", "veiculo": "g1", "data": "11/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/11/assessoria-informal-grupo-de-mensagens-cobranca-de-pagamento-pf-detalha-relacao-de-vorcaro-com-servidores-do-bc.ghtml" }
+    ]
+  },
+  {
+    "id": "renato-gomes",
+    "nome": "Renato Gomes",
+    "papel": "Ex-diretor de Organização do Sistema Financeiro do BC; atual presidente da ABBC",
+    "grupo": "bc-governo",
+    "resumo": "Visto por Vorcaro como o principal obstáculo à venda do Master ao BRB, por apertar a fiscalização. Tornou-se alvo de uma campanha de reportagens encomendadas no Metrópoles, com textos prévios submetidos à aprovação de Vorcaro pela CEO do portal, e divulgados até em painéis eletrônicos de Brasília, segundo a PF. Deixou o BC e assumiu em outubro de 2026 a presidência da ABBC, associação dos bancos médios. Tratado como vítima do esquema de mídia.",
+    "status": "Ex-diretor; vítima declarada do esquema de mídia",
+    "statusTipo": "institucional",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master", "veiculo": "Estadão via Terra", "data": "15/10/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/vorcaro-orientou-reportagens-do-metropoles-contra-diretor-do-bc-que-fiscalizou-master,f44edc67441916e5555b50be7ce4fd584rw3lrkw.html" },
+      { "titulo": "Ex-diretor do BC, Renato Gomes é novo presidente de associação de bancos médios", "veiculo": "O Globo", "data": "06/10/2026", "url": "https://oglobo.globo.com/economia/noticia/2026/10/06/ex-diretor-do-bc-renato-gomes-e-novo-presidente-de-associacao-de-bancos-medios.ghtml" }
+    ]
+  },
+  {
+    "id": "ailton-aquino",
+    "nome": "Ailton de Aquino",
+    "papel": "Diretor de Fiscalização do BC em 2025",
+    "grupo": "bc-governo",
+    "resumo": "Diretor que recebeu, em 08/06/2025, a análise interna de Paulo Sérgio sobre os riscos da compra do Master pelo BRB, documento usado pela defesa do servidor para sustentar que ele alertou a cúpula. Em 17/11/2025, no dia da prisão de Vorcaro, participou de videoconferência com o banqueiro, que alegou ter propostas de compra do banco sem apresentar documentos. Depois de deixar o cargo, afirmou que alertou para os riscos do negócio.",
+    "status": "Ex-diretor; testemunha",
+    "statusTipo": "institucional",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Ex-diretor do BC diz que alertou para riscos na compra do Master pelo BRB", "veiculo": "Metrópoles", "data": "26/10/2026", "url": "https://www.metropoles.com/colunas/manoela-alcantara/ex-diretor-do-bc-diz-que-alertou-para-riscos-na-compra-do-master-pelo-brb" },
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "campos-neto",
+    "nome": "Roberto Campos Neto",
+    "papel": "Presidente do BC de 2019 a 2024, período de expansão do Master",
+    "grupo": "bc-governo",
+    "resumo": "Citado como Presi em mensagens de dezembro de 2023 em que o servidor Paulo Sérgio sugeria pauta para reunião de Vorcaro com a autoridade máxima do regulador. A PF o ouviria como testemunha no caso dos servidores cooptados, mas o depoimento foi cancelado em outubro de 2026. Segundo o Estadão, não é investigado formalmente, mas precisa explicar visões da gestão. Veículos registram ainda que seu BC aprovou diretor do Master mesmo após alerta da CVM e que Vorcaro o teria usado em operação de mídia com entrevista de perguntas direcionadas.",
+    "status": "Testemunha; depoimento cancelado pela PF",
+    "statusTipo": "institucional",
+    "grau": "multifonte",
+    "foto": "/pessoas/campos-neto.jpg",
+    "fontes": [
+      { "titulo": "PF cancela depoimento de Campos Neto em investigação sobre atuação de servidores do BC no caso Master", "veiculo": "Valor Econômico", "data": "07/10/2026", "url": "https://valor.globo.com/financas/noticia/2026/10/07/pf-cancela-depoimento-de-campos-neto-em-investigao-sobre-atuao-de-servidores-do-bc-no-caso-master.ghtml" },
+      { "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master", "veiculo": "Estadão via Terra", "data": "15/10/2026", "url": "https://www.terra.com.br/noticias/brasil/politica/vorcaro-orientou-reportagens-do-metropoles-contra-diretor-do-bc-que-fiscalizou-master,f44edc67441916e5555b50be7ce4fd584rw3lrkw.html" }
+    ]
+  },
+  {
+    "id": "sidnei-marques",
+    "nome": "Sidnei Marques",
+    "papel": "Ex-diretor de Organização do Sistema Financeiro do BC",
+    "grupo": "bc-governo",
+    "resumo": "Em 2017, rejeitou o primeiro pedido de Vorcaro para assumir o controle do Banco Máxima, no início da saga do banqueiro para virar dono de banco, conforme reconstituição da Pública. Deixou o cargo antes da autorização, em 2019, quando o pedido foi reavaliado e aprovado.",
+    "status": "Ex-diretor do BC",
+    "statusTipo": "institucional",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "isaac-sidney",
+    "nome": "Isaac Sidney",
+    "papel": "Presidente da Febraban",
+    "grupo": "bc-governo",
+    "resumo": "Reuniu-se com Vorcaro e com o servidor Paulo Sérgio em fevereiro de 2019, dois dias depois de a mensagem do banqueiro pedir ajuda para destravar a autorização do Banco Máxima, segundo documentos periciados pela PF e revelados pelo Estadão. A Febraban não respondeu publicamente sobre o episódio nos documentos consultados.",
+    "status": "Citado em documentos; sem imputação conhecida",
+    "statusTipo": "institucional",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República", "veiculo": "Pública", "data": "09/03/2026", "url": "https://apublica.org/2026/03/banco-master-a-reconstrucao-completa-de-como-uma-fraude-capturou-a-republica/" }
+    ]
+  },
+  {
+    "id": "moraes",
+    "nome": "Alexandre de Moraes",
+    "papel": "Ministro do STF",
+    "grupo": "stf-justica",
+    "resumo": "No centro da crise institucional do caso. Mensagens periciadas pela PF mostram trocas com Vorcaro no dia da prisão e antes dela, incluindo a pergunta Acha que segunda já tenho que estar fora? e, após o anúncio da venda ao Fictor, Fiz uma correria aqui para tentar salvar. Alguma novidade? Conseguiu ter notícia ou bloquear?; as respostas foram enviadas em modo de visualização única e nunca foram recuperadas. O ministro nega ser o destinatário das mensagens. A PF aponta ainda que o escritório de advocacia de sua esposa, Viviane Barci de Moraes, tinha contrato de R$ 131 milhões com o Master, que ele próprio analisou e fez alterações em um contrato de R$ 130 milhões, e que ele e a esposa fizeram oito viagens em jatos ligados ao banqueiro entre maio e outubro de 2025. A PF encontrou ainda indícios de que Vorcaro lhe ofereceu, e a ele e à família, benesses descritas em relatório; o ministro afirma que as relações do escritório eram lícitas e que não houve interferência.",
+    "status": "Ministro; investigado no âmbito do inquérito da própria Corte; nega irregularidades",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": "/pessoas/moraes.jpg",
+    "fontes": [
+      { "titulo": "Moraes analisou e fez alterações em contrato de R$ 130 milhões do escritório da mulher dele com o Banco Master, aponta PF", "veiculo": "g1 (Jornal Nacional)", "data": "01/09/2026", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/01/moraes-analisou-e-fez-alteracoes-em-contrato-de-r-130-milhoes-do-escritorio-da-mulher-dele-com-o-banco-master-aponta-pf.ghtml" },
+      { "titulo": "Veja o que Vorcaro ofereceu a Moraes e sua família, segundo a PF", "veiculo": "g1", "data": "02/09/2026", "url": "https://g1.globo.com/politica/noticia/2026/09/02/que-vorcaro-ofereceu-a-moraes-e-sua-familia-segundo-a-pf.ghtml" },
+      { "titulo": "Veja a íntegra do contrato de R$ 131 milhões da esposa de Moraes com o Banco Master", "veiculo": "JOTA", "data": "11/09/2026", "url": "https://www.jota.info/stf/do-supremo/veja-a-integra-do-contrato-de-r-131-milhoes-da-esposa-de-moraes-com-o-banco-master" },
+      { "titulo": "Vorcaro trocou mensagens com Moraes no dia da prisão para salvar Master, diz jornal", "veiculo": "Folha via Folha Vitória", "data": "06/03/2026", "url": "https://www.folhavitoria.com.br/politica/vorcaro-trocou-mensagens-com-moraes-no-dia-da-prisao-para-salvar-master-diz-jornal" }
+    ]
+  },
+  {
+    "id": "viviane-barci",
+    "nome": "Viviane Barci de Moraes",
+    "papel": "Advogada; esposa de Alexandre de Moraes",
+    "grupo": "stf-justica",
+    "resumo": "Seu escritório mantinha com o Banco Master contrato de R$ 131 milhões, pago em 36 meses a cerca de R$ 3,6 milhões por mês a partir do início de 2024, conforme documento reproduzido pelo JOTA. Negotiou um segundo contrato de R$ 50 milhões, segundo a imprensa. A PF aponta que pagamentos do banco ao escritório envolviam uso de aeronaves ligadas a Vorcaro, nas quais o ministro e a esposa fizeram oito viagens entre maio e outubro de 2025. O escritório confirma os voos e afirma que os contratos eram lícitos.",
+    "status": "Contratos confirmados; defesa afirma licitude",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Veja a íntegra do contrato de R$ 131 milhões da esposa de Moraes com o Banco Master", "veiculo": "JOTA", "data": "11/09/2026", "url": "https://www.jota.info/stf/do-supremo/veja-a-integra-do-contrato-de-r-131-milhoes-da-esposa-de-moraes-com-o-banco-master" },
+      { "titulo": "Escritório confirma voos de Moraes em avião de empresa ligada a Vorcaro", "veiculo": "Portal do Poder", "data": "21/09/2026", "url": "https://portalopoder.com.br/2026/09/21/escritorio-confirma-voos-de-moraes-em-aviao-de-empresa-ligada-a-vorcaro" },
+      { "titulo": "Moraes e esposa fizeram 8 viagens em jatos de empresas de Vorcaro", "veiculo": "TMC/Folha", "data": "01/04/2026", "url": "https://tmc.com.br/politica/moraes-jatos-empresas-vorcaro" }
+    ]
+  },
+  {
+    "id": "andre-mendonca",
+    "nome": "André Mendonça",
+    "papel": "Ministro do STF; relator principal dos inquéritos do caso",
+    "grupo": "stf-justica",
+    "resumo": "Assumiu a relatoria das investigações e assinou as principais decisões da fase judicial: autorizou a re prisão de Vorcaro em março de 2026, a morte em custódia do operador Sicário foi registrada sob sua custódia, e em 10/09/2026 levantou o sigilo dos principais inquéritos, desencadeando a onda de revelações públicas. Reuniu-se com Vorcaro em março de 2025, em São Paulo, em encontro articulado por advogado e pelo ex-deputado Cezinha de Madureira, segundo a Folha. Foi alvo de críticas da PF em relatórios e de pedidos da PGR e de Moraes para que fosse investigado por supostas proximidades com o banqueiro; nega irregularidades.",
+    "status": "Ministro relator; nega irregularidades",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": "/pessoas/mendonca.jpg",
+    "fontes": [
+      { "titulo": "Caso Master no STF: veja a linha do tempo da crise e da queda dos sigilos", "veiculo": "Exame", "data": "10/09/2026", "url": "https://exame.com/brasil/caso-master-no-stf-veja-a-linha-do-tempo-da-crise-e-da-queda-dos-sigilos/" },
+      { "titulo": "Reunião de Vorcaro com Mendonça foi articulada por advogado e Cezinha de Madureira", "veiculo": "Folha/Estado de Minas", "data": "03/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" },
+      { "titulo": "Casos Master e INSS: PGR é contra pedido de Moraes para investigar Mendonça", "veiculo": "CNN Brasil", "data": "09/2026", "url": "https://www.cnnbrasil.com.br/blogs/matheus-teixeira/politica/casos-master-e-inss-pgr-e-contra-pedido-de-moraes-para-investigar-mendonca/" }
+    ]
+  },
+  {
+    "id": "fachin",
+    "nome": "Edson Fachin",
+    "papel": "Presidente do STF em 2026",
+    "grupo": "stf-justica",
+    "resumo": "Presidiu a fase mais crítica do caso na Corte: recebeu o relatório da PF que afastou Toffoli da relatoria, reuniu-se com a direção da PF e pediu apuração sem exceção dos fatos ligados a integrantes do STF, acionou Mendonça para o levantamento de sigilos e marcou o julgamento sobre as acusações envolvendo Moraes. A PGR pediu a ele decisões urgentes e a manutenção das prisões. Foi também alvo de críticas por reter processos do caso no STF, segundo a Gazeta do Povo.",
+    "status": "Presidente do STF; conduz o julgamento",
+    "statusTipo": "institucional",
+    "grau": "oficial",
+    "foto": "/pessoas/fachin.jpg",
+    "fontes": [
+      { "titulo": "Caso Master: Fachin pede à PF apuração 'sem exceção' de fatos ligados a integrantes do STF", "veiculo": "Exame", "data": "02/10/2026", "url": "https://exame.com/brasil/caso-master-fachin-pede-a-pf-apuracao-sem-excecao-de-fatos-ligados-a-integrantes-do-stf/" },
+      { "titulo": "PGR pede manutenção de prisões e diz que Fachin deve tomar decisões urgentes no caso Master", "veiculo": "Gazeta do Povo", "data": "21/10/2026", "url": "https://www.gazetadopovo.com.br/republica/pgr-pede-manutencao-de-prisoes-e-diz-que-fachin-deve-tomar-decisoes-urgentes-no-caso-master/" }
+    ]
+  },
+  {
+    "id": "flavio-dino",
+    "nome": "Flávio Dino",
+    "papel": "Ministro do STF",
+    "grupo": "stf-justica",
+    "resumo": "Pediu vista no julgamento que examina a conduta de Moraes no caso e atuou como um dos independentes da Corte: pediu ao presidente Fachin a investigação formal dos laços entre o Master e o Instituto Iter, ligado ao ministro André Mendonça, e abriu em 19/10/2026 inquérito para apurar o papel da CVM no caso Master.",
+    "status": "Ministro; atua no julgamento",
+    "statusTipo": "institucional",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Flávio Dino abre inquérito para apurar o papel da CVM em relação ao Banco Master", "veiculo": "O Globo", "data": "19/10/2026", "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/10/flavio-dino-abre-inquerito-para-apurar-o-papel-da-cvm-em-relacao-ao-banco-master.ghtml" },
+      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" }
+    ]
+  },
+  {
+    "id": "nunes-marques",
+    "nome": "Kassio Nunes Marques",
+    "papel": "Ministro do STF",
+    "grupo": "stf-justica",
+    "resumo": "Segundo mensagens periciadas pela PF, seu filho, o advogado Kevin Marques, recebia R$ 500 mil mensais do Banco Master por meio da Consult Inteligência Tributária, e após decisão favorável a uma destilaria o diretor jurídico do banco enviou a Vorcaro imagem dos contatos do filho do ministro com a legenda Dominado aqui. No julgamento sobre as acusações envolvendo Moraes, declarou-se suspeito para atuar no processo. O ministro e a defesa de Kevin negam que ele tenha prestado serviços ou recebido valores do Master.",
+    "status": "Ministro; negativas registradas",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Veja ligações de ministros do STF com o caso Master", "veiculo": "Folhapress/Estado de Minas", "data": "17/09/2026", "url": "https://www.em.com.br/politica/2026/09/7502890-veja-ligacoes-de-ministros-do-stf-com-o-caso-master.html" },
+      { "titulo": "Consultoria ligada a filho de Nunes Marques recebeu R$ 6,6 mi do Master e R$ 113 mi da JBS", "veiculo": "Folha via Bahia Notícias", "data": "21/03/2026", "url": "https://www.bahianoticias.com.br/amp/folha/noticia/384830-consultoria-ligada-a-filho-de-nunes-marques-recebeu-rdollar-66-mi-do-master-e-rdollar-113-mi-da-jbs" }
+    ]
+  },
+  {
+    "id": "kevin-marques",
+    "nome": "Kevin Marques",
+    "papel": "Advogado; filho do ministro Nunes Marques",
+    "grupo": "stf-justica",
+    "resumo": "Advogado de 25 anos que, segundo mensagens da PF, recebia R$ 500 mil por mês do Master via Consult Inteligência Tributária; a consultoria acumulou R$ 27,7 milhões em contratos com grandes empresas, incluindo R$ 6,6 milhões do Master em 14 operações entre outubro de 2024 e o fim do banco, e R$ 113 milhões da JBS, segundo a Folha. A defesa afirma que ele nunca prestou serviços ao Banco Master nem recebeu dinheiro do banco.",
+    "status": "Investigado; nega vínculo com o Master",
+    "statusTipo": "investigado",
+    "grau": "oficial",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Consultoria ligada a filho de Nunes Marques recebeu R$ 6,6 mi do Master e R$ 113 mi da JBS", "veiculo": "Folha via Bahia Notícias", "data": "21/03/2026", "url": "https://www.bahianoticias.com.br/amp/folha/noticia/384830-consultoria-ligada-a-filho-de-nunes-marques-recebeu-rdollar-66-mi-do-master-e-rdollar-113-mi-da-jbs" },
+      { "titulo": "Carlos Andreazza: o 'prodígio' do direito que só surge quando familiar vira ministro do STF", "veiculo": "Band", "data": "09/07/2026", "url": "https://www.band.com.br/nacional/brasil/carlos-andreazza-o-prodigio-do-direito-que-so-surge-quando-familiar-vira-ministro-do-stf" }
+    ]
+  },
+  {
+    "id": "toffoli",
+    "nome": "Dias Toffoli",
+    "papel": "Ministro do STF",
+    "grupo": "stf-justica",
+    "resumo": "Relator inicial de parte das investigações, foi afastado da relatoria após relatório da PF entregue a Fachin. A PF suspeita de que ele seria proprietário ou beneficiário final do fundo Arleen, que recebeu cerca de R$ 35 milhões ligados ao grupo Master e que, em janeiro de 2026, encerrou atividade transferindo R$ 33 milhões em cotas a um offshore em paraíso fiscal, segundo a revista Piauí e veículos que reproduziram o relatório. Também foram apontados vínculos de empresas ligadas a parentes dele com estruturas do caso. O ministro nega categoricamente as suspeitas e diz não conhecer o fundo.",
+    "status": "Ministro; afastado da relatoria; nega suspeitas",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "PF suspeita que Toffoli tinha dinheiro de Vorcaro em paraíso fiscal, diz revista", "veiculo": "Folha", "data": "11/09/2026", "url": "https://www1.folha.uol.com.br/poder/2026/09/pf-suspeita-que-toffoli-tinha-dinheiro-de-vorcaro-em-paraiso-fiscal-diz-revista.shtml" },
+      { "titulo": "Fundo ligado à família de Toffoli encerra atividade e transfere R$ 33 mi em cotas a offshore em paraíso fiscal", "veiculo": "SBT News", "data": "20/01/2026", "url": "https://sbtnews.sbt.com.br/noticia/economia/fundo-ligado-a-familia-de-toffoli-encerra-atividade-e-transfere-r-33-mi-em-cotas-a-offshore-em-paraiso-fiscal-1" }
+    ]
+  },
+  {
+    "id": "gilmar-mendes",
+    "nome": "Gilmar Mendes",
+    "papel": "Ministro do STF",
+    "grupo": "stf-justica",
+    "resumo": "No julgamento sobre as acusações envolvendo Moraes, pediu a suspensão dos trabalhos até que todos os ministros citados nas mensagens de Vorcaro fossem identificados. Reportagens ligaram ao caso o ex-cunhado dele, contratado por Vorcaro para conseguir uma reunião do banqueiro com o ministro, e ele próprio reconheceu ter prestado consultoria ao Master no passado, sem vínculo atual. Nega irregularidades.",
+    "status": "Ministro; reconheceu consultoria antiga",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Vorcaro contratou ex-cunhado de Gilmar Mendes que atuou por reunião do Master com ministro", "veiculo": "Estadão (blog Fausto Macedo)", "data": "09/2026", "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/vorcaro-contratou-ex-cunhado-de-gilmar-mendes-que-atuou-por-reuniao-do-master-com-ministro/" },
+      { "titulo": "Lewandowski diz que já prestou consultoria ao Master", "veiculo": "Poder360", "data": "09/2026", "url": "https://www.poder360.com.br/poder-justica/lewandowski-diz-que-ja-prestou-consultoria-ao-master/" }
+    ]
+  },
+  {
+    "id": "lewandowski",
+    "nome": "Ricardo Lewandowski",
+    "papel": "Ministro do STF",
+    "grupo": "stf-justica",
+    "resumo": "Reconheceu publicamente ter prestado consultoria ao Banco Master no passado, segundo o Poder360, no contexto das revelações sobre contratos de escritórios e consultorias ligados a ministros. Nega atuação nas decisões relativas ao banco.",
+    "status": "Ministro; reconheceu consultoria antiga",
+    "statusTipo": "investigado",
+    "grau": "multifonte",
+    "foto": null,
+    "fontes": [
+      { "titulo": "Lewandowski diz que já prestou consultoria ao Master", "veiculo": "Poder360", "data": "09/2026", "url": "https://www.poder360.com.br/poder-justica/lewandowski-diz-que-ja-prestou-consultoria-ao-master/" }
+    ]
+  },
+  {
+    "id": "gonet",
+    "nome": "Paulo Gonet",
+    "papel": "Procurador-Geral da República",
+    "grupo": "stf-justica",
+    "resumo": "Rejeitou duas vezes a delação de Vorcaro, rejeitou a delação do ex-presidente do BRB e pediu o arquivamento das denúncias do banqueiro contra o governo; fechou a primeira delação aceita do caso, a do fundador da Reag. Sua proximidade com o banqueiro virou questão pública: circulou foto com Vorcaro em Londres, com charuto e uísque, e mensagens mostram que o PGR dizia sentir saudades do banqueiro; ele reconheceu em plenário um encontro banal. Um advogado ligado à defesa de Vorcaro enviou ao banqueiro o endereço da casa de Gonet e relatou jantar na residência do PGR, segundo a Revista Oeste. O Conselho Superior do MPF barrou investigação interna sobre o PGR e o manteve no comando do caso, e a oposição no Congresso pediu seu afastamento.",
+    "status": "PGR; mantido no caso pelo Conselho do MPF",
+    "statusTipo": "institucional",
+    "grau": "multifonte",
+    "foto": "/pessoas/gonet.jpg",
+    "fontes": [
+      { "titulo": "Charuto, uísque e encontro em Londres: o que se sabe da foto de Gonet com Vorcaro", "veiculo": "O Globo", "data": "19/09/2026", "url": "https://oglobo.globo.com/politica/noticia/2026/09/19/charuto-uisque-e-encontro-em-londres-o-que-se-sabe-da-foto-de-gonet-com-vorcaro.ghtml" },
+      { "titulo": "Advogado enviou endereço de Gonet a Vorcaro e relatou jantar na casa do PGR", "veiculo": "Revista Oeste", "data": "06/10/2026", "url": "https://revistaoeste.com/politica/advogado-enviou-endereco-de-gonet-a-vorcaro-e-relatou-jantar-na-casa-do-pgr/" },
+      { "titulo": "Conselho do MPF barra investigação sobre Gonet e mantém procurador-geral à frente do caso Master", "veiculo": "O Globo", "data": "25/09/2026", "url": "https://oglobo.globo.com/politica/noticia/2026/09/25/conselho-do-mpf-barra-investigacao-sobre-gonet-e-mantem-procurador-geral-a-frente-do-caso-master.ghtml" }
+    ]
+  }
+]

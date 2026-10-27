@@ -1,5 +1,5 @@
-import VotoClaroApp from "@/components/voto-claro-app";
+import MasterApp from "@/components/master/master-app";
 
 export default function Home() {
-  return <VotoClaroApp />;
+  return <MasterApp />;
 }

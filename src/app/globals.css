@@ -3,30 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme {
-  /* Sombras difusas e suaves, estilo DocSpot (Dribbble) */
-  --shadow-soft: 0 1px 2px rgb(16 24 40 / 0.05), 0 12px 28px -14px rgb(16 24 40 / 0.12);
-  --shadow-lift: 0 2px 6px rgb(16 24 40 / 0.07), 0 18px 44px -16px rgb(16 24 40 / 0.2);
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
@@ -50,109 +31,197 @@
 }
 
 :root {
-  /* Raio generoso e fundo cinza-claro para os cartões brancos se destacarem */
-  --radius: 1rem;
-  --background: oklch(0.9702 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.516 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-  color-scheme: light;
+  --radius: 0.875rem;
+  /* Tema escuro premium: preto quente + dourado */
+  --background: #0a0a0c;
+  --foreground: #f2f0eb;
+  --card: #131316;
+  --card-foreground: #f2f0eb;
+  --popover: #16161a;
+  --popover-foreground: #f2f0eb;
+  --primary: #e3b341;
+  --primary-foreground: #171208;
+  --secondary: #1c1c21;
+  --secondary-foreground: #e6e3dc;
+  --muted: #17171a;
+  --muted-foreground: #a09c93;
+  --accent: #1d1d23;
+  --accent-foreground: #f2f0eb;
+  --destructive: #f05252;
+  --border: #26262c;
+  --input: #2a2a31;
+  --ring: #e3b341;
 }
 
-.dark {
-  /* Superfícies elevadas com leve tom esverdeado, para contraste confortável */
-  --background: oklch(0.17 0.004 165);
-  --foreground: oklch(0.955 0 0);
-  --card: oklch(0.215 0.006 165);
-  --card-foreground: oklch(0.955 0 0);
-  --popover: oklch(0.215 0.006 165);
-  --popover-foreground: oklch(0.955 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.742 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 12%);
-  --input: oklch(1 0 0 / 16%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
-  color-scheme: dark;
+@theme {
+  /* Cores de grau de comprovação */
+  --color-grau-oficial: #34d399;
+  --color-grau-multifonte: #5eead4;
+  --color-grau-fonteunica: #fbbf24;
+  --color-grau-alegacao: #fb7185;
+  /* Acentos de cena */
+  --color-gold: #e3b341;
+  --color-ember: #f05252;
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-  /* Tipografia ampliada: escala base maior para leitura confortável em
-     qualquer tela, mantendo a proporção de todo o sistema de componentes */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
   html {
-    font-size: 112.5%; /* 18px no mobile: leitura confortável para qualquer pessoa */
-  }
-  @media (min-width: 768px) {
-    html {
-      font-size: 118.75%; /* 19px no desktop */
-    }
-  }
-  @media (min-width: 1280px) {
-    html {
-      font-size: 112.5%; /* telas muito grandes: evita linhas excessivamente longas */
-    }
-  }
-  body {
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
+    scroll-behavior: auto;
   }
 }
 
-/* Rolagem suave apenas para quem não prefere movimento reduzido */
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgb(227 179 65 / 0.28);
+  color: #fff8e7;
+}
+
+/* Scrollbar discreta e elegante */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #35353d transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #35353d;
+  border-radius: 999px;
+  border: 2px solid var(--background);
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Grão de filme sutil sobre a página */
+.noise::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Tipografia de exibição, estilo editorial */
+.display {
+  font-size: clamp(2.9rem, 8.5vw, 7rem);
+  line-height: 0.94;
+  letter-spacing: -0.035em;
+  font-weight: 800;
+}
+.display-sm {
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+}
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+/* Revelação ao rolar: só esconde quando há JS (progressive enhancement) */
+html.js .reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+html.js .reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html.js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
+}
+
+/* Glows de fundo por seção */
+.glow-gold {
+  background:
+    radial-gradient(52rem 30rem at 78% -10%, rgb(227 179 65 / 0.13), transparent 62%),
+    radial-gradient(44rem 26rem at 8% 12%, rgb(240 82 82 / 0.07), transparent 60%);
+}
+.glow-soft {
+  background: radial-gradient(46rem 26rem at 50% -12%, rgb(227 179 65 / 0.07), transparent 60%);
+}
+
+/* Linha da linha do tempo */
+.tl-line {
+  background: linear-gradient(to bottom, transparent, var(--border) 6%, var(--border) 94%, transparent);
+}
+
+/* Barras do ranking */
+.bar-fill {
+  transition: width 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Painel com borda luminosa no hover */
+.card-hover {
+  transition: border-color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+.card-hover:hover {
+  border-color: rgb(227 179 65 / 0.45);
+  transform: translateY(-2px);
+}
+
+/* Marquee do hero (faixa rolante de destaques) */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee 46s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+.marquee-fade {
+  mask-image: linear-gradient(to right, transparent, black 7%, black 93%, transparent);
+}
+
+/* Sublinhado animado em links de nav */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -4px;
+  height: 1.5px;
+  background: var(--primary);
+  transition: right 0.3s ease;
+}
+.nav-link:hover::after,
+.nav-link[data-active="true"]::after {
+  right: 0;
 }
