@@ -9,8 +9,8 @@ export default function Escala() {
     <section id="como-ler" ref={ref} className="scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
-          <Kicker>Como ler este dossiê</Kicker>
-          <h2 className="display-sm mt-4">Cada fato tem um grau de comprovação</h2>
+          <Kicker>Manual de leitura · Cadeia de comprovação</Kicker>
+          <h2 className="display-sm mt-4">Antes de entrar: o peso de cada fato</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
             Nada aqui é apresentado como verdade absoluta. Todo item da linha do tempo, de cada esquema e de cada ficha
             de pessoa carrega um dos quatro rótulos abaixo, e as fontes originais acompanham o texto para que você

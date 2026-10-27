@@ -18,7 +18,7 @@ export default function Hero() {
     <section id="inicio" ref={ref} className="glow-gold relative overflow-hidden pb-14 pt-32 sm:pb-20 sm:pt-40">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal">
-          <p className="kicker">Dossiê público, atualizado em {meta.atualizacao}</p>
+          <p className="kicker">Investigação aberta · Dossiê atualizado em {meta.atualizacao}</p>
         </div>
 
         <h1 className="display reveal mt-5 max-w-4xl">

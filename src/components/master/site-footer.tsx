@@ -9,8 +9,8 @@ export default function SiteFooter() {
     <footer id="metodologia" ref={ref} className="mt-auto scroll-mt-24 border-t border-border bg-card/40">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="reveal max-w-2xl">
-          <Kicker>Metodologia</Kicker>
-          <h2 className="display-sm mt-4">Como este dossiê foi feito</h2>
+          <Kicker>Padrão editorial · Metodologia</Kicker>
+          <h2 className="display-sm mt-4">Sob que regras este arquivo foi montado</h2>
         </div>
 
         <div className="reveal mt-8 grid gap-8 lg:grid-cols-[1.2fr_1fr]">

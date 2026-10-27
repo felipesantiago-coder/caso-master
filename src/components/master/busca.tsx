@@ -123,8 +123,8 @@ export function BuscaSection({
     <section id="busca" ref={ref} className="glow-soft scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
-          <Kicker>Busca</Kicker>
-          <h2 className="display-sm mt-4">Procure qualquer pessoa ou fato</h2>
+          <Kicker>Ferramenta de apuração · Busca livre</Kicker>
+          <h2 className="display-sm mt-4">Faça a sua apuração: busque qualquer nome</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
             A busca cobre todas as fichas de pessoas, os {`fatos`} da linha do tempo e os esquemas explicados, sem
             diferenciar acentos ou maiúsculas. Também funciona pelo botão Buscar do topo, em qualquer ponto da página,

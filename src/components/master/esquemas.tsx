@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ArrowRight, Compass, Share2 } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { esquemas, esquemaPorId, nomePessoa, type Esquema } from "@/lib/master";
-import { FontesList, GrauBadge, Kicker, useReveal } from "./atoms";
+import { FontesList, GrauBadge, Kicker, Carimbo, EtiquetaArquivo, useReveal } from "./atoms";
 
 export function FlowEsquema({ esquema, onPessoa }: { esquema: Esquema; onPessoa: (id: string) => void }) {
   return (
@@ -106,19 +106,25 @@ export default function Esquemas({
     <section id="esquemas" ref={ref} className="glow-soft scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
-          <Kicker>Os esquemas</Kicker>
-          <h2 className="display-sm mt-4">Onze engrenagens, uma fraude</h2>
+          <Kicker>Arquivo de operações · Peça por peça</Kicker>
+          <h2 className="display-sm mt-4">Anatomia da fraude: onze engrenagens, uma máquina</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
             Cada esquema ligado a Vorcaro, do modelo de captação à milícia privada, explicado em passos numerados, com
-            os números de cada engrenagem, como foi descoberto e quem participou. Clique em qualquer cartão para abrir
-            o passo a passo completo.
+            os números de cada engrenagem, como foi descoberto e quem participou. Clique em qualquer expediente para
+            abrir o passo a passo completo.
           </p>
         </div>
 
         <Dialog open={Boolean(esquemaAberto)} onOpenChange={(v) => !v && setAbertoId(null)}>
-          <div className="reveal mt-10 overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-card to-background">
+          <div className="reveal relative mt-10 overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-card to-background">
+            <span
+              className="carimbo pointer-events-none absolute right-5 top-4 z-10 rounded-[4px] border-2 border-primary/70 bg-background/90 px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.16em] text-primary"
+              aria-hidden
+            >
+              Peça-chave
+            </span>
             <div className="grid gap-0 lg:grid-cols-[1.1fr_1fr]">
-              <div className="p-6 sm:p-9">
+              <div className="p-6 pt-8 sm:p-9 sm:pt-10">
                 <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">O esquema central</span>
                 <h3 className="display-sm mt-3">{destaque.nome}</h3>
                 <p className="mt-3 text-muted-foreground">{destaque.subtitulo}</p>
@@ -171,13 +177,18 @@ export default function Esquemas({
             {esquemaAberto && (
               <>
                 <DialogHeader>
-                  <DialogTitle className="text-left text-2xl tracking-tight">{esquemaAberto.nome}</DialogTitle>
-                  <p className="text-left text-sm text-muted-foreground">{esquemaAberto.subtitulo}</p>
-                  <div className="mt-1 flex flex-wrap items-center gap-2">
-                    <GrauBadge grau={esquemaAberto.grau} />
+                  <div className="mb-1 flex flex-wrap items-center gap-2">
+                    <span className="rounded-md border border-border bg-background px-1.5 py-0.5 font-mono text-[9px] tracking-[0.12em] text-muted-foreground">
+                      {`EXP-${String(esquemas.findIndex((x) => x.id === esquemaAberto.id) + 1).padStart(2, "0")}`}
+                    </span>
                     <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
                       {esquemaAberto.periodo}
                     </span>
+                  </div>
+                  <DialogTitle className="text-left text-2xl tracking-tight">{esquemaAberto.nome}</DialogTitle>
+                  <p className="text-left text-sm text-muted-foreground">{esquemaAberto.subtitulo}</p>
+                  <div className="mt-1 flex flex-wrap items-center gap-2">
+                    <Carimbo grau={esquemaAberto.grau} className="static" />
                   </div>
                 </DialogHeader>
                 <FlowEsquema esquema={esquemaAberto} onPessoa={onPessoa} />
@@ -199,25 +210,23 @@ export default function Esquemas({
                   setAbertoId(e.id);
                 }
               }}
-              className="card-hover reveal group flex h-full cursor-pointer flex-col rounded-2xl border border-border bg-card p-6 text-left"
+              className="card-hover reveal group relative flex h-full cursor-pointer flex-col rounded-2xl border border-border bg-card p-6 pt-7 text-left"
               style={{ transitionDelay: `${(i % 3) * 70}ms` }}
             >
-              <span className="font-mono text-[11px] tracking-[0.2em] text-muted-foreground">
-                {String(i + 1).padStart(2, "0")}
-              </span>
+              <Carimbo grau={e.grau} className="absolute -top-2.5 right-4" />
+              <EtiquetaArquivo>{`EXP-${String(i + 1).padStart(2, "0")}`}</EtiquetaArquivo>
               <h3 className="mt-3 text-xl font-bold tracking-tight group-hover:text-primary sm:text-[1.35rem]">
                 {e.nome}
               </h3>
               <p className="mt-1 text-sm text-muted-foreground">{e.subtitulo}</p>
               <div className="mt-4 flex flex-wrap items-center gap-2">
-                <GrauBadge grau={e.grau} />
                 <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
                   {e.periodo}
                 </span>
               </div>
               <span className="mt-auto inline-flex items-center justify-between gap-1.5 pt-6">
                 <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
-                  Ver o passo a passo
+                  Abrir expediente
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" aria-hidden />
                 </span>
                 <a

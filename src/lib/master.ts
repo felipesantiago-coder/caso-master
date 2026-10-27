@@ -137,6 +137,9 @@ export const rankingPessoas: PessoaRanking[] = pessoas
   .map((pessoa) => ({ pessoa, mencoes: mencoesPessoa(pessoa.id) }))
   .sort((a, b) => b.mencoes - a.mencoes || a.pessoa.nome.localeCompare(b.pessoa.nome));
 
+/** Número da ficha (FICHA-001, FICHA-002...), pela ordem do ranking de menções */
+export const numeroFichaPorId = new Map(rankingPessoas.map((r, i) => [r.pessoa.id, i + 1] as const));
+
 /** Remove acentos e normaliza para busca insensível */
 export function normalizar(s: string): string {
   return s

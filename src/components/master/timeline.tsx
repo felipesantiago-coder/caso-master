@@ -20,7 +20,6 @@ import {
 } from "lucide-react";
 import {
   contagens,
-  escalaPorId,
   meta,
   nomePessoa,
   timeline,
@@ -35,6 +34,8 @@ import {
   bgGrau,
   corGrau,
   useReveal,
+  Carimbo,
+  EtiquetaArquivo,
 } from "./atoms";
 
 interface Filtros {
@@ -43,13 +44,6 @@ interface Filtros {
   pessoa: string | "todas";
   soDestaques: boolean;
 }
-
-const carimboCor: Record<GrauId, string> = {
-  oficial: "border-emerald-400/80 text-emerald-300",
-  multifonte: "border-teal-300/80 text-teal-200",
-  fonteunica: "border-amber-400/80 text-amber-300",
-  alegacao: "border-rose-400/80 text-rose-300",
-};
 
 function CartaoFato({
   fato,
@@ -64,7 +58,6 @@ function CartaoFato({
   alternar: (id: string) => void;
   onPessoa: (id: string) => void;
 }) {
-  const esc = escalaPorId.get(fato.grau);
   return (
     <article
       id={`fato-${fato.id}`}
@@ -72,15 +65,8 @@ function CartaoFato({
         aberto ? "border-primary/45" : "border-border"
       } ${fato.destaque && !aberto ? "shadow-[inset_2px_0_0_0_var(--color-gold)]" : ""}`}
     >
-      <span
-        className={`carimbo pointer-events-none absolute -top-2.5 right-4 z-10 rounded-[4px] border-2 bg-card/95 px-2 py-0.5 font-mono text-[9px] font-bold uppercase ${carimboCor[fato.grau]}`}
-        title={esc?.descricao}
-      >
-        {esc?.rotulo ?? fato.grau}
-      </span>
-      <span className="pointer-events-none absolute -top-2.5 left-4 rounded-md border border-border bg-background px-1.5 py-0.5 font-mono text-[9px] tracking-[0.12em] text-muted-foreground">
-        REG-{String(registro).padStart(3, "0")}
-      </span>
+      <Carimbo grau={fato.grau} className="absolute -top-2.5 right-4" />
+      <EtiquetaArquivo>REG-{String(registro).padStart(3, "0")}</EtiquetaArquivo>
       <button
         type="button"
         onClick={() => alternar(fato.id)}
@@ -398,9 +384,9 @@ export default function Timeline({
     >
       <div className="vinheta-tl mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
-          <Kicker>Arquivo · Cronologia</Kicker>
+          <Kicker>Arquivo · Cronologia datada</Kicker>
           <h2 className="display-sm mt-4">
-            {contagens.fatos} fatos, de 2017 até hoje
+            Do sigilo ao arquivo aberto: {contagens.fatos} fatos datados
           </h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
             A cronologia completa do caso, como um arquivo que se percorre:

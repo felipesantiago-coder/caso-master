@@ -17,6 +17,39 @@ export const bgGrau: Record<GrauId, string> = {
   alegacao: "bg-grau-alegacao",
 };
 
+// Cores do carimbo de comprovação, estilo papel carimbado no arquivo
+export const carimboCor: Record<GrauId, string> = {
+  oficial: "border-emerald-400/80 text-emerald-300",
+  multifonte: "border-teal-300/80 text-teal-200",
+  fonteunica: "border-amber-400/80 text-amber-300",
+  alegacao: "border-rose-400/80 text-rose-300",
+};
+
+/** Carimbo rotacionado do grau de comprovação, sobreposto ao documento */
+export function Carimbo({ grau, className = "" }: { grau: GrauId; className?: string }) {
+  const esc = escalaPorId.get(grau);
+  if (!esc) return null;
+  return (
+    <span
+      className={`carimbo pointer-events-none z-10 rounded-[4px] border-2 bg-card/95 px-2 py-0.5 font-mono text-[9px] font-bold uppercase ${carimboCor[grau]} ${className}`}
+      title={esc.descricao}
+    >
+      {esc.rotulo}
+    </span>
+  );
+}
+
+/** Etiqueta de registro no canto superior esquerdo do documento (REG-000, FICHA-001, EXP-01...) */
+export function EtiquetaArquivo({ children, className = "" }: { children: ReactNode; className?: string }) {
+  return (
+    <span
+      className={`pointer-events-none absolute -top-2.5 left-4 z-10 rounded-md border border-border bg-background px-1.5 py-0.5 font-mono text-[9px] tracking-[0.12em] text-muted-foreground ${className}`}
+    >
+      {children}
+    </span>
+  );
+}
+
 export const corStatus: Record<string, string> = {
   preso: "text-grau-alegacao border-grau-alegacao/40 bg-grau-alegacao/10",
   investigado: "text-grau-fonteunica border-grau-fonteunica/40 bg-grau-fonteunica/10",

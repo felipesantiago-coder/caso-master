@@ -43,8 +43,8 @@ export default function RedesSection({ onPessoa }: { onPessoa: (id: string) => v
     <section id="redes" ref={ref} className="glow-soft scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-3xl">
-          <Kicker>Redes de conexão</Kicker>
-          <h2 className="display-sm mt-4">A rede do caso, girando em 3D</h2>
+          <Kicker>Redes de conexão · Mapeamento de vínculos</Kicker>
+          <h2 className="display-sm mt-4">A teia de contatos, exposta em 3D</h2>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
             Cada nó é uma pessoa e cada nó dourado é um esquema. Arraste para girar a rede, aproxime com a roda ou
             pinça e toque em qualquer nó para ver com quem a pessoa se conecta e em quais fatos. Prefere a vista

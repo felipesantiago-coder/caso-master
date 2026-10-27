@@ -6,10 +6,11 @@ import {
   esquemasDePessoa,
   fatosDePessoa,
   grupos,
+  numeroFichaPorId,
   pessoaPorId,
   type Pessoa,
 } from "@/lib/master";
-import { Avatar, FontesList, GrauBadge, corStatus } from "./atoms";
+import { Avatar, FontesList, Carimbo, corStatus } from "./atoms";
 
 export function PerfilPessoa({ pessoa, aoAbrirFato }: { pessoa: Pessoa; aoAbrirFato: (id: string) => void }) {
   const fatos = fatosDePessoa(pessoa.id);
@@ -23,6 +24,12 @@ export function PerfilPessoa({ pessoa, aoAbrirFato }: { pessoa: Pessoa; aoAbrirF
           inicialClassName="text-2xl"
         />
         <div className="min-w-0">
+          <div className="mb-1 flex flex-wrap items-center gap-2">
+            <span className="rounded-md border border-border bg-background px-1.5 py-0.5 font-mono text-[9px] tracking-[0.12em] text-muted-foreground">
+              {`FICHA-${String(numeroFichaPorId.get(pessoa.id) ?? 0).padStart(3, "0")}`}
+            </span>
+            <Carimbo grau={pessoa.grau} className="static" />
+          </div>
           <h3 className="text-2xl font-bold tracking-tight">{pessoa.nome}</h3>
           {pessoa.nomeCompleto && pessoa.nomeCompleto !== pessoa.nome && (
             <p className="mt-0.5 text-sm text-muted-foreground">{pessoa.nomeCompleto}</p>
@@ -34,7 +41,6 @@ export function PerfilPessoa({ pessoa, aoAbrirFato }: { pessoa: Pessoa; aoAbrirF
             >
               {pessoa.status}
             </span>
-            <GrauBadge grau={pessoa.grau} />
             <span className="rounded-full border border-border bg-secondary px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
               {grupos[pessoa.grupo] ?? pessoa.grupo}
             </span>

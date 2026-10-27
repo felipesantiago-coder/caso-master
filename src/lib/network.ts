@@ -132,22 +132,24 @@ function paresDeFatos(fatos: Fato[], permitidos: Set<string>): Map<string, Arest
   return pares;
 }
 
-// Rede focada em um único esquema: nó central + integrantes + conexões por fatos compartilhados
+// Rede focada em um único esquema: nó central + TODOS os envolvidos (listados no esquema
+// ou citados em fatos apurados do esquema) + conexões por fatos compartilhados
 function redeDeEsquema(e: Esquema): Rede {
   const fatos = timeline.filter((f) => f.esquema === e.id);
   const ids = new Set(e.pessoas);
+  for (const f of fatos) for (const pid of f.pessoas ?? []) ids.add(pid);
   const nos: NoRede[] = [noDeEsquema(e, 27)];
   const participacao = new Map<string, number>();
   for (const f of fatos) for (const id of f.pessoas ?? []) if (ids.has(id)) participacao.set(id, (participacao.get(id) ?? 0) + 1);
-  for (const pid of e.pessoas) {
+  for (const pid of ids) {
     const p = pessoaPorId.get(pid);
     if (!p) continue;
     const fatosNoEsquema = participacao.get(pid) ?? 0;
     nos.push(noDePessoa(p, 15 + Math.min(9, fatosNoEsquema * 2)));
   }
-  const presentes = new Set(e.pessoas);
+  const presentes = ids;
   const arestas: ArestaRede[] = [];
-  for (const pid of e.pessoas) {
+  for (const pid of ids) {
     arestas.push({ a: `s:${e.id}`, b: `p:${pid}`, peso: 2, fatosIds: [] });
   }
   for (const par of paresDeFatos(fatos, presentes).values()) {
@@ -170,15 +172,24 @@ function redeDeEsquema(e: Esquema): Rede {
   };
 }
 
-// Teia geral: os 11 esquemas como hubs + 51 pessoas citadas + conexões fortes (2+ fatos compartilhados)
+// Teia geral: os 11 esquemas como hubs + TODAS as pessoas com envolvimento documentado
+// em algum esquema (listadas no esquema ou citadas em fatos apurados dele) + conexões fortes
 function redeGeral(): Rede {
+  // envolvimento por esquema: pessoas listadas no esquema OU citadas em fatos do esquema
+  const envolvidosPorEsquema = new Map<string, Set<string>>();
+  for (const e of esquemas) {
+    const set = new Set(e.pessoas);
+    for (const f of timeline) {
+      if (f.esquema !== e.id) continue;
+      for (const pid of f.pessoas ?? []) set.add(pid);
+    }
+    envolvidosPorEsquema.set(e.id, set);
+  }
   const nos: NoRede[] = esquemas.map((e) => noDeEsquema(e, 25));
   const nosPorId = new Map(nos.map((n) => [n.id, n]));
-  const membros = new Map<string, number>();
-  for (const e of esquemas) for (const pid of e.pessoas) membros.set(pid, (membros.get(pid) ?? 0) + 1);
   const arestas: ArestaRede[] = [];
   for (const e of esquemas) {
-    for (const pid of e.pessoas) {
+    for (const pid of envolvidosPorEsquema.get(e.id)!) {
       const p = pessoaPorId.get(pid);
       if (!p) continue;
       const nid = `p:${pid}`;
@@ -198,13 +209,13 @@ function redeGeral(): Rede {
   return {
     id: "geral",
     titulo: "A teia completa",
-    subtitulo: "Como os 11 esquemas se conectam pelas mesmas pessoas",
+    subtitulo: "Como os 11 esquemas se conectam por todas as pessoas envolvidas",
     nos,
     arestas,
     gruposPresentes: gruposDe(nos),
     fatos: [],
     resumo:
-      "Visão geral do caso: cada nó dourado é um esquema do dossiê e cada nó colorido é uma pessoa, colorida pelo grupo de atuação. Linhas ligam pessoas aos esquemas de que participam e, quando duas pessoas aparecem juntas nos mesmos fatos apurados, uma linha direta as conecta. Toque em qualquer nó para ver quem é, com quem se conecta e em quais fatos.",
+      "Visão geral do caso: cada nó dourado é um esquema do dossiê e cada nó colorido é uma pessoa com envolvimento documentado, colorida pelo grupo de atuação. Estão na teia todas as pessoas listadas nos esquemas ou citadas nos fatos apurados deles. Linhas ligam pessoas aos esquemas de que participam e, quando duas pessoas aparecem juntas nos mesmos fatos apurados, uma linha direta as conecta. Toque em qualquer nó para ver quem é, com quem se conecta e em quais fatos.",
     statusApuracao: "",
     periodo: "2017 a 2026",
     grau: "oficial",

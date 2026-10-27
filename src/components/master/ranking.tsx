@@ -33,8 +33,8 @@ export default function Ranking({ onPessoa }: { onPessoa: (id: string) => void }
     <section id="ranking" ref={ref} className="scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal max-w-2xl">
-          <Kicker>Ranking de menções</Kicker>
-          <h2 className="display-sm mt-4">Quem mais aparece nas apurações</h2>
+          <Kicker>Contagem de menções · Presença nos autos</Kicker>
+          <h2 className="display-sm mt-4">Os nomes que mais aparecem nos autos</h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
             Contagem objetiva de quantas vezes cada pessoa aparece nos fatos documentados deste dossiê e nos esquemas
             explicados. Menções são indicativos de envolvimento na narrativa das apurações, não de culpa: leia cada
