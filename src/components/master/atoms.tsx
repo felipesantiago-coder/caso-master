@@ -289,7 +289,9 @@ export function useReveal<T extends HTMLElement>() {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const alvos = el.querySelectorAll<HTMLElement>(".reveal:not(.is-in), .reveal-item:not(.is-in)");
+    const alvos = el.querySelectorAll<HTMLElement>(
+      ".reveal:not(.is-in), .reveal-item:not(.is-in), .reveal-item-x:not(.is-in)",
+    );
     if (!alvos.length) return;
     const io = new IntersectionObserver(
       (entries) => {

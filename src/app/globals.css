@@ -199,6 +199,31 @@ html.js .reveal-item.is-in {
   }
 }
 
+/* Revelação em cascata para a trilha lateral da linha do tempo */
+html.js .reveal-item-x {
+  opacity: 0;
+  transform: translateX(18px);
+  filter: blur(5px);
+  transition:
+    opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--atraso, 0ms);
+}
+html.js .reveal-item-x.is-in {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html.js .reveal-item-x {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+}
+
 /* Ano da linha do tempo: selo capítulo */
 .ano-selo {
   background: linear-gradient(180deg, #1c1c23, #131317);
@@ -214,22 +239,22 @@ html.js .reveal-item.is-in {
   letter-spacing: 0.16em;
 }
 
-/* Eixo da linha do tempo: trilho + preenchimento com cursor */
-.tl-eixo {
-  background: linear-gradient(to bottom, transparent, var(--border) 5%, var(--border) 95%, transparent);
+/* Eixo horizontal da linha do tempo: trilho + preenchimento com cursor */
+.tl-eixo-x {
+  background: linear-gradient(to right, transparent, var(--border) 3%, var(--border) 97%, transparent);
 }
-.tl-preenchimento {
-  background: linear-gradient(to bottom, rgb(238 194 87 / 0), rgb(238 194 87 / 0.85) 12%, rgb(238 194 87 / 0.85) 88%, rgb(238 194 87 / 0));
-  transform-origin: top;
+.tl-preenchimento-x {
+  background: linear-gradient(to right, rgb(238 194 87 / 0), rgb(238 194 87 / 0.85) 6%, rgb(238 194 87 / 0.85) 94%, rgb(238 194 87 / 0));
+  transform-origin: left;
   will-change: transform;
 }
-.tl-cursor {
+.tl-cursor-x {
   background: var(--primary);
   box-shadow:
     0 0 0 4px rgb(238 194 87 / 0.18),
     0 0 18px 4px rgb(238 194 87 / 0.55);
   animation: cursor-pulsa 2.4s ease-in-out infinite;
-  will-change: top;
+  will-change: left;
 }
 @keyframes cursor-pulsa {
   0%, 100% {
@@ -244,7 +269,7 @@ html.js .reveal-item.is-in {
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .tl-cursor {
+  .tl-cursor-x {
     animation: none;
   }
 }
@@ -265,20 +290,6 @@ html.js .reveal-item.is-in {
 }
 .tl-item:hover .tl-no {
   transform: scale(1.35);
-}
-
-/* Scrubber lateral: trilho de navegação rápida */
-.scrubber-dot {
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-.scrubber-dot:hover {
-  transform: scale(1.8);
-  opacity: 1;
-}
-.scrubber-dot[data-ativo="1"] {
-  transform: scale(2);
-  opacity: 1;
-  z-index: 1;
 }
 
 /* Vinheta de foco no contêiner da linha do tempo */

@@ -1,22 +1,30 @@
 "use client";
 
+// Secao da linha do tempo: arquivo lateral. Os fatos correm em uma trilha
+// horizontal com eixo dourado, marcadores de ano e documentos que abrem no
+// lugar. Navegacao: setas nas bordas da trilha, console com anterior/proxima,
+// arrasto com o mouse, swipe no toque e teclado (setas, J e K).
+
 import {
+  Fragment,
   useCallback,
   useEffect,
   useMemo,
   useRef,
   useState,
   type CSSProperties,
+  type MouseEvent as ReactMouseEvent,
+  type PointerEvent as ReactPointerEvent,
 } from "react";
 import {
   CalendarDays,
   ChevronDown,
-  ChevronRight,
   ChevronLeft,
+  ChevronRight,
   Keyboard,
   MousePointerClick,
+  MoveHorizontal,
   Star,
-  MoveVertical,
 } from "lucide-react";
 import {
   contagens,
@@ -27,16 +35,14 @@ import {
   type GrauId,
 } from "@/lib/master";
 import {
-  FontesList,
-  GrauBadge,
-  Kicker,
-  TipoBadges,
   bgGrau,
-  corGrau,
-  useReveal,
   Carimbo,
   EtiquetaArquivo,
   EtiquetaParte,
+  FontesList,
+  Kicker,
+  TipoBadges,
+  useReveal,
 } from "./atoms";
 
 interface Filtros {
@@ -45,6 +51,9 @@ interface Filtros {
   pessoa: string | "todas";
   soDestaques: boolean;
 }
+
+// padding lateral da trilha (px-6 / scroll-pl-6): usado para alinhar o salto
+const TRILHA_PAD = 24;
 
 function CartaoFato({
   fato,
@@ -62,7 +71,7 @@ function CartaoFato({
   return (
     <article
       id={`fato-${fato.id}`}
-      className={`card-hover relative scroll-mt-44 rounded-2xl border bg-card ${
+      className={`card-hover relative scroll-mt-44 w-full rounded-2xl border bg-card ${
         aberto ? "border-primary/45" : "border-border"
       } ${fato.destaque && !aberto ? "shadow-[inset_2px_0_0_0_var(--color-gold)]" : ""}`}
     >
@@ -90,7 +99,7 @@ function CartaoFato({
             aria-hidden
           />
         </div>
-        <h3 className="mt-2.5 pr-6 text-[1.08rem] font-bold leading-snug tracking-tight sm:text-lg">
+        <h3 className="mt-2.5 pr-6 text-[1.05rem] font-bold leading-snug tracking-tight sm:text-[1.08rem]">
           {fato.titulo}
         </h3>
         <p
@@ -148,19 +157,17 @@ export default function Timeline({
     soDestaques: false,
   });
 
-  const [idxAtivo, setIdxAtivo] = useState(-1);
+  const [idxAtivo, setIdxAtivo] = useState(0);
   const [anoAtivo, setAnoAtivo] = useState<string | null>(null);
   const [secaoVisivel, setSecaoVisivel] = useState(false);
-  const [corpoVisivel, setCorpoVisivel] = useState(false);
   const [anuncio, setAnuncio] = useState("");
 
-  const eixoRef = useRef<HTMLDivElement | null>(null);
+  const trilhoRef = useRef<HTMLDivElement | null>(null);
   const preencherRef = useRef<HTMLSpanElement | null>(null);
   const cursorRef = useRef<HTMLSpanElement | null>(null);
-  const saltandoRef = useRef(false);
-  const tempoSaltoRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const idxAtivoRef = useRef(-1);
+  const idxAtivoRef = useRef(0);
   const listaRef = useRef<{ id: string; ano: string }[]>([]);
+  const arrastoRef = useRef({ ativo: false, moveu: false, x: 0, scroll: 0 });
 
   // abre o fato focado (vindo da busca ou de um perfil): ajuste de estado na renderização
   if (focoEventoId && focoEventoId !== focoAnterior) {
@@ -172,17 +179,12 @@ export default function Timeline({
       soDestaques: false,
     });
     setAbertos((prev) => new Set(prev).add(focoEventoId));
-  }
-
-  const anos = useMemo(() => {
-    const mapa = new Map<string, Fato[]>();
-    for (const f of timeline) {
-      const ano = f.data.slice(0, 4);
-      if (!mapa.has(ano)) mapa.set(ano, []);
-      mapa.get(ano)!.push(f);
+    const i = timeline.findIndex((f) => f.id === focoEventoId);
+    if (i >= 0) {
+      setIdxAtivo(i);
+      setAnoAtivo(timeline[i].data.slice(0, 4));
     }
-    return [...mapa.entries()];
-  }, []);
+  }
 
   const filtrados = useMemo(() => {
     return timeline.filter((f) => {
@@ -230,69 +232,67 @@ export default function Timeline({
     });
   }
 
-  const saltarPara = useCallback((i: number) => {
-    const alvo = listaRef.current[i];
-    if (!alvo) return;
+  const irPara = useCallback((i: number) => {
+    const total = listaRef.current.length;
+    const pos = Math.min(total - 1, Math.max(0, i));
+    const alvo = listaRef.current[pos];
+    const trilho = trilhoRef.current;
+    if (!alvo || !trilho) return;
+    const col = trilho.querySelector<HTMLElement>(
+      `[data-fato-col="${alvo.id}"]`,
+    );
+    if (!col) return;
     const reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    saltandoRef.current = true;
-    if (tempoSaltoRef.current) clearTimeout(tempoSaltoRef.current);
-    tempoSaltoRef.current = setTimeout(() => {
-      saltandoRef.current = false;
-    }, 1100);
-    setAbertos((prev) => new Set(prev).add(alvo.id));
-    idxAtivoRef.current = i;
-    setIdxAtivo(i);
+    trilho.scrollTo({
+      left: Math.max(0, col.offsetLeft - TRILHA_PAD),
+      behavior: reduz ? "auto" : "smooth",
+    });
+    idxAtivoRef.current = pos;
+    setIdxAtivo(pos);
     setAnoAtivo(alvo.ano);
     setAnuncio(
-      `Fato ${i + 1} de ${listaRef.current.length}: ${alvo.id.replace(/^tl-/, "").replaceAll("-", " ")}`,
+      `Fato ${pos + 1} de ${total}: ${alvo.id.replace(/^tl-/, "").replaceAll("-", " ")}`,
     );
-    const el = document.getElementById(`fato-${alvo.id}`);
-    el?.scrollIntoView({
-      behavior: reduz ? "auto" : "smooth",
-      block: "center",
-    });
   }, []);
 
-  // medição contínua: preenchimento do eixo, cursor e espionagem do fato ativo
+  // medição contínua da trilha: documento ativo, cursor e preenchimento do eixo
   useEffect(() => {
+    const trilho = trilhoRef.current;
+    if (!trilho) return;
     let raf = 0;
     const medir = () => {
       raf = 0;
-      const eixo = eixoRef.current;
-      if (!eixo) return;
-      const rect = eixo.getBoundingClientRect();
-      const centro = window.innerHeight * 0.55;
-      const p = Math.min(1, Math.max(0, (centro - rect.top) / rect.height));
+      const cols = trilho.querySelectorAll<HTMLElement>("[data-fato-col]");
+      if (!cols.length) return;
+      const referencia = trilho.scrollLeft + TRILHA_PAD + 8;
+      let idx = 0;
+      let melhor = Infinity;
+      cols.forEach((c, i) => {
+        const d = Math.abs(c.offsetLeft - referencia);
+        if (d < melhor) {
+          melhor = d;
+          idx = i;
+        }
+      });
+      const atual = cols[idx];
+      const centro = atual.offsetLeft + atual.offsetWidth / 2;
+      if (cursorRef.current) cursorRef.current.style.left = `${centro}px`;
       if (preencherRef.current)
-        preencherRef.current.style.transform = `scaleY(${p})`;
-      if (cursorRef.current) cursorRef.current.style.top = `${p * 100}%`;
-      if (saltandoRef.current) return;
-      const lista = listaRef.current;
-      let idx = -1;
-      for (let i = 0; i < lista.length; i++) {
-        const el = document.getElementById(`fato-${lista[i].id}`);
-        if (!el) continue;
-        if (el.getBoundingClientRect().top <= centro) idx = i;
-        else break;
-      }
+        preencherRef.current.style.transform = `scaleX(${Math.min(1, centro / Math.max(1, trilho.scrollWidth))})`;
       if (idx !== idxAtivoRef.current) {
         idxAtivoRef.current = idx;
         setIdxAtivo(idx);
-        setAnoAtivo(
-          idx >= 0 ? lista[idx].ano : lista.length ? lista[0].ano : null,
-        );
-      } else if (idx < 0 && lista.length && anoAtivo === null) {
-        setAnoAtivo(lista[0].ano);
+        setAnoAtivo(listaRef.current[idx]?.ano ?? null);
       }
     };
     const pedir = () => {
       if (!raf) raf = requestAnimationFrame(medir);
     };
     medir();
-    window.addEventListener("scroll", pedir, { passive: true });
+    trilho.addEventListener("scroll", pedir, { passive: true });
     window.addEventListener("resize", pedir);
     return () => {
-      window.removeEventListener("scroll", pedir);
+      trilho.removeEventListener("scroll", pedir);
       window.removeEventListener("resize", pedir);
       if (raf) cancelAnimationFrame(raf);
     };
@@ -310,48 +310,50 @@ export default function Timeline({
     return () => io.disconnect();
   }, [ref]);
 
-  // visibilidade do corpo do arquivo: controla a barra de navegação inferior
-  useEffect(() => {
-    const el = eixoRef.current;
-    if (!el) return;
-    const io = new IntersectionObserver(
-      (entries) => setCorpoVisivel(entries[0]?.isIntersecting ?? false),
-      { threshold: 0 },
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
-
-  // atalhos J e K: próximo e anterior fato
+  // teclado: setas avançam e recuam a trilha; J e K mantidos do eixo antigo
   useEffect(() => {
     if (!secaoVisivel) return;
     const aoTeclar = (e: KeyboardEvent) => {
       const alvo = e.target as HTMLElement | null;
       if (alvo && ["INPUT", "TEXTAREA", "SELECT"].includes(alvo.tagName))
         return;
-      if (e.key === "j" || e.key === "J") {
+      const total = listaRef.current.length;
+      if (e.key === "ArrowRight" || e.key === "j" || e.key === "J") {
         e.preventDefault();
-        saltarPara(
-          Math.min(listaRef.current.length - 1, idxAtivoRef.current + 1),
-        );
-      } else if (e.key === "k" || e.key === "K") {
+        irPara(idxAtivoRef.current + 1 >= total ? total - 1 : idxAtivoRef.current + 1);
+      } else if (e.key === "ArrowLeft" || e.key === "k" || e.key === "K") {
         e.preventDefault();
-        saltarPara(Math.max(0, idxAtivoRef.current));
+        irPara(idxAtivoRef.current - 1 <= 0 ? 0 : idxAtivoRef.current - 1);
       }
     };
     window.addEventListener("keydown", aoTeclar);
     return () => window.removeEventListener("keydown", aoTeclar);
-  }, [secaoVisivel, saltarPara]);
+  }, [secaoVisivel, irPara]);
 
-  // rola até o fato focado (busca/perfil): repete a rolagem para vencer o lock de
-  // rolagem da sobreposição de busca enquanto a animação de saída termina
+  // rola até o fato focado (busca/perfil): alinha a trilha no documento e
+  // repete a rolagem para vencer o lock da sobreposição de busca
   useEffect(() => {
     if (!focoEventoId) return;
     const tentativas = [250, 700, 1200].map((atraso, i) =>
       setTimeout(
         () => {
-          const el = document.getElementById(`fato-${focoEventoId}`);
-          el?.scrollIntoView({ behavior: "smooth", block: "center" });
+          const trilho = trilhoRef.current;
+          const col = trilho?.querySelector<HTMLElement>(
+            `[data-fato-col="${focoEventoId}"]`,
+          );
+          if (trilho && col) {
+            const reduz = window.matchMedia(
+              "(prefers-reduced-motion: reduce)",
+            ).matches;
+            trilho.scrollTo({
+              left: Math.max(0, col.offsetLeft - TRILHA_PAD),
+              behavior: reduz ? "auto" : "smooth",
+            });
+            trilho.scrollIntoView({
+              behavior: reduz ? "auto" : "smooth",
+              block: "center",
+            });
+          }
           if (i === tentativas.length - 1) aoLimparFoco();
         },
         atraso,
@@ -361,9 +363,47 @@ export default function Timeline({
   }, [focoEventoId, aoLimparFoco]);
 
   const saltarAno = (ano: string) => {
-    const reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const el = document.getElementById(`ano-${ano}`);
-    el?.scrollIntoView({ behavior: reduz ? "auto" : "smooth", block: "start" });
+    const i = listaRef.current.findIndex((f) => f.ano === ano);
+    if (i >= 0) irPara(i);
+  };
+
+  // arrasto com o mouse: converte o deslize lateral em rolagem da trilha
+  const aoPonteiroAbaixo = (e: ReactPointerEvent<HTMLDivElement>) => {
+    if (e.pointerType !== "mouse" || e.button !== 0) return;
+    const trilho = trilhoRef.current;
+    if (!trilho) return;
+    const a = arrastoRef.current;
+    a.ativo = true;
+    a.moveu = false;
+    a.x = e.clientX;
+    a.scroll = trilho.scrollLeft;
+    const mover = (ev: PointerEvent) => {
+      if (!a.ativo) return;
+      const dx = ev.clientX - a.x;
+      if (!a.moveu && Math.abs(dx) > 6) {
+        a.moveu = true;
+        trilho.style.userSelect = "none";
+      }
+      if (a.moveu) trilho.scrollLeft = a.scroll - dx;
+    };
+    const soltar = () => {
+      a.ativo = false;
+      trilho.style.userSelect = "";
+      window.removeEventListener("pointermove", mover);
+      window.removeEventListener("pointerup", soltar);
+      window.removeEventListener("pointercancel", soltar);
+    };
+    window.addEventListener("pointermove", mover);
+    window.addEventListener("pointerup", soltar);
+    window.addEventListener("pointercancel", soltar);
+  };
+
+  // um arrasto real não pode terminar em clique (abriria o documento)
+  const aoCliqueCapturado = (e: ReactMouseEvent) => {
+    if (!arrastoRef.current.moveu) return;
+    e.preventDefault();
+    e.stopPropagation();
+    arrastoRef.current.moveu = false;
   };
 
   const chip = (ativo: boolean) =>
@@ -374,8 +414,9 @@ export default function Timeline({
     }`;
 
   const total = listaFatos.length;
-  const fatoAtual = idxAtivo >= 0 ? filtrados[idxAtivo] : null;
-  const divisor = Math.max(1, total - 1);
+  const fatoAtual = idxAtivo >= 0 ? (filtrados[idxAtivo] ?? null) : null;
+  const podeAnterior = idxAtivo > 0;
+  const podeProxima = idxAtivo < total - 1;
 
   return (
     <section
@@ -391,15 +432,16 @@ export default function Timeline({
             Do sigilo ao arquivo aberto: {contagens.fatos} fatos datados
           </h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            A cronologia completa do caso, como um arquivo que se percorre:
-            decisões do Banco Central, operações da Polícia Federal, inquéritos
-            do STF, reembolsos do FGC e o que a imprensa apurou. Percorra o
-            eixo, abra qualquer documento e confira as fontes originais.
+            A cronologia completa do caso, disposta em uma trilha lateral como
+            fichas de um arquivo: decisões do Banco Central, operações da
+            Polícia Federal, inquéritos do STF, reembolsos do FGC e o que a
+            imprensa apurou. Percorra a trilha para os lados, abra qualquer
+            documento e confira as fontes originais.
           </p>
           <ul className="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-xs text-muted-foreground">
             <li className="inline-flex items-center gap-1.5">
-              <MoveVertical className="size-3.5 text-primary" aria-hidden />O
-              cursor segue a sua leitura pelo eixo
+              <MoveHorizontal className="size-3.5 text-primary" aria-hidden />
+              Arraste a trilha para o lado ou use os botões de navegação
             </li>
             <li className="inline-flex items-center gap-1.5">
               <MousePointerClick
@@ -410,7 +452,7 @@ export default function Timeline({
             </li>
             <li className="hidden items-center gap-1.5 sm:inline-flex">
               <Keyboard className="size-3.5 text-primary" aria-hidden />
-              Teclas J e K saltam entre fatos
+              Setas, J e K navegam entre os fatos
             </li>
           </ul>
         </div>
@@ -531,184 +573,199 @@ export default function Timeline({
           </nav>
         )}
 
-        {/* corpo do arquivo: eixo, capítulos e scrubber */}
-        <div className="reveal mt-4 xl:flex xl:items-start xl:gap-10">
-          <div ref={eixoRef} className="relative min-w-0 flex-1 py-4">
-            <div
-              className="absolute inset-y-0 left-[11px] w-px sm:left-[13px] lg:left-1/2"
-              aria-hidden
-            >
-              <span className="tl-eixo absolute inset-0" />
-              <span
-                ref={preencherRef}
-                className="tl-preenchimento absolute inset-0"
-                style={{ transform: "scaleY(0)" }}
-              />
+        {/* trilha lateral do arquivo: documentos correm para os lados */}
+        <div className="reveal relative mt-5">
+          <div
+            ref={trilhoRef}
+            onPointerDown={aoPonteiroAbaixo}
+            onClickCapture={aoCliqueCapturado}
+            tabIndex={0}
+            role="region"
+            aria-label="Trilha lateral de fatos da linha do tempo"
+            className="no-scrollbar relative snap-x snap-mandatory overflow-x-auto overscroll-x-contain rounded-2xl border border-border bg-card/40 scroll-pl-6 focus-visible:outline-primary active:cursor-grabbing cursor-grab"
+          >
+            <div className="relative flex w-max items-start gap-3 px-6 pb-6 sm:gap-4">
+              {/* eixo dourado da cronologia */}
+              <div
+                className="pointer-events-none absolute inset-x-0 top-4 h-px"
+                aria-hidden
+              >
+                <span className="tl-eixo-x absolute inset-0" />
+                <span
+                  ref={preencherRef}
+                  className="tl-preenchimento-x absolute inset-0"
+                  style={{ transform: "scaleX(0)" }}
+                />
+              </div>
               <span
                 ref={cursorRef}
-                className="tl-cursor absolute -left-[4px] size-2.5 rounded-full"
-                style={{ top: "0%" }}
+                className="tl-cursor-x pointer-events-none absolute top-2 z-10 h-4 w-[3px] -ml-[1.5px] rounded-full"
+                style={{ left: "24px" }}
+                aria-hidden
               />
-            </div>
 
-            {anosFiltrados.map(([ano, fatos]) => (
-              <div
-                key={ano}
-                id={`ano-${ano}`}
-                className="scroll-mt-40 pb-4 pt-6 first:pt-2"
-              >
-                <div className="relative flex min-h-[3.2rem] items-center">
-                  <span className="ano-selo relative z-10 inline-flex items-center gap-2.5 rounded-full border border-primary/30 px-4 py-2 lg:absolute lg:left-1/2 lg:-translate-x-1/2">
-                    <span className="font-mono text-xl font-bold tracking-tight text-foreground">
-                      {ano}
+              {anosFiltrados.map(([ano, fatosDoAno]) => (
+                <Fragment key={ano}>
+                  {/* marcador de capítulo do ano */}
+                  <button
+                    type="button"
+                    id={`ano-${ano}`}
+                    onClick={() => saltarAno(ano)}
+                    title={`Ir para ${ano}`}
+                    className="group relative flex w-11 shrink-0 snap-start flex-col items-center sm:w-12"
+                  >
+                    <span className="relative z-10 flex h-8 items-center">
+                      <span className="ano-selo inline-flex rounded-full border border-primary/30 bg-background px-2 py-0.5 font-mono text-[11px] font-bold tracking-tight text-primary transition-colors group-hover:border-primary/70">
+                        {ano}
+                      </span>
                     </span>
-                    <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
-                      {fatos.length} {fatos.length === 1 ? "fato" : "fatos"}
+                    <span className="mt-3 font-mono text-[9px] uppercase tracking-[0.2em] text-muted-foreground [writing-mode:vertical-rl]">
+                      {fatosDoAno.length}{" "}
+                      {fatosDoAno.length === 1 ? "fato" : "fatos"}
                     </span>
-                  </span>
-                  <span
-                    className="ml-4 h-px flex-1 bg-border lg:hidden"
-                    aria-hidden
-                  />
-                </div>
-                <div className="mt-5 space-y-5">
-                  {fatos.map((f, i) => {
-                    const par = registroPorId.get(f.id)! % 2 === 0;
-                    return (
-                      <div
-                        key={f.id}
-                        className="tl-item reveal-item relative lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-16"
-                        style={
-                          { "--atraso": `${(i % 4) * 60}ms` } as CSSProperties
-                        }
-                      >
+                  </button>
+                  {fatosDoAno.map((f, i) => (
+                    <div
+                      key={f.id}
+                      data-fato-col={f.id}
+                      className="tl-item reveal-item-x relative flex w-[min(86vw,400px)] shrink-0 snap-start flex-col"
+                      style={
+                        { "--atraso": `${(i % 4) * 60}ms` } as CSSProperties
+                      }
+                    >
+                      <span className="relative z-10 flex h-8 items-center justify-center">
                         <span
-                          className="tl-no absolute left-[11px] top-7 z-10 size-3.5 rounded-full sm:left-[13px] lg:left-1/2 lg:-translate-x-1/2"
+                          className="tl-no size-3.5 rounded-full"
                           data-grau={f.grau}
                           data-destaque={f.destaque ? "1" : "0"}
                           aria-hidden
                         />
-                        <div
-                          className={`pl-9 sm:pl-11 lg:pl-0 ${par ? "lg:col-start-2" : "lg:col-start-1"}`}
-                        >
-                          <CartaoFato
-                            fato={f}
-                            registro={registroPorId.get(f.id) ?? 0}
-                            aberto={abertos.has(f.id)}
-                            alternar={alternar}
-                            onPessoa={onPessoa}
-                          />
-                        </div>
+                      </span>
+                      <div className="mt-3 flex min-w-0 flex-1">
+                        <CartaoFato
+                          fato={f}
+                          registro={registroPorId.get(f.id) ?? 0}
+                          aberto={abertos.has(f.id)}
+                          alternar={alternar}
+                          onPessoa={onPessoa}
+                        />
                       </div>
-                    );
-                  })}
-                </div>
-              </div>
-            ))}
+                    </div>
+                  ))}
+                </Fragment>
+              ))}
 
-            {filtrados.length === 0 && (
-              <p className="ml-9 rounded-2xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground sm:ml-11 lg:ml-0">
-                Nenhum fato com os filtros atuais. Ajuste as combinações para
-                ver outros resultados.
-              </p>
-            )}
+              {total === 0 && (
+                <p className="w-[min(86vw,560px)] shrink-0 self-center rounded-2xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground">
+                  Nenhum fato com os filtros atuais. Ajuste as combinações para
+                  ver outros resultados.
+                </p>
+              )}
+            </div>
           </div>
 
-          {/* scrubber lateral (desktop amplo): salto direto a qualquer fato */}
-          {total > 1 && (
-            <aside
-              className="hidden xl:sticky xl:top-32 xl:block xl:w-60 xl:shrink-0 xl:self-start"
-              aria-label="Navegação rápida entre os fatos"
-            >
-              <div>
-                <p className="mb-2 font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-                  Navegação rápida
-                </p>
-                <div className="mb-4 min-h-[4.1rem] rounded-xl border border-border bg-card px-3 py-2">
-                  <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                    {fatoAtual ? fatoAtual.dataLabel : "Início do arquivo"}
-                  </p>
-                  <p className="mt-0.5 line-clamp-2 text-xs font-medium leading-snug text-foreground/90">
-                    {fatoAtual ? fatoAtual.titulo : "Percorra a linha do tempo"}
-                  </p>
-                  <p className="mt-1 font-mono text-[10px] text-primary">
-                    {idxAtivo >= 0 ? idxAtivo + 1 : 1} / {total}
-                  </p>
-                </div>
-                <div className="relative ml-2 h-[52vh] max-h-[560px] min-h-[340px] w-[3px] rounded bg-border">
-                  {listaFatos.map((f, i) => (
-                    <button
-                      key={f.id}
-                      type="button"
-                      onClick={() => saltarPara(i)}
-                      data-ativo={i === idxAtivo ? "1" : "0"}
-                      title={`${filtrados[i].dataLabel} · ${filtrados[i].titulo}`}
-                      className="scrubber-dot absolute -left-[4.5px] grid size-[13px] place-items-center rounded-full opacity-55"
-                      style={{ top: `calc(${(i / divisor) * 100}% - 6px)` }}
-                    >
-                      <span
-                        className={`size-[5px] rounded-full ${bgGrau[filtrados[i].grau]}`}
-                        aria-hidden
-                      />
-                    </button>
-                  ))}
-                  <span
-                    className="pointer-events-none absolute -left-[3px] size-[9px] rounded-full bg-primary shadow-[0_0_12px_3px_rgb(238_194_87/0.6)] transition-[top] duration-150"
-                    style={{
-                      top: `${(Math.max(0, idxAtivo) / divisor) * 100}%`,
-                    }}
-                    aria-hidden
-                  />
-                </div>
-                <p className="mt-4 font-mono text-[10px] leading-relaxed text-muted-foreground">
-                  Cada ponto é um documento. A cor segue o grau de comprovação.
-                </p>
-              </div>
-            </aside>
-          )}
+          {/* setas de navegação sobre as bordas da trilha */}
+          <button
+            type="button"
+            onClick={() => irPara(idxAtivo - 1)}
+            disabled={!podeAnterior}
+            aria-label="Fato anterior"
+            className="absolute left-3 top-1/2 z-20 hidden size-11 -translate-y-1/2 place-items-center rounded-full border border-border bg-background/90 shadow-[0_8px_28px_rgb(0_0_0/0.5)] backdrop-blur-md transition-colors hover:border-primary/60 hover:text-primary disabled:pointer-events-none disabled:opacity-0 sm:grid"
+          >
+            <ChevronLeft className="size-5" aria-hidden />
+          </button>
+          <button
+            type="button"
+            onClick={() => irPara(idxAtivo + 1)}
+            disabled={!podeProxima}
+            aria-label="Próximo fato"
+            className="absolute right-3 top-1/2 z-20 hidden size-11 -translate-y-1/2 place-items-center rounded-full border border-border bg-background/90 shadow-[0_8px_28px_rgb(0_0_0/0.5)] backdrop-blur-md transition-colors hover:border-primary/60 hover:text-primary disabled:pointer-events-none disabled:opacity-0 sm:grid"
+          >
+            <ChevronRight className="size-5" aria-hidden />
+          </button>
         </div>
 
-        {/* barra de navegação entre fatos: fixa durante o percurso do arquivo */}
+        {/* console de navegação: anterior/próxima, posição e saltos por ano */}
         {total > 0 && (
-          <div
-            className={`pointer-events-none sticky bottom-4 z-30 mt-8 flex justify-center transition-opacity duration-500 ${
-              corpoVisivel ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <div className="pointer-events-auto flex max-w-full items-center gap-1.5 rounded-full border border-border bg-background/92 py-1.5 pl-2 pr-2 shadow-[0_10px_34px_rgb(0_0_0/0.55)] backdrop-blur-md sm:gap-2 sm:pl-3">
+          <div className="reveal mt-4 rounded-2xl border border-border bg-card/70 p-3 sm:p-4">
+            <div className="flex items-center gap-2 sm:gap-3">
               <button
                 type="button"
-                onClick={() => saltarPara(Math.max(0, idxAtivoRef.current - 1))}
-                disabled={idxAtivo <= 0}
+                onClick={() => irPara(idxAtivo - 1)}
+                disabled={!podeAnterior}
                 aria-label="Fato anterior"
-                className="grid size-8 place-items-center rounded-full border border-border text-foreground/85 transition-colors hover:border-primary/50 hover:text-primary disabled:opacity-35"
+                className="inline-flex size-10 shrink-0 items-center justify-center gap-1 rounded-full border border-border text-foreground/85 transition-colors hover:border-primary/50 hover:text-primary disabled:opacity-35 sm:size-11"
               >
                 <ChevronLeft className="size-4" aria-hidden />
+                <span className="hidden pr-1 text-xs font-medium sm:inline">
+                  Anterior
+                </span>
               </button>
-              <span className="min-w-0 max-w-[46vw] truncate px-1 text-center font-mono text-[11px] text-muted-foreground sm:max-w-[420px]">
-                {fatoAtual ? (
-                  <>
-                    <span className="text-primary">
-                      Fato {idxAtivo + 1}/{total}
-                    </span>{" "}
-                    · {fatoAtual.dataLabel} · {fatoAtual.titulo}
-                  </>
-                ) : (
-                  <>Fato 1/{total} · role para percorrer o arquivo</>
-                )}
-              </span>
+              <div className="min-w-0 flex-1 text-center">
+                <p className="truncate font-mono text-[11px] text-muted-foreground">
+                  {fatoAtual ? (
+                    <>
+                      <span className="text-primary">
+                        Fato {idxAtivo + 1}/{total}
+                      </span>{" "}
+                      · {fatoAtual.dataLabel} · {fatoAtual.titulo}
+                    </>
+                  ) : (
+                    <>Percorra a trilha com os botões</>
+                  )}
+                </p>
+              </div>
               <button
                 type="button"
-                onClick={() =>
-                  saltarPara(Math.min(total - 1, idxAtivoRef.current + 1))
-                }
-                disabled={idxAtivo >= total - 1}
+                onClick={() => irPara(idxAtivo + 1)}
+                disabled={!podeProxima}
                 aria-label="Próximo fato"
-                className="grid size-8 place-items-center rounded-full border border-border text-foreground/85 transition-colors hover:border-primary/50 hover:text-primary disabled:opacity-35"
+                className="inline-flex size-10 shrink-0 items-center justify-center gap-1 rounded-full border border-border text-foreground/85 transition-colors hover:border-primary/50 hover:text-primary disabled:opacity-35 sm:size-11"
               >
+                <span className="hidden pl-1 text-xs font-medium sm:inline">
+                  Próxima
+                </span>
                 <ChevronRight className="size-4" aria-hidden />
               </button>
             </div>
+
+            {/* distribuição dos fatos por ano, com cursor da posição atual */}
+            <div className="relative mt-3 h-7 overflow-hidden rounded-full border border-border bg-background/60">
+              <div className="flex h-full">
+                {anosFiltrados.map(([ano, fatosDoAno]) => {
+                  const primeiro = listaFatos.findIndex((x) => x.ano === ano);
+                  return (
+                    <button
+                      key={ano}
+                      type="button"
+                      onClick={() => irPara(primeiro)}
+                      title={`${ano} · ${fatosDoAno.length} fatos`}
+                      className="relative h-full border-r border-border/50 transition-colors last:border-r-0 hover:bg-primary/10"
+                      style={{
+                        width: `${(fatosDoAno.length / total) * 100}%`,
+                      }}
+                    >
+                      {fatosDoAno.length / total >= 0.06 && (
+                        <span className="pointer-events-none absolute inset-0 grid place-items-center font-mono text-[10px] font-bold text-muted-foreground">
+                          {ano}
+                        </span>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+              <span
+                className="pointer-events-none absolute top-0 h-full w-[3px] -translate-x-1/2 rounded-full bg-primary shadow-[0_0_10px_2px_rgb(238_194_87/0.55)] transition-[left] duration-300"
+                style={{
+                  left: `${((Math.max(0, idxAtivo) + 0.5) / total) * 100}%`,
+                }}
+                aria-hidden
+              />
+            </div>
+            <p className="mt-2 hidden text-center font-mono text-[10px] text-muted-foreground sm:block">
+              Cada posição da trilha é um documento; a cor do nó segue o grau de
+              comprovação.
+            </p>
           </div>
         )}
       </div>
