@@ -202,13 +202,13 @@
   {
     "id": "ricardo-siqueira",
     "nome": "Ricardo Siqueira Rodrigues",
+    "foto": "/pessoas/ricardo-siqueira.jpg",
     "papel": "Ex-presidente do Rioprevidência",
     "grupo": "politica",
     "resumo": "Alvo da oitava fase da operação da PF em maio de 2026, apontado como responsável pela aplicação de cerca de R$ 3 bilhões do fundo de pensão dos servidores do Rio em ativos ligados ao Master. Exonerado pelo governador Cláudio Castro após a operação.",
     "status": "Exonerado; investigado",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
     "fontes": [
       {
         "titulo": "Cláudio Castro é alvo da 8ª fase da Compliance Zero, que investiga aportes de R$ 3 bilhões do Rioprevidência no Banco Master",
@@ -366,13 +366,13 @@
   {
     "id": "lilian-tahan",
     "nome": "Lilian Tahan",
+    "foto": "/pessoas/lilian-tahan.jpg",
     "papel": "CEO do portal Metrópoles",
     "grupo": "midia",
     "resumo": "Segundo documentos da PF divulgados pelo Estadão e pelo Terra, submetia a Vorcaro textos prévios de reportagens encomendadas contra o diretor do BC Renato Gomes, obstáculo à venda do Master ao BRB, antes da publicação; as matérias eram divulgadas até em painéis eletrônicos de Brasília. O portal nega que tenha recebido ordens para publicar e afirma independência editorial.",
     "status": "Citada em documentos da PF; portal nega",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
     "fontes": [
       {
         "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master",
@@ -454,13 +454,13 @@
   {
     "id": "sicario",
     "nome": "Luiz Phillipi Mourão (Sicário)",
+    "foto": "/pessoas/sicario.jpg",
     "papel": "Operador do núcleo violento do grupo",
     "grupo": "operadores",
     "resumo": "Identificado pela PF como o Sicário, chefe do grupo de WhatsApp conhecido como A Turma, estrutura paralela de coação e violência descrita como milícia privada a serviço do banqueiro. Preso em 04/03/2026, no mesmo dia de Vorcaro, tentou suicídio na custódia e morreu em 06/03/2026.",
     "status": "Morreu em custódia em 06/03/2026",
     "statusTipo": "falecido",
     "grau": "oficial",
-    "foto": null,
     "fontes": [
       {
         "titulo": "Daniel Vorcaro, do Banco Master, é preso em nova fase da operação Compliance Zero",

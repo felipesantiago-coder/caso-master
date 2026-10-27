@@ -60,13 +60,13 @@
   {
     "id": "natalia-zettel",
     "nome": "Natalia Vorcaro Zettel",
+    "foto": "/pessoas/natalia-zettel.jpg",
     "papel": "Irmã de Daniel Vorcaro; controladora de dezenas de empresas do grupo",
     "grupo": "familia",
     "resumo": "Com o pai e o marido presos, segue à frente de 54 empresas ligadas ao grupo, segundo a Pública. O liquidante do Master apontou que ela e o pai desviaram ao menos US$ 1 bilhão e adquiriram imóvel de luxo nos Estados Unidos. É casada com Fabiano Zettel, também investigado.",
     "status": "Investigada; responde por empresas do grupo",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
     "fontes": [
       {
         "titulo": "Com pai, marido e irmão presos, Natalia Vorcaro Zettel segue à frente de 54 empresas",
@@ -135,13 +135,13 @@
   {
     "id": "aline-vorcaro",
     "nome": "Aline Vorcaro",
+    "foto": "/pessoas/aline-vorcaro.jpg",
     "papel": "Mãe de Daniel Vorcaro",
     "grupo": "familia",
     "resumo": "Citada em apurações no contexto familiar e patrimonial do grupo. Perfil publicado pelo iG em setembro de 2026 descreveu sua posição na estrutura familiar do banqueiro. Não foi localizada como alvo formal das fases da operação.",
     "status": "Citada em apurações",
     "statusTipo": "investigado",
     "grau": "multifonte",
-    "foto": null,
     "fontes": [
       {
         "titulo": "Quem é Aline, mãe de Daniel Vorcaro, ex-dono do Banco Master",
@@ -405,13 +405,13 @@
   {
     "id": "ney-ferraz",
     "nome": "Ney Ferraz",
+    "foto": "/pessoas/ney-ferraz.jpg",
     "papel": "Secretário de Economia do DF",
     "grupo": "brb-df",
     "resumo": "Participou do almoço de setembro de 2024 na casa de Vorcaro, segundo a delação de Vorcaro, junto com Ibaneis, o filho Caio Rocha e o sócio William Guimarães. Investigado no contexto da negociação BRB-Master.",
     "status": "Investigado (contexto)",
     "statusTipo": "investigado",
     "grau": "alegacao",
-    "foto": null,
     "fontes": [
       {
         "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens",

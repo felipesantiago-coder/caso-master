@@ -77,13 +77,13 @@
   {
     "id": "renato-gomes",
     "nome": "Renato Gomes",
+    "foto": "/pessoas/renato-gomes.jpg",
     "papel": "Ex-diretor de Organização do Sistema Financeiro do BC; atual presidente da ABBC",
     "grupo": "bc-governo",
     "resumo": "Visto por Vorcaro como o principal obstáculo à venda do Master ao BRB, por apertar a fiscalização. Tornou-se alvo de uma campanha de reportagens encomendadas no Metrópoles, com textos prévios submetidos à aprovação de Vorcaro pela CEO do portal, e divulgados até em painéis eletrônicos de Brasília, segundo a PF. Deixou o BC e assumiu em outubro de 2026 a presidência da ABBC, associação dos bancos médios. Tratado como vítima do esquema de mídia.",
     "status": "Ex-diretor; vítima declarada do esquema de mídia",
     "statusTipo": "institucional",
     "grau": "oficial",
-    "foto": null,
     "fontes": [
       {
         "titulo": "Vorcaro orientou reportagens do Metrópoles contra diretor do BC que fiscalizou Master",
@@ -364,13 +364,13 @@
   {
     "id": "kevin-marques",
     "nome": "Kevin Marques",
+    "foto": "/pessoas/kevin-marques.jpg",
     "papel": "Advogado; filho do ministro Nunes Marques",
     "grupo": "stf-justica",
     "resumo": "Advogado de 25 anos que, segundo mensagens da PF, recebia R$ 500 mil por mês do Master via Consult Inteligência Tributária; a consultoria acumulou R$ 27,7 milhões em contratos com grandes empresas, incluindo R$ 6,6 milhões do Master em 14 operações entre outubro de 2024 e o fim do banco, e R$ 113 milhões da JBS, segundo a Folha. A defesa afirma que ele nunca prestou serviços ao Banco Master nem recebeu dinheiro do banco.",
     "status": "Investigado; nega vínculo com o Master",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
     "fontes": [
       {
         "titulo": "Consultoria ligada a filho de Nunes Marques recebeu R$ 6,6 mi do Master e R$ 113 mi da JBS",
