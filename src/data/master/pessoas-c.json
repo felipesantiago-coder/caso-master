@@ -112,31 +112,6 @@
     ]
   },
   {
-    "id": "haddad",
-    "nome": "Fernando Haddad",
-    "papel": "Ministro da Fazenda",
-    "grupo": "bc-governo",
-    "resumo": "Classificou o caso Master como a maior fraude bancária da história do Brasil e talvez uma das maiores do mundo, afirmando em janeiro de 2026 que o esquema envolveu R$ 12,2 bilhões, segundo a PF. Também afirmou que o episódio não representa risco sistêmico porque está concentrado no FGC, mas é uma pancada para as contas públicas.",
-    "status": "Ministro; autoridade da pasta",
-    "statusTipo": "institucional",
-    "grau": "multifonte",
-    "foto": "/pessoas/haddad.jpg",
-    "fontes": [
-      {
-        "titulo": "Haddad diz que caso Master pode ser maior fraude bancária do Brasil",
-        "veiculo": "CNN Brasil",
-        "data": "13/01/2026",
-        "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/haddad-diz-que-caso-master-pode-ser-maior-fraude-bancaria-do-brasil"
-      },
-      {
-        "titulo": "Haddad diz que Master não tem risco sistêmico porque está concentrado no FGC, mas é 'pancada'",
-        "veiculo": "Estadão",
-        "data": "27/02/2026",
-        "url": "https://www.estadao.com.br/economia/haddad-diz-que-master-nao-tem-risco-sistemico-porque-esta-concentrado-no-fgc-mas-e-pancada/"
-      }
-    ]
-  },
-  {
     "id": "hugo-motta",
     "nome": "Hugo Motta",
     "papel": "Presidente da Câmara dos Deputados",

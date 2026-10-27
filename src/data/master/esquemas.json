@@ -282,7 +282,7 @@
       { "n": 1, "titulo": "17 de novembro, a noite", "texto": "15h29: o juiz assina a ordem de prisão. 17h24: o banco anuncia venda ao grupo Fictor por R$ 3 bilhões. 17h26: Vorcaro escreve para contato atribuído a Moraes. 22h: a PF o prende em Guarulhos, tentando embarcar para Dubai via Malta." },
       { "n": 2, "titulo": "18 de novembro, a liquidação", "texto": "O BC coloca o Master em administração especial e decreta a liquidação extrajudicial. No mesmo dia, a Justiça afasta Paulo Henrique Costa do BRB. O FGC estima pagar R$ 41 bilhões a 1,6 milhão de clientes." },
       { "n": 3, "titulo": "A conta do FGC", "texto": "Os pagamentos escalam: R$ 32,5 bilhões em janeiro, R$ 37,2 bilhões (92%) em fevereiro, R$ 1,83 bilhão ainda por pagar em julho. Com o Will Bank, a estimativa total chega a R$ 46,9 bilhões; o governo fala em até R$ 52 bilhões. Mais de 90 mil credores ainda não tinham pedido o reembolso." },
-      { "n": 4, "titulo": "O efeito cascata", "texto": "Oito instituições ligadas ao grupo foram liquidadas (Master, Will, Will Financeira, Reag e outras). O BRB recebe socorro de R$ 6,6 bilhões e provisão de R$ 26 bilhões, perde 800 mil clientes e cancela a venda de R$ 15 bilhões em ativos. Haddad: a maior fraude bancária da história, talvez uma das maiores do mundo." },
+      { "n": 4, "titulo": "O efeito cascata", "texto": "Oito instituições ligadas ao grupo foram liquidadas (Master, Will, Will Financeira, Reag e outras). O BRB recebe socorro de R$ 6,6 bilhões e provisão de R$ 26 bilhões, perde 800 mil clientes e cancela a venda de R$ 15 bilhões em ativos." },
       { "n": 5, "titulo": "A recuperação", "texto": "O liquidante EFB rastreia bens no Brasil e nos EUA, com R$ 2,15 bilhões mapeados e mansões na mira da justiça americana. A recuperação deve levar anos; o resíduo do FGC é o prejuízo que fica para o sistema financeiro e para o contribuinte." }
     ],
     "descoberta": "Decisões oficiais do BC e do FGC, cronologia dos autos reconstruída pela Pública e registros da justiça americana.",
@@ -292,7 +292,7 @@
       { "rotulo": "Instituições liquidadas", "valor": "8" },
       { "rotulo": "Venda ao Fictor anunciada", "valor": "R$ 3 bilhões (não se concretizou)" }
     ],
-    "pessoas": ["vorcaro", "galipolo", "paulo-henrique-costa", "haddad"],
+    "pessoas": ["vorcaro", "galipolo", "paulo-henrique-costa"],
     "grau": "oficial",
     "fontes": [
       { "titulo": "Banco Central determina a liquidação extrajudicial do Banco Master", "veiculo": "g1", "data": "18/11/2025", "url": "https://g1.globo.com/" },
