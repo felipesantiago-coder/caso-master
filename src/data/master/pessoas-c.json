@@ -70,7 +70,7 @@
     "status": "Investigado no STF",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
+    "foto": "/pessoas/willer-tomaz.jpg",
     "fontes": [
       {
         "titulo": "PF envia ao STF nova investigação sobre Flávio, envolvendo lavagem e advogado Willer Tomaz",
@@ -460,7 +460,7 @@
     "status": "Citado em reportagem investigativa",
     "statusTipo": "investigado",
     "grau": "fonteunica",
-    "foto": null,
+    "foto": "/pessoas/oliver-martin.jpg",
     "fontes": [
       {
         "titulo": "Banco Master: a reconstrução completa de como uma fraude capturou a República (referência a ICL Notícias)",

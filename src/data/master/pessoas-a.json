@@ -116,7 +116,7 @@
     "status": "Multa aplicada pela CVM",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
+    "foto": "/pessoas/felipe-vorcaro.jpg",
     "fontes": [
       {
         "titulo": "CVM multa Vorcaro e Master em R$ 201,5 milhões por fraude",
@@ -217,7 +217,7 @@
     "status": "Investigada",
     "statusTipo": "investigado",
     "grau": "oficial",
-    "foto": null,
+    "foto": "/pessoas/romy-klenquen.jpg",
     "fontes": [
       {
         "titulo": "Investigação interna do Master apontou produção 'industrial' de documentos usados em carteiras do BRB, diz PF",
@@ -373,7 +373,7 @@
     "status": "Investigado; alegações negadas",
     "statusTipo": "investigado",
     "grau": "alegacao",
-    "foto": null,
+    "foto": "/pessoas/leonardo-valverde.jpg",
     "fontes": [
       {
         "titulo": "O papel de Ibaneis Rocha nas negociações entre BRB e Master, segundo mensagens",
